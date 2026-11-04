@@ -1,0 +1,79 @@
+{
+ "id": "en-gr-pastQuestions",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 1 · simple past: Fragen und Kurzantworten",
+ "rule": "Frage mit **Did** + Person + **Grundform**:\nDid you play? Did she go? (nicht: Did she went?)\nFragewort davor: Where did you go? What did he buy?\nKurzantworten: Yes, I **did**. / No, I **didn't**.\nBei be: Were you …? Was he …? – Yes, I was. / No, he wasn't.",
+ "words": [
+  {
+   "id": "en-gr-pastQuestions-01",
+   "s": "{Did you play} football yesterday?",
+   "de": "you – play"
+  },
+  {
+   "id": "en-gr-pastQuestions-02",
+   "s": "{Did she go} to the cinema?",
+   "de": "she – go"
+  },
+  {
+   "id": "en-gr-pastQuestions-03",
+   "s": "Where {did you go} last summer?",
+   "de": "you – go"
+  },
+  {
+   "id": "en-gr-pastQuestions-04",
+   "s": "What {did he buy} at the shop?",
+   "de": "he – buy"
+  },
+  {
+   "id": "en-gr-pastQuestions-05",
+   "s": "{Did they see} Big Ben?",
+   "de": "they – see"
+  },
+  {
+   "id": "en-gr-pastQuestions-06",
+   "s": "When {did you get} up this morning?",
+   "de": "you – get"
+  },
+  {
+   "id": "en-gr-pastQuestions-07",
+   "s": "\"Did you like the film?\" – \"Yes, {I did}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-pastQuestions-08",
+   "s": "\"Did Tom help you?\" – \"No, {he didn't; he did not}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-pastQuestions-09",
+   "s": "\"Were you at home?\" – \"Yes, {I was}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-pastQuestions-10",
+   "s": "\"Was it cold?\" – \"No, {it wasn't; it was not}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-pastQuestions-11",
+   "s": "Why {did she cry}?",
+   "de": "she – cry"
+  },
+  {
+   "id": "en-gr-pastQuestions-12",
+   "s": "{Did your parents like} the hotel?",
+   "de": "your parents – like"
+  },
+  {
+   "id": "en-gr-pastQuestions-13",
+   "s": "How {did you get} to London?",
+   "de": "you – get"
+  },
+  {
+   "id": "en-gr-pastQuestions-14",
+   "s": "Who {did you meet} at the party?",
+   "de": "you – meet"
+  }
+ ]
+}

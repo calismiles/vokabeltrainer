@@ -1,0 +1,548 @@
+{
+ "id": "en-verbs-1",
+ "lang": "en",
+ "type": "verbs",
+ "title": "Unregelmäßige Verben – schon aus Band 1",
+ "words": [
+  {
+   "id": "en-verbs-1-be",
+   "v": [
+    "be",
+    "was/were; were/was",
+    "been"
+   ],
+   "de": "sein"
+  },
+  {
+   "id": "en-verbs-1-begin",
+   "v": [
+    "begin",
+    "began",
+    "begun"
+   ],
+   "de": "beginnen; anfangen"
+  },
+  {
+   "id": "en-verbs-1-break",
+   "v": [
+    "break",
+    "broke",
+    "broken"
+   ],
+   "de": "(zer)brechen; kaputt machen"
+  },
+  {
+   "id": "en-verbs-1-bring",
+   "v": [
+    "bring",
+    "brought",
+    "brought"
+   ],
+   "de": "(mit)bringen"
+  },
+  {
+   "id": "en-verbs-1-buy",
+   "v": [
+    "buy",
+    "bought",
+    "bought"
+   ],
+   "de": "kaufen"
+  },
+  {
+   "id": "en-verbs-1-catch",
+   "v": [
+    "catch",
+    "caught",
+    "caught"
+   ],
+   "de": "fangen"
+  },
+  {
+   "id": "en-verbs-1-come",
+   "v": [
+    "come",
+    "came",
+    "come"
+   ],
+   "de": "kommen"
+  },
+  {
+   "id": "en-verbs-1-cost",
+   "v": [
+    "cost",
+    "cost",
+    "cost"
+   ],
+   "de": "kosten"
+  },
+  {
+   "id": "en-verbs-1-cut",
+   "v": [
+    "cut",
+    "cut",
+    "cut"
+   ],
+   "de": "schneiden"
+  },
+  {
+   "id": "en-verbs-1-do",
+   "v": [
+    "do",
+    "did",
+    "done"
+   ],
+   "de": "machen; tun"
+  },
+  {
+   "id": "en-verbs-1-draw",
+   "v": [
+    "draw",
+    "drew",
+    "drawn"
+   ],
+   "de": "zeichnen; ziehen"
+  },
+  {
+   "id": "en-verbs-1-drink",
+   "v": [
+    "drink",
+    "drank",
+    "drunk"
+   ],
+   "de": "trinken"
+  },
+  {
+   "id": "en-verbs-1-drive",
+   "v": [
+    "drive",
+    "drove",
+    "driven"
+   ],
+   "de": "fahren"
+  },
+  {
+   "id": "en-verbs-1-eat",
+   "v": [
+    "eat",
+    "ate",
+    "eaten"
+   ],
+   "de": "essen"
+  },
+  {
+   "id": "en-verbs-1-fall",
+   "v": [
+    "fall",
+    "fell",
+    "fallen"
+   ],
+   "de": "(hin)fallen"
+  },
+  {
+   "id": "en-verbs-1-feel",
+   "v": [
+    "feel",
+    "felt",
+    "felt"
+   ],
+   "de": "fühlen"
+  },
+  {
+   "id": "en-verbs-1-find",
+   "v": [
+    "find",
+    "found",
+    "found"
+   ],
+   "de": "finden"
+  },
+  {
+   "id": "en-verbs-1-fly",
+   "v": [
+    "fly",
+    "flew",
+    "flown"
+   ],
+   "de": "fliegen"
+  },
+  {
+   "id": "en-verbs-1-forget",
+   "v": [
+    "forget",
+    "forgot",
+    "forgotten"
+   ],
+   "de": "vergessen"
+  },
+  {
+   "id": "en-verbs-1-get",
+   "v": [
+    "get",
+    "got",
+    "got"
+   ],
+   "de": "bekommen; erhalten"
+  },
+  {
+   "id": "en-verbs-1-give",
+   "v": [
+    "give",
+    "gave",
+    "given"
+   ],
+   "de": "geben"
+  },
+  {
+   "id": "en-verbs-1-go",
+   "v": [
+    "go",
+    "went",
+    "gone"
+   ],
+   "de": "gehen; fahren"
+  },
+  {
+   "id": "en-verbs-1-have",
+   "v": [
+    "have",
+    "had",
+    "had"
+   ],
+   "de": "haben"
+  },
+  {
+   "id": "en-verbs-1-hear",
+   "v": [
+    "hear",
+    "heard",
+    "heard"
+   ],
+   "de": "hören"
+  },
+  {
+   "id": "en-verbs-1-know",
+   "v": [
+    "know",
+    "knew",
+    "known"
+   ],
+   "de": "kennen; wissen"
+  },
+  {
+   "id": "en-verbs-1-learn",
+   "v": [
+    "learn",
+    "learnt; learned",
+    "learnt; learned"
+   ],
+   "de": "lernen"
+  },
+  {
+   "id": "en-verbs-1-leave",
+   "v": [
+    "leave",
+    "left",
+    "left"
+   ],
+   "de": "(ver)lassen"
+  },
+  {
+   "id": "en-verbs-1-let",
+   "v": [
+    "let",
+    "let",
+    "let"
+   ],
+   "de": "lassen"
+  },
+  {
+   "id": "en-verbs-1-lose",
+   "v": [
+    "lose",
+    "lost",
+    "lost"
+   ],
+   "de": "verlieren"
+  },
+  {
+   "id": "en-verbs-1-make",
+   "v": [
+    "make",
+    "made",
+    "made"
+   ],
+   "de": "machen; tun"
+  },
+  {
+   "id": "en-verbs-1-mean",
+   "v": [
+    "mean",
+    "meant",
+    "meant"
+   ],
+   "de": "bedeuten; meinen"
+  },
+  {
+   "id": "en-verbs-1-meet",
+   "v": [
+    "meet",
+    "met",
+    "met"
+   ],
+   "de": "treffen"
+  },
+  {
+   "id": "en-verbs-1-pay",
+   "v": [
+    "pay",
+    "paid",
+    "paid"
+   ],
+   "de": "(be)zahlen"
+  },
+  {
+   "id": "en-verbs-1-put",
+   "v": [
+    "put",
+    "put",
+    "put"
+   ],
+   "de": "legen; setzen; stellen"
+  },
+  {
+   "id": "en-verbs-1-read",
+   "v": [
+    "read",
+    "read",
+    "read"
+   ],
+   "de": "lesen"
+  },
+  {
+   "id": "en-verbs-1-ride",
+   "v": [
+    "ride",
+    "rode",
+    "ridden"
+   ],
+   "de": "fahren; reiten"
+  },
+  {
+   "id": "en-verbs-1-ring",
+   "v": [
+    "ring",
+    "rang",
+    "rung"
+   ],
+   "de": "klingeln; läuten"
+  },
+  {
+   "id": "en-verbs-1-run",
+   "v": [
+    "run",
+    "ran",
+    "run"
+   ],
+   "de": "laufen; rennen"
+  },
+  {
+   "id": "en-verbs-1-say",
+   "v": [
+    "say",
+    "said",
+    "said"
+   ],
+   "de": "sagen"
+  },
+  {
+   "id": "en-verbs-1-see",
+   "v": [
+    "see",
+    "saw",
+    "seen"
+   ],
+   "de": "sehen"
+  },
+  {
+   "id": "en-verbs-1-sell",
+   "v": [
+    "sell",
+    "sold",
+    "sold"
+   ],
+   "de": "verkaufen"
+  },
+  {
+   "id": "en-verbs-1-send",
+   "v": [
+    "send",
+    "sent",
+    "sent"
+   ],
+   "de": "senden; verschicken"
+  },
+  {
+   "id": "en-verbs-1-show",
+   "v": [
+    "show",
+    "showed",
+    "shown"
+   ],
+   "de": "zeigen"
+  },
+  {
+   "id": "en-verbs-1-sing",
+   "v": [
+    "sing",
+    "sang",
+    "sung"
+   ],
+   "de": "singen"
+  },
+  {
+   "id": "en-verbs-1-sit",
+   "v": [
+    "sit",
+    "sat",
+    "sat"
+   ],
+   "de": "sitzen"
+  },
+  {
+   "id": "en-verbs-1-sleep",
+   "v": [
+    "sleep",
+    "slept",
+    "slept"
+   ],
+   "de": "schlafen"
+  },
+  {
+   "id": "en-verbs-1-speak",
+   "v": [
+    "speak",
+    "spoke",
+    "spoken"
+   ],
+   "de": "sprechen"
+  },
+  {
+   "id": "en-verbs-1-spell",
+   "v": [
+    "spell",
+    "spelt; spelled",
+    "spelt; spelled"
+   ],
+   "de": "buchstabieren"
+  },
+  {
+   "id": "en-verbs-1-spend",
+   "v": [
+    "spend",
+    "spent",
+    "spent"
+   ],
+   "de": "ausgeben; verbringen"
+  },
+  {
+   "id": "en-verbs-1-stand",
+   "v": [
+    "stand",
+    "stood",
+    "stood"
+   ],
+   "de": "stehen"
+  },
+  {
+   "id": "en-verbs-1-swim",
+   "v": [
+    "swim",
+    "swam",
+    "swum"
+   ],
+   "de": "schwimmen"
+  },
+  {
+   "id": "en-verbs-1-take",
+   "v": [
+    "take",
+    "took",
+    "taken"
+   ],
+   "de": "nehmen"
+  },
+  {
+   "id": "en-verbs-1-teach",
+   "v": [
+    "teach",
+    "taught",
+    "taught"
+   ],
+   "de": "unterrichten; lehren; beibringen"
+  },
+  {
+   "id": "en-verbs-1-tell",
+   "v": [
+    "tell",
+    "told",
+    "told"
+   ],
+   "de": "erzählen"
+  },
+  {
+   "id": "en-verbs-1-think",
+   "v": [
+    "think",
+    "thought",
+    "thought"
+   ],
+   "de": "(nach)denken; glauben"
+  },
+  {
+   "id": "en-verbs-1-throw",
+   "v": [
+    "throw",
+    "threw",
+    "thrown"
+   ],
+   "de": "werfen"
+  },
+  {
+   "id": "en-verbs-1-understand",
+   "v": [
+    "understand",
+    "understood",
+    "understood"
+   ],
+   "de": "verstehen"
+  },
+  {
+   "id": "en-verbs-1-wear",
+   "v": [
+    "wear",
+    "wore",
+    "worn"
+   ],
+   "de": "anhaben; tragen"
+  },
+  {
+   "id": "en-verbs-1-win",
+   "v": [
+    "win",
+    "won",
+    "won"
+   ],
+   "de": "gewinnen; siegen"
+  },
+  {
+   "id": "en-verbs-1-write",
+   "v": [
+    "write",
+    "wrote",
+    "written"
+   ],
+   "de": "schreiben"
+  }
+ ]
+}

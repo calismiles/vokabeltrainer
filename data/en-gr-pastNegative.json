@@ -1,0 +1,69 @@
+{
+ "id": "en-gr-pastNegative",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 1 · simple past: Verneinung",
+ "rule": "Verneinung mit **didn't** (did not) + **Grundform**:\nI didn't play. She didn't go. (nicht: didn't went!)\nBei be: **wasn't / weren't**.",
+ "words": [
+  {
+   "id": "en-gr-pastNegative-01",
+   "s": "I {didn't play; did not play} football yesterday.",
+   "de": "not play"
+  },
+  {
+   "id": "en-gr-pastNegative-02",
+   "s": "She {didn't go; did not go} to school on Monday.",
+   "de": "not go"
+  },
+  {
+   "id": "en-gr-pastNegative-03",
+   "s": "We {didn't see; did not see} the film.",
+   "de": "not see"
+  },
+  {
+   "id": "en-gr-pastNegative-04",
+   "s": "He {didn't like; did not like} the food.",
+   "de": "not like"
+  },
+  {
+   "id": "en-gr-pastNegative-05",
+   "s": "They {didn't have; did not have} time.",
+   "de": "not have"
+  },
+  {
+   "id": "en-gr-pastNegative-06",
+   "s": "I {didn't buy; did not buy} a new bike.",
+   "de": "not buy"
+  },
+  {
+   "id": "en-gr-pastNegative-07",
+   "s": "My mum {didn't find; did not find} her keys.",
+   "de": "not find"
+  },
+  {
+   "id": "en-gr-pastNegative-08",
+   "s": "We {didn't watch; did not watch} TV last night.",
+   "de": "not watch"
+  },
+  {
+   "id": "en-gr-pastNegative-09",
+   "s": "Tom {didn't come; did not come} to my party.",
+   "de": "not come"
+  },
+  {
+   "id": "en-gr-pastNegative-10",
+   "s": "The test {wasn't; was not} difficult.",
+   "de": "not be"
+  },
+  {
+   "id": "en-gr-pastNegative-11",
+   "s": "I {didn't eat; did not eat} breakfast this morning.",
+   "de": "not eat"
+  },
+  {
+   "id": "en-gr-pastNegative-12",
+   "s": "They {didn't win; did not win} the match.",
+   "de": "not win"
+  }
+ ]
+}

@@ -12,6 +12,15 @@
   "en-u2-station3.json",
   "en-u2-story.json",
   "en-demo.json",
-  "fr-demo.json"
+  "fr-demo.json",
+  "en-verbs-1.json",
+  "en-verbs-2.json",
+  "en-gr-wasWere.json",
+  "en-gr-pastRegular.json",
+  "en-gr-pastIrregular.json",
+  "en-gr-pastNegative.json",
+  "en-gr-pastQuestions.json",
+  "en-gr-goingTo.json",
+  "en-gr-comparison.json"
  ]
 }

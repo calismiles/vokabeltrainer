@@ -1,0 +1,269 @@
+{
+ "id": "en-verbs-2",
+ "lang": "en",
+ "type": "verbs",
+ "title": "Unregelmäßige Verben – neu in Band 2",
+ "words": [
+  {
+   "id": "en-verbs-2-beat",
+   "v": [
+    "beat",
+    "beat",
+    "beaten"
+   ],
+   "de": "schlagen; besiegen"
+  },
+  {
+   "id": "en-verbs-2-become",
+   "v": [
+    "become",
+    "became",
+    "become"
+   ],
+   "de": "werden"
+  },
+  {
+   "id": "en-verbs-2-bet",
+   "v": [
+    "bet",
+    "bet",
+    "bet"
+   ],
+   "de": "wetten"
+  },
+  {
+   "id": "en-verbs-2-bite",
+   "v": [
+    "bite",
+    "bit",
+    "bitten"
+   ],
+   "de": "beißen"
+  },
+  {
+   "id": "en-verbs-2-build",
+   "v": [
+    "build",
+    "built",
+    "built"
+   ],
+   "de": "bauen"
+  },
+  {
+   "id": "en-verbs-2-burn",
+   "v": [
+    "burn",
+    "burnt; burned",
+    "burnt; burned"
+   ],
+   "de": "(ver)brennen"
+  },
+  {
+   "id": "en-verbs-2-choose",
+   "v": [
+    "choose",
+    "chose",
+    "chosen"
+   ],
+   "de": "(aus)wählen"
+  },
+  {
+   "id": "en-verbs-2-deal_with",
+   "v": [
+    "deal (with)",
+    "dealt (with)",
+    "dealt (with)"
+   ],
+   "de": "sich befassen (mit); umgehen (mit)"
+  },
+  {
+   "id": "en-verbs-2-dream",
+   "v": [
+    "dream",
+    "dreamt; dreamed",
+    "dreamt; dreamed"
+   ],
+   "de": "träumen"
+  },
+  {
+   "id": "en-verbs-2-feed",
+   "v": [
+    "feed",
+    "fed",
+    "fed"
+   ],
+   "de": "füttern; ernähren"
+  },
+  {
+   "id": "en-verbs-2-fight",
+   "v": [
+    "fight",
+    "fought",
+    "fought"
+   ],
+   "de": "kämpfen; (sich) streiten"
+  },
+  {
+   "id": "en-verbs-2-fit",
+   "v": [
+    "fit",
+    "fit; fitted",
+    "fit; fitted"
+   ],
+   "de": "passen"
+  },
+  {
+   "id": "en-verbs-2-forgive",
+   "v": [
+    "forgive",
+    "forgave",
+    "forgiven"
+   ],
+   "de": "vergeben; verzeihen"
+  },
+  {
+   "id": "en-verbs-2-freeze",
+   "v": [
+    "freeze",
+    "froze",
+    "frozen"
+   ],
+   "de": "gefrieren; erstarren"
+  },
+  {
+   "id": "en-verbs-2-grow",
+   "v": [
+    "grow",
+    "grew",
+    "grown"
+   ],
+   "de": "wachsen; anbauen; züchten"
+  },
+  {
+   "id": "en-verbs-2-hang",
+   "v": [
+    "hang",
+    "hung",
+    "hung"
+   ],
+   "de": "hängen"
+  },
+  {
+   "id": "en-verbs-2-hide",
+   "v": [
+    "hide",
+    "hid",
+    "hidden"
+   ],
+   "de": "(sich) verstecken"
+  },
+  {
+   "id": "en-verbs-2-hit",
+   "v": [
+    "hit",
+    "hit",
+    "hit"
+   ],
+   "de": "schlagen; treffen"
+  },
+  {
+   "id": "en-verbs-2-hold",
+   "v": [
+    "hold",
+    "held",
+    "held"
+   ],
+   "de": "(fest)halten"
+  },
+  {
+   "id": "en-verbs-2-hurt",
+   "v": [
+    "hurt",
+    "hurt",
+    "hurt"
+   ],
+   "de": "verletzen; sich wehtun"
+  },
+  {
+   "id": "en-verbs-2-keep",
+   "v": [
+    "keep",
+    "kept",
+    "kept"
+   ],
+   "de": "(auf)bewahren; behalten"
+  },
+  {
+   "id": "en-verbs-2-lead",
+   "v": [
+    "lead",
+    "led",
+    "led"
+   ],
+   "de": "(an)führen"
+  },
+  {
+   "id": "en-verbs-2-lie",
+   "v": [
+    "lie",
+    "lay",
+    "lain"
+   ],
+   "de": "liegen"
+  },
+  {
+   "id": "en-verbs-2-set_up",
+   "v": [
+    "set up",
+    "set up",
+    "set up"
+   ],
+   "de": "erbauen; errichten"
+  },
+  {
+   "id": "en-verbs-2-shoot",
+   "v": [
+    "shoot",
+    "shot",
+    "shot"
+   ],
+   "de": "schießen"
+  },
+  {
+   "id": "en-verbs-2-sink",
+   "v": [
+    "sink",
+    "sank",
+    "sunk"
+   ],
+   "de": "untergehen; sinken"
+  },
+  {
+   "id": "en-verbs-2-smell",
+   "v": [
+    "smell",
+    "smelt; smelled",
+    "smelt; smelled"
+   ],
+   "de": "riechen; duften"
+  },
+  {
+   "id": "en-verbs-2-steal",
+   "v": [
+    "steal",
+    "stole",
+    "stolen"
+   ],
+   "de": "stehlen"
+  },
+  {
+   "id": "en-verbs-2-wake_up",
+   "v": [
+    "wake up",
+    "woke up",
+    "woken up"
+   ],
+   "de": "aufwachen; aufwecken"
+  }
+ ]
+}

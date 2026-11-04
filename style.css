@@ -58,6 +58,14 @@ button, .btn { font: inherit; border-radius: 10px; border: 1px solid var(--line)
 .goalbar { height: 10px; background: var(--box0); border-radius: 5px; overflow: hidden; margin-top: 6px; }
 .goalbar > div { height: 100%; background: var(--ok); transition: width .3s; }
 
+.week { display: flex; justify-content: space-between; margin: 12px 0 6px; text-align: center; }
+.week .day { flex: 1; font-size: 1.1rem; }
+.week .day .muted { font-size: .75rem; }
+.week .day.today { font-weight: 700; }
+.inlabel { display: block; text-align: left; color: var(--muted); font-size: .85rem; margin: 8px 0 4px; }
+.rule { line-height: 1.55; }
+summary { cursor: pointer; }
+
 /* Fortschrittsbalken nach Fächern */
 .boxbar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--box0); margin: 8px 0 4px; }
 .boxbar > div { height: 100%; }

@@ -1,0 +1,89 @@
+{
+ "id": "en-gr-comparison",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 2 · Steigerung der Adjektive",
+ "rule": "Kurze Adjektive: **-er / -est**: tall → taller → the tallest\nEndet auf -e: nice → nicer → the nicest\nKonsonant + y → **-ier / -iest**: happy → happier → the happiest\nKurzer Vokal + Konsonant → **verdoppeln**: big → bigger → the biggest\nLange Adjektive: **more / most**: expensive → more expensive → the most expensive\nUnregelmäßig: good → **better → the best**; bad → **worse → the worst**\nVergleich: taller **than** … · as tall **as** …",
+ "words": [
+  {
+   "id": "en-gr-comparison-01",
+   "s": "My brother is {taller} than me.",
+   "de": "tall"
+  },
+  {
+   "id": "en-gr-comparison-02",
+   "s": "London is {bigger} than Hamburg.",
+   "de": "big"
+  },
+  {
+   "id": "en-gr-comparison-03",
+   "s": "This is {the biggest} cake in the shop!",
+   "de": "big"
+  },
+  {
+   "id": "en-gr-comparison-04",
+   "s": "Today is {hotter} than yesterday.",
+   "de": "hot"
+  },
+  {
+   "id": "en-gr-comparison-05",
+   "s": "This book is {more interesting} than the film.",
+   "de": "interesting"
+  },
+  {
+   "id": "en-gr-comparison-06",
+   "s": "The Shard is {the tallest} building in London.",
+   "de": "tall"
+  },
+  {
+   "id": "en-gr-comparison-07",
+   "s": "My test was {better} than last time.",
+   "de": "good"
+  },
+  {
+   "id": "en-gr-comparison-08",
+   "s": "That was {the best} day of my life!",
+   "de": "good"
+  },
+  {
+   "id": "en-gr-comparison-09",
+   "s": "The weather today is {worse} than yesterday.",
+   "de": "bad"
+  },
+  {
+   "id": "en-gr-comparison-10",
+   "s": "This dress is {more expensive} than that one.",
+   "de": "expensive"
+  },
+  {
+   "id": "en-gr-comparison-11",
+   "s": "Spring is {nicer} than winter.",
+   "de": "nice"
+  },
+  {
+   "id": "en-gr-comparison-12",
+   "s": "I'm {happier} now.",
+   "de": "happy"
+  },
+  {
+   "id": "en-gr-comparison-13",
+   "s": "Maths is {the most difficult} subject for me.",
+   "de": "difficult"
+  },
+  {
+   "id": "en-gr-comparison-14",
+   "s": "This is {the funniest} film I know.",
+   "de": "funny"
+  },
+  {
+   "id": "en-gr-comparison-15",
+   "s": "My dog is as big {as} your dog.",
+   "de": "so groß wie"
+  },
+  {
+   "id": "en-gr-comparison-16",
+   "s": "Is a cab {cheaper} than the Tube?",
+   "de": "cheap"
+  }
+ ]
+}

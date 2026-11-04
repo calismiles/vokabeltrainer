@@ -1,0 +1,79 @@
+{
+ "id": "en-gr-goingTo",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 2 · going to-future",
+ "rule": "Pläne für die Zukunft: **am / is / are + going to + Grundform**\nI'm going to visit London. She's going to buy a ticket.\nVerneinung: I'm **not** going to … / He **isn't** going to … / They **aren't** going to …\nFrage: **Are** you going to …? **Is** he going to …? – Yes, I am. / No, he isn't.",
+ "words": [
+  {
+   "id": "en-gr-goingTo-01",
+   "s": "{I'm going to visit; I am going to visit} my grandma tomorrow.",
+   "de": "I – visit"
+  },
+  {
+   "id": "en-gr-goingTo-02",
+   "s": "{We're going to watch; We are going to watch} a film tonight.",
+   "de": "we – watch"
+  },
+  {
+   "id": "en-gr-goingTo-03",
+   "s": "{She's going to buy; She is going to buy} a new dress.",
+   "de": "she – buy"
+  },
+  {
+   "id": "en-gr-goingTo-04",
+   "s": "{They're going to play; They are going to play} football after school.",
+   "de": "they – play"
+  },
+  {
+   "id": "en-gr-goingTo-05",
+   "s": "Look at the clouds! {It's going to rain; It is going to rain}.",
+   "de": "it – rain"
+  },
+  {
+   "id": "en-gr-goingTo-06",
+   "s": "{I'm not going to tidy; I am not going to tidy} my room today!",
+   "de": "I – not tidy"
+  },
+  {
+   "id": "en-gr-goingTo-07",
+   "s": "{He isn't going to come; He is not going to come; He's not going to come} to the party.",
+   "de": "he – not come"
+  },
+  {
+   "id": "en-gr-goingTo-08",
+   "s": "{We aren't going to take; We are not going to take; We're not going to take} the bus.",
+   "de": "we – not take"
+  },
+  {
+   "id": "en-gr-goingTo-09",
+   "s": "{Are you going to visit} the Tower of London?",
+   "de": "you – visit"
+  },
+  {
+   "id": "en-gr-goingTo-10",
+   "s": "{Is Tom going to help} us?",
+   "de": "Tom – help"
+  },
+  {
+   "id": "en-gr-goingTo-11",
+   "s": "What {are you going to do} at the weekend?",
+   "de": "you – do"
+  },
+  {
+   "id": "en-gr-goingTo-12",
+   "s": "\"Are you going to come?\" – \"Yes, {I am}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-goingTo-13",
+   "s": "\"Is she going to sing?\" – \"No, {she isn't; she is not; she's not}.\"",
+   "de": "Kurzantwort"
+  },
+  {
+   "id": "en-gr-goingTo-14",
+   "s": "Where {is he going to stay} in London?",
+   "de": "he – stay"
+  }
+ ]
+}

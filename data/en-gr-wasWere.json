@@ -1,0 +1,69 @@
+{
+ "id": "en-gr-wasWere",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Welcome back · simple past: was / were",
+ "rule": "**I / he / she / it** → was\n**we / you / they** → were\nVerneinung: **wasn't** (was not) / **weren't** (were not)\nFrage: **Was** he …? / **Were** you …?",
+ "words": [
+  {
+   "id": "en-gr-wasWere-01",
+   "s": "I {was} at home yesterday.",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-02",
+   "s": "My friends {were} at the cinema.",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-03",
+   "s": "{Were} you at school on Monday?",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-04",
+   "s": "The film {wasn't; was not} very good.",
+   "de": "be – verneint"
+  },
+  {
+   "id": "en-gr-wasWere-05",
+   "s": "We {weren't; were not} late for school.",
+   "de": "be – verneint"
+  },
+  {
+   "id": "en-gr-wasWere-06",
+   "s": "{Was} it cold in London?",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-07",
+   "s": "Tom {was} ill last week.",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-08",
+   "s": "Where {were} you last night?",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-09",
+   "s": "It {was} my birthday on Sunday.",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-10",
+   "s": "The shops {weren't; were not} open on Sunday.",
+   "de": "be – verneint"
+  },
+  {
+   "id": "en-gr-wasWere-11",
+   "s": "Mum and Dad {were} very tired.",
+   "de": "be"
+  },
+  {
+   "id": "en-gr-wasWere-12",
+   "s": "{Was} your sister at the party?",
+   "de": "be"
+  }
+ ]
+}

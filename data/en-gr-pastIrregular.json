@@ -1,0 +1,89 @@
+{
+ "id": "en-gr-pastIrregular",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 1 · simple past: unregelmäßige Verben",
+ "rule": "Unregelmäßige Verben haben eine eigene simple-past-Form. Die musst du auswendig lernen – am besten mit dem Verbtrainer.\ngo → **went**, see → **saw**, have → **had**, buy → **bought** …\nAuch diese Form ist für alle Personen gleich.",
+ "words": [
+  {
+   "id": "en-gr-pastIrregular-01",
+   "s": "Last summer we {went} to Spain.",
+   "de": "go"
+  },
+  {
+   "id": "en-gr-pastIrregular-02",
+   "s": "I {saw} a big dog in the park.",
+   "de": "see"
+  },
+  {
+   "id": "en-gr-pastIrregular-03",
+   "s": "She {had} a cold last week.",
+   "de": "have"
+  },
+  {
+   "id": "en-gr-pastIrregular-04",
+   "s": "Dad {bought} a new car.",
+   "de": "buy"
+  },
+  {
+   "id": "en-gr-pastIrregular-05",
+   "s": "We {ate} pizza for lunch.",
+   "de": "eat"
+  },
+  {
+   "id": "en-gr-pastIrregular-06",
+   "s": "Tom {came} home late.",
+   "de": "come"
+  },
+  {
+   "id": "en-gr-pastIrregular-07",
+   "s": "I {wrote} a letter to my grandma.",
+   "de": "write"
+  },
+  {
+   "id": "en-gr-pastIrregular-08",
+   "s": "They {took} lots of photos.",
+   "de": "take"
+  },
+  {
+   "id": "en-gr-pastIrregular-09",
+   "s": "My sister {made} a cake.",
+   "de": "make"
+  },
+  {
+   "id": "en-gr-pastIrregular-10",
+   "s": "He {found} his keys under the bed.",
+   "de": "find"
+  },
+  {
+   "id": "en-gr-pastIrregular-11",
+   "s": "We {flew} to London.",
+   "de": "fly"
+  },
+  {
+   "id": "en-gr-pastIrregular-12",
+   "s": "The teacher {told} us a funny story.",
+   "de": "tell"
+  },
+  {
+   "id": "en-gr-pastIrregular-13",
+   "s": "I {got} a new phone for my birthday.",
+   "de": "get"
+  },
+  {
+   "id": "en-gr-pastIrregular-14",
+   "s": "She {ran} to the bus stop.",
+   "de": "run"
+  },
+  {
+   "id": "en-gr-pastIrregular-15",
+   "s": "They {met} at the station.",
+   "de": "meet"
+  },
+  {
+   "id": "en-gr-pastIrregular-16",
+   "s": "I {forgot} my homework.",
+   "de": "forget"
+  }
+ ]
+}

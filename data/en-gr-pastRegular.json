@@ -1,0 +1,84 @@
+{
+ "id": "en-gr-pastRegular",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 1 · simple past: regelmäßige Verben",
+ "rule": "Grundform + **-ed**: play → played\nEndet auf -e: nur **-d**: like → liked\nKonsonant + y → **-ied**: study → studied (aber: play → played)\nKurzer Vokal + ein Konsonant am Ende → **Konsonant verdoppeln**: stop → stopped, plan → planned\nDie Form ist für alle Personen gleich: I / you / he / she / we / they played.",
+ "words": [
+  {
+   "id": "en-gr-pastRegular-01",
+   "s": "Yesterday I {played} football with my friends.",
+   "de": "play"
+  },
+  {
+   "id": "en-gr-pastRegular-02",
+   "s": "We {watched} a film last night.",
+   "de": "watch"
+  },
+  {
+   "id": "en-gr-pastRegular-03",
+   "s": "She {liked} the new teacher.",
+   "de": "like"
+  },
+  {
+   "id": "en-gr-pastRegular-04",
+   "s": "The bus {stopped} at the station.",
+   "de": "stop"
+  },
+  {
+   "id": "en-gr-pastRegular-05",
+   "s": "I {studied} for the test.",
+   "de": "study"
+  },
+  {
+   "id": "en-gr-pastRegular-06",
+   "s": "He {carried} the heavy bag.",
+   "de": "carry"
+  },
+  {
+   "id": "en-gr-pastRegular-07",
+   "s": "We {planned} a trip to London.",
+   "de": "plan"
+  },
+  {
+   "id": "en-gr-pastRegular-08",
+   "s": "My grandma {lived} in Scotland.",
+   "de": "live"
+  },
+  {
+   "id": "en-gr-pastRegular-09",
+   "s": "The baby {cried} all night.",
+   "de": "cry"
+  },
+  {
+   "id": "en-gr-pastRegular-10",
+   "s": "I {stayed} at home on Sunday.",
+   "de": "stay"
+  },
+  {
+   "id": "en-gr-pastRegular-11",
+   "s": "Ben {helped} me with my homework.",
+   "de": "help"
+  },
+  {
+   "id": "en-gr-pastRegular-12",
+   "s": "The film {started} at eight o'clock.",
+   "de": "start"
+  },
+  {
+   "id": "en-gr-pastRegular-13",
+   "s": "We {danced} at the party.",
+   "de": "dance"
+  },
+  {
+   "id": "en-gr-pastRegular-14",
+   "s": "She {tried} the new pizza.",
+   "de": "try"
+  },
+  {
+   "id": "en-gr-pastRegular-15",
+   "s": "They {visited} the Tower of London.",
+   "de": "visit"
+  }
+ ]
+}
