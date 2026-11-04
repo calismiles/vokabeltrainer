@@ -1,5 +1,5 @@
 'use strict';
-/* Vokabeltrainer – Lernkartei (5 Fächer), Eintippen mit strenger Rechtschreibprüfung,
+/* Vokabeltrainer – Lernkartei (5 Level), Eintippen mit strenger Rechtschreibprüfung,
    Lückensätze, unregelmäßige Verben, Grammatik, Streak mit Eis.
    Alle Daten bleiben im Browser (localStorage). */
 
@@ -9,9 +9,9 @@ const LANGS = {
   fr: { name: 'Französisch', tts: 'fr-FR',
         accents: ['é', 'è', 'ê', 'ë', 'à', 'â', 'ç', 'î', 'ï', 'ô', 'ù', 'û', 'œ', 'É', 'À', 'Ç'] },
 };
-// Tage bis zur nächsten Abfrage, wenn eine Karte in Fach n landet (Fach 5 wiederholt: 30)
+// Tage bis zur nächsten Abfrage, wenn eine Karte auf Level n landet (Level 5 wiederholt: 30)
 const INTERVAL = [0, 1, 2, 4, 8, 16];
-const BOX_NAMES = ['neu', 'Fach 1', 'Fach 2', 'Fach 3', 'Fach 4', 'Fach 5'];
+const BOX_NAMES = ['neu', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5'];
 const BOX_COLORS = ['var(--box0)', 'var(--box1)', 'var(--box2)', 'var(--box3)', 'var(--box4)', 'var(--box5)'];
 const DIR_LABEL = { p: 'Deutsch → Fremdsprache', r: 'Fremdsprache → Deutsch', mix: 'gemischt' };
 const DEFAULT_SETTINGS = { dir: 'p', goal: 20, newPerSession: 10, sessionMax: 25, speak: true, lang: 'en', selected: { en: [], fr: [] } };
@@ -278,6 +278,7 @@ function renderHome() {
   const active = sel.length ? decks.filter(d => sel.includes(d.id)) : decks;
   const { due, fresh } = dueFresh(active, 'learn');
   const sentences = active.reduce((n, d) => n + cardsOf(d, 'sent').length, 0);
+  const weak = active.reduce((n, d) => n + cardsOf(d, 'learn').filter(c => c.p.b === 1 || c.p.b === 2).length, 0);
   const t = today(), done = S.stats.days[t] || 0, goal = S.settings.goal, st = streakState();
   const L = LANGS[lang].name;
   const extras = (type, heading, intro) => {
@@ -319,6 +320,7 @@ function renderHome() {
         <button class="grow" id="go-sent" ${sentences ? '' : 'disabled'}>Lückensätze</button>
         <button class="grow" id="go-test">Test üben</button>
       </div>
+      <button class="btn-big" id="go-weak" style="margin-top:8px" ${weak ? '' : 'disabled'}>🔴 Wackelige Wörter üben (${weak})</button>
       ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
     </div>
     <div id="install-slot">${installCard()}</div>
@@ -359,6 +361,7 @@ function renderHome() {
   if (inst) inst.onclick = async () => { installEvt.prompt(); await installEvt.userChoice; installEvt = null; renderHome(); };
   document.getElementById('go-learn').onclick = () => startSession('learn', active);
   document.getElementById('go-sent').onclick = () => startSession('sent', active);
+  document.getElementById('go-weak').onclick = () => startSession('weak', active);
   document.getElementById('go-test').onclick = () => {
     if (!sel.length) { toast('Wähle zuerst die Unit(s) für den Test aus.'); return; }
     startSession('test', active);
@@ -371,6 +374,7 @@ function startSession(mode, decks) {
   const cards = decks.flatMap(d => cardsOf(d, mode));
   let queue;
   if (mode === 'test') queue = shuffle(cards);
+  else if (mode === 'weak') queue = shuffle(cards.filter(c => c.p.b === 1 || c.p.b === 2));
   else {
     const due = shuffle(cards.filter(c => c.p.b > 0 && c.p.d <= t)).slice(0, S.settings.sessionMax);
     const fresh = cards.filter(c => c.p.b === 0).slice(0, S.settings.newPerSession); // neue in Buchreihenfolge
@@ -387,7 +391,7 @@ function renderCard() {
   const s = S.session; if (!s) return renderHome();
   if (s.i >= s.queue.length) return renderDone();
   const c = s.queue[s.i], lang = c.deck.lang, L = LANGS[lang].name, type = dtype(c.deck);
-  setTitle(type === 'grammar' ? 'Grammatik' : type === 'verbs' ? 'Verben' : s.mode === 'test' ? 'Test üben' : s.mode === 'sent' ? 'Lückensätze' : 'Lernen');
+  setTitle(type === 'grammar' ? 'Grammatik' : type === 'verbs' ? 'Verben' : s.mode === 'test' ? 'Test üben' : s.mode === 'weak' ? 'Wackelige Wörter' : s.mode === 'sent' ? 'Lückensätze' : 'Lernen');
   const answerLang = c.dir === 'r' ? 'de' : lang;
   let q, inputs;
   if (c.dir === 's') {
@@ -497,7 +501,7 @@ function grade(c, ok) {
   s.seen.add(k);
   if (ok) {
     s.right++; p.n++;
-    if (s.mode === 'test') { if (p.b === 0) { p.b = 1; p.d = t + 1; } }
+    if (s.mode === 'test' || s.mode === 'weak') { if (p.b === 0) { p.b = 1; p.d = t + 1; } }   // Zusatzübung: kein Aufstieg
     else if (s.missed.has(k) || p.b === 0) { p.b = 1; p.d = t + 1; }          // heute gelernt/wiederholt -> morgen wieder
     else { const was = p.b; p.b = Math.min(5, p.b + 1); p.d = t + (was === 5 ? 30 : INTERVAL[p.b]); }
   } else {
@@ -538,7 +542,7 @@ function renderDone() {
     <p>✔ ${s.right} richtig · ✘ ${s.wrong} falsch</p>
     <p>${d >= g ? `Tagesziel erreicht! 🔥 ${st.n} Tag(e) in Folge.` : `Noch ${g - d} Antworten bis zum Tagesziel.`}</p>
     ${iceMsg}
-    ${s.mode === 'test' ? '<p class="muted">Bei „Alle abfragen“ rücken richtige Karten nicht vor – falsche kommen zurück in Fach 1.</p>' : ''}
+    ${s.mode === 'test' || s.mode === 'weak' ? '<p class="muted">Bei dieser Übung steigen richtige Wörter kein Level auf – falsche gehen zurück auf Level 1. Aufsteigen tun sie, wenn sie wieder regulär dran sind.</p>' : ''}
     <button class="btn-primary btn-big" id="home">Zur Übersicht</button></div>`;
   document.getElementById('home').onclick = renderHome;
   S.session = null;
@@ -565,7 +569,7 @@ function renderUnit(id) {
         ${d.user ? `<button class="btn-small" data-edit="${i}">✎</button>` : ''}</li>`).join('');
   $app.innerHTML = `
     ${d.rule ? `<div class="card rule">${esc(d.rule).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<br>')}</div>` : ''}
-    <p class="muted">${LANGS[d.lang].name} · ${d.words.length} ${type === 'grammar' ? 'Aufgaben' : type === 'verbs' ? 'Verben' : 'Wörter'}${type === 'vocab' ? ` · Punkt = Fach (${DIR_LABEL[S.settings.dir]})` : ''}</p>
+    <p class="muted">${LANGS[d.lang].name} · ${d.words.length} ${type === 'grammar' ? 'Aufgaben' : type === 'verbs' ? 'Verben' : 'Wörter'}${type === 'vocab' ? ` · Punkt = Level (${DIR_LABEL[S.settings.dir]})` : ''}</p>
     ${boxBar(boxCounts(d))}${LEGEND}
     ${type !== 'vocab' ? `<div class="row" style="margin:10px 0"><button class="btn-primary" id="u-learn">Üben</button><button id="u-all">Alle abfragen</button></div>` : ''}
     <ul class="wordlist">${list}</ul>
@@ -647,13 +651,14 @@ function renderMenu() {
     </div>
     <h2>So funktioniert's</h2>
     <div class="card muted">
-      Jedes Wort wandert durch 5 Fächer. Richtig → ein Fach weiter, es kommt erst nach 1, 2, 4, 8, 16 Tagen wieder.
-      Falsch → zurück in Fach 1, und es kommt in derselben Runde gleich noch einmal.
+      Jedes Wort steigt durch 5 Level auf. Richtig → ein Level höher, es kommt erst nach 1, 2, 4, 8, 16 Tagen wieder.
+      Falsch → zurück auf Level 1, und es kommt in derselben Runde gleich noch einmal.
       Am besten jeden Tag kurz üben statt einmal lang – so bleibt am meisten hängen.
-      „Test üben“ fragt alle Wörter der ausgewählten Units ab, egal welches Fach.
+      „Test üben“ fragt alle Wörter der ausgewählten Units ab, egal auf welchem Level.
+      „Wackelige Wörter üben“ fragt alle Wörter auf Level 1 und 2 ab – auch wenn sie heute noch nicht dran wären.
     </div>
     <details class="card"><summary class="muted">Für Eltern</summary>
-      <p class="muted">Löscht alle Fächer, die Serie und das Eis. Units bleiben erhalten.</p>
+      <p class="muted">Löscht alle Level, die Serie und das Eis. Units bleiben erhalten.</p>
       <button class="btn-small btn-danger" id="reset">Lernstand zurücksetzen …</button></details>`;
   const num = (id, k, min) => document.getElementById(id).onchange = e => { st[k] = Math.max(min, +e.target.value || min); save.settings(); };
   num('s-goal', 'goal', 5); num('s-new', 'newPerSession', 1); num('s-max', 'sessionMax', 5);
