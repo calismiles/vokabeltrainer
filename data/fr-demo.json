@@ -1,0 +1,19 @@
+{
+  "id": "fr-demo",
+  "lang": "fr",
+  "title": "DEMO – nur zum Ausprobieren",
+  "words": [
+    { "id": "fr-demo-01", "fx": "le collège", "de": "die Schule (Sek. I)", "s": "Je vais au {collège} à pied." },
+    { "id": "fr-demo-02", "fx": "le frère", "de": "der Bruder", "s": "Mon {frère} s'appelle Hugo." },
+    { "id": "fr-demo-03", "fx": "la fenêtre", "de": "das Fenster", "s": "Ouvre la {fenêtre}, s'il te plaît." },
+    { "id": "fr-demo-04", "fx": "aujourd'hui", "de": "heute", "s": "{Aujourd'hui}, on a maths." },
+    { "id": "fr-demo-05", "fx": "préféré; préférée", "de": "Lieblings-", "s": "Ma matière {préférée}, c'est l'anglais." },
+    { "id": "fr-demo-06", "fx": "le garçon", "de": "der Junge", "s": "Le {garçon} joue au foot." },
+    { "id": "fr-demo-07", "fx": "être", "de": "sein", "s": "Nous {sommes} en sixième." },
+    { "id": "fr-demo-08", "fx": "la rentrée", "de": "der Schulanfang (nach den Ferien)", "s": "La {rentrée}, c'est en septembre." },
+    { "id": "fr-demo-09", "fx": "très", "de": "sehr", "s": "Le chat est {très} mignon." },
+    { "id": "fr-demo-10", "fx": "manger", "de": "essen", "s": "On {mange} à la cantine." },
+    { "id": "fr-demo-11", "fx": "la sœur", "de": "die Schwester" },
+    { "id": "fr-demo-12", "fx": "où", "de": "wo", "s": "{Où} est la gare ?" }
+  ]
+}

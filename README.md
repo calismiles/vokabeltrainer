@@ -1,0 +1,3 @@
+﻿# Vokabeltrainer
+
+Privater Vokabeltrainer (PWA).

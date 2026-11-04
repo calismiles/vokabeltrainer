@@ -1,0 +1,19 @@
+{
+  "id": "en-demo",
+  "lang": "en",
+  "title": "DEMO – nur zum Ausprobieren",
+  "words": [
+    { "id": "en-demo-01", "fx": "to go", "de": "gehen; fahren", "s": "I {go} to school by bus." },
+    { "id": "en-demo-02", "fx": "Monday", "de": "Montag", "s": "We have PE on {Monday}." },
+    { "id": "en-demo-03", "fx": "the weekend", "de": "das Wochenende", "s": "What did you do at {the weekend}?" },
+    { "id": "en-demo-04", "fx": "to remember", "de": "sich erinnern (an); sich merken", "s": "I can't {remember} her name." },
+    { "id": "en-demo-05", "fx": "because", "de": "weil", "s": "She is happy {because} it's her birthday." },
+    { "id": "en-demo-06", "fx": "a neighbour", "de": "ein Nachbar; eine Nachbarin", "s": "Our {neighbour} has got a big dog." },
+    { "id": "en-demo-07", "fx": "(to) be afraid (of)", "de": "Angst haben (vor)", "s": "My little brother {is afraid} of spiders." },
+    { "id": "en-demo-08", "fx": "the beach", "de": "der Strand", "s": "In summer we often go to {the beach}." },
+    { "id": "en-demo-09", "fx": "quiet", "de": "leise; ruhig", "s": "Please be {quiet}, the baby is sleeping." },
+    { "id": "en-demo-10", "fx": "to buy", "de": "kaufen", "s": "Mum wants to {buy} a new bike for me." },
+    { "id": "en-demo-11", "fx": "expensive", "de": "teuer" },
+    { "id": "en-demo-12", "fx": "the answer", "de": "die Antwort", "s": "Do you know {the answer}?" }
+  ]
+}
