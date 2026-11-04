@@ -147,6 +147,24 @@ function boxBar(c) {
 const LEGEND = `<div class="legend">${['neu', 'wackelig (1–2)', 'mittel (3–4)', 'sicher (5)'].map((l, i) =>
   `<span style="--c:${[BOX_COLORS[0], BOX_COLORS[1], BOX_COLORS[3], BOX_COLORS[5]][i]}">${l}</span>`).join('')}</div>`;
 
+// ---------- Installieren ----------
+let installEvt = null;
+const isInstalled = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault(); installEvt = e;
+  if (!S.session && document.getElementById('install-slot')) renderHome();
+});
+window.addEventListener('appinstalled', () => { installEvt = null; toast('Installiert! Du findest die App jetzt auf dem Startbildschirm.'); });
+function installCard() {
+  if (isInstalled()) return '';
+  if (installEvt) return `<div class="card row"><span class="grow">📲 Als App aufs Handy holen</span>
+    <button class="btn-primary" id="do-install">Installieren</button></div>`;
+  return `<details class="card"><summary>📲 Als App aufs Handy holen</summary>
+    <p class="muted">Chrome: Menü ⋮ → „Zum Startbildschirm hinzufügen“ → „Installieren“.<br>
+    Firefox: Menü ⋮ → „Zum Startbildschirm hinzufügen“.<br>
+    Danach startet die App über das Icon „Vokabeln“ und funktioniert auch ohne Internet.</p></details>`;
+}
+
 // ---------- Startseite ----------
 function renderHome() {
   S.session = null; setTitle('Vokabeltrainer');
@@ -181,6 +199,7 @@ function renderHome() {
       </div>
       ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
     </div>
+    <div id="install-slot">${installCard()}</div>
     <h2>Units <span class="muted">(antippen zum Auswählen)</span></h2>
     ${decks.length ? decks.map(d => {
       const c = boxCounts(d, dirs);
@@ -201,6 +220,8 @@ function renderHome() {
     save.settings(); renderHome();
   });
   $app.querySelectorAll('[data-words]').forEach(b => b.onclick = () => renderUnit(b.dataset.words));
+  const inst = document.getElementById('do-install');
+  if (inst) inst.onclick = async () => { installEvt.prompt(); await installEvt.userChoice; installEvt = null; renderHome(); };
   document.getElementById('go-learn').onclick = () => startSession('learn', active);
   document.getElementById('go-sent').onclick = () => startSession('sent', active);
   document.getElementById('go-test').onclick = () => {
@@ -408,7 +429,10 @@ function renderEdit(d, i) {
     d.words[i] = { id: w.id, ...n }; save.user(); renderUnit(d.id);
   };
   document.getElementById('cancel').onclick = () => renderUnit(d.id);
-  document.getElementById('del').onclick = () => { d.words.splice(i, 1); save.user(); renderUnit(d.id); };
+  document.getElementById('del').onclick = () => {
+    if (!confirm(`„${w.fx}“ wirklich löschen?`)) return;
+    d.words.splice(i, 1); save.user(); renderUnit(d.id);
+  };
 }
 
 // ---------- Menü ----------
@@ -445,7 +469,9 @@ function renderMenu() {
       Am besten jeden Tag kurz üben statt einmal lang – so bleibt am meisten hängen.
       „Test üben“ fragt alle Wörter der ausgewählten Units ab, egal welches Fach.
     </div>
-    <p class="muted"><button class="btn-small btn-danger" id="reset">Lernstand zurücksetzen</button></p>`;
+    <details class="card"><summary class="muted">Für Eltern</summary>
+      <p class="muted">Löscht alle Fächer und die Tage-Serie. Units bleiben erhalten.</p>
+      <button class="btn-small btn-danger" id="reset">Lernstand zurücksetzen …</button></details>`;
   const num = (id, k, min) => document.getElementById(id).onchange = e => { st[k] = Math.max(min, +e.target.value || min); save.settings(); };
   num('s-goal', 'goal', 5); num('s-new', 'newPerSession', 1); num('s-max', 'sessionMax', 5);
   document.getElementById('s-speak').onchange = e => { st.speak = e.target.checked; save.settings(); };
@@ -459,7 +485,8 @@ function renderMenu() {
   document.getElementById('b-export').onclick = exportBackup;
   document.getElementById('b-import').onchange = e => importFile(e.target.files[0]);
   document.getElementById('reset').onclick = () => {
-    if (!confirm('Wirklich den gesamten Lernstand löschen? (Units bleiben erhalten)')) return;
+    const a = prompt('Der gesamte Lernstand wird gelöscht – das lässt sich nicht rückgängig machen.\nZum Bestätigen LÖSCHEN eintippen:');
+    if (!a || a.trim().toUpperCase() !== 'LÖSCHEN') { toast('Nichts gelöscht.'); return; }
     S.progress = {}; S.stats = { days: {} }; save.progress(); save.stats(); toast('Zurückgesetzt'); renderHome();
   };
 }

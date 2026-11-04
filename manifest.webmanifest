@@ -1,5 +1,7 @@
 {
+  "id": "./",
   "name": "Vokabeltrainer",
+  "description": "Vokabeln üben mit Lernkartei",
   "short_name": "Vokabeln",
   "start_url": "./",
   "scope": "./",
