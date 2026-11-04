@@ -73,6 +73,16 @@ summary { cursor: pointer; }
 .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; background: var(--c); }
 
 .unit .row { margin-top: 6px; }
+.group > summary { display: flex; align-items: center; gap: 10px; list-style: none; }
+.group > summary::-webkit-details-marker { display: none; }
+.group .chev { color: var(--muted); transition: transform .2s; }
+.group[open] .chev { transform: rotate(90deg); }
+.group.has-sel { border-color: var(--accent); }
+.check-btn { background: none; border: 0; padding: 0 2px; font-size: 1.6rem; line-height: 1; color: var(--accent); }
+.part { display: flex; gap: 10px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); cursor: pointer; }
+.part .check { font-size: 1.4rem; color: var(--muted); }
+.part.selected .check { color: var(--accent); }
+.part .boxbar { margin: 6px 0 0; height: 8px; }
 .unit.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
 label.check { display: flex; gap: 8px; align-items: center; }
 

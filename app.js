@@ -237,6 +237,39 @@ function installCard() {
     Danach startet die App über das Icon „Vokabeln“ und funktioniert auch ohne Internet.</p></details>`;
 }
 
+// ---------- Units nach Buchkapitel gruppieren ----------
+// Titel "Unit 1 · Station 2" -> Gruppe "Unit 1", Teil "Station 2"
+const groupOf = d => d.user ? 'Eigene Units' : (d.group || (d.title.includes(' · ') ? d.title.split(' · ')[0] : d.title));
+const partOf = d => d.user || !d.title.includes(' · ') ? d.title : d.title.split(' · ').slice(1).join(' · ');
+function groupDecks(decks) {
+  const m = new Map();
+  for (const d of decks) { const g = groupOf(d); if (!m.has(g)) m.set(g, []); m.get(g).push(d); }
+  return m;
+}
+function unitGroups(decks, sel) {
+  const lang = S.settings.lang, open = S.settings.open || [];
+  return [...groupDecks(decks)].map(([g, ds]) => {
+    const n = ds.filter(d => sel.includes(d.id)).length;
+    const mark = n === 0 ? '☐' : n === ds.length ? '☑' : '◩';
+    const sum = [0, 0, 0, 0, 0, 0];
+    ds.forEach(d => boxCounts(d).forEach((x, i) => sum[i] += x));
+    const words = ds.reduce((a, d) => a + d.words.length, 0);
+    const isOpen = open.includes(lang + ':' + g);
+    return `<details class="card group ${n ? 'has-sel' : ''}" data-group="${esc(g)}" ${isOpen ? 'open' : ''}>
+      <summary><button class="check-btn" data-gsel="${esc(g)}" aria-label="ganze Unit auswählen">${mark}</button>
+        <span class="grow"><b>${esc(g)}</b><br><span class="muted">${ds.length > 1 ? ds.length + ' Teile · ' : ''}${words} Wörter${n && n < ds.length ? ` · ${n} ausgewählt` : ''}</span></span>
+        <span class="chev">▸</span></summary>
+      ${boxBar(sum)}
+      <div class="parts">${ds.map(d => {
+        const on = sel.includes(d.id);
+        return `<div class="part ${on ? 'selected' : ''}" data-deck="${d.id}">
+          <span class="check">${on ? '☑' : '☐'}</span>
+          <div class="grow">${esc(partOf(d))}<div class="muted">${d.words.length} Wörter</div>${boxBar(boxCounts(d))}</div>
+          <button class="btn-small" data-words="${d.id}">Wörter</button></div>`;
+      }).join('')}</div></details>`;
+  }).join('');
+}
+
 // ---------- Startseite ----------
 function renderHome() {
   S.session = null; setTitle('Vokabeltrainer');
@@ -289,24 +322,36 @@ function renderHome() {
       ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
     </div>
     <div id="install-slot">${installCard()}</div>
-    <h2>Vokabel-Units <span class="muted">(antippen zum Auswählen)</span></h2>
-    ${decks.length ? decks.map(d => `<div class="card unit ${sel.includes(d.id) ? 'selected' : ''}" data-deck="${d.id}">
-        <h3>${esc(d.title)}</h3>
-        <div class="muted">${d.words.length} Wörter${d.user ? ' · selbst angelegt' : ''}</div>
-        ${boxBar(boxCounts(d))}
-        <div class="row"><button class="btn-small" data-words="${d.id}">Wörter ansehen</button></div>
-      </div>`).join('') + LEGEND : '<p class="muted">Noch keine Units. Über ☰ kannst du eine anlegen.</p>'}
+    <div class="row"><h2 class="grow">Vokabeln</h2>
+      ${sel.length ? '<button class="btn-small" id="sel-clear">Auswahl aufheben</button>' : ''}</div>
+    <p class="muted">Setze Häkchen ☑ bei den Teilen, die du üben willst – ohne Häkchen wird alles geübt.</p>
+    ${decks.length ? unitGroups(decks, sel) + LEGEND : '<p class="muted">Noch keine Units. Über ☰ kannst du eine anlegen.</p>'}
     ${extras('verbs', 'Unregelmäßige Verben', 'Du siehst das Verb und tippst simple past und past participle.')}
     ${extras('grammar', 'Grammatik', '')}
   `;
   $app.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => { S.settings.lang = b.dataset.lang; save.settings(); renderHome(); });
   $app.querySelectorAll('[data-dir]').forEach(b => b.onclick = () => { S.settings.dir = b.dataset.dir; save.settings(); renderHome(); });
+  const selList = () => S.settings.selected[lang] = S.settings.selected[lang] || [];
   $app.querySelectorAll('[data-deck]').forEach(el => el.onclick = e => {
-    if (e.target.closest('button')) return;
-    const id = el.dataset.deck, s = S.settings.selected[lang] = S.settings.selected[lang] || [];
+    if (e.target.closest('[data-words]')) return;
+    const id = el.dataset.deck, s = selList();
     const i = s.indexOf(id); i >= 0 ? s.splice(i, 1) : s.push(id);
     save.settings(); renderHome();
   });
+  $app.querySelectorAll('[data-gsel]').forEach(b => b.onclick = e => {
+    e.preventDefault(); e.stopPropagation();                // nicht auf-/zuklappen
+    const ids = groupDecks(decks).get(b.dataset.gsel).map(d => d.id), s = selList();
+    const all = ids.every(id => s.includes(id));
+    S.settings.selected[lang] = all ? s.filter(id => !ids.includes(id)) : [...new Set([...s, ...ids])];
+    save.settings(); renderHome();
+  });
+  $app.querySelectorAll('details[data-group]').forEach(el => el.ontoggle = () => {
+    const o = S.settings.open = S.settings.open || [], g = lang + ':' + el.dataset.group;
+    S.settings.open = el.open ? [...new Set([...o, g])] : o.filter(x => x !== g);
+    save.settings();
+  });
+  const sc = document.getElementById('sel-clear');
+  if (sc) sc.onclick = () => { S.settings.selected[lang] = []; save.settings(); renderHome(); };
   $app.querySelectorAll('[data-words]').forEach(b => b.onclick = () => renderUnit(b.dataset.words));
   $app.querySelectorAll('[data-learn]').forEach(b => b.onclick = () => startSession('learn', [deckById(b.dataset.learn)]));
   $app.querySelectorAll('[data-all]').forEach(b => b.onclick = () => startSession('test', [deckById(b.dataset.all)]));
