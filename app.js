@@ -63,7 +63,7 @@ const key = (wid, dir) => wid + '|' + dir;
 const prog = (wid, dir) => S.progress[key(wid, dir)] || { b: 0, d: 0, n: 0, w: 0 };
 
 // ---------- Antwortprüfung ----------
-const clean = s => String(s ?? '').normalize('NFC').replace(/[’`´]/g, "'").replace(/\s+/g, ' ').trim().replace(/[.!?]+$/, '').trim();
+const clean = s => String(s ?? '').normalize('NFC').replace(/[’`´]/g, "'").replace(/…|\.\.\./g, ' ').replace(/\s+/g, ' ').trim().replace(/[.!?]+$/, '').trim();
 const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 // "(to) go" -> ["to go", "go"]

@@ -1,0 +1,187 @@
+{
+ "id": "en-u1-start",
+ "lang": "en",
+ "title": "Unit 1 · Anfang (Schulfächer)",
+ "words": [
+  {
+   "id": "en-u1-start-01",
+   "fx": "deaf",
+   "de": "gehörlos; schwerhörig; taub",
+   "s": "My grandpa is a bit {deaf}, so you have to speak loudly."
+  },
+  {
+   "id": "en-u1-start-02",
+   "fx": "support centre",
+   "de": "Hilfszentrum; Betreuungszentrum; Förderzentrum",
+   "s": "Our school has a {support centre} for students who need help."
+  },
+  {
+   "id": "en-u1-start-03",
+   "fx": "dance",
+   "de": "Tanz; Tanzveranstaltung",
+   "s": "The school {dance} is on Friday night."
+  },
+  {
+   "id": "en-u1-start-04",
+   "fx": "class",
+   "de": "Unterricht; Unterrichtsstunde; Kurs",
+   "s": "Sorry I'm late for {class}!"
+  },
+  {
+   "id": "en-u1-start-05",
+   "fx": "against",
+   "de": "gegen",
+   "s": "Our team played {against} a team from Hamburg."
+  },
+  {
+   "id": "en-u1-start-06",
+   "fx": "to belong (to)",
+   "de": "gehören (zu)",
+   "s": "Does this pencil case {belong} to you?"
+  },
+  {
+   "id": "en-u1-start-07",
+   "fx": "disability",
+   "de": "Behinderung",
+   "s": "He can't walk well because of a {disability}."
+  },
+  {
+   "id": "en-u1-start-08",
+   "fx": "support",
+   "de": "Unterstützung; Hilfe",
+   "s": "Thanks for your {support}!"
+  },
+  {
+   "id": "en-u1-start-09",
+   "fx": "subject",
+   "de": "Schulfach",
+   "s": "What's your favourite {subject} at school?"
+  },
+  {
+   "id": "en-u1-start-10",
+   "fx": "drama",
+   "de": "Theater; Drama",
+   "s": "In {drama} we are learning a new play."
+  },
+  {
+   "id": "en-u1-start-11",
+   "fx": "design technology",
+   "de": "Produktdesign",
+   "s": "In {design technology} we made a lamp."
+  },
+  {
+   "id": "en-u1-start-12",
+   "fx": "to design",
+   "de": "entwerfen; gestalten",
+   "s": "I want to {design} my own T-shirt."
+  },
+  {
+   "id": "en-u1-start-13",
+   "fx": "product",
+   "de": "Produkt; Erzeugnis",
+   "s": "This shop sells {products} from Italy."
+  },
+  {
+   "id": "en-u1-start-14",
+   "fx": "science",
+   "de": "Wissenschaft; Naturwissenschaft",
+   "s": "In {science} we did an experiment with water."
+  },
+  {
+   "id": "en-u1-start-15",
+   "fx": "biology",
+   "de": "Biologie",
+   "s": "In {biology} we learn about plants and animals."
+  },
+  {
+   "id": "en-u1-start-16",
+   "fx": "chemistry",
+   "de": "Chemie",
+   "s": "{Chemistry} is my favourite science subject."
+  },
+  {
+   "id": "en-u1-start-17",
+   "fx": "physics",
+   "de": "Physik",
+   "s": "In {physics} we learn how electricity works."
+  },
+  {
+   "id": "en-u1-start-18",
+   "fx": "humanities",
+   "de": "Sozialwissenschaften",
+   "s": "History and geography are {humanities}."
+  },
+  {
+   "id": "en-u1-start-19",
+   "fx": "geography",
+   "de": "Geografie; Erdkunde",
+   "s": "In {geography} we looked at a map of Europe."
+  },
+  {
+   "id": "en-u1-start-20",
+   "fx": "coding",
+   "de": "Programmierung",
+   "s": "I learn {coding} in the computer club."
+  },
+  {
+   "id": "en-u1-start-21",
+   "fx": "choir",
+   "de": "Chor",
+   "s": "My sister sings in the school {choir}."
+  },
+  {
+   "id": "en-u1-start-22",
+   "fx": "to welcome",
+   "de": "willkommen heißen",
+   "s": "Let's {welcome} our new classmate!"
+  },
+  {
+   "id": "en-u1-start-23",
+   "fx": "fair",
+   "de": "Messe; Jahrmarkt",
+   "s": "There's a big {fair} in our town every autumn."
+  },
+  {
+   "id": "en-u1-start-24",
+   "fx": "to raise money",
+   "de": "Geld sammeln",
+   "s": "We want to {raise money} for the animal shelter."
+  },
+  {
+   "id": "en-u1-start-25",
+   "fx": "buddy",
+   "de": "Kumpel",
+   "s": "Ben is my best {buddy}."
+  },
+  {
+   "id": "en-u1-start-26",
+   "fx": "registration",
+   "de": "Anwesenheitskontrolle",
+   "s": "Our teacher checks who is here at {registration}."
+  },
+  {
+   "id": "en-u1-start-27",
+   "fx": "maths",
+   "de": "Mathematik; Mathe",
+   "s": "I'm good at {maths}."
+  },
+  {
+   "id": "en-u1-start-28",
+   "fx": "RE (Religious Education)",
+   "de": "Religion",
+   "s": "In {RE} we talk about different religions."
+  },
+  {
+   "id": "en-u1-start-29",
+   "fx": "French",
+   "de": "französisch; Französisch",
+   "s": "Can you speak {French}?"
+  },
+  {
+   "id": "en-u1-start-30",
+   "fx": "PE (Physical Education)",
+   "de": "Sportunterricht; Sport",
+   "s": "We play basketball in {PE}."
+  }
+ ]
+}

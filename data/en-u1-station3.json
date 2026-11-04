@@ -1,0 +1,145 @@
+{
+ "id": "en-u1-station3",
+ "lang": "en",
+ "title": "Unit 1 · Station 3",
+ "words": [
+  {
+   "id": "en-u1-station3-01",
+   "fx": "both … and …",
+   "de": "sowohl … als auch …",
+   "s": "I like {both} cats and dogs."
+  },
+  {
+   "id": "en-u1-station3-02",
+   "fx": "photographer",
+   "de": "Fotograf; Fotografin",
+   "s": "The {photographer} took a photo of our class."
+  },
+  {
+   "id": "en-u1-station3-03",
+   "fx": "by the way",
+   "de": "übrigens",
+   "s": "{By the way}, have you seen my keys?"
+  },
+  {
+   "id": "en-u1-station3-04",
+   "fx": "fall",
+   "de": "Herbst",
+   "s": "In America, autumn is called {fall}."
+  },
+  {
+   "id": "en-u1-station3-05",
+   "fx": "else",
+   "de": "andere; anderer; anderes; sonst noch",
+   "s": "Do you want anything {else}?"
+  },
+  {
+   "id": "en-u1-station3-06",
+   "fx": "performance",
+   "de": "Aufführung; Vorstellung",
+   "s": "The {performance} of the school play was great."
+  },
+  {
+   "id": "en-u1-station3-07",
+   "fx": "language",
+   "de": "Sprache",
+   "s": "How many {languages} can you speak?"
+  },
+  {
+   "id": "en-u1-station3-08",
+   "fx": "pants",
+   "de": "Hose",
+   "s": "In America, trousers are called {pants}."
+  },
+  {
+   "id": "en-u1-station3-09",
+   "fx": "French fries",
+   "de": "Pommes frites",
+   "s": "In America, chips are called {French fries}."
+  },
+  {
+   "id": "en-u1-station3-10",
+   "fx": "anyway",
+   "de": "trotzdem; jedenfalls; sowieso",
+   "s": "It was raining, but we went for a walk {anyway}."
+  },
+  {
+   "id": "en-u1-station3-11",
+   "fx": "biscuit",
+   "de": "Keks",
+   "s": "Would you like a {biscuit} with your tea?"
+  },
+  {
+   "id": "en-u1-station3-12",
+   "fx": "candy",
+   "de": "Süßigkeiten",
+   "s": "In America, sweets are called {candy}."
+  },
+  {
+   "id": "en-u1-station3-13",
+   "fx": "cookie",
+   "de": "Keks",
+   "s": "In America, a biscuit is called a {cookie}."
+  },
+  {
+   "id": "en-u1-station3-14",
+   "fx": "to decide",
+   "de": "entscheiden; sich entscheiden",
+   "s": "I can't {decide} – pizza or pasta?"
+  },
+  {
+   "id": "en-u1-station3-15",
+   "fx": "grade",
+   "de": "Note; Klasse",
+   "s": "My brother is in the seventh {grade} in New York."
+  },
+  {
+   "id": "en-u1-station3-16",
+   "fx": "clever",
+   "de": "schlau; klug; intelligent",
+   "s": "What a {clever} idea!"
+  },
+  {
+   "id": "en-u1-station3-17",
+   "fx": "smart",
+   "de": "schlau; klug; intelligent",
+   "s": "My dog is very {smart} – he can open the door."
+  },
+  {
+   "id": "en-u1-station3-18",
+   "fx": "to work",
+   "de": "funktionieren",
+   "s": "My phone doesn't {work}."
+  },
+  {
+   "id": "en-u1-station3-19",
+   "fx": "during",
+   "de": "während",
+   "s": "Don't use your phone {during} lessons."
+  },
+  {
+   "id": "en-u1-station3-20",
+   "fx": "confused",
+   "de": "verwirrt; wirr; konfus",
+   "s": "I'm {confused} – which way is the station?"
+  },
+  {
+   "id": "en-u1-station3-21",
+   "fx": "to show (sb) around",
+   "de": "jemanden herumführen; herumführen",
+   "s": "Can you {show me around} your school?"
+  },
+  {
+   "id": "en-u1-station3-22",
+   "fx": "to enjoy",
+   "de": "genießen; sich freuen an",
+   "s": "I really {enjoyed} the film."
+  },
+  {
+   "id": "en-u1-station3-23",
+   "fx": "without",
+   "de": "ohne",
+   "s": "I can't live {without} music!"
+  }
+ ]
+}

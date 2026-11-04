@@ -1,5 +1,11 @@
 {
  "decks": [
+  "en-u1-start.json",
+  "en-u1-station1.json",
+  "en-u1-station2.json",
+  "en-u1-station3.json",
+  "en-u1-story.json",
+  "en-mediasmart.json",
   "en-u2-checkin.json",
   "en-u2-station1.json",
   "en-u2-station2.json",

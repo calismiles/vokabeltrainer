@@ -1,0 +1,175 @@
+{
+ "id": "en-mediasmart",
+ "lang": "en",
+ "title": "Media smart · Searching for information online",
+ "words": [
+  {
+   "id": "en-mediasmart-01",
+   "fx": "to search for",
+   "de": "suchen (nach)",
+   "s": "I'm {searching for} information about dolphins."
+  },
+  {
+   "id": "en-mediasmart-02",
+   "fx": "where to …",
+   "de": "wo man … kann; wo man … soll",
+   "s": "I don't know {where to} go."
+  },
+  {
+   "id": "en-mediasmart-03",
+   "fx": "search engine",
+   "de": "Suchmaschine",
+   "s": "Type the words into the {search engine}."
+  },
+  {
+   "id": "en-mediasmart-04",
+   "fx": "result",
+   "de": "Ergebnis; Resultat",
+   "s": "What was the {result} of the match?"
+  },
+  {
+   "id": "en-mediasmart-05",
+   "fx": "those",
+   "de": "diese dort; jene",
+   "s": "Look at {those} birds in the tree!"
+  },
+  {
+   "id": "en-mediasmart-06",
+   "fx": "to filter",
+   "de": "filtern",
+   "s": "You can {filter} the results by date."
+  },
+  {
+   "id": "en-mediasmart-07",
+   "fx": "rating",
+   "de": "Kritik; Bewertung",
+   "s": "This app has got a very good {rating}."
+  },
+  {
+   "id": "en-mediasmart-08",
+   "fx": "user",
+   "de": "Benutzer; Benutzerin",
+   "s": "This website has millions of {users}."
+  },
+  {
+   "id": "en-mediasmart-09",
+   "fx": "review",
+   "de": "Kritik",
+   "s": "I read a {review} of the new film."
+  },
+  {
+   "id": "en-mediasmart-10",
+   "fx": "reviewer",
+   "de": "Kritiker; Kritikerin",
+   "s": "The {reviewer} didn't like the film."
+  },
+  {
+   "id": "en-mediasmart-11",
+   "fx": "topic",
+   "de": "Thema",
+   "s": "What's the {topic} of your presentation?"
+  },
+  {
+   "id": "en-mediasmart-12",
+   "fx": "travel",
+   "de": "Reisen; Reise-",
+   "s": "I love {travel} books about other countries."
+  },
+  {
+   "id": "en-mediasmart-13",
+   "fx": "awful",
+   "de": "schrecklich; furchtbar",
+   "s": "The food was {awful} – I didn't eat it."
+  },
+  {
+   "id": "en-mediasmart-14",
+   "fx": "awesome",
+   "de": "super; spitze",
+   "s": "The concert was {awesome}!"
+  },
+  {
+   "id": "en-mediasmart-15",
+   "fx": "to enter",
+   "de": "eingeben",
+   "s": "{Enter} your name here."
+  },
+  {
+   "id": "en-mediasmart-16",
+   "fx": "key word",
+   "de": "Stichwort; Schlüsselbegriff",
+   "s": "Write down only the {key words}."
+  },
+  {
+   "id": "en-mediasmart-17",
+   "fx": "pretty",
+   "de": "hübsch",
+   "s": "What a {pretty} dress!"
+  },
+  {
+   "id": "en-mediasmart-18",
+   "fx": "tea",
+   "de": "Tee",
+   "s": "Would you like a cup of {tea}?"
+  },
+  {
+   "id": "en-mediasmart-19",
+   "fx": "to think of",
+   "de": "ausdenken; sich ausdenken; sich etwas einfallen lassen",
+   "s": "Can you {think of} a good title for the story?"
+  },
+  {
+   "id": "en-mediasmart-20",
+   "fx": "kind",
+   "de": "Art; Sorte",
+   "s": "What {kind} of music do you like?"
+  },
+  {
+   "id": "en-mediasmart-21",
+   "fx": "owner",
+   "de": "Besitzer; Besitzerin",
+   "s": "Who is the {owner} of this dog?"
+  },
+  {
+   "id": "en-mediasmart-22",
+   "fx": "menu",
+   "de": "Speisekarte",
+   "s": "Can I see the {menu}, please?"
+  },
+  {
+   "id": "en-mediasmart-23",
+   "fx": "fan",
+   "de": "Fächer",
+   "s": "It's so hot – I need a {fan}."
+  },
+  {
+   "id": "en-mediasmart-24",
+   "fx": "to offer",
+   "de": "anbieten",
+   "s": "Can I {offer} you a drink?"
+  },
+  {
+   "id": "en-mediasmart-25",
+   "fx": "admission",
+   "de": "Eintritt",
+   "passiv": true
+  },
+  {
+   "id": "en-mediasmart-26",
+   "fx": "child",
+   "de": "Kind",
+   "s": "Every {child} in our class has got a pet."
+  },
+  {
+   "id": "en-mediasmart-27",
+   "fx": "booking",
+   "de": "Buchung; Reservierung",
+   "passiv": true
+  },
+  {
+   "id": "en-mediasmart-28",
+   "fx": "outdoor",
+   "de": "Freiluft-; Outdoor-",
+   "s": "Football is an {outdoor} sport."
+  }
+ ]
+}

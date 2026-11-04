@@ -1,0 +1,353 @@
+{
+ "id": "en-u1-story",
+ "lang": "en",
+ "title": "Unit 1 · Story und Check-out",
+ "words": [
+  {
+   "id": "en-u1-story-01",
+   "fx": "to smile",
+   "de": "lächeln",
+   "s": "{Smile} for the photo, please!"
+  },
+  {
+   "id": "en-u1-story-02",
+   "fx": "preparation",
+   "de": "Vorbereitung",
+   "s": "The {preparations} for the party took all day."
+  },
+  {
+   "id": "en-u1-story-03",
+   "fx": "to whisper",
+   "de": "flüstern",
+   "s": "Don't {whisper} in class – tell everybody!"
+  },
+  {
+   "id": "en-u1-story-04",
+   "fx": "to discuss",
+   "de": "diskutieren",
+   "s": "Let's {discuss} this in our group."
+  },
+  {
+   "id": "en-u1-story-05",
+   "fx": "stuff",
+   "de": "Zeug",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-06",
+   "fx": "photo booth",
+   "de": "Fotobox",
+   "s": "We took funny pictures in the {photo booth}."
+  },
+  {
+   "id": "en-u1-story-07",
+   "fx": "It's up to you.",
+   "de": "Wie du willst.; Das musst du wissen."
+  },
+  {
+   "id": "en-u1-story-08",
+   "fx": "to miss",
+   "de": "verpassen; versäumen",
+   "s": "Hurry up or we'll {miss} the bus!"
+  },
+  {
+   "id": "en-u1-story-09",
+   "fx": "to stammer",
+   "de": "stammeln",
+   "s": "He was so nervous that he started to {stammer}."
+  },
+  {
+   "id": "en-u1-story-10",
+   "fx": "to realise",
+   "de": "erkennen; realisieren",
+   "s": "Suddenly I {realised} that I had forgotten my bag."
+  },
+  {
+   "id": "en-u1-story-11",
+   "fx": "to come up with (sth)",
+   "de": "sich etwas einfallen lassen; sich etwas ausdenken",
+   "s": "Can you {come up with} a good name for our band?"
+  },
+  {
+   "id": "en-u1-story-12",
+   "fx": "thought",
+   "de": "Gedanke",
+   "s": "Tell me your {thoughts} about the book."
+  },
+  {
+   "id": "en-u1-story-13",
+   "fx": "to rush",
+   "de": "eilen; sich beeilen",
+   "s": "We had to {rush} to catch the train."
+  },
+  {
+   "id": "en-u1-story-14",
+   "fx": "through",
+   "de": "durch",
+   "s": "The cat came in {through} the window."
+  },
+  {
+   "id": "en-u1-story-15",
+   "fx": "to let (sb) down",
+   "de": "jemanden im Stich lassen; jemanden enttäuschen; im Stich lassen; enttäuschen",
+   "s": "Please don't {let me down} – I need your help!"
+  },
+  {
+   "id": "en-u1-story-16",
+   "fx": "definitely",
+   "de": "bestimmt; definitiv; eindeutig",
+   "s": "I'm {definitely} coming to your party!"
+  },
+  {
+   "id": "en-u1-story-17",
+   "fx": "decision",
+   "de": "Entscheidung",
+   "s": "That was a good {decision}."
+  },
+  {
+   "id": "en-u1-story-18",
+   "fx": "to set up",
+   "de": "einrichten; aufbauen",
+   "s": "Let's {set up} the tables for the party."
+  },
+  {
+   "id": "en-u1-story-19",
+   "fx": "as",
+   "de": "wie; während; indem",
+   "s": "Do {as} I say!"
+  },
+  {
+   "id": "en-u1-story-20",
+   "fx": "heavy",
+   "de": "schwer; stark",
+   "s": "This box is too {heavy} for me."
+  },
+  {
+   "id": "en-u1-story-21",
+   "fx": "to wave",
+   "de": "winken; schwenken",
+   "s": "Grandma {waved} goodbye from the window."
+  },
+  {
+   "id": "en-u1-story-22",
+   "fx": "to freeze",
+   "de": "erstarren",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-23",
+   "fx": "awkward",
+   "de": "peinlich; ungünstig; ungeschickt; unbeholfen; unangenehm",
+   "s": "Nobody said anything. It was really {awkward}."
+  },
+  {
+   "id": "en-u1-story-24",
+   "fx": "What's the matter?",
+   "de": "Was ist los?; Was hast du?",
+   "s": "You look sad. {What's the matter}?"
+  },
+  {
+   "id": "en-u1-story-25",
+   "fx": "to break the silence",
+   "de": "das Schweigen brechen",
+   "s": "Nobody said a word, so I decided to {break the silence}."
+  },
+  {
+   "id": "en-u1-story-26",
+   "fx": "to break",
+   "de": "brechen; zerbrechen",
+   "s": "Be careful – don't {break} the glass!"
+  },
+  {
+   "id": "en-u1-story-27",
+   "fx": "to rub",
+   "de": "reiben",
+   "s": "He {rubbed} his eyes because he was tired."
+  },
+  {
+   "id": "en-u1-story-28",
+   "fx": "to explain",
+   "de": "erklären",
+   "s": "Can you {explain} the homework to me?"
+  },
+  {
+   "id": "en-u1-story-29",
+   "fx": "Stupid me!",
+   "de": "Bin ich blöd!"
+  },
+  {
+   "id": "en-u1-story-30",
+   "fx": "to disappear",
+   "de": "verschwinden",
+   "s": "My keys {disappeared} – where are they?"
+  },
+  {
+   "id": "en-u1-story-31",
+   "fx": "could",
+   "de": "konnte; konntest; konntet; konnten",
+   "s": "When I was four, I {could} already swim."
+  },
+  {
+   "id": "en-u1-story-32",
+   "fx": "disappointed",
+   "de": "enttäuscht",
+   "s": "I was {disappointed} because our team lost."
+  },
+  {
+   "id": "en-u1-story-33",
+   "fx": "to steal",
+   "de": "stehlen",
+   "s": "Someone {stole} my bike!"
+  },
+  {
+   "id": "en-u1-story-34",
+   "fx": "to turn",
+   "de": "drehen; sich umdrehen; umdrehen",
+   "s": "He {turned} around and saw a dog."
+  },
+  {
+   "id": "en-u1-story-35",
+   "fx": "each other",
+   "de": "einander; sich; sich gegenseitig",
+   "s": "Lisa and Mia help {each other} with their homework."
+  },
+  {
+   "id": "en-u1-story-36",
+   "fx": "movie",
+   "de": "Film",
+   "s": "In America, a film is called a {movie}."
+  },
+  {
+   "id": "en-u1-story-37",
+   "fx": "one day",
+   "de": "eines Tages",
+   "s": "{One day} I want to visit New York."
+  },
+  {
+   "id": "en-u1-story-38",
+   "fx": "to roll",
+   "de": "rollen",
+   "s": "The ball {rolled} under the car."
+  },
+  {
+   "id": "en-u1-story-39",
+   "fx": "confident",
+   "de": "selbstbewusst",
+   "s": "She is very {confident} and isn't afraid to speak in front of the class."
+  },
+  {
+   "id": "en-u1-story-40",
+   "fx": "helpless",
+   "de": "hilflos",
+   "s": "The little bird was {helpless} without its mother."
+  },
+  {
+   "id": "en-u1-story-41",
+   "fx": "hurt",
+   "de": "verletzt",
+   "s": "Are you {hurt}? You fell off your bike!"
+  },
+  {
+   "id": "en-u1-story-42",
+   "fx": "lonely",
+   "de": "einsam",
+   "s": "On my first day at the new school I felt very {lonely}."
+  },
+  {
+   "id": "en-u1-story-43",
+   "fx": "shy",
+   "de": "schüchtern",
+   "s": "She is {shy} and doesn't talk much."
+  },
+  {
+   "id": "en-u1-story-44",
+   "fx": "terrified",
+   "de": "erschrocken; verängstigt",
+   "s": "I was {terrified} when I saw the big spider."
+  },
+  {
+   "id": "en-u1-story-45",
+   "fx": "unhappy",
+   "de": "unglücklich",
+   "s": "Why are you so {unhappy}?"
+  },
+  {
+   "id": "en-u1-story-46",
+   "fx": "upset",
+   "de": "aufgebracht; bestürzt",
+   "s": "She was {upset} because she lost her phone."
+  },
+  {
+   "id": "en-u1-story-47",
+   "fx": "to pose",
+   "de": "posieren",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-48",
+   "fx": "ancestor",
+   "de": "Vorfahr; Vorfahrin; Ahn; Ahnin",
+   "s": "My {ancestors} came from Poland."
+  },
+  {
+   "id": "en-u1-story-49",
+   "fx": "great-grandfather",
+   "de": "Urgroßvater",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-50",
+   "fx": "rich",
+   "de": "reich",
+   "s": "He is very {rich} – he has got three cars."
+  },
+  {
+   "id": "en-u1-story-51",
+   "fx": "great-grandmother",
+   "de": "Urgroßmutter",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-52",
+   "fx": "university",
+   "de": "Universität",
+   "s": "My sister wants to go to {university}."
+  },
+  {
+   "id": "en-u1-story-53",
+   "fx": "firewood",
+   "de": "Brennholz",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-54",
+   "fx": "slate",
+   "de": "Schiefertafel",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-story-55",
+   "fx": "young",
+   "de": "jung",
+   "s": "My little brother is too {young} for school."
+  },
+  {
+   "id": "en-u1-story-56",
+   "fx": "board",
+   "de": "Tafel; Brett",
+   "s": "The teacher wrote the words on the {board}."
+  },
+  {
+   "id": "en-u1-story-57",
+   "fx": "exercise",
+   "de": "Übung; Aufgabe",
+   "s": "Please do {exercise} three for homework."
+  },
+  {
+   "id": "en-u1-story-58",
+   "fx": "race",
+   "de": "Wettlauf; Rennen",
+   "s": "Who won the {race}?"
+  }
+ ]
+}

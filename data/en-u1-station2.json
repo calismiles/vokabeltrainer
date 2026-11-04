@@ -1,0 +1,49 @@
+{
+ "id": "en-u1-station2",
+ "lang": "en",
+ "title": "Unit 1 · Station 2",
+ "words": [
+  {
+   "id": "en-u1-station2-01",
+   "fx": "skill",
+   "de": "Fertigkeit; Geschick",
+   "s": "Swimming is an important {skill}."
+  },
+  {
+   "id": "en-u1-station2-02",
+   "fx": "equipment",
+   "de": "Ausstattung; Ausrüstung",
+   "s": "You need special {equipment} for climbing."
+  },
+  {
+   "id": "en-u1-station2-03",
+   "fx": "for example",
+   "de": "zum Beispiel",
+   "s": "I like lots of fruit, {for example} apples and bananas."
+  },
+  {
+   "id": "en-u1-station2-04",
+   "fx": "robot",
+   "de": "Roboter; Automat",
+   "s": "In the computer club we built a {robot}."
+  },
+  {
+   "id": "en-u1-station2-05",
+   "fx": "to be interested in",
+   "de": "interessiert sein an; sich interessieren für",
+   "s": "My brother {is interested in} dinosaurs."
+  },
+  {
+   "id": "en-u1-station2-06",
+   "fx": "creative writing",
+   "de": "kreatives Schreiben",
+   "s": "In {creative writing} we wrote our own stories."
+  },
+  {
+   "id": "en-u1-station2-07",
+   "fx": "author",
+   "de": "Autor; Autorin",
+   "s": "Who is your favourite {author}?"
+  }
+ ]
+}

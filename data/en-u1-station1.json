@@ -1,0 +1,295 @@
+{
+ "id": "en-u1-station1",
+ "lang": "en",
+ "title": "Unit 1 · Station 1",
+ "words": [
+  {
+   "id": "en-u1-station1-01",
+   "fx": "accent",
+   "de": "Akzent",
+   "s": "She speaks English with a German {accent}."
+  },
+  {
+   "id": "en-u1-station1-02",
+   "fx": "to arrive",
+   "de": "ankommen",
+   "s": "When does the train {arrive}?"
+  },
+  {
+   "id": "en-u1-station1-03",
+   "fx": "trip",
+   "de": "Trip; Reise; Ausflug; Fahrt",
+   "s": "Our class is going on a {trip} to the zoo."
+  },
+  {
+   "id": "en-u1-station1-04",
+   "fx": "to fly",
+   "de": "fliegen",
+   "s": "Birds can {fly}."
+  },
+  {
+   "id": "en-u1-station1-05",
+   "fx": "bag",
+   "de": "Koffer; Reisetasche",
+   "s": "My {bag} is too heavy for the plane."
+  },
+  {
+   "id": "en-u1-station1-06",
+   "fx": "ready",
+   "de": "fertig; bereit",
+   "s": "Are you {ready}? We have to go!"
+  },
+  {
+   "id": "en-u1-station1-07",
+   "fx": "himself",
+   "de": "selbst; sich; sich selbst",
+   "s": "My little brother can tie his shoes {himself}."
+  },
+  {
+   "id": "en-u1-station1-08",
+   "fx": "I'd like to …",
+   "de": "Ich möchte …; Ich würde gern …",
+   "s": "{I'd like to} go to the cinema tonight."
+  },
+  {
+   "id": "en-u1-station1-09",
+   "fx": "to move (into)",
+   "de": "umziehen; einziehen",
+   "s": "We're going to {move} into a new flat."
+  },
+  {
+   "id": "en-u1-station1-10",
+   "fx": "to unpack",
+   "de": "auspacken",
+   "s": "Please {unpack} your bag and put your clothes away."
+  },
+  {
+   "id": "en-u1-station1-11",
+   "fx": "American",
+   "de": "Amerikanisch; amerikanisch; aus Amerika; Amerikaner; Amerikanerin",
+   "s": "My cousin is {American} – she lives in Boston."
+  },
+  {
+   "id": "en-u1-station1-12",
+   "fx": "farewell",
+   "de": "Abschied; Abschieds-",
+   "s": "We had a {farewell} party for our teacher."
+  },
+  {
+   "id": "en-u1-station1-13",
+   "fx": "to promise",
+   "de": "versprechen",
+   "s": "I {promise} I'll help you tomorrow."
+  },
+  {
+   "id": "en-u1-station1-14",
+   "fx": "to hate",
+   "de": "hassen; nicht mögen",
+   "s": "I {hate} getting up early!"
+  },
+  {
+   "id": "en-u1-station1-15",
+   "fx": "true",
+   "de": "wahr",
+   "s": "Is it {true} that you have a horse?"
+  },
+  {
+   "id": "en-u1-station1-16",
+   "fx": "soccer",
+   "de": "Fußball",
+   "s": "In America, football is called {soccer}."
+  },
+  {
+   "id": "en-u1-station1-17",
+   "fx": "page",
+   "de": "Seite",
+   "s": "Open your books at {page} twenty."
+  },
+  {
+   "id": "en-u1-station1-18",
+   "fx": "to join",
+   "de": "beitreten; sich anschließen; verbinden",
+   "s": "I want to {join} the drama club."
+  },
+  {
+   "id": "en-u1-station1-19",
+   "fx": "this morning",
+   "de": "heute Morgen",
+   "s": "I was late for school {this morning}."
+  },
+  {
+   "id": "en-u1-station1-20",
+   "fx": "journey",
+   "de": "Reise; Fahrt",
+   "s": "The {journey} to Scotland takes eight hours."
+  },
+  {
+   "id": "en-u1-station1-21",
+   "fx": "airport",
+   "de": "Flughafen",
+   "s": "We have to be at the {airport} at six o'clock."
+  },
+  {
+   "id": "en-u1-station1-22",
+   "fx": "to cry",
+   "de": "weinen",
+   "s": "The baby started to {cry}."
+  },
+  {
+   "id": "en-u1-station1-23",
+   "fx": "to fix",
+   "de": "reparieren; befestigen",
+   "s": "Can you {fix} my bike, Dad?"
+  },
+  {
+   "id": "en-u1-station1-24",
+   "fx": "to paint",
+   "de": "streichen",
+   "s": "We want to {paint} my room blue."
+  },
+  {
+   "id": "en-u1-station1-25",
+   "fx": "to laugh",
+   "de": "lachen",
+   "s": "His jokes always make me {laugh}."
+  },
+  {
+   "id": "en-u1-station1-26",
+   "fx": "yesterday",
+   "de": "gestern",
+   "s": "{Yesterday} it rained all day."
+  },
+  {
+   "id": "en-u1-station1-27",
+   "fx": "event",
+   "de": "Ereignis; Veranstaltung",
+   "s": "The school fair is a big {event}."
+  },
+  {
+   "id": "en-u1-station1-28",
+   "fx": "to chat",
+   "de": "chatten; plaudern",
+   "s": "I like to {chat} with my friends after school."
+  },
+  {
+   "id": "en-u1-station1-29",
+   "fx": "ago",
+   "de": "vor (zeitlich)",
+   "s": "We moved here two years {ago}."
+  },
+  {
+   "id": "en-u1-station1-30",
+   "fx": "to organise",
+   "de": "organisieren",
+   "s": "Let's {organise} a party for her birthday."
+  },
+  {
+   "id": "en-u1-station1-31",
+   "fx": "normal",
+   "de": "normal",
+   "s": "It's {normal} to be nervous before a test."
+  },
+  {
+   "id": "en-u1-station1-32",
+   "fx": "good luck",
+   "de": "viel Glück; Glück",
+   "s": "{Good luck} with your test!"
+  },
+  {
+   "id": "en-u1-station1-33",
+   "fx": "to present",
+   "de": "präsentieren; vorstellen",
+   "s": "Tomorrow we're going to {present} our project."
+  },
+  {
+   "id": "en-u1-station1-34",
+   "fx": "charity",
+   "de": "Wohltätigkeitsorganisation; wohltätige Zwecke",
+   "s": "We collected money for a {charity}."
+  },
+  {
+   "id": "en-u1-station1-35",
+   "fx": "organisation",
+   "de": "Organisation",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-station1-36",
+   "fx": "to collect",
+   "de": "sammeln",
+   "s": "I {collect} stamps."
+  },
+  {
+   "id": "en-u1-station1-37",
+   "fx": "sick",
+   "de": "krank; unwohl",
+   "s": "I feel {sick} – I ate too much cake."
+  },
+  {
+   "id": "en-u1-station1-38",
+   "fx": "poor",
+   "de": "arm",
+   "s": "Some families are very {poor} and can't buy food."
+  },
+  {
+   "id": "en-u1-station1-39",
+   "fx": "environment",
+   "de": "Umwelt; Umgebung",
+   "s": "We should protect the {environment}."
+  },
+  {
+   "id": "en-u1-station1-40",
+   "fx": "international",
+   "de": "international",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-station1-41",
+   "fx": "to clap",
+   "de": "klatschen",
+   "s": "Everybody started to {clap} after the song."
+  },
+  {
+   "id": "en-u1-station1-42",
+   "fx": "eye",
+   "de": "Auge",
+   "s": "She has got blue {eyes}."
+  },
+  {
+   "id": "en-u1-station1-43",
+   "fx": "to tidy (up)",
+   "de": "aufräumen; in Ordnung bringen",
+   "s": "Please {tidy} your room!"
+  },
+  {
+   "id": "en-u1-station1-44",
+   "fx": "rubbish",
+   "de": "Müll; Gerümpel",
+   "s": "Put the {rubbish} in the bin, please."
+  },
+  {
+   "id": "en-u1-station1-45",
+   "fx": "feeling",
+   "de": "Gefühl",
+   "s": "I have a bad {feeling} about this."
+  },
+  {
+   "id": "en-u1-station1-46",
+   "fx": "clean",
+   "de": "sauber",
+   "s": "My hands are {clean} now."
+  },
+  {
+   "id": "en-u1-station1-47",
+   "fx": "sale",
+   "de": "Verkauf; Schlussverkauf",
+   "s": "There's a big {sale} in the shoe shop."
+  },
+  {
+   "id": "en-u1-station1-48",
+   "fx": "exchange",
+   "de": "Austausch; Austausch-",
+   "s": "Next year we're going on an {exchange} to England."
+  }
+ ]
+}
