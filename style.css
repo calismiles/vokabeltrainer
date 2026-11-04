@@ -58,6 +58,10 @@ button, .btn { font: inherit; border-radius: 10px; border: 1px solid var(--line)
 .goalbar { height: 10px; background: var(--box0); border-radius: 5px; overflow: hidden; margin-top: 6px; }
 .goalbar > div { height: 100%; background: var(--ok); transition: width .3s; }
 
+.area-tabs { margin: 14px 0 4px; }
+.area-tabs button { padding: 10px 6px; }
+.badge { display: inline-block; min-width: 1.4em; padding: 0 5px; border-radius: 999px; background: var(--bad); color: #fff;
+  font-size: .75rem; font-weight: 700; line-height: 1.4em; }
 .week { display: flex; justify-content: space-between; margin: 12px 0 6px; text-align: center; }
 .week .day { flex: 1; font-size: 1.1rem; }
 .week .day .muted { font-size: .75rem; }

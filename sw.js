@@ -1,6 +1,6 @@
 // Service Worker: App offline verfügbar machen.
 // Bei jeder Änderung an App-Dateien VERSION erhöhen, damit das Handy die neue Fassung lädt.
-const VERSION = 'vt-v9';
+const VERSION = 'vt-v10';
 const CORE = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'data/index.json'];
 

@@ -293,6 +293,35 @@ function renderHome() {
           <button class="btn-small" data-words="${d.id}">${type === 'grammar' ? 'Regel & Aufgaben' : 'Liste'}</button></div></div>`;
     }).join('');
   };
+  // Bereiche: Vokabeln | Verben | Grammatik (nur anzeigen, was es für die Sprache gibt)
+  const areas = [['vocab', 'Vokabeln'], ['verbs', 'Verben'], ['grammar', 'Grammatik']]
+    .filter(([a]) => a === 'vocab' || decksOf(lang, a).length);
+  let area = S.settings.area || 'vocab';
+  if (!areas.some(([a]) => a === area)) area = 'vocab';
+  // Zähler am Bereich = heute fällige Wiederholungen (neue Wörter zählen nicht mit, sonst ist die Zahl riesig)
+  const badge = a => a === 'vocab' ? due : dueFresh(decksOf(lang, a), 'learn').due;
+  const vocabArea = `
+    <div class="card">
+      <div class="field"><label>Richtung</label>
+        <div class="tabs" id="dirtabs">${['p', 'r', 'mix'].map(d =>
+          `<button data-dir="${d}" class="btn-small ${S.settings.dir === d ? 'active' : ''}">${
+            d === 'p' ? 'Deutsch → ' + L : d === 'r' ? L + ' → Deutsch' : 'gemischt'}</button>`).join('')}</div></div>
+      <p class="muted">${sel.length ? `${sel.length} Teil(e) ausgewählt` : 'Alle Units'} · heute dran: <b>${due}</b> · neu: <b>${fresh}</b></p>
+      <button class="btn-primary btn-big" id="go-learn" ${due + fresh ? '' : 'disabled'}>Lernen starten</button>
+      <div class="row" style="margin-top:8px">
+        <button class="grow" id="go-sent" ${sentences ? '' : 'disabled'}>Lückensätze</button>
+        <button class="grow" id="go-test">Test üben</button>
+      </div>
+      <button class="btn-big" id="go-weak" style="margin-top:8px" ${weak ? '' : 'disabled'}>🔴 Wackelige Wörter üben (${weak})</button>
+      ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
+    </div>
+    <div class="row"><h2 class="grow">Units</h2>
+      ${sel.length ? '<button class="btn-small" id="sel-clear">Auswahl aufheben</button>' : ''}</div>
+    <p class="muted">Setze Häkchen ☑ bei den Teilen, die du üben willst – ohne Häkchen wird alles geübt.</p>
+    ${decks.length ? unitGroups(decks, sel) + LEGEND : '<p class="muted">Noch keine Units. Über ☰ kannst du eine anlegen.</p>'}`;
+  const areaHtml = area === 'verbs' ? extras('verbs', 'Unregelmäßige Verben', 'Du siehst das Verb und tippst simple past und past participle.') + LEGEND
+    : area === 'grammar' ? extras('grammar', 'Grammatik', 'Tippe auf „Regel & Aufgaben“, um die Regel nachzulesen.') + LEGEND
+    : vocabArea;
   $app.innerHTML = `
     <div class="tabs">${Object.entries(LANGS).map(([k, v]) =>
       `<button data-lang="${k}" class="${k === lang ? 'active' : ''}">${v.name}</button>`).join('')}</div>
@@ -309,28 +338,14 @@ function renderHome() {
         Verpasst du einen Tag, wird automatisch ein Eis eingesetzt und deine Serie bleibt erhalten. Ein Tag zählt für die Serie, wenn du dein Tagesziel schaffst.
         ${st.best ? `Deine längste Serie: ${st.best} Tage.` : ''}</p></details>
     </div>
-    <div class="card">
-      <div class="field"><label>Vokabeln – Richtung</label>
-        <div class="tabs" id="dirtabs">${['p', 'r', 'mix'].map(d =>
-          `<button data-dir="${d}" class="btn-small ${S.settings.dir === d ? 'active' : ''}">${
-            d === 'p' ? 'Deutsch → ' + L : d === 'r' ? L + ' → Deutsch' : 'gemischt'}</button>`).join('')}</div></div>
-      <p class="muted">${sel.length ? `${sel.length} Unit(s) ausgewählt` : 'Alle Units'} · heute fällig: <b>${due}</b> · neu: <b>${fresh}</b></p>
-      <button class="btn-primary btn-big" id="go-learn" ${due + fresh ? '' : 'disabled'}>Lernen starten</button>
-      <div class="row" style="margin-top:8px">
-        <button class="grow" id="go-sent" ${sentences ? '' : 'disabled'}>Lückensätze</button>
-        <button class="grow" id="go-test">Test üben</button>
-      </div>
-      <button class="btn-big" id="go-weak" style="margin-top:8px" ${weak ? '' : 'disabled'}>🔴 Wackelige Wörter üben (${weak})</button>
-      ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
-    </div>
-    <div id="install-slot">${installCard()}</div>
-    <div class="row"><h2 class="grow">Vokabeln</h2>
-      ${sel.length ? '<button class="btn-small" id="sel-clear">Auswahl aufheben</button>' : ''}</div>
-    <p class="muted">Setze Häkchen ☑ bei den Teilen, die du üben willst – ohne Häkchen wird alles geübt.</p>
-    ${decks.length ? unitGroups(decks, sel) + LEGEND : '<p class="muted">Noch keine Units. Über ☰ kannst du eine anlegen.</p>'}
-    ${extras('verbs', 'Unregelmäßige Verben', 'Du siehst das Verb und tippst simple past und past participle.')}
-    ${extras('grammar', 'Grammatik', '')}
+    ${areas.length > 1 ? `<div class="tabs area-tabs">${areas.map(([a, label]) => {
+      const n = badge(a);
+      return `<button data-area="${a}" class="${a === area ? 'active' : ''}">${label}${n ? ` <span class="badge">${n}</span>` : ''}</button>`;
+    }).join('')}</div>` : ''}
+    ${areaHtml}
+    <div id="install-slot" style="margin-top:28px">${installCard()}</div>
   `;
+  $app.querySelectorAll('[data-area]').forEach(b => b.onclick = () => { S.settings.area = b.dataset.area; save.settings(); renderHome(); });
   $app.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => { S.settings.lang = b.dataset.lang; save.settings(); renderHome(); });
   $app.querySelectorAll('[data-dir]').forEach(b => b.onclick = () => { S.settings.dir = b.dataset.dir; save.settings(); renderHome(); });
   const selList = () => S.settings.selected[lang] = S.settings.selected[lang] || [];
@@ -359,11 +374,12 @@ function renderHome() {
   $app.querySelectorAll('[data-all]').forEach(b => b.onclick = () => startSession('test', [deckById(b.dataset.all)]));
   const inst = document.getElementById('do-install');
   if (inst) inst.onclick = async () => { installEvt.prompt(); await installEvt.userChoice; installEvt = null; renderHome(); };
+  if (area !== 'vocab') return;
   document.getElementById('go-learn').onclick = () => startSession('learn', active);
   document.getElementById('go-sent').onclick = () => startSession('sent', active);
   document.getElementById('go-weak').onclick = () => startSession('weak', active);
   document.getElementById('go-test').onclick = () => {
-    if (!sel.length) { toast('Wähle zuerst die Unit(s) für den Test aus.'); return; }
+    if (!sel.length) { toast('Wähle zuerst unten die Teile für den Test aus.'); return; }
     startSession('test', active);
   };
 }
