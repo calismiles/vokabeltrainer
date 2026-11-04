@@ -1,0 +1,229 @@
+{
+ "id": "en-ms-online",
+ "lang": "en",
+ "title": "Media smart · Wortfeld Going online",
+ "words": [
+  {
+   "id": "en-ms-online-01",
+   "fx": "app",
+   "de": "App",
+   "s": "I've got a new {app} for learning words."
+  },
+  {
+   "id": "en-ms-online-02",
+   "fx": "device",
+   "de": "Gerät",
+   "s": "A tablet is a {device}."
+  },
+  {
+   "id": "en-ms-online-03",
+   "fx": "laptop",
+   "de": "Laptop",
+   "s": "I do my homework on my {laptop}."
+  },
+  {
+   "id": "en-ms-online-04",
+   "fx": "headphones",
+   "de": "Kopfhörer",
+   "s": "Put on your {headphones}, please – the music is too loud."
+  },
+  {
+   "id": "en-ms-online-05",
+   "fx": "hyperlink",
+   "de": "Hyperlink",
+   "s": "Click on the {hyperlink} to open the page."
+  },
+  {
+   "id": "en-ms-online-06",
+   "fx": "keyboard",
+   "de": "Tastatur",
+   "s": "My {keyboard} is broken – I can't type."
+  },
+  {
+   "id": "en-ms-online-07",
+   "fx": "link",
+   "de": "Link",
+   "s": "Can you send me the {link} to the video?"
+  },
+  {
+   "id": "en-ms-online-08",
+   "fx": "microphone",
+   "de": "Mikrofon",
+   "s": "Speak into the {microphone}, please."
+  },
+  {
+   "id": "en-ms-online-09",
+   "fx": "profile",
+   "de": "Profil",
+   "s": "Let's look at her {profile}."
+  },
+  {
+   "id": "en-ms-online-10",
+   "fx": "screen",
+   "de": "Bildschirm",
+   "s": "The {screen} of my phone is broken."
+  },
+  {
+   "id": "en-ms-online-11",
+   "fx": "search results",
+   "de": "Suchergebnisse",
+   "s": "Look at the first {search results}."
+  },
+  {
+   "id": "en-ms-online-12",
+   "fx": "software",
+   "de": "Software",
+   "s": "You need new {software} for this game."
+  },
+  {
+   "id": "en-ms-online-13",
+   "fx": "website",
+   "de": "Website; Homepage",
+   "s": "Our school has a cool {website}."
+  },
+  {
+   "id": "en-ms-online-14",
+   "fx": "to click (on)",
+   "de": "klicken (auf)",
+   "s": "{Click} on the picture to make it bigger."
+  },
+  {
+   "id": "en-ms-online-15",
+   "fx": "to connect",
+   "de": "verbinden",
+   "s": "Can you {connect} your phone to the TV?"
+  },
+  {
+   "id": "en-ms-online-16",
+   "fx": "to create",
+   "de": "erzeugen",
+   "s": "You can {create} a new folder here."
+  },
+  {
+   "id": "en-ms-online-17",
+   "fx": "to delete",
+   "de": "löschen",
+   "s": "Please {delete} that photo of me!"
+  },
+  {
+   "id": "en-ms-online-18",
+   "fx": "to download",
+   "de": "herunterladen",
+   "s": "You can {download} the app for free."
+  },
+  {
+   "id": "en-ms-online-19",
+   "fx": "to upload",
+   "de": "hochladen",
+   "s": "I want to {upload} my video."
+  },
+  {
+   "id": "en-ms-online-20",
+   "fx": "to print",
+   "de": "drucken; ausdrucken",
+   "s": "Can you {print} my homework, please?"
+  },
+  {
+   "id": "en-ms-online-21",
+   "fx": "to research",
+   "de": "recherchieren",
+   "s": "We have to {research} the history of London."
+  },
+  {
+   "id": "en-ms-online-22",
+   "fx": "to scroll",
+   "de": "scrollen",
+   "s": "{Scroll} down to see more photos."
+  },
+  {
+   "id": "en-ms-online-23",
+   "fx": "to search",
+   "de": "suchen",
+   "s": "I {search} for information on the internet."
+  },
+  {
+   "id": "en-ms-online-24",
+   "fx": "to send",
+   "de": "schicken",
+   "s": "Can you {send} me a message?"
+  },
+  {
+   "id": "en-ms-online-25",
+   "fx": "to share",
+   "de": "teilen",
+   "s": "Don't {share} your password with anybody!"
+  },
+  {
+   "id": "en-ms-online-26",
+   "fx": "to stream",
+   "de": "streamen",
+   "s": "We {stream} films on the TV."
+  },
+  {
+   "id": "en-ms-online-27",
+   "fx": "to turn on",
+   "de": "anmachen; einschalten",
+   "s": "Can you {turn on} the light?"
+  },
+  {
+   "id": "en-ms-online-28",
+   "fx": "to turn off",
+   "de": "ausmachen; ausschalten",
+   "s": "Please {turn off} your phones."
+  },
+  {
+   "id": "en-ms-online-29",
+   "fx": "to type",
+   "de": "tippen",
+   "s": "I can {type} very fast."
+  },
+  {
+   "id": "en-ms-online-30",
+   "fx": "blog",
+   "de": "Blog",
+   "s": "She writes a {blog} about her horse."
+  },
+  {
+   "id": "en-ms-online-31",
+   "fx": "email",
+   "de": "E-Mail",
+   "s": "I got an {email} from my aunt."
+  },
+  {
+   "id": "en-ms-online-32",
+   "fx": "message",
+   "de": "Nachricht",
+   "s": "I sent you a {message}."
+  },
+  {
+   "id": "en-ms-online-33",
+   "fx": "platform",
+   "de": "Plattform",
+   "s": "This {platform} is only for students."
+  },
+  {
+   "id": "en-ms-online-34",
+   "fx": "podcast",
+   "de": "Podcast",
+   "s": "I listen to a {podcast} about animals."
+  },
+  {
+   "id": "en-ms-online-35",
+   "fx": "post",
+   "de": "Post",
+   "s": "Did you see her last {post}?"
+  },
+  {
+   "id": "en-ms-online-36",
+   "fx": "social media",
+   "de": "soziale Medien",
+   "s": "Lots of teenagers use {social media}."
+  },
+  {
+   "id": "en-ms-online-37",
+   "fx": "social network",
+   "de": "soziales Netzwerk",
+   "s": "You must be 13 to use this {social network}."
+  }
+ ]
+}

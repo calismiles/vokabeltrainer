@@ -1,0 +1,84 @@
+{
+ "id": "en-gr-prepositions",
+ "lang": "en",
+ "type": "grammar",
+ "title": "Unit 2 · Präpositionen: across, at, in, on, opposite",
+ "rule": "**across** = über … (hinweg): across the river, across the street\n**at** = an einem Ort / bei: at home, at school, at the station, at my friend's flat\n**in** = in / auf: in a café, in the street, in the water\n**on** = auf / an: on the bridge, on the left / right, on the other side, on the river bank\n**opposite** = gegenüber: opposite the cinema",
+ "words": [
+  {
+   "id": "en-gr-prepositions-01",
+   "s": "Look for cars when you walk {across} the street.",
+   "de": "über … hinweg"
+  },
+  {
+   "id": "en-gr-prepositions-02",
+   "s": "There's a big park {across} the river.",
+   "de": "auf der anderen Seite"
+  },
+  {
+   "id": "en-gr-prepositions-03",
+   "s": "I left my phone {at} home.",
+   "de": "zu Hause"
+  },
+  {
+   "id": "en-gr-prepositions-04",
+   "s": "We met {at} the station.",
+   "de": "am Bahnhof"
+  },
+  {
+   "id": "en-gr-prepositions-05",
+   "s": "I do my homework {at} my friend's flat.",
+   "de": "bei"
+  },
+  {
+   "id": "en-gr-prepositions-06",
+   "s": "Let's sit {in} a café and have a drink.",
+   "de": "in einem Café"
+  },
+  {
+   "id": "en-gr-prepositions-07",
+   "s": "The children are playing {in} the street.",
+   "de": "auf der Straße"
+  },
+  {
+   "id": "en-gr-prepositions-08",
+   "s": "The dog is swimming {in} the water.",
+   "de": "im Wasser"
+  },
+  {
+   "id": "en-gr-prepositions-09",
+   "s": "We stood {on} the bridge and looked at the river.",
+   "de": "auf der Brücke"
+  },
+  {
+   "id": "en-gr-prepositions-10",
+   "s": "The bank is {on} the left.",
+   "de": "auf der linken Seite"
+  },
+  {
+   "id": "en-gr-prepositions-11",
+   "s": "The shop is {on} the other side of the street.",
+   "de": "auf der anderen Seite"
+  },
+  {
+   "id": "en-gr-prepositions-12",
+   "s": "We had a picnic {on} the river bank.",
+   "de": "am Flussufer"
+  },
+  {
+   "id": "en-gr-prepositions-13",
+   "s": "The library is {opposite} the cinema.",
+   "de": "gegenüber"
+  },
+  {
+   "id": "en-gr-prepositions-14",
+   "s": "My school is {opposite} the park.",
+   "de": "gegenüber"
+  },
+  {
+   "id": "en-gr-prepositions-15",
+   "s": "I'm {at} school until three o'clock.",
+   "de": "in der Schule"
+  }
+ ]
+}

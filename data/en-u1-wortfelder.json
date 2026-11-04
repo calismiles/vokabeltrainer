@@ -1,0 +1,157 @@
+{
+ "id": "en-u1-wortfelder",
+ "lang": "en",
+ "title": "Unit 1 · Wortfelder School und Feelings",
+ "words": [
+  {
+   "id": "en-u1-wortfelder-01",
+   "fx": "history",
+   "de": "Geschichte",
+   "s": "In {history} we learn about the Romans."
+  },
+  {
+   "id": "en-u1-wortfelder-02",
+   "fx": "English",
+   "de": "Englisch",
+   "s": "{English} is my favourite subject."
+  },
+  {
+   "id": "en-u1-wortfelder-03",
+   "fx": "German",
+   "de": "Deutsch",
+   "s": "We read a story in {German} today."
+  },
+  {
+   "id": "en-u1-wortfelder-04",
+   "fx": "languages",
+   "de": "Sprachen",
+   "s": "I want to learn lots of {languages}."
+  },
+  {
+   "id": "en-u1-wortfelder-05",
+   "fx": "sciences",
+   "de": "Naturwissenschaften",
+   "s": "Biology, chemistry and physics are {sciences}."
+  },
+  {
+   "id": "en-u1-wortfelder-06",
+   "fx": "computer science",
+   "de": "Informatik",
+   "s": "In {computer science} we learn about computers."
+  },
+  {
+   "id": "en-u1-wortfelder-07",
+   "fx": "art",
+   "de": "Kunst",
+   "s": "In {art} we painted a picture."
+  },
+  {
+   "id": "en-u1-wortfelder-08",
+   "fx": "music",
+   "de": "Musik",
+   "s": "I play the guitar in {music}."
+  },
+  {
+   "id": "en-u1-wortfelder-09",
+   "fx": "cooking",
+   "de": "Kochen",
+   "s": "In the {cooking} club we made pizza."
+  },
+  {
+   "id": "en-u1-wortfelder-10",
+   "fx": "eco",
+   "de": "Öko-",
+   "s": "Our school has an {eco} club."
+  },
+  {
+   "id": "en-u1-wortfelder-11",
+   "fx": "photography",
+   "de": "Fotografie",
+   "s": "I'm interested in {photography}."
+  },
+  {
+   "id": "en-u1-wortfelder-12",
+   "fx": "brave",
+   "de": "mutig; tapfer",
+   "s": "The firefighter was very {brave}."
+  },
+  {
+   "id": "en-u1-wortfelder-13",
+   "fx": "crazy",
+   "de": "verrückt",
+   "s": "That's a {crazy} idea!"
+  },
+  {
+   "id": "en-u1-wortfelder-14",
+   "fx": "excited",
+   "de": "aufgeregt",
+   "s": "I'm so {excited} about the trip!"
+  },
+  {
+   "id": "en-u1-wortfelder-15",
+   "fx": "happy",
+   "de": "glücklich",
+   "s": "I'm {happy} because it's my birthday."
+  },
+  {
+   "id": "en-u1-wortfelder-16",
+   "fx": "impressed",
+   "de": "beeindruckt",
+   "s": "I was {impressed} by the big castle."
+  },
+  {
+   "id": "en-u1-wortfelder-17",
+   "fx": "lucky",
+   "de": "glücklich; Glück haben",
+   "s": "You're {lucky} – you won the game!"
+  },
+  {
+   "id": "en-u1-wortfelder-18",
+   "fx": "surprised",
+   "de": "überrascht",
+   "s": "I was {surprised} when I saw my present."
+  },
+  {
+   "id": "en-u1-wortfelder-19",
+   "fx": "aggressive",
+   "de": "aggressiv",
+   "s": "The dog was {aggressive} and barked at us."
+  },
+  {
+   "id": "en-u1-wortfelder-20",
+   "fx": "angry",
+   "de": "wütend; verärgert",
+   "s": "Mum was {angry} because I was late."
+  },
+  {
+   "id": "en-u1-wortfelder-21",
+   "fx": "bored",
+   "de": "gelangweilt",
+   "s": "I'm {bored} – there's nothing to do."
+  },
+  {
+   "id": "en-u1-wortfelder-22",
+   "fx": "embarrassed",
+   "de": "verlegen",
+   "s": "I was {embarrassed} when I fell over in class."
+  },
+  {
+   "id": "en-u1-wortfelder-23",
+   "fx": "nervous",
+   "de": "nervös",
+   "s": "I'm always {nervous} before a test."
+  },
+  {
+   "id": "en-u1-wortfelder-24",
+   "fx": "sad",
+   "de": "traurig",
+   "s": "She was {sad} because her cat was ill."
+  },
+  {
+   "id": "en-u1-wortfelder-25",
+   "fx": "shocked",
+   "de": "geschockt",
+   "s": "We were {shocked} when we heard the news."
+  }
+ ]
+}

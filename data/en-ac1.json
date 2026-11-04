@@ -1,0 +1,187 @@
+{
+ "id": "en-ac1",
+ "lang": "en",
+ "title": "Across cultures 1 · London: A first look",
+ "words": [
+  {
+   "id": "en-ac1-01",
+   "fx": "look",
+   "de": "Blick",
+   "s": "Let's have a {look} at the map."
+  },
+  {
+   "id": "en-ac1-02",
+   "fx": "city",
+   "de": "Stadt; Großstadt",
+   "s": "London is a very big {city}."
+  },
+  {
+   "id": "en-ac1-03",
+   "fx": "famous",
+   "de": "berühmt",
+   "s": "Big Ben is very {famous}."
+  },
+  {
+   "id": "en-ac1-04",
+   "fx": "sight",
+   "de": "Sehenswürdigkeit",
+   "s": "The Tower is a famous {sight} in London."
+  },
+  {
+   "id": "en-ac1-05",
+   "fx": "attraction",
+   "de": "Attraktion; Sehenswürdigkeit",
+   "s": "The London Eye is a big tourist {attraction}."
+  },
+  {
+   "id": "en-ac1-06",
+   "fx": "business",
+   "de": "Geschäft; Business",
+   "s": "My uncle has a small {business}."
+  },
+  {
+   "id": "en-ac1-07",
+   "fx": "capital (city)",
+   "de": "Hauptstadt",
+   "s": "Berlin is the {capital} of Germany."
+  },
+  {
+   "id": "en-ac1-08",
+   "fx": "century",
+   "de": "Jahrhundert",
+   "s": "We live in the 21st {century}."
+  },
+  {
+   "id": "en-ac1-09",
+   "fx": "culture",
+   "de": "Kultur",
+   "s": "I'm interested in other {cultures}."
+  },
+  {
+   "id": "en-ac1-10",
+   "fx": "politics",
+   "de": "Politik",
+   "s": "My dad likes to talk about {politics}."
+  },
+  {
+   "id": "en-ac1-11",
+   "fx": "international",
+   "de": "international",
+   "s": "Our school is very {international}."
+  },
+  {
+   "id": "en-ac1-12",
+   "fx": "neighbourhood",
+   "de": "Nachbarschaft; Viertel",
+   "s": "There's a nice park in our {neighbourhood}."
+  },
+  {
+   "id": "en-ac1-13",
+   "fx": "to name",
+   "de": "nennen; benennen",
+   "s": "Can you {name} three London sights?"
+  },
+  {
+   "id": "en-ac1-14",
+   "fx": "feature",
+   "de": "Eigenschaft; Merkmal",
+   "s": "What's the best {feature} of your new phone?"
+  },
+  {
+   "id": "en-ac1-15",
+   "fx": "fact",
+   "de": "Fakt; Tatsache",
+   "s": "Here's a fun {fact} about London."
+  },
+  {
+   "id": "en-ac1-16",
+   "fx": "originally",
+   "de": "ursprünglich",
+   "s": "My grandpa is {originally} from Turkey."
+  },
+  {
+   "id": "en-ac1-17",
+   "fx": "Roman",
+   "de": "Römer; Römerin; römisch",
+   "s": "The {Romans} built a city called Londinium."
+  },
+  {
+   "id": "en-ac1-18",
+   "fx": "out of",
+   "de": "von; aus … heraus",
+   "s": "Three {out of} ten students walk to school."
+  },
+  {
+   "id": "en-ac1-19",
+   "fx": "bell",
+   "de": "Glocke",
+   "s": "Big Ben is the name of a {bell}."
+  },
+  {
+   "id": "en-ac1-20",
+   "fx": "most-visited",
+   "de": "der am häufigsten besuchte; die am häufigsten besuchte; das am häufigsten besuchte",
+   "s": "What is the {most-visited} museum in London?"
+  },
+  {
+   "id": "en-ac1-21",
+   "fx": "overnight",
+   "de": "über Nacht",
+   "s": "We stayed {overnight} at my grandma's."
+  },
+  {
+   "id": "en-ac1-22",
+   "fx": "stay",
+   "de": "Aufenthalt",
+   "s": "Enjoy your {stay} in London!"
+  },
+  {
+   "id": "en-ac1-23",
+   "fx": "tower",
+   "de": "Turm",
+   "s": "We climbed up the {tower}."
+  },
+  {
+   "id": "en-ac1-24",
+   "fx": "region",
+   "de": "Region; Gegend",
+   "s": "Which {region} of Germany are you from?"
+  },
+  {
+   "id": "en-ac1-25",
+   "fx": "the Tube",
+   "de": "die Londoner U-Bahn",
+   "s": "Let's take {the Tube} to Oxford Circus."
+  },
+  {
+   "id": "en-ac1-26",
+   "fx": "teenager",
+   "de": "Teenager; Jugendlicher; Jugendliche",
+   "passiv": true
+  },
+  {
+   "id": "en-ac1-27",
+   "fx": "source",
+   "de": "Quelle",
+   "passiv": true
+  },
+  {
+   "id": "en-ac1-28",
+   "fx": "festival",
+   "de": "Festival; Fest",
+   "passiv": true
+  },
+  {
+   "id": "en-ac1-29",
+   "fx": "Londoner",
+   "de": "Londoner; Londonerin",
+   "passiv": true
+  },
+  {
+   "id": "en-ac1-30",
+   "fx": "themselves",
+   "de": "selber; selbst; sich selbst",
+   "passiv": true
+  }
+ ]
+}

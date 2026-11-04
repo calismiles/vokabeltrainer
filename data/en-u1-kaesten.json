@@ -1,0 +1,199 @@
+{
+ "id": "en-u1-kaesten",
+ "lang": "en",
+ "title": "Unit 1 · Kästen zu Übungen (nur verstehen)",
+ "words": [
+  {
+   "id": "en-u1-kaesten-01",
+   "fx": "slide",
+   "de": "Folie",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-02",
+   "fx": "to be like",
+   "de": "sein",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-03",
+   "fx": "comment",
+   "de": "Kommentar",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-04",
+   "fx": "slide show",
+   "de": "Folienpräsentation",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-05",
+   "fx": "playground",
+   "de": "Schulhof; Pausenhof; Spielplatz",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-06",
+   "fx": "Roll two dice.",
+   "de": "Würfelt mit zwei Würfeln.",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-07",
+   "fx": "backwards",
+   "de": "rückwärts",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-08",
+   "fx": "to carry",
+   "de": "tragen",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-09",
+   "fx": "dying",
+   "de": "sterbend",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-10",
+   "fx": "forest",
+   "de": "Wald",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-11",
+   "fx": "fashion",
+   "de": "Mode",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-12",
+   "fx": "industry",
+   "de": "Industrie; Branche; Gewerbe",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-13",
+   "fx": "company",
+   "de": "Firma; Unternehmen; Gesellschaft",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-14",
+   "fx": "distance",
+   "de": "Distanz; Entfernung",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-15",
+   "fx": "flight",
+   "de": "Flug",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-16",
+   "fx": "waste",
+   "de": "Abfall",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-17",
+   "fx": "reusable",
+   "de": "wiederverwendbar; Mehrweg-",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-18",
+   "fx": "shipping",
+   "de": "Versand; Transport",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-19",
+   "fx": "to transport",
+   "de": "transportieren",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-20",
+   "fx": "halfway around the world",
+   "de": "um die halbe Welt",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-21",
+   "fx": "naked",
+   "de": "nackt",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-22",
+   "fx": "still",
+   "de": "Standbild",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-23",
+   "fx": "audience",
+   "de": "Publikum",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-24",
+   "fx": "climate",
+   "de": "Klima",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-25",
+   "fx": "shot",
+   "de": "Einstellung; Kameraeinstellung",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-26",
+   "fx": "body language",
+   "de": "Körpersprache",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-27",
+   "fx": "future",
+   "de": "zukünftig",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-28",
+   "fx": "to look up",
+   "de": "nachschlagen; nachschauen",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-29",
+   "fx": "color",
+   "de": "Farbe",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-30",
+   "fx": "neighbor",
+   "de": "Nachbar; Nachbarin",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-31",
+   "fx": "center",
+   "de": "Zentrum; Center",
+   "passiv": true
+  },
+  {
+   "id": "en-u1-kaesten-32",
+   "fx": "mom",
+   "de": "Mama",
+   "passiv": true
+  }
+ ]
+}

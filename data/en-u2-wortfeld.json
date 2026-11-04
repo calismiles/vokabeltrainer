@@ -1,0 +1,103 @@
+{
+ "id": "en-u2-wortfeld",
+ "lang": "en",
+ "title": "Unit 2 · Wortfeld Transport and tourism",
+ "words": [
+  {
+   "id": "en-u2-wortfeld-01",
+   "fx": "guide",
+   "de": "Führer; Führerin",
+   "s": "Our {guide} told us lots of stories about the castle."
+  },
+  {
+   "id": "en-u2-wortfeld-02",
+   "fx": "tourist",
+   "de": "Tourist; Touristin",
+   "s": "London is full of {tourists} in summer."
+  },
+  {
+   "id": "en-u2-wortfeld-03",
+   "fx": "information desk",
+   "de": "Infotheke",
+   "s": "Ask at the {information desk}."
+  },
+  {
+   "id": "en-u2-wortfeld-04",
+   "fx": "tourist information centre",
+   "de": "Touristeninformation",
+   "s": "You can get a free map at the {tourist information centre}."
+  },
+  {
+   "id": "en-u2-wortfeld-05",
+   "fx": "to book",
+   "de": "buchen",
+   "s": "We want to {book} a hotel in London."
+  },
+  {
+   "id": "en-u2-wortfeld-06",
+   "fx": "to explore",
+   "de": "erforschen",
+   "s": "Let's {explore} the old town!"
+  },
+  {
+   "id": "en-u2-wortfeld-07",
+   "fx": "visit",
+   "de": "Besuch",
+   "s": "Thank you for your {visit}!"
+  },
+  {
+   "id": "en-u2-wortfeld-08",
+   "fx": "to visit",
+   "de": "besuchen",
+   "s": "Next week we're going to {visit} our cousins."
+  },
+  {
+   "id": "en-u2-wortfeld-09",
+   "fx": "market",
+   "de": "Markt",
+   "s": "We bought fruit at the {market}."
+  },
+  {
+   "id": "en-u2-wortfeld-10",
+   "fx": "museum",
+   "de": "Museum",
+   "s": "The {museum} is free on Sundays."
+  },
+  {
+   "id": "en-u2-wortfeld-11",
+   "fx": "park",
+   "de": "Park",
+   "s": "Let's have a picnic in the {park}."
+  },
+  {
+   "id": "en-u2-wortfeld-12",
+   "fx": "plane",
+   "de": "Flugzeug",
+   "s": "We went to Spain by {plane}."
+  },
+  {
+   "id": "en-u2-wortfeld-13",
+   "fx": "ship",
+   "de": "Schiff",
+   "s": "The {ship} is going to New York."
+  },
+  {
+   "id": "en-u2-wortfeld-14",
+   "fx": "train",
+   "de": "Zug",
+   "s": "The {train} was late again."
+  },
+  {
+   "id": "en-u2-wortfeld-15",
+   "fx": "underground",
+   "de": "U-Bahn",
+   "s": "Let's take the {underground} – it's faster than the bus."
+  },
+  {
+   "id": "en-u2-wortfeld-16",
+   "fx": "taxi",
+   "de": "Taxi",
+   "s": "We took a {taxi} to the airport."
+  }
+ ]
+}

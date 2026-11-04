@@ -1,0 +1,199 @@
+{
+ "id": "en-wb-holiday",
+ "lang": "en",
+ "title": "Welcome back · Holiday words",
+ "words": [
+  {
+   "id": "en-wb-holiday-01",
+   "fx": "in a city; in a town",
+   "de": "in einer Stadt",
+   "s": "My cousin lives {in a town} near Hamburg."
+  },
+  {
+   "id": "en-wb-holiday-02",
+   "fx": "at home",
+   "de": "zu Hause",
+   "s": "I stayed {at home} because I was ill."
+  },
+  {
+   "id": "en-wb-holiday-03",
+   "fx": "at somebody's house",
+   "de": "im Haus von …; bei jemandem zu Hause",
+   "s": "We had a party {at somebody's house}."
+  },
+  {
+   "id": "en-wb-holiday-04",
+   "fx": "in the country",
+   "de": "auf dem Land",
+   "s": "My grandparents live on a farm {in the country}."
+  },
+  {
+   "id": "en-wb-holiday-05",
+   "fx": "in the mountains",
+   "de": "in den Bergen",
+   "s": "We went skiing {in the mountains}."
+  },
+  {
+   "id": "en-wb-holiday-06",
+   "fx": "in the forest",
+   "de": "im Wald",
+   "s": "We went for a long walk {in the forest}."
+  },
+  {
+   "id": "en-wb-holiday-07",
+   "fx": "at the beach",
+   "de": "am Strand",
+   "s": "We played volleyball {at the beach}."
+  },
+  {
+   "id": "en-wb-holiday-08",
+   "fx": "by the sea",
+   "de": "am Meer",
+   "s": "Our hotel was {by the sea}."
+  },
+  {
+   "id": "en-wb-holiday-09",
+   "fx": "on the coast",
+   "de": "an der Küste",
+   "s": "There are lots of nice towns {on the coast}."
+  },
+  {
+   "id": "en-wb-holiday-10",
+   "fx": "in the sea",
+   "de": "im Meer",
+   "s": "The water {in the sea} was cold."
+  },
+  {
+   "id": "en-wb-holiday-11",
+   "fx": "in the river",
+   "de": "im Fluss",
+   "s": "Can you swim {in the river}?"
+  },
+  {
+   "id": "en-wb-holiday-12",
+   "fx": "in the lake",
+   "de": "im See",
+   "s": "We swam {in the lake} every day."
+  },
+  {
+   "id": "en-wb-holiday-13",
+   "fx": "at a museum",
+   "de": "in einem Museum",
+   "s": "We spent the afternoon {at a museum}."
+  },
+  {
+   "id": "en-wb-holiday-14",
+   "fx": "at a castle",
+   "de": "in einem Schloss",
+   "s": "We had lunch {at a castle}."
+  },
+  {
+   "id": "en-wb-holiday-15",
+   "fx": "at an arts and crafts market",
+   "de": "auf einem Kunsthandwerkermarkt",
+   "s": "Mum bought a bowl {at an arts and crafts market}."
+  },
+  {
+   "id": "en-wb-holiday-16",
+   "fx": "at a hotel",
+   "de": "im Hotel; in einem Hotel",
+   "s": "We stayed {at a hotel} in London."
+  },
+  {
+   "id": "en-wb-holiday-17",
+   "fx": "in a swimming pool",
+   "de": "in einem Schwimmbad",
+   "s": "I swam {in a swimming pool} every morning."
+  },
+  {
+   "id": "en-wb-holiday-18",
+   "fx": "in a zoo",
+   "de": "in einem Zoo",
+   "s": "We saw lions and bears {in a zoo}."
+  },
+  {
+   "id": "en-wb-holiday-19",
+   "fx": "on a city tour",
+   "de": "auf einer Stadtrundfahrt",
+   "s": "We saw Big Ben {on a city tour}."
+  },
+  {
+   "id": "en-wb-holiday-20",
+   "fx": "at a fun park",
+   "de": "in einem Vergnügungspark",
+   "s": "We spent a day {at a fun park}."
+  },
+  {
+   "id": "en-wb-holiday-21",
+   "fx": "on the rollercoaster",
+   "de": "in der Achterbahn",
+   "s": "I screamed {on the rollercoaster}!"
+  },
+  {
+   "id": "en-wb-holiday-22",
+   "fx": "cycling",
+   "de": "Radfahren",
+   "s": "We went {cycling} along the river."
+  },
+  {
+   "id": "en-wb-holiday-23",
+   "fx": "hiking",
+   "de": "Wandern",
+   "s": "We went {hiking} in the mountains."
+  },
+  {
+   "id": "en-wb-holiday-24",
+   "fx": "rock climbing",
+   "de": "Klettern",
+   "s": "{Rock climbing} is exciting but difficult."
+  },
+  {
+   "id": "en-wb-holiday-25",
+   "fx": "on a mountain",
+   "de": "auf einem Berg",
+   "s": "We had a picnic {on a mountain}."
+  },
+  {
+   "id": "en-wb-holiday-26",
+   "fx": "at a campsite",
+   "de": "auf einem Campingplatz",
+   "s": "We stayed {at a campsite} near the beach."
+  },
+  {
+   "id": "en-wb-holiday-27",
+   "fx": "in a tent",
+   "de": "in einem Zelt",
+   "s": "We slept {in a tent}."
+  },
+  {
+   "id": "en-wb-holiday-28",
+   "fx": "horse riding",
+   "de": "Reiten",
+   "s": "My sister loves {horse riding}."
+  },
+  {
+   "id": "en-wb-holiday-29",
+   "fx": "surfing",
+   "de": "Surfen",
+   "s": "The waves were big – great for {surfing}."
+  },
+  {
+   "id": "en-wb-holiday-30",
+   "fx": "windsurfing",
+   "de": "Windsurfen",
+   "s": "You need a lot of wind for {windsurfing}."
+  },
+  {
+   "id": "en-wb-holiday-31",
+   "fx": "fishing",
+   "de": "Angeln",
+   "s": "Grandpa often goes {fishing} at the lake."
+  },
+  {
+   "id": "en-wb-holiday-32",
+   "fx": "on a boat ride",
+   "de": "auf einer Bootstour",
+   "s": "We saw dolphins {on a boat ride}."
+  }
+ ]
+}
