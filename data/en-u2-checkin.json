@@ -1,0 +1,139 @@
+{
+ "id": "en-u2-checkin",
+ "lang": "en",
+ "title": "Unit 2 · Check-in",
+ "words": [
+  {
+   "id": "en-u2-checkin-01",
+   "fx": "statue",
+   "de": "Statue; Standbild",
+   "s": "There is a big {statue} of a king in the park."
+  },
+  {
+   "id": "en-u2-checkin-02",
+   "fx": "top",
+   "de": "Spitze; oberer Teil; oberes Ende",
+   "s": "We climbed to the {top} of the tower."
+  },
+  {
+   "id": "en-u2-checkin-03",
+   "fx": "column",
+   "de": "Säule",
+   "s": "Nelson stands on a tall {column} in Trafalgar Square."
+  },
+  {
+   "id": "en-u2-checkin-04",
+   "fx": "artist",
+   "de": "Künstler; Künstlerin",
+   "s": "The {artist} is painting a picture of the river."
+  },
+  {
+   "id": "en-u2-checkin-05",
+   "fx": "bridge",
+   "de": "Brücke",
+   "s": "We walked across the {bridge} over the Thames."
+  },
+  {
+   "id": "en-u2-checkin-06",
+   "fx": "view",
+   "de": "Aussicht; Sicht; Ausblick; Blick",
+   "s": "From the London Eye you have a great {view} of the city."
+  },
+  {
+   "id": "en-u2-checkin-07",
+   "fx": "cathedral",
+   "de": "Kathedrale",
+   "s": "We visited the old {cathedral} in the city centre."
+  },
+  {
+   "id": "en-u2-checkin-08",
+   "fx": "royal",
+   "de": "königlich",
+   "s": "Buckingham Palace is the home of the {royal} family."
+  },
+  {
+   "id": "en-u2-checkin-09",
+   "fx": "wedding",
+   "de": "Hochzeit",
+   "s": "My aunt wore a long white dress at her {wedding}."
+  },
+  {
+   "id": "en-u2-checkin-10",
+   "fx": "central",
+   "de": "zentral; Zentral-",
+   "s": "Our hotel is in {central} London, so we can walk everywhere."
+  },
+  {
+   "id": "en-u2-checkin-11",
+   "fx": "battle",
+   "de": "Schlacht; Kampf",
+   "s": "The {battle} of Hastings was in 1066."
+  },
+  {
+   "id": "en-u2-checkin-12",
+   "fx": "both",
+   "de": "beide",
+   "s": "I like {both} cats and dogs."
+  },
+  {
+   "id": "en-u2-checkin-13",
+   "fx": "stop",
+   "de": "Haltestelle; Halt",
+   "s": "Get off the bus at the next {stop}."
+  },
+  {
+   "id": "en-u2-checkin-14",
+   "fx": "transport",
+   "de": "Verkehrsmittel; Transport",
+   "s": "What kind of {transport} do you like best – the bus or the train?"
+  },
+  {
+   "id": "en-u2-checkin-15",
+   "fx": "cheap",
+   "de": "billig; preiswert",
+   "s": "This T-shirt was only three pounds. It was really {cheap}."
+  },
+  {
+   "id": "en-u2-checkin-16",
+   "fx": "way",
+   "de": "Art und Weise",
+   "s": "I don't like the {way} he talks to me."
+  },
+  {
+   "id": "en-u2-checkin-17",
+   "fx": "to travel",
+   "de": "fahren; reisen",
+   "s": "Next summer we want to {travel} to Scotland."
+  },
+  {
+   "id": "en-u2-checkin-18",
+   "fx": "cab",
+   "de": "Taxi",
+   "s": "It was raining, so we took a {cab} to the hotel."
+  },
+  {
+   "id": "en-u2-checkin-19",
+   "fx": "public transport",
+   "de": "öffentliche Verkehrsmittel",
+   "s": "In London, lots of people use {public transport}."
+  },
+  {
+   "id": "en-u2-checkin-20",
+   "fx": "smartcard",
+   "de": "Chipkarte",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-checkin-21",
+   "fx": "to top up",
+   "de": "aufladen",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-checkin-22",
+   "fx": "credit",
+   "de": "Guthaben",
+   "passiv": true
+  }
+ ]
+}

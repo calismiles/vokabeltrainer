@@ -1,0 +1,295 @@
+{
+ "id": "en-u2-station3",
+ "lang": "en",
+ "title": "Unit 2 · Station 3",
+ "words": [
+  {
+   "id": "en-u2-station3-01",
+   "fx": "dark",
+   "de": "dunkel",
+   "s": "It's very {dark} in here – turn on the light!"
+  },
+  {
+   "id": "en-u2-station3-02",
+   "fx": "spooky",
+   "de": "gespenstisch",
+   "s": "That old house is really {spooky}."
+  },
+  {
+   "id": "en-u2-station3-03",
+   "fx": "spot",
+   "de": "Fleck; Ort",
+   "s": "This is my favourite {spot} in the park."
+  },
+  {
+   "id": "en-u2-station3-04",
+   "fx": "ghost",
+   "de": "Geist",
+   "s": "Do you believe in {ghosts}?"
+  },
+  {
+   "id": "en-u2-station3-05",
+   "fx": "blood",
+   "de": "Blut",
+   "s": "There was {blood} on his knee after he fell."
+  },
+  {
+   "id": "en-u2-station3-06",
+   "fx": "haunted",
+   "de": "Spuk-; Geister-",
+   "s": "People say the castle is {haunted}."
+  },
+  {
+   "id": "en-u2-station3-07",
+   "fx": "to die",
+   "de": "sterben",
+   "s": "Our old dog {died} last year."
+  },
+  {
+   "id": "en-u2-station3-08",
+   "fx": "to kill",
+   "de": "töten; umbringen",
+   "s": "The cat {killed} a mouse."
+  },
+  {
+   "id": "en-u2-station3-09",
+   "fx": "death",
+   "de": "Tod",
+   "s": "The {death} of the queen was big news."
+  },
+  {
+   "id": "en-u2-station3-10",
+   "fx": "dungeon",
+   "de": "Verlies",
+   "s": "The prisoners had to live in a dark {dungeon}."
+  },
+  {
+   "id": "en-u2-station3-11",
+   "fx": "murder",
+   "de": "Mord",
+   "s": "The detective wants to solve the {murder}."
+  },
+  {
+   "id": "en-u2-station3-12",
+   "fx": "supernatural",
+   "de": "übernatürlich",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-13",
+   "fx": "energy",
+   "de": "Energie; Kraft",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-14",
+   "fx": "yourself",
+   "de": "du selbst; dir selbst; dich selbst; Sie selbst; sich selbst; selber",
+   "s": "Did you make this cake {yourself}?"
+  },
+  {
+   "id": "en-u2-station3-15",
+   "fx": "to become",
+   "de": "werden",
+   "s": "I want to {become} a vet."
+  },
+  {
+   "id": "en-u2-station3-16",
+   "fx": "king",
+   "de": "König",
+   "s": "Henry VIII was a {king} of England."
+  },
+  {
+   "id": "en-u2-station3-17",
+   "fx": "prison",
+   "de": "Gefängnis",
+   "s": "The thief had to go to {prison}."
+  },
+  {
+   "id": "en-u2-station3-18",
+   "fx": "queen",
+   "de": "Königin",
+   "s": "The {queen} wore a beautiful crown."
+  },
+  {
+   "id": "en-u2-station3-19",
+   "fx": "to lock",
+   "de": "einschließen; abschließen",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-20",
+   "fx": "punishment",
+   "de": "Bestrafung",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-21",
+   "fx": "to cut (off)",
+   "de": "schneiden; abschneiden",
+   "s": "Can you {cut} the cake, please?"
+  },
+  {
+   "id": "en-u2-station3-22",
+   "fx": "prisoner",
+   "de": "Gefangener; Gefangene",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-23",
+   "fx": "pike",
+   "de": "Spieß",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-24",
+   "fx": "raven",
+   "de": "Rabe",
+   "s": "There are {ravens} at the Tower of London."
+  },
+  {
+   "id": "en-u2-station3-25",
+   "fx": "pub",
+   "de": "Kneipe; Gasthaus",
+   "s": "We had lunch in a {pub} near the river."
+  },
+  {
+   "id": "en-u2-station3-26",
+   "fx": "elegant",
+   "de": "elegant",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-27",
+   "fx": "gentleman",
+   "de": "Gentleman; feiner Herr",
+   "s": "Thank you for helping me – you're a real {gentleman}."
+  },
+  {
+   "id": "en-u2-station3-28",
+   "fx": "to wake up",
+   "de": "aufwachen; aufwecken",
+   "s": "I {woke up} at seven o'clock this morning."
+  },
+  {
+   "id": "en-u2-station3-29",
+   "fx": "night",
+   "de": "Nacht",
+   "s": "I can't sleep at {night} when it's too hot."
+  },
+  {
+   "id": "en-u2-station3-30",
+   "fx": "victim",
+   "de": "Opfer",
+   "s": "The police talked to the {victim}."
+  },
+  {
+   "id": "en-u2-station3-31",
+   "fx": "Victorian",
+   "de": "viktorianisch; Viktorianer; Viktorianerin",
+   "s": "We live in an old {Victorian} house."
+  },
+  {
+   "id": "en-u2-station3-32",
+   "fx": "serial killer",
+   "de": "Serienmörder; Serienmörderin",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-33",
+   "fx": "dirty",
+   "de": "dreckig; schmutzig",
+   "s": "Your shoes are {dirty} – take them off, please."
+  },
+  {
+   "id": "en-u2-station3-34",
+   "fx": "rat",
+   "de": "Ratte",
+   "s": "A {rat} is bigger than a mouse."
+  },
+  {
+   "id": "en-u2-station3-35",
+   "fx": "terrible",
+   "de": "schrecklich; schlimm; furchtbar",
+   "s": "The weather was {terrible} – it rained all day."
+  },
+  {
+   "id": "en-u2-station3-36",
+   "fx": "disease",
+   "de": "Krankheit",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-37",
+   "fx": "perspective",
+   "de": "Perspektive; Blickwinkel",
+   "s": "The story is told from the dog's {perspective}."
+  },
+  {
+   "id": "en-u2-station3-38",
+   "fx": "to be called",
+   "de": "heißen; genannt werden",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-39",
+   "fx": "so",
+   "de": "damit",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-40",
+   "fx": "to go on",
+   "de": "weitergehen; weitermachen; weiterführen; fortfahren",
+   "s": "Don't stop – {go on}!"
+  },
+  {
+   "id": "en-u2-station3-41",
+   "fx": "headset",
+   "de": "Kopfhörer",
+   "s": "Put on your {headset} and listen to the music."
+  },
+  {
+   "id": "en-u2-station3-42",
+   "fx": "prince",
+   "de": "Prinz",
+   "s": "The {prince} lives in a big palace."
+  },
+  {
+   "id": "en-u2-station3-43",
+   "fx": "setting",
+   "de": "Einstellung",
+   "s": "You can change the {settings} on your phone."
+  },
+  {
+   "id": "en-u2-station3-44",
+   "fx": "to build",
+   "de": "bauen; aufbauen",
+   "s": "They want to {build} a new school here."
+  },
+  {
+   "id": "en-u2-station3-45",
+   "fx": "castle",
+   "de": "Schloss; Burg",
+   "s": "The king lived in a big {castle}."
+  },
+  {
+   "id": "en-u2-station3-46",
+   "fx": "zoo",
+   "de": "Zoo; Tierpark",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-47",
+   "fx": "lion",
+   "de": "Löwe",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station3-48",
+   "fx": "bear",
+   "de": "Bär",
+   "passiv": true
+  }
+ ]
+}

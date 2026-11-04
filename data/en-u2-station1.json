@@ -1,0 +1,181 @@
+{
+ "id": "en-u2-station1",
+ "lang": "en",
+ "title": "Unit 2 · Station 1",
+ "words": [
+  {
+   "id": "en-u2-station1-01",
+   "fx": "cobblestone",
+   "de": "Kopfsteinpflaster",
+   "s": "It's hard to ride a bike on old {cobblestones}."
+  },
+  {
+   "id": "en-u2-station1-02",
+   "fx": "access",
+   "de": "Zugang; Zutritt",
+   "s": "There is no {access} for cars in this street."
+  },
+  {
+   "id": "en-u2-station1-03",
+   "fx": "MS (multiple sclerosis)",
+   "de": "MS; Multiple Sklerose",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station1-04",
+   "fx": "still",
+   "de": "dennoch; trotzdem",
+   "s": "It was raining, but we {still} went to the park."
+  },
+  {
+   "id": "en-u2-station1-05",
+   "fx": "to get around",
+   "de": "sich fortbewegen",
+   "s": "The easiest way to {get around} London is by Tube."
+  },
+  {
+   "id": "en-u2-station1-06",
+   "fx": "selfish",
+   "de": "selbstsüchtig; egoistisch",
+   "s": "Don't be so {selfish} – share your sweets!"
+  },
+  {
+   "id": "en-u2-station1-07",
+   "fx": "to fight",
+   "de": "streiten; sich streiten; kämpfen",
+   "s": "My little brothers always {fight} about the TV."
+  },
+  {
+   "id": "en-u2-station1-08",
+   "fx": "tight",
+   "de": "knapp; eng",
+   "s": "These shoes are too {tight}. I need a bigger size."
+  },
+  {
+   "id": "en-u2-station1-09",
+   "fx": "area",
+   "de": "Areal; Gebiet; Fläche",
+   "s": "There are lots of shops in this {area}."
+  },
+  {
+   "id": "en-u2-station1-10",
+   "fx": "to agree (with)",
+   "de": "einer Meinung sein (mit); zustimmen",
+   "s": "I {agree} with you – it's a great idea!"
+  },
+  {
+   "id": "en-u2-station1-11",
+   "fx": "guide dog",
+   "de": "Blindenhund",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station1-12",
+   "fx": "blind",
+   "de": "blind",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station1-13",
+   "fx": "building",
+   "de": "Gebäude",
+   "s": "The Shard is a very tall {building}."
+  },
+  {
+   "id": "en-u2-station1-14",
+   "fx": "driver",
+   "de": "Fahrer; Fahrerin",
+   "s": "The bus {driver} said hello to us."
+  },
+  {
+   "id": "en-u2-station1-15",
+   "fx": "lift",
+   "de": "Lift; Aufzug",
+   "s": "Let's take the {lift} to the tenth floor."
+  },
+  {
+   "id": "en-u2-station1-16",
+   "fx": "passenger",
+   "de": "Passagier; Passagierin; Fahrgast",
+   "s": "The bus was full of {passengers}."
+  },
+  {
+   "id": "en-u2-station1-17",
+   "fx": "ramp",
+   "de": "Rampe",
+   "s": "People in wheelchairs can get into the museum on a {ramp}."
+  },
+  {
+   "id": "en-u2-station1-18",
+   "fx": "stairs",
+   "de": "Treppe",
+   "s": "I don't like the lift, so I always take the {stairs}."
+  },
+  {
+   "id": "en-u2-station1-19",
+   "fx": "also",
+   "de": "auch",
+   "s": "I play football and I {also} play tennis."
+  },
+  {
+   "id": "en-u2-station1-20",
+   "fx": "to get into",
+   "de": "einsteigen; hineingelangen",
+   "s": "Please {get into} the car – we're late!"
+  },
+  {
+   "id": "en-u2-station1-21",
+   "fx": "air",
+   "de": "Luft",
+   "s": "Open the window – we need some fresh {air}."
+  },
+  {
+   "id": "en-u2-station1-22",
+   "fx": "visitor",
+   "de": "Besucher; Besucherin",
+   "s": "The museum has lots of {visitors} every day."
+  },
+  {
+   "id": "en-u2-station1-23",
+   "fx": "sightseeing",
+   "de": "Sightseeing; Besichtigungen",
+   "s": "On Saturday we went {sightseeing} in London."
+  },
+  {
+   "id": "en-u2-station1-24",
+   "fx": "guided tour",
+   "de": "Führung",
+   "s": "We did a {guided tour} of the Tower of London."
+  },
+  {
+   "id": "en-u2-station1-25",
+   "fx": "skyscraper",
+   "de": "Wolkenkratzer",
+   "s": "New York has got lots of {skyscrapers}."
+  },
+  {
+   "id": "en-u2-station1-26",
+   "fx": "harbour",
+   "de": "Hafen",
+   "s": "The fishing boats are in the {harbour}."
+  },
+  {
+   "id": "en-u2-station1-27",
+   "fx": "ferry",
+   "de": "Fähre",
+   "s": "We took the {ferry} to the Isle of Wight."
+  },
+  {
+   "id": "en-u2-station1-28",
+   "fx": "chippie",
+   "de": "Fish-and-Chips-Bude",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station1-29",
+   "fx": "detail",
+   "de": "Detail; Einzelheit",
+   "passiv": true
+  }
+ ]
+}

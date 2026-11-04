@@ -1,0 +1,265 @@
+{
+ "id": "en-u2-station2",
+ "lang": "en",
+ "title": "Unit 2 · Station 2",
+ "words": [
+  {
+   "id": "en-u2-station2-01",
+   "fx": "high",
+   "de": "hoch; groß",
+   "s": "The prices in this shop are very {high}."
+  },
+  {
+   "id": "en-u2-station2-02",
+   "fx": "beautiful",
+   "de": "schön; hübsch; wunderbar",
+   "s": "What a {beautiful} sunset!"
+  },
+  {
+   "id": "en-u2-station2-03",
+   "fx": "relaxing",
+   "de": "entspannend",
+   "s": "A walk in the park is very {relaxing}."
+  },
+  {
+   "id": "en-u2-station2-04",
+   "fx": "Chinese",
+   "de": "Chinese; Chinesin; chinesisch; Chinesisch; aus China",
+   "s": "Let's have {Chinese} food tonight."
+  },
+  {
+   "id": "en-u2-station2-05",
+   "fx": "cute",
+   "de": "niedlich; süß",
+   "s": "Look at the little puppy – it's so {cute}!"
+  },
+  {
+   "id": "en-u2-station2-06",
+   "fx": "usual",
+   "de": "üblich",
+   "s": "I got up at the {usual} time."
+  },
+  {
+   "id": "en-u2-station2-07",
+   "fx": "to waste",
+   "de": "verschwenden",
+   "s": "Don't {waste} your money on sweets."
+  },
+  {
+   "id": "en-u2-station2-08",
+   "fx": "fantastic",
+   "de": "fantastisch; großartig",
+   "s": "The film was {fantastic}! I loved it."
+  },
+  {
+   "id": "en-u2-station2-09",
+   "fx": "less",
+   "de": "weniger",
+   "s": "My new phone was {less} expensive than my old one."
+  },
+  {
+   "id": "en-u2-station2-10",
+   "fx": "short",
+   "de": "kurz",
+   "s": "My hair is very {short} now."
+  },
+  {
+   "id": "en-u2-station2-11",
+   "fx": "mouse",
+   "de": "Maus",
+   "s": "There's a {mouse} in the kitchen!"
+  },
+  {
+   "id": "en-u2-station2-12",
+   "fx": "centimetre",
+   "de": "Zentimeter",
+   "s": "My pencil is fifteen {centimetres} long."
+  },
+  {
+   "id": "en-u2-station2-13",
+   "fx": "tall",
+   "de": "groß; hoch",
+   "s": "My dad is very {tall} – he's almost two metres."
+  },
+  {
+   "id": "en-u2-station2-14",
+   "fx": "world",
+   "de": "Erde; Welt",
+   "s": "Football is the most popular sport in the {world}."
+  },
+  {
+   "id": "en-u2-station2-15",
+   "fx": "detective",
+   "de": "Detektiv; Detektivin",
+   "s": "Sherlock Holmes is a famous {detective}."
+  },
+  {
+   "id": "en-u2-station2-16",
+   "fx": "to react",
+   "de": "reagieren",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station2-17",
+   "fx": "everybody",
+   "de": "jeder; alle",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-station2-18",
+   "fx": "show-off",
+   "de": "Angeber; Angeberin",
+   "s": "Tom always talks about his expensive phone. He's such a {show-off}!"
+  },
+  {
+   "id": "en-u2-station2-19",
+   "fx": "unusual",
+   "de": "ungewöhnlich",
+   "s": "It's {unusual} to see snow in London in May."
+  },
+  {
+   "id": "en-u2-station2-20",
+   "fx": "stupid",
+   "de": "dumm; blöd",
+   "s": "Sorry, that was a {stupid} question."
+  },
+  {
+   "id": "en-u2-station2-21",
+   "fx": "viewer",
+   "de": "Zuschauer; Zuschauerin",
+   "s": "The show had millions of {viewers}."
+  },
+  {
+   "id": "en-u2-station2-22",
+   "fx": "location",
+   "de": "Handlungsort; Lage; Standort",
+   "s": "This street was the {location} for a famous film."
+  },
+  {
+   "id": "en-u2-station2-23",
+   "fx": "scenery",
+   "de": "Landschaft; Kulisse",
+   "s": "The {scenery} in Scotland is beautiful."
+  },
+  {
+   "id": "en-u2-station2-24",
+   "fx": "close-up",
+   "de": "Nahaufnahme",
+   "s": "The photographer took a {close-up} of my face."
+  },
+  {
+   "id": "en-u2-station2-25",
+   "fx": "background",
+   "de": "Hintergrund",
+   "s": "In the {background} of the photo you can see Big Ben."
+  },
+  {
+   "id": "en-u2-station2-26",
+   "fx": "object",
+   "de": "Gegenstand",
+   "s": "There are lots of old {objects} in the museum."
+  },
+  {
+   "id": "en-u2-station2-27",
+   "fx": "to get off",
+   "de": "aussteigen",
+   "s": "We have to {get off} the bus at the next stop."
+  },
+  {
+   "id": "en-u2-station2-28",
+   "fx": "station",
+   "de": "Haltestelle; Bahnhof; Station",
+   "s": "The train leaves the {station} at ten o'clock."
+  },
+  {
+   "id": "en-u2-station2-29",
+   "fx": "close",
+   "de": "nahe",
+   "s": "Our school is {close} to the park."
+  },
+  {
+   "id": "en-u2-station2-30",
+   "fx": "to go down",
+   "de": "hinuntergehen; nach unten gehen; entlanggehen",
+   "s": "You {go down} this street and then turn left."
+  },
+  {
+   "id": "en-u2-station2-31",
+   "fx": "to turn",
+   "de": "einbiegen; abbiegen",
+   "s": "Then you {turn} right at the church."
+  },
+  {
+   "id": "en-u2-station2-32",
+   "fx": "right",
+   "de": "rechts; rechte; rechter; rechtes",
+   "s": "Turn {right} at the traffic lights."
+  },
+  {
+   "id": "en-u2-station2-33",
+   "fx": "straight on",
+   "de": "geradeaus",
+   "s": "Go {straight on} for two hundred metres."
+  },
+  {
+   "id": "en-u2-station2-34",
+   "fx": "to cross",
+   "de": "überqueren; kreuzen",
+   "s": "Be careful when you {cross} the street."
+  },
+  {
+   "id": "en-u2-station2-35",
+   "fx": "footpath",
+   "de": "Fußweg",
+   "s": "We walked along the {footpath} next to the river."
+  },
+  {
+   "id": "en-u2-station2-36",
+   "fx": "along",
+   "de": "entlang",
+   "s": "Walk {along} the river to the bridge."
+  },
+  {
+   "id": "en-u2-station2-37",
+   "fx": "left",
+   "de": "links; linke; linker; linkes",
+   "s": "Turn {left} into King Street."
+  },
+  {
+   "id": "en-u2-station2-38",
+   "fx": "side",
+   "de": "Seite",
+   "s": "The shop is on the other {side} of the street."
+  },
+  {
+   "id": "en-u2-station2-39",
+   "fx": "step",
+   "de": "Stufe; Schritt",
+   "s": "Be careful – there's a {step} at the door."
+  },
+  {
+   "id": "en-u2-station2-40",
+   "fx": "past",
+   "de": "vorbei (an); vorüber (an)",
+   "s": "Walk {past} the church and the station is on your left."
+  },
+  {
+   "id": "en-u2-station2-41",
+   "fx": "opposite",
+   "de": "gegenüber; auf der anderen Seite von",
+   "s": "The bank is {opposite} the cinema."
+  },
+  {
+   "id": "en-u2-station2-42",
+   "fx": "on the right",
+   "de": "auf der rechten Seite",
+   "s": "The museum is {on the right}."
+  },
+  {
+   "id": "en-u2-station2-43",
+   "fx": "on the left",
+   "de": "auf der linken Seite",
+   "s": "You can see the castle {on the left}."
+  }
+ ]
+}

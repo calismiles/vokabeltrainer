@@ -57,6 +57,8 @@ const allDecks = () => [...S.builtin, ...S.user];
 const decksOf = lang => allDecks().filter(d => d.lang === lang);
 const deckById = id => allDecks().find(d => d.id === id);
 const dirsFor = dir => dir === 'mix' ? ['p', 'r'] : [dir];
+// passive Wörter (nur verstehen) werden nur Fremdsprache → Deutsch abgefragt
+const wDirs = (w, dirs) => w.passiv ? dirs.filter(d => d === 'r') : dirs;
 const key = (wid, dir) => wid + '|' + dir;
 const prog = (wid, dir) => S.progress[key(wid, dir)] || { b: 0, d: 0, n: 0, w: 0 };
 
@@ -137,7 +139,7 @@ function streak() {
 }
 function boxCounts(deck, dirs) {
   const c = [0, 0, 0, 0, 0, 0];
-  for (const w of deck.words) for (const dir of dirs) c[prog(w.id, dir).b]++;
+  for (const w of deck.words) for (const dir of wDirs(w, dirs)) c[prog(w.id, dir).b]++;
   return c;
 }
 function boxBar(c) {
@@ -173,8 +175,8 @@ function renderHome() {
   const dirs = dirsFor(S.settings.dir), t = today();
   let due = 0, fresh = 0, sentences = 0;
   for (const d of active) for (const w of d.words) {
-    for (const dir of dirs) { const p = prog(w.id, dir); if (p.b === 0) fresh++; else if (p.d <= t) due++; }
-    if (w.s) sentences++;
+    for (const dir of wDirs(w, dirs)) { const p = prog(w.id, dir); if (p.b === 0) fresh++; else if (p.d <= t) due++; }
+    if (w.s && !w.passiv) sentences++;
   }
   const done = S.stats.days[t] || 0, goal = S.settings.goal;
   const L = LANGS[lang].name;
@@ -234,7 +236,7 @@ function renderHome() {
 function startSession(mode, decks) {
   const t = today(), dirs = mode === 'sent' ? ['s'] : dirsFor(S.settings.dir);
   const cards = [];
-  for (const d of decks) for (const w of d.words) for (const dir of dirs) {
+  for (const d of decks) for (const w of d.words) for (const dir of wDirs(w, dirs)) {
     if (dir === 's' && !w.s) continue;
     cards.push({ w, deck: d, dir, p: prog(w.id, dir) });
   }
@@ -383,9 +385,9 @@ function renderUnit(id) {
     <p class="muted">${LANGS[d.lang].name} · ${d.words.length} Wörter · Punkt = Fach (${DIR_LABEL[S.settings.dir]})</p>
     ${boxBar(boxCounts(d, dirs))}${LEGEND}
     <ul class="wordlist">${d.words.map((w, i) => {
-      const b = Math.min(...dirs.map(x => prog(w.id, x).b));
-      return `<li><span class="dot" style="background:${BOX_COLORS[b]}"></span>
-        <div class="grow"><b>${disp(w.fx)}</b> – ${disp(w.de)}${w.s ? `<div class="muted">${esc(w.s.replace(/[{}]/g, ''))}</div>` : ''}</div>
+      const ds = wDirs(w, dirs), b = ds.length ? Math.min(...ds.map(x => prog(w.id, x).b)) : 0;
+      return `<li><span class="dot" style="background:${ds.length ? BOX_COLORS[b] : 'transparent'}"></span>
+        <div class="grow"><b>${disp(w.fx)}</b> – ${disp(w.de)}${w.passiv ? ' <span class="muted">(nur verstehen)</span>' : ''}${w.s ? `<div class="muted">${esc(w.s.replace(/[{}]/g, ''))}</div>` : ''}</div>
         <button class="btn-small" data-say="${i}">🔊</button>
         ${d.user ? `<button class="btn-small" data-edit="${i}">✎</button>` : ''}</li>`;
     }).join('')}</ul>

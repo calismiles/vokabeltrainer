@@ -1,0 +1,340 @@
+{
+ "id": "en-u2-story",
+ "lang": "en",
+ "title": "Unit 2 · Story, Unit task, Check-out",
+ "words": [
+  {
+   "id": "en-u2-story-01",
+   "fx": "far",
+   "de": "weit",
+   "s": "Is the station {far} from here?"
+  },
+  {
+   "id": "en-u2-story-02",
+   "fx": "silver",
+   "de": "Silber",
+   "s": "She has got a {silver} bracelet."
+  },
+  {
+   "id": "en-u2-story-03",
+   "fx": "arm",
+   "de": "Arm",
+   "s": "I broke my {arm} when I fell off my bike."
+  },
+  {
+   "id": "en-u2-story-04",
+   "fx": "to try on",
+   "de": "anprobieren",
+   "s": "Can I {try on} these jeans, please?"
+  },
+  {
+   "id": "en-u2-story-05",
+   "fx": "to grab",
+   "de": "greifen; ergreifen; schnappen",
+   "s": "The dog {grabbed} my sandwich and ran away."
+  },
+  {
+   "id": "en-u2-story-06",
+   "fx": "wrist",
+   "de": "Handgelenk",
+   "s": "She wears a watch on her {wrist}."
+  },
+  {
+   "id": "en-u2-story-07",
+   "fx": "to take off",
+   "de": "abnehmen; herunternehmen; ausziehen",
+   "s": "Please {take off} your shoes."
+  },
+  {
+   "id": "en-u2-story-08",
+   "fx": "to be careful",
+   "de": "vorsichtig sein; aufpassen",
+   "s": "{Be careful}! The floor is wet."
+  },
+  {
+   "id": "en-u2-story-09",
+   "fx": "to drop",
+   "de": "fallen lassen; fallen",
+   "s": "Don't {drop} the glass!"
+  },
+  {
+   "id": "en-u2-story-10",
+   "fx": "to roll off",
+   "de": "wegrollen; herunterrollen",
+   "s": "The ball {rolled off} the table."
+  },
+  {
+   "id": "en-u2-story-11",
+   "fx": "It's gone.",
+   "de": "Es ist weg."
+  },
+  {
+   "id": "en-u2-story-12",
+   "fx": "to be lucky",
+   "de": "Glück haben",
+   "s": "I {was lucky} and found my phone again."
+  },
+  {
+   "id": "en-u2-story-13",
+   "fx": "The tide is out.",
+   "de": "Es ist Ebbe.",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-14",
+   "fx": "mud",
+   "de": "Schlamm",
+   "s": "My boots are full of {mud}."
+  },
+  {
+   "id": "en-u2-story-15",
+   "fx": "shore",
+   "de": "Ufer; Küste",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-16",
+   "fx": "muddy",
+   "de": "schlammig",
+   "s": "The football pitch is very {muddy} after the rain."
+  },
+  {
+   "id": "en-u2-story-17",
+   "fx": "wet",
+   "de": "nass",
+   "s": "My hair is still {wet}."
+  },
+  {
+   "id": "en-u2-story-18",
+   "fx": "bucket",
+   "de": "Eimer",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-19",
+   "fx": "trowel",
+   "de": "kleiner Spaten",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-20",
+   "fx": "pollution",
+   "de": "Verschmutzung",
+   "s": "Cars cause a lot of air {pollution}."
+  },
+  {
+   "id": "en-u2-story-21",
+   "fx": "dead",
+   "de": "tot",
+   "s": "The plant is {dead} because I forgot to water it."
+  },
+  {
+   "id": "en-u2-story-22",
+   "fx": "to wash up",
+   "de": "angespült werden",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-23",
+   "fx": "human",
+   "de": "menschlich; Menschen-",
+   "s": "The {human} body has 206 bones."
+  },
+  {
+   "id": "en-u2-story-24",
+   "fx": "body",
+   "de": "Körper",
+   "s": "Swimming is good for your {body}."
+  },
+  {
+   "id": "en-u2-story-25",
+   "fx": "yuk",
+   "de": "igitt",
+   "s": "{Yuk}! This milk is old."
+  },
+  {
+   "id": "en-u2-story-26",
+   "fx": "to go back to",
+   "de": "zurückgehen auf",
+   "s": "This tradition {goes back to} the Romans."
+  },
+  {
+   "id": "en-u2-story-27",
+   "fx": "(the) most",
+   "de": "der meiste; die meiste; das meiste; die meisten",
+   "s": "{Most} of my friends have got a phone."
+  },
+  {
+   "id": "en-u2-story-28",
+   "fx": "broken",
+   "de": "kaputt; gebrochen",
+   "s": "My phone is {broken}. I need a new one."
+  },
+  {
+   "id": "en-u2-story-29",
+   "fx": "not any more",
+   "de": "nicht mehr"
+  },
+  {
+   "id": "en-u2-story-30",
+   "fx": "to hold",
+   "de": "halten; festhalten",
+   "s": "Can you {hold} my bag for a minute?"
+  },
+  {
+   "id": "en-u2-story-31",
+   "fx": "piece",
+   "de": "Stück",
+   "s": "Would you like a {piece} of pizza?"
+  },
+  {
+   "id": "en-u2-story-32",
+   "fx": "clay pipe",
+   "de": "Tonpfeife",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-33",
+   "fx": "lucky charm",
+   "de": "Glücksbringer; Talisman",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-34",
+   "fx": "treasure",
+   "de": "Schatz",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-35",
+   "fx": "to notice",
+   "de": "bemerken; wahrnehmen",
+   "s": "Did you {notice} the new girl in our class?"
+  },
+  {
+   "id": "en-u2-story-36",
+   "fx": "coin",
+   "de": "Münze",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-37",
+   "fx": "to scream",
+   "de": "schreien; kreischen",
+   "s": "She {screamed} when she saw the spider."
+  },
+  {
+   "id": "en-u2-story-38",
+   "fx": "to pull",
+   "de": "ziehen",
+   "s": "Don't {pull} the cat's tail!"
+  },
+  {
+   "id": "en-u2-story-39",
+   "fx": "suddenly",
+   "de": "plötzlich; auf einmal",
+   "s": "We were in the park when {suddenly} it started to rain."
+  },
+  {
+   "id": "en-u2-story-40",
+   "fx": "rock",
+   "de": "Fels; Stein",
+   "s": "We sat on a big {rock} by the sea."
+  },
+  {
+   "id": "en-u2-story-41",
+   "fx": "dramatic",
+   "de": "dramatisch",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-42",
+   "fx": "safely",
+   "de": "sicher",
+   "s": "The plane landed {safely}."
+  },
+  {
+   "id": "en-u2-story-43",
+   "fx": "onto",
+   "de": "auf; auf … hinauf",
+   "s": "The cat jumped {onto} the table."
+  },
+  {
+   "id": "en-u2-story-44",
+   "fx": "idiot",
+   "de": "Idiot; Idiotin",
+   "s": "I'm such an {idiot} – I forgot my keys again!"
+  },
+  {
+   "id": "en-u2-story-45",
+   "fx": "difference",
+   "de": "Unterschied",
+   "s": "What's the {difference} between a mouse and a rat?"
+  },
+  {
+   "id": "en-u2-story-46",
+   "fx": "wine",
+   "de": "Wein",
+   "passiv": true
+  },
+  {
+   "id": "en-u2-story-47",
+   "fx": "budget",
+   "de": "Etat; Budget",
+   "s": "Our {budget} for the class trip is two hundred pounds."
+  },
+  {
+   "id": "en-u2-story-48",
+   "fx": "at least",
+   "de": "mindestens; wenigstens",
+   "s": "You need {at least} two hours for the museum."
+  },
+  {
+   "id": "en-u2-story-49",
+   "fx": "for free",
+   "de": "umsonst; kostenlos",
+   "s": "You can visit the museum {for free}."
+  },
+  {
+   "id": "en-u2-story-50",
+   "fx": "to feed",
+   "de": "füttern; ernähren",
+   "s": "Can you {feed} the cat, please?"
+  },
+  {
+   "id": "en-u2-story-51",
+   "fx": "That isn't allowed.",
+   "de": "Das ist nicht erlaubt.; Das darf man nicht."
+  },
+  {
+   "id": "en-u2-story-52",
+   "fx": "athlete",
+   "de": "Athlet; Athletin; Leichtathlet; Leichtathletin",
+   "s": "The {athletes} are running in the stadium."
+  },
+  {
+   "id": "en-u2-story-53",
+   "fx": "everybody",
+   "de": "jeder; alle",
+   "s": "{Everybody} in my class likes our teacher."
+  },
+  {
+   "id": "en-u2-story-54",
+   "fx": "trail",
+   "de": "Weg; Pfad; Spur",
+   "s": "We walked along a {trail} through the forest."
+  },
+  {
+   "id": "en-u2-story-55",
+   "fx": "dinosaur",
+   "de": "Dinosaurier",
+   "s": "{Dinosaurs} lived millions of years ago."
+  },
+  {
+   "id": "en-u2-story-56",
+   "fx": "future",
+   "de": "Zukunft",
+   "s": "In the {future} I want to live in London."
+  }
+ ]
+}
