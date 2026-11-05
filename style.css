@@ -127,3 +127,10 @@ textarea { min-height: 120px; font-family: ui-monospace, Consolas, monospace; fo
 .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg);
   padding: 10px 16px; border-radius: 10px; z-index: 20; }
 .part .desc { font-size: .9rem; font-style: italic; margin-top: 2px; }
+
+/* Aussprache */
+.saybar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; justify-content: center; }
+.said { margin-top: 8px; padding: 8px 10px; border-radius: 8px; text-align: left; }
+.said.ok { background: color-mix(in srgb, var(--ok) 15%, transparent); }
+.said.bad { background: color-mix(in srgb, var(--warn) 15%, transparent); }
+.say-sent { cursor: pointer; }

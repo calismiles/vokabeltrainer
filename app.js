@@ -14,7 +14,7 @@ const INTERVAL = [0, 1, 2, 4, 8, 16];
 const BOX_NAMES = ['neu', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5'];
 const BOX_COLORS = ['var(--box0)', 'var(--box1)', 'var(--box2)', 'var(--box3)', 'var(--box4)', 'var(--box5)'];
 const DIR_LABEL = { p: 'Deutsch → Fremdsprache', r: 'Fremdsprache → Deutsch', mix: 'gemischt' };
-const DEFAULT_SETTINGS = { dir: 'p', goal: 20, newPerSession: 10, sessionMax: 25, speak: true, lang: 'en', selected: { en: [], fr: [] } };
+const DEFAULT_SETTINGS = { dir: 'p', goal: 20, newPerSession: 10, sessionMax: 25, speak: true, speakSent: false, lang: 'en', selected: { en: [], fr: [] } };
 // Streak-Eis: verdient man mit einer guten Runde (mind. ICE_MIN_CARDS Karten, mind. 90 % beim ersten Versuch richtig)
 const ICE_MAX = 3, ICE_MIN_CARDS = 10, ICE_MIN_RATE = 0.9;
 
@@ -141,12 +141,102 @@ function diffHtml(ops) {
 }
 const typedHtml = res => res.dist <= 3 ? diffHtml(res.ops) : esc(res.typed);
 
-// ---------- Aussprache ----------
-function speak(text, lang, force) {
+// ---------- Aussprache: Vorlesen und Spracherkennung ----------
+let voices = [];
+const loadVoices = () => { if ('speechSynthesis' in window) voices = speechSynthesis.getVoices(); };
+loadVoices();
+if ('speechSynthesis' in window) speechSynthesis.onvoiceschanged = loadVoices;
+function pickVoice(tts) {
+  const v = voices.map(x => ({ x, l: x.lang.replace('_', '-') }));
+  return (v.find(o => o.l === tts) || v.find(o => o.l.startsWith(tts.slice(0, 2))) || {}).x;
+}
+const sayText = s => String(s ?? '').replace(/[{}()]/g, '').split(';')[0];
+// text darf ein Array sein (wird nacheinander gelesen); slow = Schildkrötentempo
+function speak(text, lang, force, slow) {
   if ((!S.settings.speak && !force) || !('speechSynthesis' in window) || !text) return;
-  const u = new SpeechSynthesisUtterance(String(text).replace(/[{}()]/g, '').split(';')[0]);
-  u.lang = LANGS[lang].tts; u.rate = 0.9;
-  speechSynthesis.cancel(); speechSynthesis.speak(u);
+  speechSynthesis.cancel();
+  for (const t of [].concat(text).filter(Boolean)) {
+    const u = new SpeechSynthesisUtterance(sayText(t));
+    u.lang = LANGS[lang].tts; u.rate = slow ? 0.55 : 0.9;
+    const vo = pickVoice(u.lang); if (vo) u.voice = vo;
+    speechSynthesis.speak(u);
+  }
+}
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+const canListen = !!SR;
+// Ergebnis: Liste der Dinge, die die Erkennung verstanden haben könnte (beste zuerst)
+function listen(lang) {
+  return new Promise((resolve, reject) => {
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    const r = new SR();
+    r.lang = LANGS[lang].tts; r.maxAlternatives = 5; r.interimResults = false; r.continuous = false;
+    let got = null;
+    r.onresult = e => { got = [...e.results[0]].map(a => a.transcript); };
+    r.onerror = e => reject(e.error);
+    r.onend = () => resolve(got || []);
+    try { r.start(); } catch (e) { reject('busy'); }
+  });
+}
+// gesprochen ≠ geschrieben: Groß/klein, Akzente, Satzzeichen, Artikel und "to" sind egal
+const normSay = s => stripAccents(clean(s).toLowerCase().replace(/œ/g, 'oe').replace(/['’]/g, "' "))
+  .replace(/[^a-z0-9' ]/g, ' ').replace(/\s+/g, ' ').trim()
+  .replace(/^(to|the|a|an|le|la|les|l'|un|une|des|du|de la) /, '').trim();
+function judgeSaid(alts, target) {
+  const ts = variants(target).map(normSay).filter(Boolean);
+  for (const a of alts) {
+    const n = normSay(a), padded = ` ${n} `;
+    for (const t of ts) {
+      if (n === t || padded.includes(` ${t} `)) return { ok: true, said: a };
+      const tw = t.split(' ');                         // längere Sätze: fast alle Wörter erkannt reicht
+      if (tw.length >= 4) {
+        const nw = n.split(' ');
+        if (tw.filter(w => nw.includes(w)).length / tw.length >= 0.85) return { ok: true, said: a };
+      }
+    }
+  }
+  return { ok: false, said: alts[0] || '' };
+}
+const LISTEN_ERR = {
+  'not-allowed': 'Das Mikrofon ist nicht erlaubt. Bitte in den Browser-Einstellungen freigeben.',
+  'service-not-allowed': 'Spracherkennung ist auf diesem Gerät nicht verfügbar.',
+  'no-speech': 'Ich habe nichts gehört – sprich etwas lauter.',
+  'audio-capture': 'Kein Mikrofon gefunden.',
+  'network': 'Die Spracherkennung braucht Internet.',
+  'aborted': 'Abgebrochen.', 'busy': 'Einen Moment …',
+};
+// Mikrofon-Knopf: onDone(ok) wird nach jedem Versuch aufgerufen
+function bindMic(btn, out, lang, target, onDone) {
+  if (!btn) return;
+  const label = btn.textContent;
+  btn.onclick = async () => {
+    btn.disabled = true; btn.textContent = '🎙️ Ich höre zu …'; out.innerHTML = '';
+    try {
+      const alts = await listen(lang);
+      if (!alts.length) throw 'no-speech';
+      const r = judgeSaid(alts, target);
+      out.innerHTML = r.ok ? `<div class="said ok">✔ Gut ausgesprochen!</div>`
+        : `<div class="said bad">Verstanden habe ich: „${esc(r.said)}“ – hör es dir an und versuch es noch einmal.</div>`;
+      if (onDone) onDone(r.ok);
+    } catch (e) {
+      out.innerHTML = `<div class="said bad">${esc(LISTEN_ERR[e] || 'Spracherkennung hat nicht geklappt (' + e + ').')}</div>`;
+    }
+    btn.disabled = false; btn.textContent = label;
+  };
+}
+// Knopfleiste unter dem Ergebnis: anhören, langsam, Satz, nachsprechen
+function sayBar(sentence, mic = true) {
+  return `<div class="saybar">
+    <button class="btn-small" data-hear="0">🔊 Anhören</button>
+    <button class="btn-small" data-hear="1" aria-label="Langsam anhören">🐢 Langsam</button>
+    ${sentence ? '<button class="btn-small" data-hear="2">🔊 Satz</button>' : ''}
+    ${canListen && mic ? '<button class="btn-small" id="mic">🎤 Nachsprechen</button>' : ''}
+  </div>${mic ? '<div id="mic-out"></div>' : ''}`;
+}
+function bindSayBar(lang, word, sentence, mic = true) {
+  $app.querySelectorAll('[data-hear]').forEach(b => b.onclick = () => {
+    const m = +b.dataset.hear; speak(m === 2 ? sentence : word, lang, true, m === 1);
+  });
+  if (mic) bindMic(document.getElementById('mic'), document.getElementById('mic-out'), lang, word);
 }
 
 // ---------- Streak mit Eis ----------
@@ -311,6 +401,7 @@ function renderHome() {
       <div class="row" style="margin-top:8px">
         <button class="grow" id="go-sent" ${sentences ? '' : 'disabled'}>Lückensätze</button>
         <button class="grow" id="go-test">Test üben</button>
+        ${canListen ? '<button class="grow" id="go-say">🎤 Aussprechen</button>' : ''}
       </div>
       <button class="btn-big" id="go-weak" style="margin-top:8px" ${weak ? '' : 'disabled'}>🔴 Wackelige Wörter üben (${weak})</button>
       ${due + fresh ? '' : '<p class="muted">Für heute ist alles erledigt. 🎉</p>'}
@@ -378,6 +469,7 @@ function renderHome() {
   document.getElementById('go-learn').onclick = () => startSession('learn', active);
   document.getElementById('go-sent').onclick = () => startSession('sent', active);
   document.getElementById('go-weak').onclick = () => startSession('weak', active);
+  const gs = document.getElementById('go-say'); if (gs) gs.onclick = () => startSession('say', active);
   document.getElementById('go-test').onclick = () => {
     if (!sel.length) { toast('Wähle zuerst unten die Teile für den Test aus.'); return; }
     startSession('test', active);
@@ -389,7 +481,10 @@ function startSession(mode, decks) {
   const t = today();
   const cards = decks.flatMap(d => cardsOf(d, mode));
   let queue;
-  if (mode === 'test') queue = shuffle(cards);
+  if (mode === 'say') {          // Aussprechen: schon gelernte Wörter zuerst, Level ändern sich nicht
+    const ws = decks.flatMap(d => d.words.filter(w => w.fx && !w.passiv).map(w => ({ w, deck: d, dir: 'say', p: prog(w.id, 'p') })));
+    queue = [...shuffle(ws.filter(c => c.p.b > 0)), ...shuffle(ws.filter(c => c.p.b === 0))].slice(0, S.settings.sessionMax);
+  } else if (mode === 'test') queue = shuffle(cards);
   else if (mode === 'weak') queue = shuffle(cards.filter(c => c.p.b === 1 || c.p.b === 2));
   else {
     const due = shuffle(cards.filter(c => c.p.b > 0 && c.p.d <= t)).slice(0, S.settings.sessionMax);
@@ -406,6 +501,7 @@ const inputAttrs = lang => `lang="${lang}" autocomplete="off" autocorrect="off" 
 function renderCard() {
   const s = S.session; if (!s) return renderHome();
   if (s.i >= s.queue.length) return renderDone();
+  if (s.mode === 'say') return renderSayCard();
   const c = s.queue[s.i], lang = c.deck.lang, L = LANGS[lang].name, type = dtype(c.deck);
   setTitle(type === 'grammar' ? 'Grammatik' : type === 'verbs' ? 'Verben' : s.mode === 'test' ? 'Test üben' : s.mode === 'weak' ? 'Wackelige Wörter' : s.mode === 'sent' ? 'Lückensätze' : 'Lernen');
   const answerLang = c.dir === 'r' ? 'de' : lang;
@@ -466,6 +562,38 @@ function renderCard() {
   document.getElementById('quit').onclick = () => { if (s.i > 0) renderDone(); else renderHome(); };
 }
 
+function renderSayCard() {
+  const s = S.session, c = s.queue[s.i], lang = c.deck.lang, L = LANGS[lang].name;
+  const sentence = c.w.s ? fillGap(c.w.s) : null;
+  setTitle('Aussprechen');
+  $app.innerHTML = `
+    <div class="progress-top"><span>${s.i + 1} / ${s.queue.length}</span><span>✔ ${s.right} · ✘ ${s.wrong}</span></div>
+    <div class="goalbar"><div style="width:${s.i / s.queue.length * 100}%"></div></div>
+    <div class="card quiz-card">
+      <div class="prompt-lang">Sag es auf ${L}</div><div class="prompt">${disp(c.w.de)}</div>
+      <button class="btn-primary btn-big" id="mic">🎤 Sprechen</button>
+      <div id="mic-out"></div><div id="sol"></div>
+      <button class="btn-big" id="next" style="margin-top:12px">Lösung zeigen</button>
+    </div>
+    <button class="btn-small" id="quit">Beenden</button>`;
+  const next = document.getElementById('next'), sol = document.getElementById('sol');
+  let tries = 0, decided = false, shown = false;
+  const decide = ok => { if (decided) return; decided = true; ok ? s.right++ : s.wrong++; countAnswer(); };
+  const reveal = () => {
+    if (shown) return; shown = true;
+    sol.innerHTML = `<div class="prompt">${disp(c.w.fx)}</div>${sentence ? `<div class="muted">${esc(sentence)}</div>` : ''}${sayBar(sentence, false)}`;
+    bindSayBar(lang, c.w.fx, sentence, false);
+    next.textContent = 'Weiter'; next.classList.add('btn-primary');
+  };
+  bindMic(document.getElementById('mic'), document.getElementById('mic-out'), lang, c.w.fx, ok => {
+    tries++;
+    if (ok) { decide(tries === 1); reveal(); }
+    else if (tries >= 3) { decide(false); reveal(); speak(c.w.fx, lang, true); }
+  });
+  next.onclick = () => { if (shown) return advance(); decide(false); reveal(); speak(c.w.fx, lang, true); };
+  document.getElementById('quit').onclick = () => { if (s.i > 0) renderDone(); else renderHome(); };
+}
+
 function answer(c, input, input2) {
   const s = S.session, lang = c.deck.lang;
   s.answered = true;
@@ -480,7 +608,10 @@ function answer(c, input, input2) {
       ${line('simple past', r1, c.w.v[1])}${line('past participle', r2, c.w.v[2])}
       <div class="muted">${disp(c.w.v.join(' – '))} = ${disp(c.w.de)}</div>
       ${ok ? '' : '<p class="muted">Kommt in dieser Runde gleich noch einmal.</p>'}</div>`;
-    speak(c.w.v.map(x => x.split(';')[0]).join(', '), lang);
+    const forms = c.w.v.map(x => x.split(';')[0]).join(', ');
+    fb.firstElementChild.insertAdjacentHTML('beforeend', sayBar(null));
+    bindSayBar(lang, forms, null);
+    speak(forms, lang);
   } else {
     const target = c.dir === 'r' ? c.w.de : c.dir === 's' ? gapAnswer(c.w.s) : c.w.fx;
     const res = check(input, target, c.dir !== 'r');
@@ -503,7 +634,11 @@ function answer(c, input, input2) {
       const ov = document.getElementById('override');
       if (ov) ov.onclick = () => { undoWrong(c); ov.remove(); toast('Als richtig gezählt.'); };
     }
-    speak(c.dir === 's' ? fillGap(c.w.s) : c.w.fx, lang);
+    const grammar = dtype(c.deck) === 'grammar';
+    const word = grammar ? fillGap(c.w.s) : c.w.fx, sentence = !grammar && c.w.s ? fillGap(c.w.s) : null;
+    fb.firstElementChild.insertAdjacentHTML('beforeend', sayBar(sentence));
+    bindSayBar(lang, word, sentence);
+    speak(c.dir === 's' ? [fillGap(c.w.s)] : S.settings.speakSent && sentence ? [word, sentence] : word, lang);
   }
   document.getElementById('next').textContent = 'Weiter';
   document.getElementById('next').focus();
@@ -558,6 +693,7 @@ function renderDone() {
     <p>✔ ${s.right} richtig · ✘ ${s.wrong} falsch</p>
     <p>${d >= g ? `Tagesziel erreicht! 🔥 ${st.n} Tag(e) in Folge.` : `Noch ${g - d} Antworten bis zum Tagesziel.`}</p>
     ${iceMsg}
+    ${s.mode === 'say' ? '<p class="muted">Beim Aussprechen ändern sich die Level nicht – es zählt nur fürs Tagesziel.</p>' : ''}
     ${s.mode === 'test' || s.mode === 'weak' ? '<p class="muted">Bei dieser Übung steigen richtige Wörter kein Level auf – falsche gehen zurück auf Level 1. Aufsteigen tun sie, wenn sie wieder regulär dran sind.</p>' : ''}
     <button class="btn-primary btn-big" id="home">Zur Übersicht</button></div>`;
   document.getElementById('home').onclick = renderHome;
@@ -580,7 +716,7 @@ function renderUnit(id) {
       <div class="muted">${disp(w.de)}</div></div><button class="btn-small" data-say="${i}">🔊</button></li>`).join('');
   else list = d.words.map((w, i) => `<li>${dot(w)}
         <div class="grow"><b>${disp(w.fx)}</b> – ${disp(w.de)}${w.passiv ? ' <span class="muted">(nur verstehen)</span>' : ''}
-          ${w.s ? `<div class="muted">${esc(fillGap(w.s))}</div>` : ''}</div>
+          ${w.s ? `<div class="muted say-sent" data-says="${i}">🔊 ${esc(fillGap(w.s))}</div>` : ''}</div>
         <button class="btn-small" data-say="${i}">🔊</button>
         ${d.user ? `<button class="btn-small" data-edit="${i}">✎</button>` : ''}</li>`).join('');
   $app.innerHTML = `
@@ -595,6 +731,7 @@ function renderUnit(id) {
   $app.querySelectorAll('[data-say]').forEach(b => b.onclick = () => {
     const w = d.words[+b.dataset.say]; speak(type === 'verbs' ? w.v.map(x => x.split(';')[0]).join(', ') : w.fx, d.lang, true);
   });
+  $app.querySelectorAll('[data-says]').forEach(b => b.onclick = () => speak(fillGap(d.words[+b.dataset.says].s), d.lang, true));
   const ul = document.getElementById('u-learn'), ua = document.getElementById('u-all');
   if (ul) ul.onclick = () => startSession('learn', [d]);
   if (ua) ua.onclick = () => startSession('test', [d]);
@@ -657,7 +794,8 @@ function renderMenu() {
       <div class="field"><label>Tagesziel (Antworten pro Tag)</label><input type="number" id="s-goal" min="5" max="200" value="${st.goal}"></div>
       <div class="field"><label>Neue Wörter pro Runde</label><input type="number" id="s-new" min="1" max="50" value="${st.newPerSession}"></div>
       <div class="field"><label>Höchstens fällige Wörter pro Runde</label><input type="number" id="s-max" min="5" max="200" value="${st.sessionMax}"></div>
-      <label class="check"><input type="checkbox" id="s-speak" ${st.speak ? 'checked' : ''}> Aussprache vorlesen</label>
+      <label class="check"><input type="checkbox" id="s-speak" ${st.speak ? 'checked' : ''}> Aussprache nach jeder Antwort vorlesen</label>
+      <label class="check"><input type="checkbox" id="s-sent" ${st.speakSent ? 'checked' : ''}> Beispielsatz auch vorlesen</label>
     </div>
     <h2>Sicherung</h2>
     <div class="card">
@@ -671,6 +809,7 @@ function renderMenu() {
       Falsch → zurück auf Level 1, und es kommt in derselben Runde gleich noch einmal.
       Am besten jeden Tag kurz üben statt einmal lang – so bleibt am meisten hängen.
       „Test üben“ fragt alle Wörter der ausgewählten Units ab, egal auf welchem Level.
+      „🎤 Aussprechen“: Du siehst das deutsche Wort und sprichst es in der Fremdsprache. Das Handy prüft, ob es dich versteht.
       „Wackelige Wörter üben“ fragt alle Wörter auf Level 1 und 2 ab – auch wenn sie heute noch nicht dran wären.
     </div>
     <details class="card"><summary class="muted">Für Eltern</summary>
@@ -679,6 +818,7 @@ function renderMenu() {
   const num = (id, k, min) => document.getElementById(id).onchange = e => { st[k] = Math.max(min, +e.target.value || min); save.settings(); };
   num('s-goal', 'goal', 5); num('s-new', 'newPerSession', 1); num('s-max', 'sessionMax', 5);
   document.getElementById('s-speak').onchange = e => { st.speak = e.target.checked; save.settings(); };
+  document.getElementById('s-sent').onchange = e => { st.speakSent = e.target.checked; save.settings(); };
   document.getElementById('n-create').onclick = () => {
     const title = document.getElementById('n-title').value.trim(), lang = document.getElementById('n-lang').value;
     if (!title) { toast('Bitte einen Namen eingeben.'); return; }
