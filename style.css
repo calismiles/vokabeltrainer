@@ -126,3 +126,4 @@ textarea { min-height: 120px; font-family: ui-monospace, Consolas, monospace; fo
 .done .big { font-size: 3rem; }
 .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg);
   padding: 10px 16px; border-radius: 10px; z-index: 20; }
+.part .desc { font-size: .9rem; font-style: italic; margin-top: 2px; }

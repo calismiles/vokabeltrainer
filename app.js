@@ -264,7 +264,7 @@ function unitGroups(decks, sel) {
         const on = sel.includes(d.id);
         return `<div class="part ${on ? 'selected' : ''}" data-deck="${d.id}">
           <span class="check">${on ? '☑' : '☐'}</span>
-          <div class="grow">${esc(partOf(d))}<div class="muted">${d.words.length} Wörter</div>${boxBar(boxCounts(d))}</div>
+          <div class="grow">${esc(partOf(d))}${d.desc ? `<div class="desc">${esc(d.desc)}</div>` : ""}<div class="muted">${d.words.length} Wörter</div>${boxBar(boxCounts(d))}</div>
           <button class="btn-small" data-words="${d.id}">Wörter</button></div>`;
       }).join('')}</div></details>`;
   }).join('');
