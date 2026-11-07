@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-artDef",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 1 · der bestimmte Artikel le, la, l', les",
+ "rule": "Männlich: **le** garçon · weiblich: **la** fille\nVor Vokal und stummem h: **l'**: l'ami, l'amie, l'hôtel\nPlural (männlich und weiblich): **les**: les garçons, les filles\nBei Vorlieben steht immer der Artikel: J'aime **le** sport. Je n'aime pas **les** tomates.",
+ "words": [
+  {
+   "id": "fr-gr-artDef-01",
+   "s": "{Le} cinéma est à côté du parc.",
+   "de": "le, la, l' oder les? (cinéma: m.)"
+  },
+  {
+   "id": "fr-gr-artDef-02",
+   "s": "J'aime {la} musique.",
+   "de": "le, la, l' oder les? (musique: f.)"
+  },
+  {
+   "id": "fr-gr-artDef-03",
+   "s": "{L'}hôtel est près de la gare.",
+   "de": "le, la, l' oder les?"
+  },
+  {
+   "id": "fr-gr-artDef-04",
+   "s": "Tu aimes {les} chats ?",
+   "de": "le, la, l' oder les? (Plural)"
+  },
+  {
+   "id": "fr-gr-artDef-05",
+   "s": "{La} tour Eiffel est à Paris.",
+   "de": "le, la, l' oder les? (tour: f.)"
+  },
+  {
+   "id": "fr-gr-artDef-06",
+   "s": "C'est {l'}amie de Léa.",
+   "de": "le, la, l' oder les?"
+  },
+  {
+   "id": "fr-gr-artDef-07",
+   "s": "Je n'aime pas {les} tomates.",
+   "de": "le, la, l' oder les? (Plural)"
+  },
+  {
+   "id": "fr-gr-artDef-08",
+   "s": "{Le} parc est super.",
+   "de": "le, la, l' oder les? (parc: m.)"
+  },
+  {
+   "id": "fr-gr-artDef-09",
+   "s": "{La} gare est loin.",
+   "de": "le, la, l' oder les? (gare: f.)"
+  },
+  {
+   "id": "fr-gr-artDef-10",
+   "s": "Voilà {le} stade.",
+   "de": "le, la, l' oder les? (stade: m.)"
+  },
+  {
+   "id": "fr-gr-artDef-11",
+   "s": "{Les} enfants jouent au foot.",
+   "de": "le, la, l' oder les? (Plural)"
+  },
+  {
+   "id": "fr-gr-artDef-12",
+   "s": "Où est {l'}école ?",
+   "de": "le, la, l' oder les?"
+  },
+  {
+   "id": "fr-gr-artDef-13",
+   "s": "J'aime {le} chocolat.",
+   "de": "le, la, l' oder les? (chocolat: m.)"
+  },
+  {
+   "id": "fr-gr-artDef-14",
+   "s": "Tu aimes {la} pizza ?",
+   "de": "le, la, l' oder les? (pizza: f.)"
+  }
+ ]
+}

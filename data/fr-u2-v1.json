@@ -1,0 +1,146 @@
+{
+ "id": "fr-u2-v1",
+ "lang": "fr",
+ "title": "Unité 2 · Volet 1",
+ "desc": "Tu as des frères et sœurs? – avoir, je voudrais",
+ "words": [
+  {
+   "id": "fr-u2-v1-01",
+   "fx": "avoir",
+   "de": "haben",
+   "s": "Je voudrais {avoir} un chien."
+  },
+  {
+   "id": "fr-u2-v1-02",
+   "fx": "avoir … ans",
+   "de": "… Jahre alt sein",
+   "s": "Ma sœur {a} huit ans."
+  },
+  {
+   "id": "fr-u2-v1-03",
+   "fx": "Je n'ai pas de frères et sœurs.",
+   "de": "Ich habe keine Geschwister.",
+   "s": "Moi, {je n'ai pas de frères et sœurs}."
+  },
+  {
+   "id": "fr-u2-v1-04",
+   "fx": "la moto",
+   "de": "das Motorrad",
+   "s": "Mon oncle a une {moto} rouge."
+  },
+  {
+   "id": "fr-u2-v1-05",
+   "fx": "être fan de qn/qc",
+   "de": "Fan von jdm/etw. sein",
+   "s": "Mon frère {est fan de} basket."
+  },
+  {
+   "id": "fr-u2-v1-06",
+   "fx": "comme moi",
+   "de": "wie ich",
+   "s": "Tu aimes la pizza ? {Comme moi} !"
+  },
+  {
+   "id": "fr-u2-v1-07",
+   "fx": "à la maison",
+   "de": "zu Hause; daheim",
+   "s": "Le dimanche, je reste {à la maison}."
+  },
+  {
+   "id": "fr-u2-v1-08",
+   "fx": "ils/elles s'appellent",
+   "de": "sie heißen",
+   "s": "Mes chats {s'appellent} Tom et Tim."
+  },
+  {
+   "id": "fr-u2-v1-09",
+   "fx": "c'est vrai",
+   "de": "das stimmt; das ist wahr",
+   "s": "– Tu as un cheval ? {C'est vrai} ?"
+  },
+  {
+   "id": "fr-u2-v1-10",
+   "fx": "c'est drôle",
+   "de": "das ist lustig",
+   "s": "Ton chien danse ? {C'est drôle} !"
+  },
+  {
+   "id": "fr-u2-v1-11",
+   "fx": "chez",
+   "de": "bei",
+   "s": "Ce soir, je dors {chez} ma grand-mère."
+  },
+  {
+   "id": "fr-u2-v1-12",
+   "fx": "moi aussi",
+   "de": "ich auch",
+   "s": "– J'aime les chats. – {Moi aussi} !"
+  },
+  {
+   "id": "fr-u2-v1-13",
+   "fx": "je voudrais",
+   "de": "ich möchte",
+   "s": "{Je voudrais} un lapin."
+  },
+  {
+   "id": "fr-u2-v1-14",
+   "fx": "le beau-père",
+   "de": "der Stiefvater",
+   "s": "Mon {beau-père} est très sympa."
+  },
+  {
+   "id": "fr-u2-v1-15",
+   "fx": "la belle-mère",
+   "de": "die Stiefmutter",
+   "s": "Ma {belle-mère} s'appelle Sophie."
+  },
+  {
+   "id": "fr-u2-v1-16",
+   "fx": "être contre qn/qc",
+   "de": "dagegen sein; gegen jdn/etw. sein",
+   "s": "Je voudrais un chat, mais mon père {est contre}."
+  },
+  {
+   "id": "fr-u2-v1-17",
+   "fx": "une allergie",
+   "de": "eine Allergie",
+   "s": "J'ai une {allergie} aux chats."
+  },
+  {
+   "id": "fr-u2-v1-18",
+   "fx": "c'est nul",
+   "de": "das ist doof",
+   "s": "Pas de télé ce soir ? {C'est nul} !"
+  },
+  {
+   "id": "fr-u2-v1-19",
+   "fx": "oui et non",
+   "de": "ja und nein; teils, teils",
+   "s": "– Tu aimes l'école ? – {Oui et non}."
+  },
+  {
+   "id": "fr-u2-v1-20",
+   "fx": "Je n'ai pas d'animal.",
+   "de": "Ich habe kein Haustier.",
+   "s": "{Je n'ai pas d'animal}, mais je voudrais un chien."
+  },
+  {
+   "id": "fr-u2-v1-21",
+   "fx": "chou",
+   "de": "süß",
+   "s": "Ton petit lapin est trop {chou} !"
+  },
+  {
+   "id": "fr-u2-v1-22",
+   "fx": "encore",
+   "de": "noch; wieder",
+   "s": "Tu es {encore} en retard !"
+  },
+  {
+   "id": "fr-u2-v1-23",
+   "fx": "c'est dommage",
+   "de": "das ist schade",
+   "s": "Tu ne viens pas ? {C'est dommage} !"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "id": "fr-u1-v3",
+ "lang": "fr",
+ "title": "Unité 1 · Volet 3",
+ "desc": "Qu'est-ce qu'il y a à Paris? – il y a, un/une/des",
+ "words": [
+  {
+   "id": "fr-u1-v3-01",
+   "fx": "Qu'est-ce qu'il y a …?",
+   "de": "Was gibt es …?",
+   "s": "{Qu'est-ce qu'il y a} dans ton quartier ?"
+  },
+  {
+   "id": "fr-u1-v3-02",
+   "fx": "il y a",
+   "de": "es gibt",
+   "s": "Dans mon quartier, {il y a} un parc."
+  },
+  {
+   "id": "fr-u1-v3-03",
+   "fx": "la question",
+   "de": "die Frage",
+   "s": "J'ai une {question}, Madame."
+  },
+  {
+   "id": "fr-u1-v3-04",
+   "fx": "la réponse",
+   "de": "die Antwort",
+   "s": "Je ne sais pas la {réponse}."
+  },
+  {
+   "id": "fr-u1-v3-05",
+   "fx": "la cathédrale",
+   "de": "die Kathedrale; der Dom",
+   "s": "La {cathédrale} est très vieille."
+  },
+  {
+   "id": "fr-u1-v3-06",
+   "fx": "comme",
+   "de": "wie; wie z. B.",
+   "s": "Il y a des animaux, {comme} des chats et des chiens."
+  },
+  {
+   "id": "fr-u1-v3-07",
+   "fx": "la gare",
+   "de": "der Bahnhof",
+   "s": "Le train arrive à la {gare}."
+  },
+  {
+   "id": "fr-u1-v3-08",
+   "fx": "par exemple",
+   "de": "zum Beispiel",
+   "s": "J'aime les fruits, {par exemple} les pommes."
+  },
+  {
+   "id": "fr-u1-v3-09",
+   "fx": "pour",
+   "de": "für",
+   "s": "Ce cadeau, c'est {pour} toi !"
+  },
+  {
+   "id": "fr-u1-v3-10",
+   "fx": "le/la fan",
+   "de": "der Fan",
+   "s": "Je suis {fan} de basket."
+  },
+  {
+   "id": "fr-u1-v3-11",
+   "fx": "la science",
+   "de": "die Wissenschaft",
+   "s": "La {science}, c'est passionnant !"
+  },
+  {
+   "id": "fr-u1-v3-12",
+   "fx": "le/la fan de sciences",
+   "de": "der Wissenschaftsfan",
+   "s": "Mon frère est un {fan de sciences}."
+  },
+  {
+   "id": "fr-u1-v3-13",
+   "fx": "le magasin",
+   "de": "das Geschäft; der Laden",
+   "s": "Le {magasin} est fermé le dimanche."
+  },
+  {
+   "id": "fr-u1-v3-14",
+   "fx": "le centre commercial",
+   "de": "das Einkaufszentrum",
+   "s": "On va au {centre commercial} samedi ?"
+  },
+  {
+   "id": "fr-u1-v3-15",
+   "fx": "la boulangerie",
+   "de": "die Bäckerei",
+   "s": "J'achète du pain à la {boulangerie}."
+  },
+  {
+   "id": "fr-u1-v3-16",
+   "fx": "en plus",
+   "de": "außerdem",
+   "s": "Le film est super. {En plus}, il est drôle !"
+  },
+  {
+   "id": "fr-u1-v3-17",
+   "fx": "entre",
+   "de": "zwischen",
+   "s": "Le café est {entre} la gare et le parc."
+  }
+ ]
+}

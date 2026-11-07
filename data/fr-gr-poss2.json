@@ -1,0 +1,59 @@
+{
+ "id": "fr-gr-poss2",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 4 · die Possessivbegleiter notre, votre, leur",
+ "rule": "unser: **notre** collège · **nos** profs\neuer/Ihr: **votre** classe · **vos** cahiers\nihr (mehrere Besitzer): **leur** prof · **leurs** amis\nIm Singular gibt es nur eine Form für männlich und weiblich.",
+ "words": [
+  {
+   "id": "fr-gr-poss2-01",
+   "s": "C'est {notre} collège.",
+   "de": "unser"
+  },
+  {
+   "id": "fr-gr-poss2-02",
+   "s": "Ce sont {nos} profs.",
+   "de": "unser"
+  },
+  {
+   "id": "fr-gr-poss2-03",
+   "s": "Prenez {vos} cahiers !",
+   "de": "euer"
+  },
+  {
+   "id": "fr-gr-poss2-04",
+   "s": "C'est {votre} classe ?",
+   "de": "euer"
+  },
+  {
+   "id": "fr-gr-poss2-05",
+   "s": "Max et Léa cherchent {leur} chien.",
+   "de": "ihr (mehrere Besitzer)"
+  },
+  {
+   "id": "fr-gr-poss2-06",
+   "s": "Les élèves rangent {leurs} affaires.",
+   "de": "ihr (mehrere Besitzer)"
+  },
+  {
+   "id": "fr-gr-poss2-07",
+   "s": "{Notre} prof de maths est sévère.",
+   "de": "unser"
+  },
+  {
+   "id": "fr-gr-poss2-08",
+   "s": "Où sont {vos} parents ?",
+   "de": "euer"
+  },
+  {
+   "id": "fr-gr-poss2-09",
+   "s": "Mes cousins adorent {leur} école.",
+   "de": "ihr (mehrere Besitzer)"
+  },
+  {
+   "id": "fr-gr-poss2-10",
+   "s": "{Nos} chats dorment toute la journée.",
+   "de": "unser"
+  }
+ ]
+}

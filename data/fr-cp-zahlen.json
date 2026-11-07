@@ -1,0 +1,134 @@
+{
+ "id": "fr-cp-zahlen",
+ "lang": "fr",
+ "title": "C'est parti! · Zahlen 0–20",
+ "desc": "Les nombres de 0 à 20",
+ "words": [
+  {
+   "id": "fr-cp-zahlen-01",
+   "fx": "zéro",
+   "de": "null",
+   "s": "Au match, c'est un à {zéro} !"
+  },
+  {
+   "id": "fr-cp-zahlen-02",
+   "fx": "un",
+   "de": "eins",
+   "s": "J'ai {un} chat."
+  },
+  {
+   "id": "fr-cp-zahlen-03",
+   "fx": "deux",
+   "de": "zwei",
+   "s": "J'ai {deux} chiens."
+  },
+  {
+   "id": "fr-cp-zahlen-04",
+   "fx": "trois",
+   "de": "drei",
+   "s": "Il y a {trois} tomates."
+  },
+  {
+   "id": "fr-cp-zahlen-05",
+   "fx": "quatre",
+   "de": "vier",
+   "s": "Un, deux, trois, {quatre} !"
+  },
+  {
+   "id": "fr-cp-zahlen-06",
+   "fx": "cinq",
+   "de": "fünf",
+   "s": "Ma sœur a {cinq} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-07",
+   "fx": "six",
+   "de": "sechs",
+   "s": "Le métro arrive dans {six} minutes."
+  },
+  {
+   "id": "fr-cp-zahlen-08",
+   "fx": "sept",
+   "de": "sieben",
+   "s": "Une semaine, c'est {sept} jours."
+  },
+  {
+   "id": "fr-cp-zahlen-09",
+   "fx": "huit",
+   "de": "acht",
+   "s": "Il est {huit} heures."
+  },
+  {
+   "id": "fr-cp-zahlen-10",
+   "fx": "neuf",
+   "de": "neun",
+   "s": "Mon frère a {neuf} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-11",
+   "fx": "dix",
+   "de": "zehn",
+   "s": "J'ai {dix} doigts."
+  },
+  {
+   "id": "fr-cp-zahlen-12",
+   "fx": "onze",
+   "de": "elf",
+   "s": "J'ai {onze} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-13",
+   "fx": "douze",
+   "de": "zwölf",
+   "s": "Tu as {douze} ans ?"
+  },
+  {
+   "id": "fr-cp-zahlen-14",
+   "fx": "treize",
+   "de": "dreizehn",
+   "s": "Paul a {treize} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-15",
+   "fx": "quatorze",
+   "de": "vierzehn",
+   "s": "Ma cousine a {quatorze} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-16",
+   "fx": "quinze",
+   "de": "fünfzehn",
+   "s": "Le film commence dans {quinze} minutes."
+  },
+  {
+   "id": "fr-cp-zahlen-17",
+   "fx": "seize",
+   "de": "sechzehn",
+   "s": "Mon frère a {seize} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-18",
+   "fx": "dix-sept",
+   "de": "siebzehn",
+   "s": "Dans la classe, il y a {dix-sept} filles."
+  },
+  {
+   "id": "fr-cp-zahlen-19",
+   "fx": "dix-huit",
+   "de": "achtzehn",
+   "s": "Ma sœur a {dix-huit} ans."
+  },
+  {
+   "id": "fr-cp-zahlen-20",
+   "fx": "dix-neuf",
+   "de": "neunzehn",
+   "s": "Il y a {dix-neuf} élèves."
+  },
+  {
+   "id": "fr-cp-zahlen-21",
+   "fx": "vingt",
+   "de": "zwanzig",
+   "s": "J'ai {vingt} euros."
+  }
+ ]
+}

@@ -69,6 +69,27 @@ function deckDirs(d, mode) {
   if (dtype(d) === 'verbs') return ['v'];
   return mode === 'sent' ? ['s'] : dirsFor(S.settings.dir);
 }
+// Verben: Englisch fragt simple past + past participle ab, Französisch die sechs Präsensformen (deck.forms)
+const verbForms = d => d.forms || ['simple past', 'past participle'];
+// "je" + Vokal/stummes h → "j'"
+const withPron = (f, x) => { const p = f.split('/')[0]; return p === 'je' && /^[aeéèêiîoôuh]/i.test(x) ? "j'" + x : p + ' ' + x; };
+// Sprechfassung: "aller – je vais, tu vas, …" bzw. "go, went, gone"
+const verbSpoken = (w, d) => d.forms
+  ? w.v[0] + ', ' + d.forms.map((f, i) => withPron(f, w.v[i + 1].split(';')[0])).join(', ')
+  : w.v.map(x => x.split(';')[0]).join(', ');
+const verbLine = (w, d) => d.forms
+  ? w.v[0] + ': ' + d.forms.map((f, i) => withPron(f, w.v[i + 1].split(';')[0])).join(' · ')
+  : w.v.join(' – ');
+// beim Eintippen darf das Pronomen davorstehen ("nous allons" statt "allons")
+const stripPron = (s, label) => {
+  const ps = label.split('/').concat(label.startsWith('je') ? ["j'"] : []);
+  const t = clean(s);
+  for (const p of ps) {
+    if (p.endsWith("'") && t.startsWith(p)) return t.slice(p.length);
+    if (t.startsWith(p + ' ')) return t.slice(p.length + 1);
+  }
+  return s;
+};
 // passive Wörter (nur verstehen) werden nur Fremdsprache → Deutsch abgefragt
 const wDirs = (w, dirs) => w.passiv ? dirs.filter(d => d === 'r') : dirs;
 const key = (wid, dir) => wid + '|' + dir;
@@ -410,7 +431,9 @@ function renderHome() {
       ${sel.length ? '<button class="btn-small" id="sel-clear">Auswahl aufheben</button>' : ''}</div>
     <p class="muted">Setze Häkchen ☑ bei den Teilen, die du üben willst – ohne Häkchen wird alles geübt.</p>
     ${decks.length ? unitGroups(decks, sel) + LEGEND : '<p class="muted">Noch keine Units. Über ☰ kannst du eine anlegen.</p>'}`;
-  const areaHtml = area === 'verbs' ? extras('verbs', 'Unregelmäßige Verben', 'Du siehst das Verb und tippst simple past und past participle.') + LEGEND
+  const areaHtml = area === 'verbs' ? (lang === 'fr'
+      ? extras('verbs', 'Verben konjugieren', 'Du siehst den Infinitiv und tippst die sechs Präsensformen. Das Pronomen kannst du mittippen oder weglassen.')
+      : extras('verbs', 'Unregelmäßige Verben', 'Du siehst das Verb und tippst simple past und past participle.')) + LEGEND
     : area === 'grammar' ? extras('grammar', 'Grammatik', 'Tippe auf „Regel & Aufgaben“, um die Regel nachzulesen.') + LEGEND
     : vocabArea;
   $app.innerHTML = `
@@ -512,7 +535,7 @@ function renderCard() {
       <div class="sentence">${parts.map(esc).join('<span class="gap">&nbsp;</span>')}</div>
       ${c.w.de ? `<div class="hint">(${disp(c.w.de)})</div>` : ''}${c.w.sDe ? `<div class="muted">${esc(c.w.sDe)}</div>` : ''}`;
   } else if (c.dir === 'v') {
-    q = `<div class="prompt-lang">Unregelmäßiges Verb</div><div class="prompt">${esc(c.w.v[0])}
+    q = `<div class="prompt-lang">${c.deck.forms ? 'Konjugiere im Präsens' : 'Unregelmäßiges Verb'}</div><div class="prompt">${esc(c.w.v[0])}
       <button class="btn-small" id="say" aria-label="Vorlesen">🔊</button></div><div class="hint">${disp(c.w.de)}</div>`;
   } else if (c.dir === 'p') {
     q = `<div class="prompt-lang">Deutsch → ${L}</div><div class="prompt">${disp(c.w.de)}</div>`;
@@ -520,8 +543,8 @@ function renderCard() {
     q = `<div class="prompt-lang">${L} → Deutsch</div><div class="prompt">${disp(c.w.fx)}
       <button class="btn-small" id="say" aria-label="Vorlesen">🔊</button></div>`;
   }
-  if (c.dir === 'v') inputs = `<label class="inlabel">simple past</label><input class="answer-input" id="ans" ${inputAttrs(lang)}>
-      <label class="inlabel">past participle</label><input class="answer-input" id="ans2" ${inputAttrs(lang)}>`;
+  if (c.dir === 'v') inputs = verbForms(c.deck).map((f, i) =>
+      `<label class="inlabel">${esc(f)}</label><input class="answer-input" id="${i ? 'ans' + (i + 1) : 'ans'}" ${inputAttrs(lang)}>`).join('');
   else inputs = `<input class="answer-input" id="ans" ${inputAttrs(answerLang)} placeholder="Antwort eintippen">`;
   const acc = answerLang === 'de' ? [] : LANGS[lang].accents;
   const box = c.p.b;
@@ -536,10 +559,10 @@ function renderCard() {
       <button class="btn-primary btn-big" id="next" style="margin-top:12px">Prüfen</button>
     </div>
     <button class="btn-small" id="quit">Beenden</button>`;
-  const inp = document.getElementById('ans'), inp2 = document.getElementById('ans2');
+  const inps = [...$app.querySelectorAll('.answer-input')], inp = inps[0];
   let focused = inp;
   inp.focus();
-  [inp, inp2].forEach(el => el && el.addEventListener('focus', () => focused = el));
+  inps.forEach(el => el.addEventListener('focus', () => focused = el));
   const sb = document.getElementById('say');
   if (sb) sb.onclick = () => speak(c.dir === 'v' ? c.w.v[0] : c.w.fx, lang, true);
   $app.querySelectorAll('[data-acc]').forEach(b => {
@@ -552,13 +575,13 @@ function renderCard() {
   });
   const next = document.getElementById('next');
   s.answered = false;
-  next.onclick = () => s.answered ? advance() : answer(c, inp.value, inp2 ? inp2.value : '');
-  inp.onkeydown = e => {
+  next.onclick = () => s.answered ? advance() : answer(c, ...inps.map(el => el.value));
+  // Enter springt ins nächste Feld, im letzten wird geprüft
+  inps.forEach((el, i) => el.onkeydown = e => {
     if (e.key !== 'Enter') return;
     e.preventDefault();
-    if (inp2 && !s.answered) inp2.focus(); else next.click();
-  };
-  if (inp2) inp2.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); next.click(); } };
+    if (inps[i + 1] && !s.answered) inps[i + 1].focus(); else next.click();
+  });
   document.getElementById('quit').onclick = () => { if (s.i > 0) renderDone(); else renderHome(); };
 }
 
@@ -594,21 +617,23 @@ function renderSayCard() {
   document.getElementById('quit').onclick = () => { if (s.i > 0) renderDone(); else renderHome(); };
 }
 
-function answer(c, input, input2) {
+function answer(c, input, ...more) {
   const s = S.session, lang = c.deck.lang;
   s.answered = true;
   const fb = document.getElementById('fb');
   document.querySelectorAll('.answer-input').forEach(el => el.readOnly = true);
   if (c.dir === 'v') {
-    const r1 = check(input, c.w.v[1], true), r2 = check(input2, c.w.v[2], true), ok = r1.ok && r2.ok;
+    const labels = verbForms(c.deck), typed = [input, ...more];
+    const rs = labels.map((l, i) => check(c.deck.forms ? stripPron(typed[i] || '', l) : typed[i] || '', c.w.v[i + 1], true));
+    const ok = rs.every(r => r.ok);
     grade(c, ok);
-    const line = (label, r, target) => r.ok ? `<div>✔ ${label}: <b>${disp(target)}</b></div>`
-      : `<div>✘ ${label}: ${r.typed ? `<span class="diff">${typedHtml(r)}</span> → ` : ''}<b>${disp(target)}</b>${r.tip ? ` <span class="muted">(${esc(r.tip)})</span>` : ''}</div>`;
+    const line = (label, r, target) => r.ok ? `<div>✔ ${esc(label)}: <b>${disp(target)}</b></div>`
+      : `<div>✘ ${esc(label)}: ${r.typed ? `<span class="diff">${typedHtml(r)}</span> → ` : ''}<b>${disp(target)}</b>${r.tip ? ` <span class="muted">(${esc(r.tip)})</span>` : ''}</div>`;
     fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'bad'}"><b>${ok ? 'Richtig!' : 'Noch nicht ganz.'}</b>
-      ${line('simple past', r1, c.w.v[1])}${line('past participle', r2, c.w.v[2])}
-      <div class="muted">${disp(c.w.v.join(' – '))} = ${disp(c.w.de)}</div>
+      ${labels.map((l, i) => line(l, rs[i], c.w.v[i + 1])).join('')}
+      <div class="muted">${disp(c.deck.forms ? c.w.v[0] : c.w.v.join(' – '))} = ${disp(c.w.de)}</div>
       ${ok ? '' : '<p class="muted">Kommt in dieser Runde gleich noch einmal.</p>'}</div>`;
-    const forms = c.w.v.map(x => x.split(';')[0]).join(', ');
+    const forms = verbSpoken(c.w, c.deck);
     fb.firstElementChild.insertAdjacentHTML('beforeend', sayBar(null));
     bindSayBar(lang, forms, null);
     speak(forms, lang);
@@ -712,7 +737,7 @@ function renderUnit(id) {
   let list;
   if (type === 'grammar') list = d.words.map(w => `<li>${dot(w)}<div class="grow">${esc(fillGap(w.s))}
       ${w.de ? `<div class="muted">(${disp(w.de)})</div>` : ''}</div></li>`).join('');
-  else if (type === 'verbs') list = d.words.map((w, i) => `<li>${dot(w)}<div class="grow"><b>${disp(w.v.join(' – '))}</b>
+  else if (type === 'verbs') list = d.words.map((w, i) => `<li>${dot(w)}<div class="grow"><b>${disp(verbLine(w, d))}</b>
       <div class="muted">${disp(w.de)}</div></div><button class="btn-small" data-say="${i}">🔊</button></li>`).join('');
   else list = d.words.map((w, i) => `<li>${dot(w)}
         <div class="grow"><b>${disp(w.fx)}</b> – ${disp(w.de)}${w.passiv ? ' <span class="muted">(nur verstehen)</span>' : ''}
@@ -729,7 +754,7 @@ function renderUnit(id) {
       <button class="btn-primary" id="add">Hinzufügen</button>
       <h2>Unit</h2><button class="btn-danger" id="del">Unit löschen</button>` : ''}`;
   $app.querySelectorAll('[data-say]').forEach(b => b.onclick = () => {
-    const w = d.words[+b.dataset.say]; speak(type === 'verbs' ? w.v.map(x => x.split(';')[0]).join(', ') : w.fx, d.lang, true);
+    const w = d.words[+b.dataset.say]; speak(type === 'verbs' ? verbSpoken(w, d) : w.fx, d.lang, true);
   });
   $app.querySelectorAll('[data-says]').forEach(b => b.onclick = () => speak(fillGap(d.words[+b.dataset.says].s), d.lang, true));
   const ul = document.getElementById('u-learn'), ua = document.getElementById('u-all');

@@ -1,0 +1,164 @@
+{
+ "id": "fr-u4-voc",
+ "lang": "fr",
+ "title": "Unité 4 · Vocabulaire thématique",
+ "desc": "L'emploi du temps: Wochentage, Schulfächer, Stundenplan",
+ "words": [
+  {
+   "id": "fr-u4-voc-01",
+   "fx": "lundi",
+   "de": "Montag; am Montag",
+   "s": "{Lundi}, j'ai sport."
+  },
+  {
+   "id": "fr-u4-voc-02",
+   "fx": "mardi",
+   "de": "Dienstag; am Dienstag",
+   "s": "{Mardi}, on a maths à huit heures."
+  },
+  {
+   "id": "fr-u4-voc-03",
+   "fx": "mercredi",
+   "de": "Mittwoch; am Mittwoch",
+   "s": "{Mercredi} après-midi, je n'ai pas cours."
+  },
+  {
+   "id": "fr-u4-voc-04",
+   "fx": "jeudi",
+   "de": "Donnerstag; am Donnerstag",
+   "s": "{Jeudi}, je vais au club de théâtre."
+  },
+  {
+   "id": "fr-u4-voc-05",
+   "fx": "vendredi",
+   "de": "Freitag; am Freitag",
+   "s": "{Vendredi} soir, on regarde un film."
+  },
+  {
+   "id": "fr-u4-voc-06",
+   "fx": "dimanche",
+   "de": "Sonntag; am Sonntag",
+   "s": "Le {dimanche}, je reste à la maison."
+  },
+  {
+   "id": "fr-u4-voc-07",
+   "fx": "le matin",
+   "de": "der Morgen; der Vormittag; am Vormittag",
+   "s": "Le {matin}, je prends le bus."
+  },
+  {
+   "id": "fr-u4-voc-08",
+   "fx": "l'après-midi",
+   "de": "der Nachmittag; am Nachmittag",
+   "s": "L'{après-midi}, je joue au foot."
+  },
+  {
+   "id": "fr-u4-voc-09",
+   "fx": "un emploi du temps",
+   "de": "ein Stundenplan",
+   "s": "Mon {emploi du temps} est super cette année."
+  },
+  {
+   "id": "fr-u4-voc-10",
+   "fx": "l'histoire-géo",
+   "de": "Geschichte und Erdkunde",
+   "s": "En {histoire-géo}, on parle de Paris."
+  },
+  {
+   "id": "fr-u4-voc-11",
+   "fx": "l'histoire",
+   "de": "Geschichte",
+   "s": "J'aime l'{histoire} et les musées."
+  },
+  {
+   "id": "fr-u4-voc-12",
+   "fx": "la géographie",
+   "de": "Geographie; Erdkunde",
+   "s": "En {géographie}, on regarde des cartes."
+  },
+  {
+   "id": "fr-u4-voc-13",
+   "fx": "la récré/la récréation",
+   "de": "die Pause (in der Schule)",
+   "s": "À la {récré}, on joue au foot."
+  },
+  {
+   "id": "fr-u4-voc-14",
+   "fx": "l'anglais",
+   "de": "Englisch",
+   "s": "J'ai {anglais} le lundi."
+  },
+  {
+   "id": "fr-u4-voc-15",
+   "fx": "l'EPS",
+   "de": "Sport (Schulfach)",
+   "s": "En {EPS}, on fait du basket."
+  },
+  {
+   "id": "fr-u4-voc-16",
+   "fx": "les maths/les mathématiques",
+   "de": "Mathe; Mathematik",
+   "s": "Les {maths}, c'est mon point faible."
+  },
+  {
+   "id": "fr-u4-voc-17",
+   "fx": "les SVT",
+   "de": "Biologie (Schulfach)",
+   "s": "En {SVT}, on étudie les plantes."
+  },
+  {
+   "id": "fr-u4-voc-18",
+   "fx": "la techno/la technologie",
+   "de": "Technik",
+   "s": "En {techno}, on travaille sur l'ordinateur."
+  },
+  {
+   "id": "fr-u4-voc-19",
+   "fx": "les sciences physiques",
+   "de": "Physik",
+   "s": "J'aime les {sciences physiques}."
+  },
+  {
+   "id": "fr-u4-voc-20",
+   "fx": "le latin",
+   "de": "Latein",
+   "s": "Mon frère apprend le {latin}."
+  },
+  {
+   "id": "fr-u4-voc-21",
+   "fx": "les arts plastiques",
+   "de": "Kunst (Schulfach)",
+   "s": "En {arts plastiques}, on dessine."
+  },
+  {
+   "id": "fr-u4-voc-22",
+   "fx": "en + Fach",
+   "de": "in + Fach",
+   "s": "Je suis bon {en} anglais."
+  },
+  {
+   "id": "fr-u4-voc-23",
+   "fx": "la cantine",
+   "de": "die Kantine; der Speisesaal",
+   "s": "À midi, je mange à la {cantine}."
+  },
+  {
+   "id": "fr-u4-voc-24",
+   "fx": "la permanence",
+   "de": "beaufsichtigte Freiarbeit",
+   "s": "On a {permanence} à dix heures."
+  },
+  {
+   "id": "fr-u4-voc-25",
+   "fx": "je ne peux pas",
+   "de": "ich kann nicht",
+   "s": "Samedi, {je ne peux pas}, j'ai foot."
+  },
+  {
+   "id": "fr-u4-voc-26",
+   "fx": "Mais non!",
+   "de": "Aber nein!; Nicht doch!",
+   "s": "{Mais non} ! Ce n'est pas vrai !"
+  }
+ ]
+}

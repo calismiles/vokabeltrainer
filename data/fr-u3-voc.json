@@ -1,0 +1,128 @@
+{
+ "id": "fr-u3-voc",
+ "lang": "fr",
+ "title": "Unité 3 · Vocabulaire thématique",
+ "desc": "La chambre: Möbel und Ortspräpositionen",
+ "words": [
+  {
+   "id": "fr-u3-voc-01",
+   "fx": "le bureau/les bureaux",
+   "de": "der Schreibtisch/die Schreibtische",
+   "s": "Mon ordinateur est sur le {bureau}."
+  },
+  {
+   "id": "fr-u3-voc-02",
+   "fx": "une étagère",
+   "de": "ein Regal",
+   "s": "Mes livres sont sur l'{étagère}."
+  },
+  {
+   "id": "fr-u3-voc-03",
+   "fx": "une armoire",
+   "de": "ein Schrank",
+   "s": "Mes vêtements sont dans l'{armoire}."
+  },
+  {
+   "id": "fr-u3-voc-04",
+   "fx": "le lit",
+   "de": "das Bett",
+   "s": "Le chat dort sur mon {lit}."
+  },
+  {
+   "id": "fr-u3-voc-05",
+   "fx": "le coin",
+   "de": "die Ecke",
+   "s": "Dans le {coin}, il y a une plante."
+  },
+  {
+   "id": "fr-u3-voc-06",
+   "fx": "la photo",
+   "de": "das Foto; die Fotografie",
+   "s": "Sur la {photo}, c'est ma grand-mère."
+  },
+  {
+   "id": "fr-u3-voc-07",
+   "fx": "le coin photo",
+   "de": "die Fotoecke",
+   "s": "Dans mon {coin photo}, il y a des photos de mes amis."
+  },
+  {
+   "id": "fr-u3-voc-08",
+   "fx": "le mur",
+   "de": "die Mauer; die Wand",
+   "s": "Il y a un poster sur le {mur}."
+  },
+  {
+   "id": "fr-u3-voc-09",
+   "fx": "un ordinateur",
+   "de": "ein Computer",
+   "s": "Mon frère joue sur l'{ordinateur}."
+  },
+  {
+   "id": "fr-u3-voc-10",
+   "fx": "la plante",
+   "de": "die Pflanze",
+   "s": "La {plante} est à côté de la fenêtre."
+  },
+  {
+   "id": "fr-u3-voc-11",
+   "fx": "la guitare",
+   "de": "die Gitarre",
+   "s": "Je joue de la {guitare}."
+  },
+  {
+   "id": "fr-u3-voc-12",
+   "fx": "la console",
+   "de": "die Konsole",
+   "s": "Mon frère a une nouvelle {console}."
+  },
+  {
+   "id": "fr-u3-voc-13",
+   "fx": "une enceinte",
+   "de": "eine Lautsprecherbox",
+   "s": "J'écoute de la musique avec mon {enceinte}."
+  },
+  {
+   "id": "fr-u3-voc-14",
+   "fx": "le poster",
+   "de": "das Poster",
+   "s": "J'ai un {poster} de mon chanteur préféré."
+  },
+  {
+   "id": "fr-u3-voc-15",
+   "fx": "sur",
+   "de": "auf; an",
+   "s": "Le livre est {sur} la table."
+  },
+  {
+   "id": "fr-u3-voc-16",
+   "fx": "sous",
+   "de": "unter",
+   "s": "Le chien est {sous} la table."
+  },
+  {
+   "id": "fr-u3-voc-17",
+   "fx": "devant",
+   "de": "vor",
+   "s": "Le vélo est {devant} la maison."
+  },
+  {
+   "id": "fr-u3-voc-18",
+   "fx": "derrière",
+   "de": "hinter",
+   "s": "Le jardin est {derrière} la maison."
+  },
+  {
+   "id": "fr-u3-voc-19",
+   "fx": "à gauche (de)",
+   "de": "links (von)",
+   "s": "La porte est {à gauche}."
+  },
+  {
+   "id": "fr-u3-voc-20",
+   "fx": "à droite (de)",
+   "de": "rechts (von)",
+   "s": "Le lit est {à droite} de la fenêtre."
+  }
+ ]
+}

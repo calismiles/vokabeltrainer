@@ -1,0 +1,44 @@
+{
+ "id": "fr-wb-anniversaire",
+ "lang": "fr",
+ "title": "Wortspeicher · Pour mon anniversaire, je voudrais …",
+ "desc": "Freiwillige Zusatzwörter zu Module 5",
+ "words": [
+  {
+   "id": "fr-wb-anniversaire-01",
+   "fx": "aller à la piscine",
+   "de": "ins Schwimmbad gehen",
+   "s": "Pour mon anniversaire, on va {aller à la piscine}."
+  },
+  {
+   "id": "fr-wb-anniversaire-02",
+   "fx": "faire un karaoké",
+   "de": "Karaoke singen",
+   "s": "Le soir, on va {faire un karaoké}."
+  },
+  {
+   "id": "fr-wb-anniversaire-03",
+   "fx": "souffler les bougies",
+   "de": "die Kerzen ausblasen",
+   "s": "Maintenant, tu peux {souffler les bougies} !"
+  },
+  {
+   "id": "fr-wb-anniversaire-04",
+   "fx": "aller à un concert",
+   "de": "auf ein Konzert gehen",
+   "s": "Je voudrais {aller à un concert}."
+  },
+  {
+   "id": "fr-wb-anniversaire-05",
+   "fx": "faire un pique-nique dans un parc",
+   "de": "ein Picknick im Park machen",
+   "s": "On pourrait {faire un pique-nique dans un parc}."
+  },
+  {
+   "id": "fr-wb-anniversaire-06",
+   "fx": "faire du géocaching",
+   "de": "Geocaching machen",
+   "s": "Avec mes amis, on va {faire du géocaching}."
+  }
+ ]
+}

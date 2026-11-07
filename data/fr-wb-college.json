@@ -1,0 +1,44 @@
+{
+ "id": "fr-wb-college",
+ "lang": "fr",
+ "title": "Wortspeicher · Dans notre collège, il y a …",
+ "desc": "Freiwillige Zusatzwörter zu Unité 4",
+ "words": [
+  {
+   "id": "fr-wb-college-01",
+   "fx": "un casier",
+   "de": "ein Schließfach",
+   "s": "Mes livres sont dans mon {casier}."
+  },
+  {
+   "id": "fr-wb-college-02",
+   "fx": "une cafétéria",
+   "de": "eine Cafeteria",
+   "s": "On achète un jus à la {cafétéria}."
+  },
+  {
+   "id": "fr-wb-college-03",
+   "fx": "un amphithéâtre",
+   "de": "ein Hörsaal; eine Aula",
+   "s": "Le concert est dans l'{amphithéâtre}."
+  },
+  {
+   "id": "fr-wb-college-04",
+   "fx": "un gymnase",
+   "de": "eine Turnhalle",
+   "s": "En EPS, on va au {gymnase}."
+  },
+  {
+   "id": "fr-wb-college-05",
+   "fx": "un/une concierge",
+   "de": "ein Hausmeister/eine Hausmeisterin",
+   "s": "Le {concierge} ouvre la porte."
+  },
+  {
+   "id": "fr-wb-college-06",
+   "fx": "un délégué/une déléguée",
+   "de": "ein Klassensprecher/eine Klassensprecherin",
+   "s": "Léa est la {déléguée} de notre classe."
+  }
+ ]
+}

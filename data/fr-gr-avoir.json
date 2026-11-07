@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-avoir",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 2 · avoir",
+ "rule": "avoir = haben\nj'**ai** · tu **as** · il/elle/on **a**\nnous **avons** · vous **avez** · ils/elles **ont**\nDas Alter „hat“ man: J'**ai** onze ans. = Ich bin elf Jahre alt.\nVerneinung: Je n'ai **pas de** frère. Je n'ai **pas d'**animal.",
+ "words": [
+  {
+   "id": "fr-gr-avoir-01",
+   "s": "J'{ai} un chien.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-02",
+   "s": "Tu {as} des frères et sœurs ?",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-03",
+   "s": "Mon frère {a} quinze ans.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-04",
+   "s": "Nous {avons} un chat.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-05",
+   "s": "Vous {avez} une question ?",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-06",
+   "s": "Mes cousins {ont} un lapin.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-07",
+   "s": "On {a} cours à huit heures.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-08",
+   "s": "Elle {a} une sœur.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-09",
+   "s": "Tu {as} quel âge ?",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-10",
+   "s": "Mes grands-parents {ont} un jardin.",
+   "de": "avoir"
+  },
+  {
+   "id": "fr-gr-avoir-11",
+   "s": "Je n'ai pas {de} frère.",
+   "de": "Verneinung: kein"
+  },
+  {
+   "id": "fr-gr-avoir-12",
+   "s": "Je n'ai pas {d'}animal.",
+   "de": "Verneinung vor Vokal: kein"
+  }
+ ]
+}

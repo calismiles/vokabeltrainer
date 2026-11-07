@@ -1,0 +1,120 @@
+{
+ "id": "fr-verbs-er",
+ "lang": "fr",
+ "type": "verbs",
+ "title": "Verben auf -er (mit Besonderheiten)",
+ "forms": [
+  "je",
+  "tu",
+  "il/elle/on",
+  "nous",
+  "vous",
+  "ils/elles"
+ ],
+ "words": [
+  {
+   "id": "fr-verbs-er-regarder",
+   "v": [
+    "regarder",
+    "regarde",
+    "regardes",
+    "regarde",
+    "regardons",
+    "regardez",
+    "regardent"
+   ],
+   "de": "ansehen; anschauen (Muster für alle -er-Verben)"
+  },
+  {
+   "id": "fr-verbs-er-aimer",
+   "v": [
+    "aimer",
+    "aime",
+    "aimes",
+    "aime",
+    "aimons",
+    "aimez",
+    "aiment"
+   ],
+   "de": "mögen; lieben (j' vor Vokal)"
+  },
+  {
+   "id": "fr-verbs-er-manger",
+   "v": [
+    "manger",
+    "mange",
+    "manges",
+    "mange",
+    "mangeons",
+    "mangez",
+    "mangent"
+   ],
+   "de": "essen (nous mangeons)"
+  },
+  {
+   "id": "fr-verbs-er-ranger",
+   "v": [
+    "ranger",
+    "range",
+    "ranges",
+    "range",
+    "rangeons",
+    "rangez",
+    "rangent"
+   ],
+   "de": "aufräumen (wie manger)"
+  },
+  {
+   "id": "fr-verbs-er-commencer",
+   "v": [
+    "commencer",
+    "commence",
+    "commences",
+    "commence",
+    "commençons",
+    "commencez",
+    "commencent"
+   ],
+   "de": "beginnen (nous commençons)"
+  },
+  {
+   "id": "fr-verbs-er-acheter",
+   "v": [
+    "acheter",
+    "achète",
+    "achètes",
+    "achète",
+    "achetons",
+    "achetez",
+    "achètent"
+   ],
+   "de": "kaufen (j'achète)"
+  },
+  {
+   "id": "fr-verbs-er-appeler",
+   "v": [
+    "appeler",
+    "appelle",
+    "appelles",
+    "appelle",
+    "appelons",
+    "appelez",
+    "appellent"
+   ],
+   "de": "anrufen (j'appelle)"
+  },
+  {
+   "id": "fr-verbs-er-préférer",
+   "v": [
+    "préférer",
+    "préfère",
+    "préfères",
+    "préfère",
+    "préférons",
+    "préférez",
+    "préfèrent"
+   ],
+   "de": "bevorzugen (je préfère)"
+  }
+ ]
+}

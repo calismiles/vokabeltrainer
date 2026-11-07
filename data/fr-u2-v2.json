@@ -1,0 +1,152 @@
+{
+ "id": "fr-u2-v2",
+ "lang": "fr",
+ "title": "Unité 2 · Volet 2",
+ "desc": "Qui est ta famille? – Possessivbegleiter, Frage mit qui",
+ "words": [
+  {
+   "id": "fr-u2-v2-01",
+   "fx": "Qui …?",
+   "de": "Wer …?",
+   "s": "{Qui} est la fille avec le chien ?"
+  },
+  {
+   "id": "fr-u2-v2-02",
+   "fx": "ton/ta/tes",
+   "de": "dein/deine",
+   "s": "C'est {ta} sœur ?"
+  },
+  {
+   "id": "fr-u2-v2-03",
+   "fx": "son/sa/ses",
+   "de": "sein/seine; ihr/ihre",
+   "s": "Paul est là avec {sa} mère."
+  },
+  {
+   "id": "fr-u2-v2-04",
+   "fx": "le week-end",
+   "de": "das Wochenende; am Wochenende",
+   "s": "Le {week-end}, je joue au foot."
+  },
+  {
+   "id": "fr-u2-v2-05",
+   "fx": "il/elle m'énerve",
+   "de": "er/sie nervt (mich)",
+   "s": "Mon petit frère, {il m'énerve} !"
+  },
+  {
+   "id": "fr-u2-v2-06",
+   "fx": "une arrière-grand-mère",
+   "de": "eine Urgroßmutter",
+   "s": "Mon {arrière-grand-mère} a quatre-vingt-dix ans."
+  },
+  {
+   "id": "fr-u2-v2-07",
+   "fx": "un arrière-grand-père",
+   "de": "ein Urgroßvater",
+   "s": "Mon {arrière-grand-père} habite en Bretagne."
+  },
+  {
+   "id": "fr-u2-v2-08",
+   "fx": "il/elle habite",
+   "de": "er/sie wohnt",
+   "s": "Ma tante {habite} à Lyon."
+  },
+  {
+   "id": "fr-u2-v2-09",
+   "fx": "ils/elles habitent",
+   "de": "sie wohnen",
+   "s": "Mes cousins {habitent} à Berlin."
+  },
+  {
+   "id": "fr-u2-v2-10",
+   "fx": "près",
+   "de": "nah; in der Nähe",
+   "s": "Le parc ? C'est {près} !"
+  },
+  {
+   "id": "fr-u2-v2-11",
+   "fx": "près de",
+   "de": "bei; in der Nähe von",
+   "s": "J'habite {près de} la gare."
+  },
+  {
+   "id": "fr-u2-v2-12",
+   "fx": "la pâtisserie",
+   "de": "die Konditorei; das Gebäck",
+   "s": "On achète un gâteau à la {pâtisserie}."
+  },
+  {
+   "id": "fr-u2-v2-13",
+   "fx": "Mes parents sont séparés.",
+   "de": "Meine Eltern sind getrennt.",
+   "s": "{Mes parents sont séparés}, alors j'ai deux chambres."
+  },
+  {
+   "id": "fr-u2-v2-14",
+   "fx": "parfois",
+   "de": "manchmal",
+   "s": "{Parfois}, je vais au collège à vélo."
+  },
+  {
+   "id": "fr-u2-v2-15",
+   "fx": "un peu",
+   "de": "ein bisschen",
+   "s": "Je parle {un peu} français."
+  },
+  {
+   "id": "fr-u2-v2-16",
+   "fx": "quand même",
+   "de": "trotzdem; dennoch",
+   "s": "Il pleut, mais on va {quand même} au parc."
+  },
+  {
+   "id": "fr-u2-v2-17",
+   "fx": "la chambre",
+   "de": "das Zimmer; das Schlafzimmer",
+   "s": "Ma {chambre} est petite, mais jolie."
+  },
+  {
+   "id": "fr-u2-v2-18",
+   "fx": "un week-end sur deux",
+   "de": "jedes zweite Wochenende",
+   "s": "Je vais chez mon père {un week-end sur deux}."
+  },
+  {
+   "id": "fr-u2-v2-19",
+   "fx": "le problème",
+   "de": "das Problem",
+   "s": "Pas de {problème} !"
+  },
+  {
+   "id": "fr-u2-v2-20",
+   "fx": "C'est l'horreur!",
+   "de": "Das ist der Horror!",
+   "s": "Des devoirs le samedi ? {C'est l'horreur} !"
+  },
+  {
+   "id": "fr-u2-v2-21",
+   "fx": "pour moi",
+   "de": "für mich",
+   "s": "Le gâteau, c'est {pour moi} ?"
+  },
+  {
+   "id": "fr-u2-v2-22",
+   "fx": "pendant",
+   "de": "während",
+   "s": "{Pendant} les vacances, je suis chez ma grand-mère."
+  },
+  {
+   "id": "fr-u2-v2-23",
+   "fx": "les vacances",
+   "de": "die Ferien",
+   "s": "Les {vacances} commencent samedi !"
+  },
+  {
+   "id": "fr-u2-v2-24",
+   "fx": "la Bretagne",
+   "de": "die Bretagne",
+   "s": "Mes grands-parents habitent en {Bretagne}."
+  }
+ ]
+}

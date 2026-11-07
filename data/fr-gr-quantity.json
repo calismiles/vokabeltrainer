@@ -1,0 +1,64 @@
+{
+ "id": "fr-gr-quantity",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 4 · Mengenangaben mit de",
+ "rule": "Nach Mengenangaben steht nur **de** (vor Vokal **d'**), ohne Artikel:\n**beaucoup de** (viel), **trop de** (zu viel), **assez de** (genug), **ne … pas de** (kein)\nEbenso: **un kilo de** pommes, **une bouteille d'**eau, **un paquet de** biscuits",
+ "words": [
+  {
+   "id": "fr-gr-quantity-01",
+   "s": "J'ai beaucoup {de} devoirs.",
+   "de": "viele"
+  },
+  {
+   "id": "fr-gr-quantity-02",
+   "s": "Il y a trop {de} bruit.",
+   "de": "zu viel"
+  },
+  {
+   "id": "fr-gr-quantity-03",
+   "s": "Tu as assez {d'}argent ?",
+   "de": "genug (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-quantity-04",
+   "s": "Je n'ai pas {de} frère.",
+   "de": "kein"
+  },
+  {
+   "id": "fr-gr-quantity-05",
+   "s": "Il n'y a plus {de} pain.",
+   "de": "kein … mehr"
+  },
+  {
+   "id": "fr-gr-quantity-06",
+   "s": "Je voudrais un kilo {de} pommes.",
+   "de": "ein Kilo"
+  },
+  {
+   "id": "fr-gr-quantity-07",
+   "s": "Une bouteille {d'}eau, s'il vous plaît.",
+   "de": "eine Flasche (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-quantity-08",
+   "s": "J'achète un paquet {de} biscuits.",
+   "de": "eine Packung"
+  },
+  {
+   "id": "fr-gr-quantity-09",
+   "s": "Il y a {beaucoup de} livres au CDI.",
+   "de": "viele"
+  },
+  {
+   "id": "fr-gr-quantity-10",
+   "s": "Il y a {trop de} sel dans la soupe !",
+   "de": "zu viel"
+  },
+  {
+   "id": "fr-gr-quantity-11",
+   "s": "On n'a pas {assez de} chaises.",
+   "de": "genug"
+  }
+ ]
+}

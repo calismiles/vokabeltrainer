@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-aller",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 4 · aller und der zusammengezogene Artikel mit à",
+ "rule": "aller = gehen, fahren: je **vais** · tu **vas** · il/elle/on **va** · nous **allons** · vous **allez** · ils/elles **vont**\nà + le → **au**: Je vais **au** cinéma.\nà + la → **à la**: Je vais **à la** gare.\nà + l' → **à l'**: Je vais **à l'**école.\nà + les → **aux**: Je vais **aux** toilettes.",
+ "words": [
+  {
+   "id": "fr-gr-aller-01",
+   "s": "Je {vais} au collège à vélo.",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-02",
+   "s": "Tu {vas} où ?",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-03",
+   "s": "Léa {va} au cinéma.",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-04",
+   "s": "Nous {allons} au parc.",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-05",
+   "s": "Vous {allez} à la piscine ?",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-06",
+   "s": "Mes parents {vont} au marché.",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-07",
+   "s": "On {va} au stade samedi ?",
+   "de": "aller"
+  },
+  {
+   "id": "fr-gr-aller-08",
+   "s": "Je vais {au} cinéma.",
+   "de": "à + le"
+  },
+  {
+   "id": "fr-gr-aller-09",
+   "s": "Nous allons {à la} boulangerie.",
+   "de": "à + la"
+  },
+  {
+   "id": "fr-gr-aller-10",
+   "s": "Tu vas {à l'}école à pied ?",
+   "de": "à + l'"
+  },
+  {
+   "id": "fr-gr-aller-11",
+   "s": "Les élèves vont {aux} toilettes.",
+   "de": "à + les"
+  },
+  {
+   "id": "fr-gr-aller-12",
+   "s": "Le samedi, je vais {au} marché.",
+   "de": "à + le"
+  },
+  {
+   "id": "fr-gr-aller-13",
+   "s": "Ce soir, on va {au} restaurant.",
+   "de": "à + le"
+  },
+  {
+   "id": "fr-gr-aller-14",
+   "s": "Ils vont {à la} gare.",
+   "de": "à + la"
+  }
+ ]
+}

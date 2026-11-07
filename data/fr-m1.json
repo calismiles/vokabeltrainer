@@ -1,0 +1,98 @@
+{
+ "id": "fr-m1",
+ "lang": "fr",
+ "title": "Module 1 · En cours de français (1)",
+ "desc": "Buchstabieren, fragen, wie man etwas sagt",
+ "words": [
+  {
+   "id": "fr-m1-01",
+   "fx": "en cours",
+   "de": "im Unterricht",
+   "s": "{En cours}, on parle français."
+  },
+  {
+   "id": "fr-m1-02",
+   "fx": "le français",
+   "de": "Französisch; die französische Sprache",
+   "s": "J'apprends le {français}."
+  },
+  {
+   "id": "fr-m1-03",
+   "fx": "Qu'est-ce que c'est?",
+   "de": "Was ist das?",
+   "s": "{Qu'est-ce que c'est} ? – C'est un stylo."
+  },
+  {
+   "id": "fr-m1-04",
+   "fx": "un alphabet",
+   "de": "ein Alphabet",
+   "s": "L'{alphabet} français a 26 lettres."
+  },
+  {
+   "id": "fr-m1-05",
+   "fx": "C'est terminé!",
+   "de": "Das war's!",
+   "s": "Voilà, {c'est terminé} ! Au revoir !"
+  },
+  {
+   "id": "fr-m1-06",
+   "fx": "Comment on dit …?",
+   "de": "Wie sagt man …?",
+   "s": "{Comment on dit} « Hund » en français ?"
+  },
+  {
+   "id": "fr-m1-07",
+   "fx": "On dit …",
+   "de": "Man sagt …",
+   "s": "{On dit} « le chien »."
+  },
+  {
+   "id": "fr-m1-08",
+   "fx": "Comment on écrit …?",
+   "de": "Wie schreibt man …?",
+   "s": "{Comment on écrit} « garçon » ?"
+  },
+  {
+   "id": "fr-m1-09",
+   "fx": "On écrit …",
+   "de": "Man schreibt …",
+   "s": "{On écrit} G-A-R-Ç-O-N."
+  },
+  {
+   "id": "fr-m1-10",
+   "fx": "en français",
+   "de": "auf Französisch",
+   "s": "Comment on dit « Katze » {en français} ?"
+  },
+  {
+   "id": "fr-m1-11",
+   "fx": "en allemand",
+   "de": "auf Deutsch",
+   "s": "« Le chat », {en allemand}, c'est « die Katze »."
+  },
+  {
+   "id": "fr-m1-12",
+   "fx": "l'allemand",
+   "de": "Deutsch; die deutsche Sprache",
+   "s": "J'aime l'{allemand} et le français."
+  },
+  {
+   "id": "fr-m1-13",
+   "fx": "le cahier",
+   "de": "das Heft",
+   "s": "Ouvrez votre {cahier} !"
+  },
+  {
+   "id": "fr-m1-14",
+   "fx": "le stylo",
+   "de": "der Stift; der Kugelschreiber",
+   "s": "Tu as un {stylo} pour moi ?"
+  },
+  {
+   "id": "fr-m1-15",
+   "fx": "la feuille",
+   "de": "das Blatt",
+   "s": "Prends une {feuille} de papier."
+  }
+ ]
+}

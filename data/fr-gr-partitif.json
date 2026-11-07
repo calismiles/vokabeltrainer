@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-partitif",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 5 · der Teilungsartikel",
+ "rule": "Für eine unbestimmte Menge (etwas von): **du** pain, **de la** farine, **de l'**eau\nWird im Deutschen meist nicht übersetzt: Je mange **du** pain. = Ich esse Brot.\nVerneinung: nur **de**: Je ne mange **pas de** viande.\nAber bei Vorlieben bestimmter Artikel: J'aime **le** pain.",
+ "words": [
+  {
+   "id": "fr-gr-partitif-01",
+   "s": "Je mange {du} pain.",
+   "de": "Teilungsartikel (pain: m.)"
+  },
+  {
+   "id": "fr-gr-partitif-02",
+   "s": "Il faut {de la} farine.",
+   "de": "Teilungsartikel (farine: f.)"
+  },
+  {
+   "id": "fr-gr-partitif-03",
+   "s": "Tu bois {de l'}eau ?",
+   "de": "Teilungsartikel (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-partitif-04",
+   "s": "On achète {du} fromage.",
+   "de": "Teilungsartikel (fromage: m.)"
+  },
+  {
+   "id": "fr-gr-partitif-05",
+   "s": "Je voudrais {de la} crème.",
+   "de": "Teilungsartikel (crème: f.)"
+  },
+  {
+   "id": "fr-gr-partitif-06",
+   "s": "Il y a {du} lait ?",
+   "de": "Teilungsartikel (lait: m.)"
+  },
+  {
+   "id": "fr-gr-partitif-07",
+   "s": "Je ne mange pas {de} viande.",
+   "de": "Verneinung"
+  },
+  {
+   "id": "fr-gr-partitif-08",
+   "s": "J'aime {le} chocolat.",
+   "de": "Vorliebe: bestimmter Artikel"
+  },
+  {
+   "id": "fr-gr-partitif-09",
+   "s": "Pour le gâteau, il faut {du} sucre.",
+   "de": "Teilungsartikel (sucre: m.)"
+  },
+  {
+   "id": "fr-gr-partitif-10",
+   "s": "Je mange {de la} salade.",
+   "de": "Teilungsartikel (salade: f.)"
+  },
+  {
+   "id": "fr-gr-partitif-11",
+   "s": "Je n'ai pas {de} sel.",
+   "de": "Verneinung"
+  },
+  {
+   "id": "fr-gr-partitif-12",
+   "s": "Tu veux {du} jus ?",
+   "de": "Teilungsartikel (jus: m.)"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "fr-gr-questions1",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 2 · Fragen mit est-ce que und qui",
+ "rule": "Intonationsfrage: Tu as un chien? (Stimme geht hoch)\nMit **est-ce que**: **Est-ce que** tu as un chien? (est-ce que wird nicht übersetzt)\nVor Vokal: **Est-ce qu'**il a un chien?\n**Qui** = wer: **Qui** est-ce? · C'est **qui**?\n**Qu'est-ce que** = was: **Qu'est-ce que** tu fais?",
+ "words": [
+  {
+   "id": "fr-gr-questions1-01",
+   "s": "{Est-ce que} tu as des frères et sœurs ?",
+   "de": "Frage ohne Fragewort"
+  },
+  {
+   "id": "fr-gr-questions1-02",
+   "s": "{Est-ce qu'}il habite à Paris ?",
+   "de": "Frage ohne Fragewort (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-questions1-03",
+   "s": "{Qui} est la fille avec le chien ?",
+   "de": "wer"
+  },
+  {
+   "id": "fr-gr-questions1-04",
+   "s": "{Qu'est-ce que} tu fais ce soir ?",
+   "de": "was"
+  },
+  {
+   "id": "fr-gr-questions1-05",
+   "s": "{Est-ce que} vous aimez le sport ?",
+   "de": "Frage ohne Fragewort"
+  },
+  {
+   "id": "fr-gr-questions1-06",
+   "s": "{Qu'est-ce que} vous regardez ?",
+   "de": "was"
+  },
+  {
+   "id": "fr-gr-questions1-07",
+   "s": "{Qui} est ton prof de maths ?",
+   "de": "wer"
+  },
+  {
+   "id": "fr-gr-questions1-08",
+   "s": "{Est-ce qu'}elle a un chat ?",
+   "de": "Frage ohne Fragewort (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-questions1-09",
+   "s": "{Qu'est-ce qu'}il dessine ?",
+   "de": "was (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-questions1-10",
+   "s": "C'est {qui}, le garçon là-bas ?",
+   "de": "wer"
+  }
+ ]
+}

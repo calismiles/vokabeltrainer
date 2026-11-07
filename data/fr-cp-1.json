@@ -1,0 +1,128 @@
+{
+ "id": "fr-cp-1",
+ "lang": "fr",
+ "title": "C'est parti! · Salut! Ça va?",
+ "desc": "Begrüßen, verabschieden, nach dem Befinden fragen",
+ "words": [
+  {
+   "id": "fr-cp-1-01",
+   "fx": "C'est parti!",
+   "de": "Los geht's!",
+   "s": "On va au parc ? Super, {c'est parti} !"
+  },
+  {
+   "id": "fr-cp-1-02",
+   "fx": "Salut!",
+   "de": "Hallo!; Tschüss!",
+   "s": "{Salut}, Léa ! Ça va ?"
+  },
+  {
+   "id": "fr-cp-1-03",
+   "fx": "Tu t'appelles comment?",
+   "de": "Wie heißt du?",
+   "s": "Bonjour ! {Tu t'appelles comment} ?"
+  },
+  {
+   "id": "fr-cp-1-04",
+   "fx": "je m'appelle",
+   "de": "ich heiße",
+   "s": "Bonjour, {je m'appelle} Tom."
+  },
+  {
+   "id": "fr-cp-1-05",
+   "fx": "Et toi?",
+   "de": "Und du?",
+   "s": "Moi, je m'appelle Lou. {Et toi} ?"
+  },
+  {
+   "id": "fr-cp-1-06",
+   "fx": "et",
+   "de": "und",
+   "s": "J'aime les chats {et} les chiens."
+  },
+  {
+   "id": "fr-cp-1-07",
+   "fx": "toi",
+   "de": "du (betont)",
+   "s": "Moi, j'ai onze ans. Et {toi} ?"
+  },
+  {
+   "id": "fr-cp-1-08",
+   "fx": "À plus!",
+   "de": "Bis später!",
+   "s": "Salut, Emma ! {À plus} !"
+  },
+  {
+   "id": "fr-cp-1-09",
+   "fx": "Ça va?",
+   "de": "Wie geht's?; Geht's dir gut?",
+   "s": "Bonjour, Max ! {Ça va} ?"
+  },
+  {
+   "id": "fr-cp-1-10",
+   "fx": "bof",
+   "de": "na ja; es geht so",
+   "s": "– Ça va ? – {Bof}, pas super."
+  },
+  {
+   "id": "fr-cp-1-11",
+   "fx": "Ça va.",
+   "de": "Es geht mir gut.; Mir geht's gut.",
+   "s": "– Ça va ? – Oui, {ça va}, merci."
+  },
+  {
+   "id": "fr-cp-1-12",
+   "fx": "super",
+   "de": "super; toll",
+   "s": "Le film est {super} !"
+  },
+  {
+   "id": "fr-cp-1-13",
+   "fx": "ah",
+   "de": "ach; ach so",
+   "s": "{Ah}, c'est toi, Paul !"
+  },
+  {
+   "id": "fr-cp-1-14",
+   "fx": "Ça sonne!",
+   "de": "Es klingelt!",
+   "s": "Vite, {ça sonne} ! Le cours commence."
+  },
+  {
+   "id": "fr-cp-1-15",
+   "fx": "À demain!",
+   "de": "Bis morgen!",
+   "s": "Au revoir, Madame ! {À demain} !"
+  },
+  {
+   "id": "fr-cp-1-16",
+   "fx": "Bonjour!",
+   "de": "Guten Tag!; Guten Morgen!",
+   "s": "{Bonjour}, Monsieur Martin !"
+  },
+  {
+   "id": "fr-cp-1-17",
+   "fx": "la classe",
+   "de": "die Klasse",
+   "s": "Nous sommes vingt-cinq dans la {classe}."
+  },
+  {
+   "id": "fr-cp-1-18",
+   "fx": "Madame",
+   "de": "Frau (Anrede)",
+   "s": "Merci, {Madame} Dupont !"
+  },
+  {
+   "id": "fr-cp-1-19",
+   "fx": "Monsieur",
+   "de": "Herr (Anrede)",
+   "s": "Bonjour, {Monsieur} Leroy !"
+  },
+  {
+   "id": "fr-cp-1-20",
+   "fx": "Au revoir!",
+   "de": "Auf Wiedersehen!",
+   "s": "{Au revoir}, Monsieur ! À demain !"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "fr-wb-animaux",
+ "lang": "fr",
+ "title": "Wortspeicher · Tiere",
+ "desc": "Freiwillige Zusatzwörter zu Unité 2",
+ "words": [
+  {
+   "id": "fr-wb-animaux-01",
+   "fx": "un cochon d'Inde",
+   "de": "ein Meerschweinchen",
+   "s": "Mon {cochon d'Inde} mange des carottes."
+  },
+  {
+   "id": "fr-wb-animaux-02",
+   "fx": "un serpent",
+   "de": "eine Schlange",
+   "s": "J'ai peur des {serpents} !"
+  },
+  {
+   "id": "fr-wb-animaux-03",
+   "fx": "un canari",
+   "de": "ein Kanarienvogel",
+   "s": "Le {canari} est jaune."
+  },
+  {
+   "id": "fr-wb-animaux-04",
+   "fx": "une souris",
+   "de": "eine Maus",
+   "s": "Le chat cherche la {souris}."
+  },
+  {
+   "id": "fr-wb-animaux-05",
+   "fx": "un cheval",
+   "de": "ein Pferd",
+   "s": "Ma cousine a un {cheval}."
+  },
+  {
+   "id": "fr-wb-animaux-06",
+   "fx": "un perroquet",
+   "de": "ein Papagei",
+   "s": "Notre {perroquet} parle !"
+  },
+  {
+   "id": "fr-wb-animaux-07",
+   "fx": "une araignée",
+   "de": "eine Spinne",
+   "s": "Il y a une {araignée} dans ma chambre !"
+  },
+  {
+   "id": "fr-wb-animaux-08",
+   "fx": "un hamster",
+   "de": "ein Hamster",
+   "s": "Mon {hamster} dort toute la journée."
+  },
+  {
+   "id": "fr-wb-animaux-09",
+   "fx": "une poule",
+   "de": "ein Huhn",
+   "s": "La {poule} est dans le jardin."
+  }
+ ]
+}

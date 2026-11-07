@@ -1,0 +1,134 @@
+{
+ "id": "fr-u1-v1",
+ "lang": "fr",
+ "title": "Unité 1 · Volet 1",
+ "desc": "Les amis de Gabin: jemanden vorstellen",
+ "words": [
+  {
+   "id": "fr-u1-v1-01",
+   "fx": "ce sont",
+   "de": "das sind",
+   "s": "{Ce sont} mes amis, Paul et Lina."
+  },
+  {
+   "id": "fr-u1-v1-02",
+   "fx": "C'est qui?",
+   "de": "Wer ist das?",
+   "s": "Le garçon avec le chien, {c'est qui} ?"
+  },
+  {
+   "id": "fr-u1-v1-03",
+   "fx": "moi, c'est …",
+   "de": "ich heiße …; ich bin …",
+   "s": "Salut ! {Moi, c'est} Clara."
+  },
+  {
+   "id": "fr-u1-v1-04",
+   "fx": "Comment …?",
+   "de": "Wie …?",
+   "s": "{Comment} tu t'appelles ?"
+  },
+  {
+   "id": "fr-u1-v1-05",
+   "fx": "voilà",
+   "de": "hier ist; hier sind; da ist",
+   "s": "{Voilà} mon chien, Rex."
+  },
+  {
+   "id": "fr-u1-v1-06",
+   "fx": "la fille",
+   "de": "das Mädchen",
+   "s": "La {fille} avec le chat, c'est Inès."
+  },
+  {
+   "id": "fr-u1-v1-07",
+   "fx": "le garçon",
+   "de": "der Junge",
+   "s": "Le {garçon} là-bas s'appelle Tom."
+  },
+  {
+   "id": "fr-u1-v1-08",
+   "fx": "l'ami/l'amie",
+   "de": "der Freund/die Freundin",
+   "s": "Lou est l'{amie} de Clara."
+  },
+  {
+   "id": "fr-u1-v1-09",
+   "fx": "de",
+   "de": "von",
+   "s": "C'est le chien {de} Paul."
+  },
+  {
+   "id": "fr-u1-v1-10",
+   "fx": "mon ami/mon amie",
+   "de": "mein Freund/meine Freundin",
+   "s": "Hugo, c'est {mon ami}."
+  },
+  {
+   "id": "fr-u1-v1-11",
+   "fx": "il/elle s'appelle",
+   "de": "er/sie heißt",
+   "s": "Ma sœur, {elle s'appelle} Zoé."
+  },
+  {
+   "id": "fr-u1-v1-12",
+   "fx": "avec",
+   "de": "mit",
+   "s": "Je vais au parc {avec} mon chien."
+  },
+  {
+   "id": "fr-u1-v1-13",
+   "fx": "d'accord",
+   "de": "einverstanden; okay",
+   "s": "– On joue au foot ? – {D'accord} !"
+  },
+  {
+   "id": "fr-u1-v1-14",
+   "fx": "Je ne sais pas.",
+   "de": "Ich weiß es nicht.",
+   "s": "– Où est Paul ? – {Je ne sais pas}."
+  },
+  {
+   "id": "fr-u1-v1-15",
+   "fx": "ici",
+   "de": "hier",
+   "s": "J'habite {ici} avec ma famille."
+  },
+  {
+   "id": "fr-u1-v1-16",
+   "fx": "depuis",
+   "de": "seit; seitdem",
+   "s": "J'habite à Hambourg {depuis} trois ans."
+  },
+  {
+   "id": "fr-u1-v1-17",
+   "fx": "samedi",
+   "de": "Samstag; am Samstag",
+   "s": "{Samedi}, on va au cinéma."
+  },
+  {
+   "id": "fr-u1-v1-18",
+   "fx": "cool",
+   "de": "cool",
+   "s": "Ton vélo est {cool} !"
+  },
+  {
+   "id": "fr-u1-v1-19",
+   "fx": "alors",
+   "de": "also",
+   "s": "{Alors}, on va au parc ?"
+  },
+  {
+   "id": "fr-u1-v1-20",
+   "fx": "dans",
+   "de": "in",
+   "s": "Le chat est {dans} le jardin."
+  },
+  {
+   "id": "fr-u1-v1-21",
+   "fx": "le quartier",
+   "de": "das Viertel",
+   "s": "J'aime mon {quartier}."
+  }
+ ]
+}

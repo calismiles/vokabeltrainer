@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-er",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 2 · Verben auf -er im Präsens",
+ "rule": "Stamm + Endung: regard**er** → je regard**e**, tu regard**es**, il/elle/on regard**e**\nnous regard**ons**, vous regard**ez**, ils/elles regard**ent**\nDie Endungen -e, -es, -ent hört man nicht.\nVor Vokal wird je zu j': j'aime, j'habite",
+ "words": [
+  {
+   "id": "fr-gr-er-01",
+   "s": "Je {regarde} une série.",
+   "de": "regarder"
+  },
+  {
+   "id": "fr-gr-er-02",
+   "s": "Tu {écoutes} de la musique ?",
+   "de": "écouter"
+  },
+  {
+   "id": "fr-gr-er-03",
+   "s": "Elle {dessine} un chat.",
+   "de": "dessiner"
+  },
+  {
+   "id": "fr-gr-er-04",
+   "s": "Nous {jouons} au foot.",
+   "de": "jouer"
+  },
+  {
+   "id": "fr-gr-er-05",
+   "s": "Vous {parlez} français ?",
+   "de": "parler"
+  },
+  {
+   "id": "fr-gr-er-06",
+   "s": "Ils {chattent} sur Internet.",
+   "de": "chatter"
+  },
+  {
+   "id": "fr-gr-er-07",
+   "s": "J'{habite} à Hambourg.",
+   "de": "habiter"
+  },
+  {
+   "id": "fr-gr-er-08",
+   "s": "On {rigole} beaucoup ensemble.",
+   "de": "rigoler"
+  },
+  {
+   "id": "fr-gr-er-09",
+   "s": "Mes parents {travaillent} beaucoup.",
+   "de": "travailler"
+  },
+  {
+   "id": "fr-gr-er-10",
+   "s": "Tu {aimes} les mangas ?",
+   "de": "aimer"
+  },
+  {
+   "id": "fr-gr-er-11",
+   "s": "Nous {regardons} un film.",
+   "de": "regarder"
+  },
+  {
+   "id": "fr-gr-er-12",
+   "s": "Vous {racontez} une histoire ?",
+   "de": "raconter"
+  },
+  {
+   "id": "fr-gr-er-13",
+   "s": "Léa et Inès {écoutent} du rap.",
+   "de": "écouter"
+  },
+  {
+   "id": "fr-gr-er-14",
+   "s": "Je {cherche} mon stylo.",
+   "de": "chercher"
+  }
+ ]
+}

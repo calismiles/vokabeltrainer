@@ -1,0 +1,170 @@
+{
+ "id": "fr-u2-v3",
+ "lang": "fr",
+ "title": "Unité 2 · Volet 3",
+ "desc": "Hobbys, Verben auf -er, est-ce que",
+ "words": [
+  {
+   "id": "fr-u2-v3-01",
+   "fx": "Qu'est-ce que tu fais?",
+   "de": "Was machst du?",
+   "s": "Salut, Tom ! {Qu'est-ce que tu fais} ce soir ?"
+  },
+  {
+   "id": "fr-u2-v3-02",
+   "fx": "Qu'est-ce que …?",
+   "de": "Was …?",
+   "s": "{Qu'est-ce que} tu aimes ?"
+  },
+  {
+   "id": "fr-u2-v3-03",
+   "fx": "est-ce que",
+   "de": "Fragepartikel (wird nicht übersetzt)",
+   "s": "{Est-ce que} tu as un chien ?"
+  },
+  {
+   "id": "fr-u2-v3-04",
+   "fx": "travailler",
+   "de": "arbeiten; lernen",
+   "s": "Le soir, je {travaille} pour l'école."
+  },
+  {
+   "id": "fr-u2-v3-05",
+   "fx": "écouter (qn/qc)",
+   "de": "(jdm) zuhören; etw. (an)hören",
+   "s": "Tu {écoutes} la radio ?"
+  },
+  {
+   "id": "fr-u2-v3-06",
+   "fx": "écouter de la musique",
+   "de": "Musik hören",
+   "s": "Le soir, j'aime {écouter de la musique}."
+  },
+  {
+   "id": "fr-u2-v3-07",
+   "fx": "regarder qn/qc",
+   "de": "jdn/etw. ansehen; jdn/etw. anschauen",
+   "s": "On {regarde} un film ce soir ?"
+  },
+  {
+   "id": "fr-u2-v3-08",
+   "fx": "la vidéo",
+   "de": "das Video",
+   "s": "Regarde la {vidéo} de mon chat !"
+  },
+  {
+   "id": "fr-u2-v3-09",
+   "fx": "raconter qc",
+   "de": "etw. erzählen",
+   "s": "Ma grand-mère {raconte} des histoires."
+  },
+  {
+   "id": "fr-u2-v3-10",
+   "fx": "dessiner qc",
+   "de": "etw. zeichnen",
+   "s": "Je {dessine} un chat."
+  },
+  {
+   "id": "fr-u2-v3-11",
+   "fx": "le manga",
+   "de": "der Manga; das Manga",
+   "s": "Mon frère lit un {manga}."
+  },
+  {
+   "id": "fr-u2-v3-12",
+   "fx": "rigoler",
+   "de": "lachen",
+   "s": "Avec Paul, on {rigole} beaucoup."
+  },
+  {
+   "id": "fr-u2-v3-13",
+   "fx": "aimer qn/qc",
+   "de": "jdn/etw. mögen; jdn/etw. lieben",
+   "s": "Tu {aimes} les mangas ?"
+  },
+  {
+   "id": "fr-u2-v3-14",
+   "fx": "le foot",
+   "de": "Fußball; das Fußballspielen",
+   "s": "Le {foot}, c'est mon sport préféré."
+  },
+  {
+   "id": "fr-u2-v3-15",
+   "fx": "jouer",
+   "de": "spielen",
+   "s": "Les enfants {jouent} dans le parc."
+  },
+  {
+   "id": "fr-u2-v3-16",
+   "fx": "jouer à",
+   "de": "etw. spielen (Computer- oder Gesellschaftsspiel)",
+   "s": "Le soir, je {joue à} un jeu vidéo."
+  },
+  {
+   "id": "fr-u2-v3-17",
+   "fx": "parler",
+   "de": "sprechen",
+   "s": "Tu {parles} allemand ?"
+  },
+  {
+   "id": "fr-u2-v3-18",
+   "fx": "parler de tout et de rien",
+   "de": "über alles Mögliche sprechen",
+   "s": "Avec ma copine, je {parle de tout et de rien}."
+  },
+  {
+   "id": "fr-u2-v3-19",
+   "fx": "chatter",
+   "de": "chatten",
+   "s": "Le soir, je {chatte} avec mes copines."
+  },
+  {
+   "id": "fr-u2-v3-20",
+   "fx": "Internet",
+   "de": "das Internet",
+   "s": "Mon grand-père n'a pas {Internet}."
+  },
+  {
+   "id": "fr-u2-v3-21",
+   "fx": "sur Internet",
+   "de": "im Internet; ins Internet",
+   "s": "Je regarde des vidéos {sur Internet}."
+  },
+  {
+   "id": "fr-u2-v3-22",
+   "fx": "une école",
+   "de": "eine Schule",
+   "s": "Mon {école} est près du parc."
+  },
+  {
+   "id": "fr-u2-v3-23",
+   "fx": "toujours",
+   "de": "immer",
+   "s": "Mon chien a {toujours} faim."
+  },
+  {
+   "id": "fr-u2-v3-24",
+   "fx": "la semaine",
+   "de": "die Woche",
+   "s": "Pendant la {semaine}, je travaille beaucoup."
+  },
+  {
+   "id": "fr-u2-v3-25",
+   "fx": "beaucoup",
+   "de": "sehr; viel",
+   "s": "J'aime {beaucoup} les chats."
+  },
+  {
+   "id": "fr-u2-v3-26",
+   "fx": "habiter",
+   "de": "wohnen",
+   "s": "Nous {habitons} à Hambourg."
+  },
+  {
+   "id": "fr-u2-v3-27",
+   "fx": "loin",
+   "de": "weit (weg)",
+   "s": "La gare est {loin} ?"
+  }
+ ]
+}

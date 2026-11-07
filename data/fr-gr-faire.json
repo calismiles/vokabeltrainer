@@ -1,0 +1,59 @@
+{
+ "id": "fr-gr-faire",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 3 · faire",
+ "rule": "faire = machen, tun\nje **fais** · tu **fais** · il/elle/on **fait**\nnous **faisons** · vous **faites** · ils/elles **font**\nMerke: vous **faites** (wie vous êtes) – nicht „vous faisez“!",
+ "words": [
+  {
+   "id": "fr-gr-faire-01",
+   "s": "Je {fais} mes devoirs.",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-02",
+   "s": "Qu'est-ce que tu {fais} ?",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-03",
+   "s": "Léa {fait} de la danse.",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-04",
+   "s": "Nous {faisons} un gâteau.",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-05",
+   "s": "Qu'est-ce que vous {faites} samedi ?",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-06",
+   "s": "Mes frères {font} du foot.",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-07",
+   "s": "On {fait} un pique-nique ?",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-08",
+   "s": "Mes parents {font} les courses.",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-09",
+   "s": "Vous {faites} du sport ?",
+   "de": "faire"
+  },
+  {
+   "id": "fr-gr-faire-10",
+   "s": "Mon frère {fait} de l'escalade.",
+   "de": "faire"
+  }
+ ]
+}

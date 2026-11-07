@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-imperatif",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 2 · der Imperativ",
+ "rule": "Aufforderung an eine Person (du): Regard**e**! Écout**e**! (ohne -s)\nan mehrere Personen oder Sie: Regard**ez**!\nVorschlag (wir): Regard**ons**! = Lass(t) uns schauen!\nUnregelmäßig: aller → **Va! Allons! Allez!** · prendre → **Prends! Prenons! Prenez!**",
+ "words": [
+  {
+   "id": "fr-gr-imperatif-01",
+   "s": "{Écoute}, Léa !",
+   "de": "écouter, du"
+  },
+  {
+   "id": "fr-gr-imperatif-02",
+   "s": "{Regardez} le tableau !",
+   "de": "regarder, ihr"
+  },
+  {
+   "id": "fr-gr-imperatif-03",
+   "s": "{Jouons} au foot !",
+   "de": "jouer, wir"
+  },
+  {
+   "id": "fr-gr-imperatif-04",
+   "s": "{Ferme} la porte, s'il te plaît !",
+   "de": "fermer, du"
+  },
+  {
+   "id": "fr-gr-imperatif-05",
+   "s": "{Écoutez} le texte !",
+   "de": "écouter, ihr"
+  },
+  {
+   "id": "fr-gr-imperatif-06",
+   "s": "{Cherche} le mot dans le livre !",
+   "de": "chercher, du"
+  },
+  {
+   "id": "fr-gr-imperatif-07",
+   "s": "{Dessinons} un chat !",
+   "de": "dessiner, wir"
+  },
+  {
+   "id": "fr-gr-imperatif-08",
+   "s": "{Va} à la boulangerie, s'il te plaît !",
+   "de": "aller, du"
+  },
+  {
+   "id": "fr-gr-imperatif-09",
+   "s": "{Allez} au tableau !",
+   "de": "aller, ihr"
+  },
+  {
+   "id": "fr-gr-imperatif-10",
+   "s": "{Prends} ton cahier !",
+   "de": "prendre, du"
+  },
+  {
+   "id": "fr-gr-imperatif-11",
+   "s": "{Prenez} un stylo !",
+   "de": "prendre, ihr"
+  },
+  {
+   "id": "fr-gr-imperatif-12",
+   "s": "{Allons} au cinéma !",
+   "de": "aller, wir"
+  }
+ ]
+}

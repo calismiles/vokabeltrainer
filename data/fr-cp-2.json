@@ -1,0 +1,56 @@
+{
+ "id": "fr-cp-2",
+ "lang": "fr",
+ "title": "C'est parti! · Alter und Wohnort",
+ "desc": "Alter angeben, sagen, wo man wohnt",
+ "words": [
+  {
+   "id": "fr-cp-2-01",
+   "fx": "Tu as quel âge?",
+   "de": "Wie alt bist du?",
+   "s": "Salut, Nina ! {Tu as quel âge} ?"
+  },
+  {
+   "id": "fr-cp-2-02",
+   "fx": "j'ai … ans",
+   "de": "ich bin … Jahre alt",
+   "s": "Moi, {j'ai} onze ans."
+  },
+  {
+   "id": "fr-cp-2-03",
+   "fx": "Tu habites où?",
+   "de": "Wo wohnst du?",
+   "s": "Je m'appelle Hugo. Et toi, {tu habites où} ?"
+  },
+  {
+   "id": "fr-cp-2-04",
+   "fx": "j'habite",
+   "de": "ich wohne",
+   "s": "{J'habite} à Hambourg."
+  },
+  {
+   "id": "fr-cp-2-05",
+   "fx": "en",
+   "de": "in (bei Ländern: en France)",
+   "s": "J'habite {en} Allemagne."
+  },
+  {
+   "id": "fr-cp-2-06",
+   "fx": "à",
+   "de": "in (bei Städten: à Paris)",
+   "s": "Léa habite {à} Lyon."
+  },
+  {
+   "id": "fr-cp-2-07",
+   "fx": "l'Allemagne",
+   "de": "Deutschland",
+   "s": "Berlin est en {Allemagne}."
+  },
+  {
+   "id": "fr-cp-2-08",
+   "fx": "la France",
+   "de": "Frankreich",
+   "s": "Paris est en {France}."
+  }
+ ]
+}

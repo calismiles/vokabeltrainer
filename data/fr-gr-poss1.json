@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-poss1",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 2 · die Possessivbegleiter mon, ton, son",
+ "rule": "mein: **mon** frère · **ma** sœur · **mes** parents\ndein: **ton** frère · **ta** sœur · **tes** parents\nsein/ihr: **son** frère · **sa** sœur · **ses** parents\nVor weiblichen Nomen mit Vokal steht mon/ton/son: **mon** amie, **ton** école\nson/sa richtet sich nach dem Nomen, nicht nach dem Besitzer: Paul et **sa** mère, Léa et **son** père.",
+ "words": [
+  {
+   "id": "fr-gr-poss1-01",
+   "s": "C'est {mon} frère.",
+   "de": "mein"
+  },
+  {
+   "id": "fr-gr-poss1-02",
+   "s": "Voilà {ma} sœur.",
+   "de": "mein"
+  },
+  {
+   "id": "fr-gr-poss1-03",
+   "s": "Ce sont {mes} parents.",
+   "de": "mein"
+  },
+  {
+   "id": "fr-gr-poss1-04",
+   "s": "Tu aimes {ton} école ?",
+   "de": "dein"
+  },
+  {
+   "id": "fr-gr-poss1-05",
+   "s": "C'est {ta} chambre ?",
+   "de": "dein"
+  },
+  {
+   "id": "fr-gr-poss1-06",
+   "s": "Ce sont {tes} chats ?",
+   "de": "dein"
+  },
+  {
+   "id": "fr-gr-poss1-07",
+   "s": "Paul est là avec {sa} mère.",
+   "de": "sein"
+  },
+  {
+   "id": "fr-gr-poss1-08",
+   "s": "Léa est là avec {son} père.",
+   "de": "ihr"
+  },
+  {
+   "id": "fr-gr-poss1-09",
+   "s": "Max cherche {ses} affaires.",
+   "de": "sein"
+  },
+  {
+   "id": "fr-gr-poss1-10",
+   "s": "Voilà {mon} amie Inès.",
+   "de": "mein (amie: f., aber Vokal!)"
+  },
+  {
+   "id": "fr-gr-poss1-11",
+   "s": "Léa adore {son} chien.",
+   "de": "ihr"
+  },
+  {
+   "id": "fr-gr-poss1-12",
+   "s": "Tu aimes {ta} prof de français ?",
+   "de": "dein"
+  }
+ ]
+}

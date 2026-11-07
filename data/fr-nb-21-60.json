@@ -1,0 +1,68 @@
+{
+ "id": "fr-nb-21-60",
+ "lang": "fr",
+ "title": "Zahlen · 21 bis 60",
+ "desc": "Module 3 (Uhrzeit)",
+ "words": [
+  {
+   "id": "fr-nb-21-60-01",
+   "fx": "vingt-et-un; vingt et un",
+   "de": "21"
+  },
+  {
+   "id": "fr-nb-21-60-02",
+   "fx": "vingt-deux",
+   "de": "22"
+  },
+  {
+   "id": "fr-nb-21-60-03",
+   "fx": "vingt-trois",
+   "de": "23"
+  },
+  {
+   "id": "fr-nb-21-60-04",
+   "fx": "vingt-cinq",
+   "de": "25"
+  },
+  {
+   "id": "fr-nb-21-60-05",
+   "fx": "trente",
+   "de": "30"
+  },
+  {
+   "id": "fr-nb-21-60-06",
+   "fx": "trente-et-un; trente et un",
+   "de": "31"
+  },
+  {
+   "id": "fr-nb-21-60-07",
+   "fx": "trente-quatre",
+   "de": "34"
+  },
+  {
+   "id": "fr-nb-21-60-08",
+   "fx": "quarante",
+   "de": "40"
+  },
+  {
+   "id": "fr-nb-21-60-09",
+   "fx": "quarante-six",
+   "de": "46"
+  },
+  {
+   "id": "fr-nb-21-60-10",
+   "fx": "cinquante",
+   "de": "50"
+  },
+  {
+   "id": "fr-nb-21-60-11",
+   "fx": "cinquante-sept",
+   "de": "57"
+  },
+  {
+   "id": "fr-nb-21-60-12",
+   "fx": "soixante",
+   "de": "60"
+  }
+ ]
+}

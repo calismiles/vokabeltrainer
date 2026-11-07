@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-ppv",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Module 4 / Unité 5 · prendre, pouvoir, vouloir",
+ "rule": "prendre: je **prends** · tu **prends** · il **prend** · nous **prenons** · vous **prenez** · ils **prennent**\npouvoir: je **peux** · tu **peux** · il **peut** · nous **pouvons** · vous **pouvez** · ils **peuvent**\nvouloir: je **veux** · tu **veux** · il **veut** · nous **voulons** · vous **voulez** · ils **veulent**\nNach pouvoir und vouloir folgt oft ein Infinitiv: Tu **veux** jouer?",
+ "words": [
+  {
+   "id": "fr-gr-ppv-01",
+   "s": "Je {prends} une pizza.",
+   "de": "prendre"
+  },
+  {
+   "id": "fr-gr-ppv-02",
+   "s": "Tu {prends} un dessert ?",
+   "de": "prendre"
+  },
+  {
+   "id": "fr-gr-ppv-03",
+   "s": "Nous {prenons} le bus.",
+   "de": "prendre"
+  },
+  {
+   "id": "fr-gr-ppv-04",
+   "s": "Ils {prennent} le métro.",
+   "de": "prendre"
+  },
+  {
+   "id": "fr-gr-ppv-05",
+   "s": "Je {peux} venir avec toi ?",
+   "de": "pouvoir"
+  },
+  {
+   "id": "fr-gr-ppv-06",
+   "s": "On {peut} aller au parc.",
+   "de": "pouvoir"
+  },
+  {
+   "id": "fr-gr-ppv-07",
+   "s": "Vous {pouvez} répéter, s'il vous plaît ?",
+   "de": "pouvoir"
+  },
+  {
+   "id": "fr-gr-ppv-08",
+   "s": "Mes parents ne {peuvent} pas venir.",
+   "de": "pouvoir"
+  },
+  {
+   "id": "fr-gr-ppv-09",
+   "s": "Tu {veux} un biscuit ?",
+   "de": "vouloir"
+  },
+  {
+   "id": "fr-gr-ppv-10",
+   "s": "Nous {voulons} aller au cinéma.",
+   "de": "vouloir"
+  },
+  {
+   "id": "fr-gr-ppv-11",
+   "s": "Elle {veut} un chien.",
+   "de": "vouloir"
+  },
+  {
+   "id": "fr-gr-ppv-12",
+   "s": "Mes amis {veulent} jouer au foot.",
+   "de": "vouloir"
+  },
+  {
+   "id": "fr-gr-ppv-13",
+   "s": "Vous {voulez} de l'eau ?",
+   "de": "vouloir"
+  },
+  {
+   "id": "fr-gr-ppv-14",
+   "s": "Léa {prend} une salade.",
+   "de": "prendre"
+  }
+ ]
+}

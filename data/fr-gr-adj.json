@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-adj",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 3 · die Angleichung der Adjektive",
+ "rule": "Das Adjektiv richtet sich nach dem Nomen: un lit **petit** · une chambre **petite**\nweiblich: meist **+e**: grand → grand**e**, joli → joli**e**\nPlural: **+s**: des lits petit**s**, des chambres petite**s**\nEndet das Adjektiv schon auf -e, bleibt es gleich: un lit **moche**, une chambre **moche**\nBesondere Formen: blanc → **blanche**, bon → **bonne**, nul → **nulle**, sympa bleibt **sympa**, orange bleibt **orange**",
+ "words": [
+  {
+   "id": "fr-gr-adj-01",
+   "s": "Ma chambre est {petite}.",
+   "de": "petit"
+  },
+  {
+   "id": "fr-gr-adj-02",
+   "s": "Mon frère est {grand}.",
+   "de": "grand"
+  },
+  {
+   "id": "fr-gr-adj-03",
+   "s": "Ta lampe est {jolie}.",
+   "de": "joli"
+  },
+  {
+   "id": "fr-gr-adj-04",
+   "s": "Mes chaussures sont {noires}.",
+   "de": "noir"
+  },
+  {
+   "id": "fr-gr-adj-05",
+   "s": "J'ai une armoire {blanche}.",
+   "de": "blanc"
+  },
+  {
+   "id": "fr-gr-adj-06",
+   "s": "Mes copines sont {sympas}.",
+   "de": "sympa"
+  },
+  {
+   "id": "fr-gr-adj-07",
+   "s": "La pizza est {bonne}.",
+   "de": "bon"
+  },
+  {
+   "id": "fr-gr-adj-08",
+   "s": "Ma guitare est {bleue}.",
+   "de": "bleu"
+  },
+  {
+   "id": "fr-gr-adj-09",
+   "s": "Les posters sont {moches}.",
+   "de": "moche"
+  },
+  {
+   "id": "fr-gr-adj-10",
+   "s": "J'ai des plantes {vertes}.",
+   "de": "vert"
+  },
+  {
+   "id": "fr-gr-adj-11",
+   "s": "Mes cousins sont {grands}.",
+   "de": "grand"
+  },
+  {
+   "id": "fr-gr-adj-12",
+   "s": "La BD est {nulle}.",
+   "de": "nul"
+  },
+  {
+   "id": "fr-gr-adj-13",
+   "s": "C'est ma série {préférée}.",
+   "de": "préféré"
+  },
+  {
+   "id": "fr-gr-adj-14",
+   "s": "Mes chiens sont {petits}.",
+   "de": "petit"
+  }
+ ]
+}

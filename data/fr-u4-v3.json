@@ -1,0 +1,158 @@
+{
+ "id": "fr-u4-v3",
+ "lang": "fr",
+ "title": "Unité 4 · Volet 3",
+ "desc": "Notre collège et nous: Meinung äußern, Mengenangaben",
+ "words": [
+  {
+   "id": "fr-u4-v3-01",
+   "fx": "donner son avis (sur qc)",
+   "de": "seine Meinung (zu etw.) äußern",
+   "s": "Chaque élève {donne son avis}."
+  },
+  {
+   "id": "fr-u4-v3-02",
+   "fx": "donner qc",
+   "de": "etw. geben; etw. aufgeben",
+   "s": "Le prof {donne} des devoirs."
+  },
+  {
+   "id": "fr-u4-v3-03",
+   "fx": "le commentaire",
+   "de": "der Kommentar",
+   "s": "Écris un {commentaire} sur la vidéo."
+  },
+  {
+   "id": "fr-u4-v3-04",
+   "fx": "un an",
+   "de": "ein Jahr",
+   "s": "Mon frère a seize {ans}."
+  },
+  {
+   "id": "fr-u4-v3-05",
+   "fx": "une ambiance",
+   "de": "eine Stimmung; eine Atmosphäre",
+   "s": "Il y a une bonne {ambiance} dans la classe."
+  },
+  {
+   "id": "fr-u4-v3-06",
+   "fx": "beaucoup de qc",
+   "de": "viel/viele",
+   "s": "Il y a {beaucoup de} livres au CDI."
+  },
+  {
+   "id": "fr-u4-v3-07",
+   "fx": "trop de qc",
+   "de": "zu viel/zu viele",
+   "s": "J'ai {trop de} devoirs !"
+  },
+  {
+   "id": "fr-u4-v3-08",
+   "fx": "assez de qc",
+   "de": "genug; genügend",
+   "s": "Tu as {assez d'}argent ?"
+  },
+  {
+   "id": "fr-u4-v3-09",
+   "fx": "ne … pas assez de qc",
+   "de": "nicht genug; nicht genügend",
+   "s": "Il n'y a {pas assez de} chaises."
+  },
+  {
+   "id": "fr-u4-v3-10",
+   "fx": "ne … pas de qc",
+   "de": "kein/keine/keinen",
+   "s": "Je n'ai {pas de} frère."
+  },
+  {
+   "id": "fr-u4-v3-11",
+   "fx": "ne … plus de qc",
+   "de": "kein/keine/keinen … mehr",
+   "s": "Il n'y a {plus de} pain."
+  },
+  {
+   "id": "fr-u4-v3-12",
+   "fx": "je trouve que",
+   "de": "ich finde, dass",
+   "s": "{Je trouve que} le film est super."
+  },
+  {
+   "id": "fr-u4-v3-13",
+   "fx": "la rentrée",
+   "de": "der Schuljahresbeginn",
+   "s": "La {rentrée}, c'est en septembre."
+  },
+  {
+   "id": "fr-u4-v3-14",
+   "fx": "un ascenseur",
+   "de": "ein Aufzug",
+   "s": "On prend l'{ascenseur} ?"
+  },
+  {
+   "id": "fr-u4-v3-15",
+   "fx": "le bruit",
+   "de": "der Lärm; das Geräusch",
+   "s": "Il y a trop de {bruit} ici !"
+  },
+  {
+   "id": "fr-u4-v3-16",
+   "fx": "gaspiller qc",
+   "de": "etw. verschwenden",
+   "s": "Il ne faut pas {gaspiller} l'eau."
+  },
+  {
+   "id": "fr-u4-v3-17",
+   "fx": "le pain",
+   "de": "das Brot",
+   "s": "J'achète du {pain} à la boulangerie."
+  },
+  {
+   "id": "fr-u4-v3-18",
+   "fx": "le plat",
+   "de": "das Hauptgericht; das Gericht",
+   "s": "Les spaghettis, c'est mon {plat} préféré."
+  },
+  {
+   "id": "fr-u4-v3-19",
+   "fx": "propre",
+   "de": "sauber",
+   "s": "Ma chambre est {propre} aujourd'hui !"
+  },
+  {
+   "id": "fr-u4-v3-20",
+   "fx": "vite",
+   "de": "schnell",
+   "s": "Viens {vite} !"
+  },
+  {
+   "id": "fr-u4-v3-21",
+   "fx": "Au secours!",
+   "de": "Zu Hilfe!",
+   "s": "{Au secours} ! Il y a une araignée !"
+  },
+  {
+   "id": "fr-u4-v3-22",
+   "fx": "nul/nulle",
+   "de": "miserabel; doof; schlecht",
+   "s": "Ce film est {nul}."
+  },
+  {
+   "id": "fr-u4-v3-23",
+   "fx": "bon/bonne",
+   "de": "gut; lecker",
+   "s": "Cette pizza est très {bonne} !"
+  },
+  {
+   "id": "fr-u4-v3-24",
+   "fx": "être nul/nulle en qc",
+   "de": "in etw. schlecht sein; in etw. eine Niete sein",
+   "s": "Je {suis nulle en} maths."
+  },
+  {
+   "id": "fr-u4-v3-25",
+   "fx": "être bon/bonne en qc",
+   "de": "in etw. gut sein",
+   "s": "Mon frère {est bon en} sport."
+  }
+ ]
+}

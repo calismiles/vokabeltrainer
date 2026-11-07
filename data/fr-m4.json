@@ -1,0 +1,170 @@
+{
+ "id": "fr-m4",
+ "lang": "fr",
+ "title": "Module 4 · À la cantine",
+ "desc": "Speisekarte lesen, sagen, was man essen möchte, prendre",
+ "words": [
+  {
+   "id": "fr-m4-01",
+   "fx": "le menu",
+   "de": "das Menü",
+   "s": "Aujourd'hui, le {menu} est super !"
+  },
+  {
+   "id": "fr-m4-02",
+   "fx": "une entrée",
+   "de": "eine Vorspeise",
+   "s": "Comme {entrée}, il y a une salade."
+  },
+  {
+   "id": "fr-m4-03",
+   "fx": "la soupe",
+   "de": "die Suppe",
+   "s": "En hiver, j'aime la {soupe}."
+  },
+  {
+   "id": "fr-m4-04",
+   "fx": "la carotte",
+   "de": "die Karotte; die Möhre",
+   "s": "Mon lapin mange une {carotte}."
+  },
+  {
+   "id": "fr-m4-05",
+   "fx": "le riz",
+   "de": "der Reis",
+   "s": "Je mange du {riz} avec du poulet."
+  },
+  {
+   "id": "fr-m4-06",
+   "fx": "le légume/les légumes",
+   "de": "das Gemüse",
+   "s": "Mange tes {légumes} !"
+  },
+  {
+   "id": "fr-m4-07",
+   "fx": "le steak",
+   "de": "das Steak",
+   "s": "Je voudrais un {steak} avec des frites."
+  },
+  {
+   "id": "fr-m4-08",
+   "fx": "le gratin",
+   "de": "das Gratin; der Auflauf",
+   "s": "Le {gratin} de pommes de terre est délicieux."
+  },
+  {
+   "id": "fr-m4-09",
+   "fx": "le potiron",
+   "de": "der Kürbis",
+   "s": "La soupe au {potiron}, c'est bon !"
+  },
+  {
+   "id": "fr-m4-10",
+   "fx": "le dessert",
+   "de": "die Nachspeise; das Dessert",
+   "s": "Comme {dessert}, je prends une glace."
+  },
+  {
+   "id": "fr-m4-11",
+   "fx": "le gâteau aux pommes",
+   "de": "der Apfelkuchen",
+   "s": "Ma grand-mère fait un {gâteau aux pommes}."
+  },
+  {
+   "id": "fr-m4-12",
+   "fx": "le gâteau/les gâteaux",
+   "de": "der Kuchen/die Kuchen",
+   "s": "C'est mon anniversaire, voilà le {gâteau} !"
+  },
+  {
+   "id": "fr-m4-13",
+   "fx": "la pomme",
+   "de": "der Apfel",
+   "s": "Je mange une {pomme}."
+  },
+  {
+   "id": "fr-m4-14",
+   "fx": "le fruit",
+   "de": "die Frucht; das Obst",
+   "s": "Tu veux un {fruit} ?"
+  },
+  {
+   "id": "fr-m4-15",
+   "fx": "avoir faim",
+   "de": "Hunger haben",
+   "s": "Maman, j'{ai faim} !"
+  },
+  {
+   "id": "fr-m4-16",
+   "fx": "avoir soif",
+   "de": "Durst haben",
+   "s": "Tu {as soif} ? Voilà de l'eau."
+  },
+  {
+   "id": "fr-m4-17",
+   "fx": "prendre qc",
+   "de": "etw. nehmen",
+   "s": "Je {prends} le bus pour aller au collège."
+  },
+  {
+   "id": "fr-m4-18",
+   "fx": "orange",
+   "de": "orange",
+   "s": "Le potiron est {orange}."
+  },
+  {
+   "id": "fr-m4-19",
+   "fx": "comme ça",
+   "de": "so",
+   "s": "Non, on ne fait pas {comme ça} !"
+  },
+  {
+   "id": "fr-m4-20",
+   "fx": "sans",
+   "de": "ohne",
+   "s": "Je prends une pizza {sans} tomates."
+  },
+  {
+   "id": "fr-m4-21",
+   "fx": "la viande",
+   "de": "das Fleisch",
+   "s": "Je ne mange pas de {viande}."
+  },
+  {
+   "id": "fr-m4-22",
+   "fx": "végétarien/végétarienne",
+   "de": "vegetarisch",
+   "s": "Ma sœur est {végétarienne}."
+  },
+  {
+   "id": "fr-m4-23",
+   "fx": "Bon appétit!",
+   "de": "Guten Appetit!",
+   "s": "À table, tout le monde ! {Bon appétit} !"
+  },
+  {
+   "id": "fr-m4-24",
+   "fx": "Tu me passes …?",
+   "de": "Reichst du mir …?",
+   "s": "{Tu me passes} le sel, s'il te plaît ?"
+  },
+  {
+   "id": "fr-m4-25",
+   "fx": "l'eau/les eaux",
+   "de": "das Wasser",
+   "s": "Je bois de l'{eau}."
+  },
+  {
+   "id": "fr-m4-26",
+   "fx": "beurk",
+   "de": "bäh",
+   "s": "{Beurk} ! Je n'aime pas les épinards."
+  },
+  {
+   "id": "fr-m4-27",
+   "fx": "le sel",
+   "de": "das Salz",
+   "s": "Il n'y a pas de {sel} dans la soupe."
+  }
+ ]
+}

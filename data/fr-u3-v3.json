@@ -1,0 +1,140 @@
+{
+ "id": "fr-u3-v3",
+ "lang": "fr",
+ "title": "Unité 3 · Volet 3",
+ "desc": "Ma chambre raconte ma vie! – Adjektive, ne … pas, parce que",
+ "words": [
+  {
+   "id": "fr-u3-v3-01",
+   "fx": "la vie",
+   "de": "das Leben",
+   "s": "La {vie} est belle !"
+  },
+  {
+   "id": "fr-u3-v3-02",
+   "fx": "petit/petite",
+   "de": "klein",
+   "s": "Ma sœur est encore {petite}."
+  },
+  {
+   "id": "fr-u3-v3-03",
+   "fx": "grand/grande",
+   "de": "groß",
+   "s": "Mon frère est très {grand}."
+  },
+  {
+   "id": "fr-u3-v3-04",
+   "fx": "un instrument",
+   "de": "ein Instrument",
+   "s": "Tu joues d'un {instrument} ?"
+  },
+  {
+   "id": "fr-u3-v3-05",
+   "fx": "la star",
+   "de": "der Star",
+   "s": "Cette chanteuse est une {star}."
+  },
+  {
+   "id": "fr-u3-v3-06",
+   "fx": "préféré/préférée",
+   "de": "Lieblings-",
+   "s": "Le bleu est ma couleur {préférée}."
+  },
+  {
+   "id": "fr-u3-v3-07",
+   "fx": "joli/jolie",
+   "de": "hübsch",
+   "s": "Ta robe est très {jolie}."
+  },
+  {
+   "id": "fr-u3-v3-08",
+   "fx": "moche",
+   "de": "hässlich",
+   "s": "Ce pull est {moche} !"
+  },
+  {
+   "id": "fr-u3-v3-09",
+   "fx": "bleu/bleue",
+   "de": "blau",
+   "s": "Ma chambre est {bleue}."
+  },
+  {
+   "id": "fr-u3-v3-10",
+   "fx": "noir/noire",
+   "de": "schwarz",
+   "s": "J'ai une guitare {noire}."
+  },
+  {
+   "id": "fr-u3-v3-11",
+   "fx": "blanc/blanche",
+   "de": "weiß",
+   "s": "Ma chambre est {blanche}."
+  },
+  {
+   "id": "fr-u3-v3-12",
+   "fx": "vert/verte",
+   "de": "grün",
+   "s": "Ma lampe est {verte}."
+  },
+  {
+   "id": "fr-u3-v3-13",
+   "fx": "ne … pas",
+   "de": "nicht",
+   "s": "Ce n'est {pas} mon vélo."
+  },
+  {
+   "id": "fr-u3-v3-14",
+   "fx": "ne … plus",
+   "de": "nicht mehr",
+   "s": "Je n'ai {plus} faim."
+  },
+  {
+   "id": "fr-u3-v3-15",
+   "fx": "les affaires",
+   "de": "die Sachen",
+   "s": "Range tes {affaires}, s'il te plaît !"
+  },
+  {
+   "id": "fr-u3-v3-16",
+   "fx": "trop",
+   "de": "zu; zu sehr",
+   "s": "Ce pull est {trop} grand."
+  },
+  {
+   "id": "fr-u3-v3-17",
+   "fx": "vraiment",
+   "de": "wirklich",
+   "s": "Ton dessin est {vraiment} beau !"
+  },
+  {
+   "id": "fr-u3-v3-18",
+   "fx": "drôle",
+   "de": "lustig; spaßig",
+   "s": "Mon oncle est très {drôle}."
+  },
+  {
+   "id": "fr-u3-v3-19",
+   "fx": "faire les devoirs",
+   "de": "Hausaufgaben machen",
+   "s": "Le soir, je {fais les devoirs}."
+  },
+  {
+   "id": "fr-u3-v3-20",
+   "fx": "surfer (sur Internet)",
+   "de": "(im Internet) surfen",
+   "s": "Mon frère {surfe sur Internet}."
+  },
+  {
+   "id": "fr-u3-v3-21",
+   "fx": "la pancarte",
+   "de": "das Schild",
+   "s": "Sur la {pancarte}, il y a « Entrée »."
+  },
+  {
+   "id": "fr-u3-v3-22",
+   "fx": "entrer",
+   "de": "hineingehen; etw. betreten; hereinkommen",
+   "s": "{Entrez}, s'il vous plaît !"
+  }
+ ]
+}

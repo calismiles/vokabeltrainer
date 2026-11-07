@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-de",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 3 · der zusammengezogene Artikel mit de",
+ "rule": "de + le → **du**: à côté **du** lit\nde + la → **de la**: en face **de la** fenêtre\nde + l' → **de l'**: près **de l'**école\nde + les → **des**: à côté **des** livres\nGenauso bei Hobbys mit faire: faire **du** piano, faire **de la** danse, faire **de l'**escalade, faire **des** arts martiaux",
+ "words": [
+  {
+   "id": "fr-gr-de-01",
+   "s": "La lampe est à côté {du} lit.",
+   "de": "de + le"
+  },
+  {
+   "id": "fr-gr-de-02",
+   "s": "Le bureau est en face {de la} fenêtre.",
+   "de": "de + la"
+  },
+  {
+   "id": "fr-gr-de-03",
+   "s": "J'habite près {de l'}école.",
+   "de": "de + l'"
+  },
+  {
+   "id": "fr-gr-de-04",
+   "s": "Mon sac est à côté {des} chaises.",
+   "de": "de + les"
+  },
+  {
+   "id": "fr-gr-de-05",
+   "s": "Il y a un poster à gauche {de la} porte.",
+   "de": "de + la"
+  },
+  {
+   "id": "fr-gr-de-06",
+   "s": "Le chat est à droite {du} bureau.",
+   "de": "de + le"
+  },
+  {
+   "id": "fr-gr-de-07",
+   "s": "Je fais {du} piano.",
+   "de": "faire + le piano"
+  },
+  {
+   "id": "fr-gr-de-08",
+   "s": "Ma sœur fait {de la} danse.",
+   "de": "faire + la danse"
+  },
+  {
+   "id": "fr-gr-de-09",
+   "s": "Nous faisons {de l'}escalade.",
+   "de": "faire + l'escalade"
+  },
+  {
+   "id": "fr-gr-de-10",
+   "s": "Tu fais {des} arts martiaux ?",
+   "de": "faire + les arts martiaux"
+  },
+  {
+   "id": "fr-gr-de-11",
+   "s": "Mon frère fait {du} basket.",
+   "de": "faire + le basket"
+  },
+  {
+   "id": "fr-gr-de-12",
+   "s": "La boulangerie est en face {du} parc.",
+   "de": "de + le"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-artIndef",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 1 · der unbestimmte Artikel un, une, des – il y a",
+ "rule": "Männlich: **un** parc · weiblich: **une** gare\nPlural: **des** cinémas (wird nicht übersetzt: Es gibt Kinos.)\n**il y a** = es gibt: Dans ma rue, il y a **une** boulangerie.",
+ "words": [
+  {
+   "id": "fr-gr-artIndef-01",
+   "s": "Dans mon quartier, il y a {un} parc.",
+   "de": "un, une oder des? (parc: m.)"
+  },
+  {
+   "id": "fr-gr-artIndef-02",
+   "s": "Il y a {une} boulangerie dans la rue.",
+   "de": "un, une oder des? (boulangerie: f.)"
+  },
+  {
+   "id": "fr-gr-artIndef-03",
+   "s": "À Paris, il y a {des} musées.",
+   "de": "un, une oder des? (Plural)"
+  },
+  {
+   "id": "fr-gr-artIndef-04",
+   "s": "C'est {un} garçon de ma classe.",
+   "de": "un, une oder des?"
+  },
+  {
+   "id": "fr-gr-artIndef-05",
+   "s": "C'est {une} fille sympa.",
+   "de": "un, une oder des?"
+  },
+  {
+   "id": "fr-gr-artIndef-06",
+   "s": "Ce sont {des} amis de Léa.",
+   "de": "un, une oder des?"
+  },
+  {
+   "id": "fr-gr-artIndef-07",
+   "s": "Il y a {un} stade près de la gare.",
+   "de": "un, une oder des? (stade: m.)"
+  },
+  {
+   "id": "fr-gr-artIndef-08",
+   "s": "Dans la ville, il y a {une} cathédrale.",
+   "de": "un, une oder des? (cathédrale: f.)"
+  },
+  {
+   "id": "fr-gr-artIndef-09",
+   "s": "Il y a {des} magasins dans le centre commercial.",
+   "de": "un, une oder des? (Plural)"
+  },
+  {
+   "id": "fr-gr-artIndef-10",
+   "s": "J'ai {un} chat.",
+   "de": "un, une oder des? (chat: m.)"
+  },
+  {
+   "id": "fr-gr-artIndef-11",
+   "s": "C'est {une} question.",
+   "de": "un, une oder des? (question: f.)"
+  },
+  {
+   "id": "fr-gr-artIndef-12",
+   "s": "Dans mon quartier, {il y a} un cinéma.",
+   "de": "es gibt"
+  }
+ ]
+}

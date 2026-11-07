@@ -1,0 +1,62 @@
+{
+ "id": "fr-wb-activites",
+ "lang": "fr",
+ "title": "Wortspeicher · Mit Familie und Freunden",
+ "desc": "Freiwillige Zusatzwörter zu Unité 2",
+ "words": [
+  {
+   "id": "fr-wb-activites-01",
+   "fx": "cuisiner",
+   "de": "kochen",
+   "s": "Le dimanche, mon père {cuisine}."
+  },
+  {
+   "id": "fr-wb-activites-02",
+   "fx": "chanter",
+   "de": "singen",
+   "s": "Ma sœur {chante} dans une chorale."
+  },
+  {
+   "id": "fr-wb-activites-03",
+   "fx": "danser",
+   "de": "tanzen",
+   "s": "On {danse} à la fête."
+  },
+  {
+   "id": "fr-wb-activites-04",
+   "fx": "bricoler",
+   "de": "basteln; heimwerken",
+   "s": "Avec mon grand-père, je {bricole}."
+  },
+  {
+   "id": "fr-wb-activites-05",
+   "fx": "voyager",
+   "de": "reisen; verreisen",
+   "s": "Nous {voyageons} en Italie cet été."
+  },
+  {
+   "id": "fr-wb-activites-06",
+   "fx": "collectionner qc",
+   "de": "etw. sammeln",
+   "s": "Je {collectionne} des cartes de foot."
+  },
+  {
+   "id": "fr-wb-activites-07",
+   "fx": "jardiner",
+   "de": "gärtnern; im Garten arbeiten",
+   "s": "Ma grand-mère aime {jardiner}."
+  },
+  {
+   "id": "fr-wb-activites-08",
+   "fx": "skier",
+   "de": "Ski fahren",
+   "s": "En hiver, nous {skions} à la montagne."
+  },
+  {
+   "id": "fr-wb-activites-09",
+   "fx": "marcher dans la nature",
+   "de": "in der Natur wandern",
+   "s": "Le dimanche, on aime {marcher dans la nature}."
+  }
+ ]
+}

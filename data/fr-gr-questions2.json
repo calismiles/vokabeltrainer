@@ -1,0 +1,59 @@
+{
+ "id": "fr-gr-questions2",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 4 · Fragen mit Fragewort und est-ce que",
+ "rule": "Fragewort + **est-ce que** + Aussagesatz:\n**Où** est-ce que tu habites? (wo) · **Quand** est-ce que tu as sport? (wann)\n**Pourquoi** est-ce que tu es en retard? (warum) · **Comment** est-ce que tu vas à l'école? (wie)\n**Qu'**est-ce que tu fais? (was) · **Qui** est-ce que tu invites? (wen)",
+ "words": [
+  {
+   "id": "fr-gr-questions2-01",
+   "s": "{Où} est-ce que tu habites ?",
+   "de": "wo"
+  },
+  {
+   "id": "fr-gr-questions2-02",
+   "s": "{Quand} est-ce que tu as sport ?",
+   "de": "wann"
+  },
+  {
+   "id": "fr-gr-questions2-03",
+   "s": "{Pourquoi} est-ce que tu es en retard ?",
+   "de": "warum"
+  },
+  {
+   "id": "fr-gr-questions2-04",
+   "s": "{Qu'}est-ce que tu manges ?",
+   "de": "was"
+  },
+  {
+   "id": "fr-gr-questions2-05",
+   "s": "{Comment} est-ce que tu vas au collège ?",
+   "de": "wie"
+  },
+  {
+   "id": "fr-gr-questions2-06",
+   "s": "{Qui} est-ce que tu invites ?",
+   "de": "wen"
+  },
+  {
+   "id": "fr-gr-questions2-07",
+   "s": "{Où} est-ce que vous allez ?",
+   "de": "wohin"
+  },
+  {
+   "id": "fr-gr-questions2-08",
+   "s": "{Quand} est-ce que le film commence ?",
+   "de": "wann"
+  },
+  {
+   "id": "fr-gr-questions2-09",
+   "s": "{Pourquoi} est-ce qu'il râle ?",
+   "de": "warum"
+  },
+  {
+   "id": "fr-gr-questions2-10",
+   "s": "{Qu'}est-ce que vous faites samedi ?",
+   "de": "was"
+  }
+ ]
+}

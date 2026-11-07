@@ -1,0 +1,128 @@
+{
+ "id": "fr-u1-voc",
+ "lang": "fr",
+ "title": "Unité 1 · Vocabulaire thématique",
+ "desc": "La ville: Orte in der Stadt, fragen, wo etwas ist",
+ "words": [
+  {
+   "id": "fr-u1-voc-01",
+   "fx": "Bienvenue!",
+   "de": "Willkommen!",
+   "s": "{Bienvenue} à Hambourg !"
+  },
+  {
+   "id": "fr-u1-voc-02",
+   "fx": "la ville",
+   "de": "die Stadt",
+   "s": "Hambourg est une grande {ville}."
+  },
+  {
+   "id": "fr-u1-voc-03",
+   "fx": "le cinéma",
+   "de": "das Kino",
+   "s": "On va au {cinéma} ce soir ?"
+  },
+  {
+   "id": "fr-u1-voc-04",
+   "fx": "le parc",
+   "de": "der Park",
+   "s": "Les chiens jouent dans le {parc}."
+  },
+  {
+   "id": "fr-u1-voc-05",
+   "fx": "le théâtre",
+   "de": "das Theater",
+   "s": "Ce soir, on va au {théâtre}."
+  },
+  {
+   "id": "fr-u1-voc-06",
+   "fx": "le café",
+   "de": "das Café; der Kaffee",
+   "s": "Ma mère boit un {café}."
+  },
+  {
+   "id": "fr-u1-voc-07",
+   "fx": "le restaurant",
+   "de": "das Restaurant",
+   "s": "Le {restaurant} est fermé le lundi."
+  },
+  {
+   "id": "fr-u1-voc-08",
+   "fx": "l'hôtel",
+   "de": "das Hotel",
+   "s": "L'{hôtel} est près de la gare."
+  },
+  {
+   "id": "fr-u1-voc-09",
+   "fx": "le musée",
+   "de": "das Museum",
+   "s": "Le Louvre est un {musée}."
+  },
+  {
+   "id": "fr-u1-voc-10",
+   "fx": "le métro",
+   "de": "die U-Bahn; die Metro",
+   "s": "À Paris, je prends le {métro}."
+  },
+  {
+   "id": "fr-u1-voc-11",
+   "fx": "la tour",
+   "de": "der Turm",
+   "s": "La {tour} est très haute."
+  },
+  {
+   "id": "fr-u1-voc-12",
+   "fx": "le supermarché",
+   "de": "der Supermarkt",
+   "s": "Le {supermarché} est à côté de la gare."
+  },
+  {
+   "id": "fr-u1-voc-13",
+   "fx": "le collège",
+   "de": "die Schule (Klasse 6–9 in Frankreich)",
+   "s": "Mon {collège} est dans le quartier."
+  },
+  {
+   "id": "fr-u1-voc-14",
+   "fx": "le stade",
+   "de": "das Stadion",
+   "s": "Le match est au {stade}."
+  },
+  {
+   "id": "fr-u1-voc-15",
+   "fx": "pardon",
+   "de": "Verzeihung; Entschuldigung",
+   "s": "{Pardon}, Monsieur, où est la gare ?"
+  },
+  {
+   "id": "fr-u1-voc-16",
+   "fx": "Où est …?",
+   "de": "Wo ist …?",
+   "s": "{Où est} le cinéma, s'il vous plaît ?"
+  },
+  {
+   "id": "fr-u1-voc-17",
+   "fx": "Où …?",
+   "de": "Wo …?; Wohin …?",
+   "s": "Tu habites {où} ?"
+  },
+  {
+   "id": "fr-u1-voc-18",
+   "fx": "c'est",
+   "de": "das ist",
+   "s": "{C'est} le musée du Louvre."
+  },
+  {
+   "id": "fr-u1-voc-19",
+   "fx": "là",
+   "de": "da; hier",
+   "s": "Le parc ? Il est {là}."
+  },
+  {
+   "id": "fr-u1-voc-20",
+   "fx": "merci",
+   "de": "danke",
+   "s": "{Merci}, Madame !"
+  }
+ ]
+}

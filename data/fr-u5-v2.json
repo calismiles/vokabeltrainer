@@ -1,0 +1,134 @@
+{
+ "id": "fr-u5-v2",
+ "lang": "fr",
+ "title": "Unité 5 · Volet 2",
+ "desc": "On fait les courses ensemble! – Mengenangaben, Teilungsartikel",
+ "words": [
+  {
+   "id": "fr-u5-v2-01",
+   "fx": "faire les courses",
+   "de": "einkaufen (Lebensmittel)",
+   "s": "Le samedi, je {fais les courses} avec mon père."
+  },
+  {
+   "id": "fr-u5-v2-02",
+   "fx": "acheter qc",
+   "de": "etw. kaufen",
+   "s": "J'{achète} un cadeau pour ma sœur."
+  },
+  {
+   "id": "fr-u5-v2-03",
+   "fx": "Combien de …?",
+   "de": "Wie viel …?; Wie viele …?",
+   "s": "{Combien de} pommes tu veux ?"
+  },
+  {
+   "id": "fr-u5-v2-04",
+   "fx": "Combien …?",
+   "de": "Wie viel …?",
+   "s": "Ça coûte {combien} ?"
+  },
+  {
+   "id": "fr-u5-v2-05",
+   "fx": "la bouteille",
+   "de": "die Flasche",
+   "s": "J'achète une {bouteille} d'eau."
+  },
+  {
+   "id": "fr-u5-v2-06",
+   "fx": "la madeleine",
+   "de": "die Madeleine (französisches Gebäck)",
+   "s": "Je mange une {madeleine} avec mon chocolat chaud."
+  },
+  {
+   "id": "fr-u5-v2-07",
+   "fx": "le paquet",
+   "de": "das Paket; die Packung",
+   "s": "Un {paquet} de biscuits, s'il vous plaît."
+  },
+  {
+   "id": "fr-u5-v2-08",
+   "fx": "le sandwich",
+   "de": "das Sandwich",
+   "s": "À midi, je mange un {sandwich}."
+  },
+  {
+   "id": "fr-u5-v2-09",
+   "fx": "l'argent",
+   "de": "das Geld",
+   "s": "Je n'ai plus d'{argent}."
+  },
+  {
+   "id": "fr-u5-v2-10",
+   "fx": "un euro",
+   "de": "ein Euro",
+   "s": "La BD coûte dix {euros}."
+  },
+  {
+   "id": "fr-u5-v2-11",
+   "fx": "le kilo",
+   "de": "das Kilo",
+   "s": "Je voudrais un {kilo} de pommes."
+  },
+  {
+   "id": "fr-u5-v2-12",
+   "fx": "Et avec ça?",
+   "de": "Darf es sonst noch etwas sein?",
+   "s": "Deux baguettes. {Et avec ça} ?"
+  },
+  {
+   "id": "fr-u5-v2-13",
+   "fx": "C'est tout.",
+   "de": "Das ist alles.",
+   "s": "Non merci, {c'est tout}."
+  },
+  {
+   "id": "fr-u5-v2-14",
+   "fx": "ça fait + Preis",
+   "de": "das macht + Preis",
+   "s": "Alors, {ça fait} six euros."
+  },
+  {
+   "id": "fr-u5-v2-15",
+   "fx": "ça coûte + Preis",
+   "de": "das kostet + Preis",
+   "s": "Le livre, {ça coûte} douze euros."
+  },
+  {
+   "id": "fr-u5-v2-16",
+   "fx": "la baguette",
+   "de": "das Baguette",
+   "s": "J'achète une {baguette} à la boulangerie."
+  },
+  {
+   "id": "fr-u5-v2-17",
+   "fx": "C'est quoi?",
+   "de": "Was ist das?",
+   "s": "{C'est quoi}, ce truc ?"
+  },
+  {
+   "id": "fr-u5-v2-18",
+   "fx": "sucré/sucrée",
+   "de": "süß; gezuckert",
+   "s": "Ce jus est trop {sucré}."
+  },
+  {
+   "id": "fr-u5-v2-19",
+   "fx": "salé/salée",
+   "de": "salzig; gesalzen",
+   "s": "J'aime les chips {salées}."
+  },
+  {
+   "id": "fr-u5-v2-20",
+   "fx": "la quiche",
+   "de": "die Quiche",
+   "s": "Ma mère fait une {quiche} au jambon."
+  },
+  {
+   "id": "fr-u5-v2-21",
+   "fx": "la chouquette",
+   "de": "die Chouquette (Brandteiggebäck mit Zucker)",
+   "s": "Je voudrais dix {chouquettes}, s'il vous plaît."
+  }
+ ]
+}

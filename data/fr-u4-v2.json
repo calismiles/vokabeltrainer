@@ -1,0 +1,182 @@
+{
+ "id": "fr-u4-v2",
+ "lang": "fr",
+ "title": "Unité 4 · Volet 2",
+ "desc": "Leur emploi du temps est super! – Fragewörter, notre/votre/leur",
+ "words": [
+  {
+   "id": "fr-u4-v2-01",
+   "fx": "notre/nos",
+   "de": "unser/unsere",
+   "s": "{Notre} prof est très sympa."
+  },
+  {
+   "id": "fr-u4-v2-02",
+   "fx": "votre/vos",
+   "de": "euer/eure; Ihr/Ihre",
+   "s": "Prenez {vos} cahiers !"
+  },
+  {
+   "id": "fr-u4-v2-03",
+   "fx": "leur/leurs",
+   "de": "ihr/ihre (Plural)",
+   "s": "Les élèves rangent {leurs} affaires."
+  },
+  {
+   "id": "fr-u4-v2-04",
+   "fx": "Pourquoi …?",
+   "de": "Warum …?",
+   "s": "{Pourquoi} tu es en retard ?"
+  },
+  {
+   "id": "fr-u4-v2-05",
+   "fx": "la carte",
+   "de": "die Karte",
+   "s": "Montre ta {carte} de cantine, s'il te plaît."
+  },
+  {
+   "id": "fr-u4-v2-06",
+   "fx": "allemand/allemande",
+   "de": "deutsch",
+   "s": "Ma copine est {allemande}."
+  },
+  {
+   "id": "fr-u4-v2-07",
+   "fx": "le/la corres",
+   "de": "der Brieffreund/die Brieffreundin",
+   "s": "Mon {corres} habite à Lyon."
+  },
+  {
+   "id": "fr-u4-v2-08",
+   "fx": "le correspondant/la correspondante",
+   "de": "der Austauschpartner/die Austauschpartnerin",
+   "s": "Ma {correspondante} arrive demain."
+  },
+  {
+   "id": "fr-u4-v2-09",
+   "fx": "déjà",
+   "de": "schon; bereits",
+   "s": "Il est {déjà} huit heures !"
+  },
+  {
+   "id": "fr-u4-v2-10",
+   "fx": "la journée",
+   "de": "der Tag (in seinem Ablauf)",
+   "s": "Bonne {journée} !"
+  },
+  {
+   "id": "fr-u4-v2-11",
+   "fx": "ensuite",
+   "de": "dann",
+   "s": "D'abord je mange, {ensuite} je fais mes devoirs."
+  },
+  {
+   "id": "fr-u4-v2-12",
+   "fx": "la matière",
+   "de": "das Schulfach",
+   "s": "Ma {matière} préférée, c'est l'anglais."
+  },
+  {
+   "id": "fr-u4-v2-13",
+   "fx": "trop",
+   "de": "total; voll",
+   "s": "Ton vélo est {trop} cool !"
+  },
+  {
+   "id": "fr-u4-v2-14",
+   "fx": "bizarre",
+   "de": "merkwürdig",
+   "s": "Ce film est un peu {bizarre}."
+  },
+  {
+   "id": "fr-u4-v2-15",
+   "fx": "le cauchemar",
+   "de": "der Albtraum",
+   "s": "Ce film d'horreur, c'est un vrai {cauchemar} !"
+  },
+  {
+   "id": "fr-u4-v2-16",
+   "fx": "la cour",
+   "de": "der Schulhof; der Hof",
+   "s": "Les élèves jouent dans la {cour}."
+  },
+  {
+   "id": "fr-u4-v2-17",
+   "fx": "le terrain",
+   "de": "der Platz",
+   "s": "On joue au foot sur le {terrain}."
+  },
+  {
+   "id": "fr-u4-v2-18",
+   "fx": "Ça dépend.",
+   "de": "Es kommt darauf an.",
+   "s": "– Tu viens ce soir ? – {Ça dépend}."
+  },
+  {
+   "id": "fr-u4-v2-19",
+   "fx": "avoir de la chance",
+   "de": "Glück haben",
+   "s": "Tu as un chien ? Tu {as de la chance} !"
+  },
+  {
+   "id": "fr-u4-v2-20",
+   "fx": "expliquer qc",
+   "de": "etw. erklären",
+   "s": "Le prof {explique} l'exercice."
+  },
+  {
+   "id": "fr-u4-v2-21",
+   "fx": "raconter sa vie",
+   "de": "seine Lebensgeschichte erzählen",
+   "s": "Mon oncle {raconte sa vie} à table."
+  },
+  {
+   "id": "fr-u4-v2-22",
+   "fx": "râler",
+   "de": "meckern; motzen",
+   "s": "Arrête de {râler} !"
+  },
+  {
+   "id": "fr-u4-v2-23",
+   "fx": "terminer (qc)",
+   "de": "enden; etw. beenden; aufhören",
+   "s": "Le cours {termine} à midi."
+  },
+  {
+   "id": "fr-u4-v2-24",
+   "fx": "commencer qc",
+   "de": "etw. beginnen",
+   "s": "Nous {commençons} à huit heures."
+  },
+  {
+   "id": "fr-u4-v2-25",
+   "fx": "la fois/les fois",
+   "de": "das Mal/die Male",
+   "s": "Je vais au cinéma deux {fois} par mois."
+  },
+  {
+   "id": "fr-u4-v2-26",
+   "fx": "Ça suffit!",
+   "de": "Es reicht!; Das reicht!",
+   "s": "{Ça suffit} ! Range ta chambre !"
+  },
+  {
+   "id": "fr-u4-v2-27",
+   "fx": "Quand …?",
+   "de": "Wann …?",
+   "s": "{Quand} est-ce que tu as sport ?"
+  },
+  {
+   "id": "fr-u4-v2-28",
+   "fx": "avoir cours",
+   "de": "Unterricht haben",
+   "s": "Le mercredi, nous {avons cours} jusqu'à midi."
+  },
+  {
+   "id": "fr-u4-v2-29",
+   "fx": "le cours",
+   "de": "der Unterricht; die Unterrichtsstunde",
+   "s": "Le {cours} de maths commence à neuf heures."
+  }
+ ]
+}

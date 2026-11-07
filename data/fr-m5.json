@@ -1,0 +1,158 @@
+{
+ "id": "fr-m5",
+ "lang": "fr",
+ "title": "Module 5 · Joyeux anniversaire!",
+ "desc": "Geburtstag, Monatsnamen, Einladung",
+ "words": [
+  {
+   "id": "fr-m5-01",
+   "fx": "Joyeux anniversaire!",
+   "de": "Herzlichen Glückwunsch zum Geburtstag!",
+   "s": "{Joyeux anniversaire}, Mamie !"
+  },
+  {
+   "id": "fr-m5-02",
+   "fx": "un anniversaire",
+   "de": "ein Geburtstag",
+   "s": "Mon {anniversaire}, c'est le dix mai."
+  },
+  {
+   "id": "fr-m5-03",
+   "fx": "premier/première",
+   "de": "erster/erste/erstes",
+   "s": "Le {premier} jour des vacances, je dors longtemps."
+  },
+  {
+   "id": "fr-m5-04",
+   "fx": "janvier",
+   "de": "Januar",
+   "s": "En {janvier}, il fait froid."
+  },
+  {
+   "id": "fr-m5-05",
+   "fx": "février",
+   "de": "Februar",
+   "s": "Mon anniversaire est en {février}."
+  },
+  {
+   "id": "fr-m5-06",
+   "fx": "mars",
+   "de": "März",
+   "s": "Le printemps commence en {mars}."
+  },
+  {
+   "id": "fr-m5-07",
+   "fx": "avril",
+   "de": "April",
+   "s": "En {avril}, il pleut souvent."
+  },
+  {
+   "id": "fr-m5-08",
+   "fx": "mai",
+   "de": "Mai",
+   "s": "Le premier {mai}, on ne travaille pas."
+  },
+  {
+   "id": "fr-m5-09",
+   "fx": "juin",
+   "de": "Juni",
+   "s": "En {juin}, il y a beaucoup de fraises."
+  },
+  {
+   "id": "fr-m5-10",
+   "fx": "juillet",
+   "de": "Juli",
+   "s": "En {juillet}, on part en vacances."
+  },
+  {
+   "id": "fr-m5-11",
+   "fx": "août",
+   "de": "August",
+   "s": "En {août}, il fait chaud."
+  },
+  {
+   "id": "fr-m5-12",
+   "fx": "septembre",
+   "de": "September",
+   "s": "La rentrée, c'est en {septembre}."
+  },
+  {
+   "id": "fr-m5-13",
+   "fx": "octobre",
+   "de": "Oktober",
+   "s": "En {octobre}, il y a les vacances d'automne."
+  },
+  {
+   "id": "fr-m5-14",
+   "fx": "novembre",
+   "de": "November",
+   "s": "En {novembre}, il fait gris."
+  },
+  {
+   "id": "fr-m5-15",
+   "fx": "décembre",
+   "de": "Dezember",
+   "s": "Noël, c'est en {décembre}."
+  },
+  {
+   "id": "fr-m5-16",
+   "fx": "la fête",
+   "de": "die Feier",
+   "s": "Tu viens à ma {fête} samedi ?"
+  },
+  {
+   "id": "fr-m5-17",
+   "fx": "fêter qc",
+   "de": "etw. feiern",
+   "s": "On {fête} l'anniversaire de Papi."
+  },
+  {
+   "id": "fr-m5-18",
+   "fx": "inviter qn",
+   "de": "jdn einladen",
+   "s": "J'{invite} toute ma classe."
+  },
+  {
+   "id": "fr-m5-19",
+   "fx": "une invitation",
+   "de": "eine Einladung",
+   "s": "Merci pour l'{invitation} !"
+  },
+  {
+   "id": "fr-m5-20",
+   "fx": "le skate",
+   "de": "das Skateboard",
+   "s": "Mon frère fait du {skate} dans le parc."
+  },
+  {
+   "id": "fr-m5-21",
+   "fx": "la soirée",
+   "de": "der Abend (in seinem Verlauf)",
+   "s": "Bonne {soirée} !"
+  },
+  {
+   "id": "fr-m5-22",
+   "fx": "le camping",
+   "de": "das Zelten; der Zeltplatz",
+   "s": "Cet été, on fait du {camping}."
+  },
+  {
+   "id": "fr-m5-23",
+   "fx": "le sac de couchage",
+   "de": "der Schlafsack",
+   "s": "N'oublie pas ton {sac de couchage} !"
+  },
+  {
+   "id": "fr-m5-24",
+   "fx": "le cadeau/les cadeaux",
+   "de": "das Geschenk/die Geschenke",
+   "s": "Voilà un {cadeau} pour toi !"
+  },
+  {
+   "id": "fr-m5-25",
+   "fx": "Je compte sur toi.",
+   "de": "Ich zähle auf dich.",
+   "s": "Tu viens à ma fête ? {Je compte sur toi} !"
+  }
+ ]
+}

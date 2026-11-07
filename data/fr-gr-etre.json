@@ -1,0 +1,79 @@
+{
+ "id": "fr-gr-etre",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 1 · être und die Personalpronomen",
+ "rule": "être = sein\nje **suis** · tu **es** · il/elle/on **est**\nnous **sommes** · vous **êtes** · ils/elles **sont**\n**on** heißt „man“, in der Umgangssprache meist „wir“: On est en retard!\n**vous** ist „ihr“ und auch die Höflichkeitsform „Sie“.",
+ "words": [
+  {
+   "id": "fr-gr-etre-01",
+   "s": "Je {suis} de Hambourg.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-02",
+   "s": "Tu {es} en sixième ?",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-03",
+   "s": "Léa {est} dans ma classe.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-04",
+   "s": "Nous {sommes} amis.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-05",
+   "s": "Vous {êtes} de Paris ?",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-06",
+   "s": "Max et Tom {sont} au stade.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-07",
+   "s": "On {est} en retard !",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-08",
+   "s": "Les filles {sont} sympas.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-09",
+   "s": "Le café {est} à côté du parc.",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-10",
+   "s": "Madame, vous {êtes} la prof de français ?",
+   "de": "être"
+  },
+  {
+   "id": "fr-gr-etre-11",
+   "s": "{Il} est de Berlin.",
+   "de": "Personalpronomen: Paul → ?"
+  },
+  {
+   "id": "fr-gr-etre-12",
+   "s": "{Elles} sont dans la même classe.",
+   "de": "Personalpronomen: Léa et Inès → ?"
+  },
+  {
+   "id": "fr-gr-etre-13",
+   "s": "{Ils} sont en retard.",
+   "de": "Personalpronomen: Max et Léa → ?"
+  },
+  {
+   "id": "fr-gr-etre-14",
+   "s": "{Nous} sommes en cinquième.",
+   "de": "Personalpronomen: Clara et moi → ?"
+  }
+ ]
+}

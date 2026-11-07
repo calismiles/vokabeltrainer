@@ -1,0 +1,182 @@
+{
+ "id": "fr-u4-v1",
+ "lang": "fr",
+ "title": "Unité 4 · Volet 1",
+ "desc": "La vie au collège: Personen und Orte der Schule, aller",
+ "words": [
+  {
+   "id": "fr-u4-v1-01",
+   "fx": "la salle",
+   "de": "der (Unterrichts-)Raum",
+   "s": "La {salle} de maths est au premier étage."
+  },
+  {
+   "id": "fr-u4-v1-02",
+   "fx": "la salle des profs",
+   "de": "das Lehrerzimmer",
+   "s": "Les profs sont dans la {salle des profs}."
+  },
+  {
+   "id": "fr-u4-v1-03",
+   "fx": "le bureau/les bureaux",
+   "de": "das Büro/die Büros",
+   "s": "Le {bureau} de la principale est ici."
+  },
+  {
+   "id": "fr-u4-v1-04",
+   "fx": "le CDI",
+   "de": "die Schulbibliothek",
+   "s": "Je lis une BD au {CDI}."
+  },
+  {
+   "id": "fr-u4-v1-05",
+   "fx": "une info/une information",
+   "de": "eine Info; eine Information",
+   "s": "J'ai une {info} pour toi !"
+  },
+  {
+   "id": "fr-u4-v1-06",
+   "fx": "le/la CPE",
+   "de": "der Schulbetreuer/die Schulbetreuerin",
+   "s": "Le {CPE} parle avec les élèves."
+  },
+  {
+   "id": "fr-u4-v1-07",
+   "fx": "la mission",
+   "de": "die Mission",
+   "s": "Ta {mission} : trouver le CDI !"
+  },
+  {
+   "id": "fr-u4-v1-08",
+   "fx": "le papier",
+   "de": "das Papier; das Dokument",
+   "s": "Donne ce {papier} à tes parents."
+  },
+  {
+   "id": "fr-u4-v1-09",
+   "fx": "aller",
+   "de": "gehen",
+   "s": "Je {vais} au collège à pied."
+  },
+  {
+   "id": "fr-u4-v1-10",
+   "fx": "le billet de retard",
+   "de": "Nachweis über das Zuspätkommen",
+   "s": "Tu es en retard ? Va chercher un {billet de retard} !"
+  },
+  {
+   "id": "fr-u4-v1-11",
+   "fx": "la solution",
+   "de": "die Lösung",
+   "s": "J'ai la {solution} !"
+  },
+  {
+   "id": "fr-u4-v1-12",
+   "fx": "le point faible",
+   "de": "der Schwachpunkt",
+   "s": "L'anglais, c'est mon {point faible}."
+  },
+  {
+   "id": "fr-u4-v1-13",
+   "fx": "sévère",
+   "de": "streng",
+   "s": "Notre prof de maths est {sévère}."
+  },
+  {
+   "id": "fr-u4-v1-14",
+   "fx": "le principal/la principale",
+   "de": "der Schulleiter/die Schulleiterin (am collège)",
+   "s": "La {principale} parle aux élèves."
+  },
+  {
+   "id": "fr-u4-v1-15",
+   "fx": "organiser qc",
+   "de": "etw. organisieren",
+   "s": "On {organise} une fête pour la classe."
+  },
+  {
+   "id": "fr-u4-v1-16",
+   "fx": "être pressé/pressée",
+   "de": "in Eile sein; es eilig haben",
+   "s": "Je ne peux pas parler, {je suis pressée} !"
+  },
+  {
+   "id": "fr-u4-v1-17",
+   "fx": "le/la documentaliste",
+   "de": "der Bibliothekar/die Bibliothekarin",
+   "s": "La {documentaliste} m'aide à trouver un livre."
+  },
+  {
+   "id": "fr-u4-v1-18",
+   "fx": "ranger qc",
+   "de": "etw. aufräumen; etw. ein-/ausräumen",
+   "s": "Je {range} ma chambre le samedi."
+  },
+  {
+   "id": "fr-u4-v1-19",
+   "fx": "préparer qc",
+   "de": "etw. vorbereiten",
+   "s": "Je {prépare} mon sac pour demain."
+  },
+  {
+   "id": "fr-u4-v1-20",
+   "fx": "un exposé",
+   "de": "ein Vortrag; ein Referat",
+   "s": "Demain, je fais un {exposé} sur les chats."
+  },
+  {
+   "id": "fr-u4-v1-21",
+   "fx": "oublier qc",
+   "de": "etw. vergessen",
+   "s": "J'{oublie} toujours mon stylo !"
+  },
+  {
+   "id": "fr-u4-v1-22",
+   "fx": "tout",
+   "de": "alles",
+   "s": "Il mange {tout} !"
+  },
+  {
+   "id": "fr-u4-v1-23",
+   "fx": "le surveillant/la surveillante",
+   "de": "die Aufsichtsperson",
+   "s": "Le {surveillant} est dans la cour."
+  },
+  {
+   "id": "fr-u4-v1-24",
+   "fx": "surveiller qn/qc",
+   "de": "jdn/etw. überwachen; jdn/etw. beaufsichtigen",
+   "s": "La prof {surveille} les élèves."
+  },
+  {
+   "id": "fr-u4-v1-25",
+   "fx": "Attention!",
+   "de": "Achtung!",
+   "s": "{Attention}, le bus arrive !"
+  },
+  {
+   "id": "fr-u4-v1-26",
+   "fx": "téléphoner",
+   "de": "telefonieren",
+   "s": "Ma sœur {téléphone} avec sa copine."
+  },
+  {
+   "id": "fr-u4-v1-27",
+   "fx": "manger qc",
+   "de": "etw. essen",
+   "s": "Nous {mangeons} à midi."
+  },
+  {
+   "id": "fr-u4-v1-28",
+   "fx": "même",
+   "de": "sogar",
+   "s": "Il travaille {même} le dimanche."
+  },
+  {
+   "id": "fr-u4-v1-29",
+   "fx": "partout",
+   "de": "überall",
+   "s": "Il y a des jouets {partout} !"
+  }
+ ]
+}

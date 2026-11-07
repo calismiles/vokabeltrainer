@@ -1,0 +1,146 @@
+{
+ "id": "fr-u3-v2",
+ "lang": "fr",
+ "title": "Unité 3 · Volet 2",
+ "desc": "Hobbys und Lieblingsstars, faire du/de la",
+ "words": [
+  {
+   "id": "fr-u3-v2-01",
+   "fx": "le truc",
+   "de": "das Ding; die Sache",
+   "s": "La danse, c'est mon {truc} !"
+  },
+  {
+   "id": "fr-u3-v2-02",
+   "fx": "aimer + inf.",
+   "de": "es mögen, etw. zu tun",
+   "s": "J'{aime} lire le soir."
+  },
+  {
+   "id": "fr-u3-v2-03",
+   "fx": "aimer bien qn/qc",
+   "de": "jdn/etw. gern mögen",
+   "s": "J'{aime bien} ma prof de maths."
+  },
+  {
+   "id": "fr-u3-v2-04",
+   "fx": "détester qn/qc",
+   "de": "jdn/etw. hassen",
+   "s": "Je {déteste} les araignées !"
+  },
+  {
+   "id": "fr-u3-v2-05",
+   "fx": "le joueur/la joueuse",
+   "de": "der Spieler/die Spielerin",
+   "s": "Il est {joueur} de foot."
+  },
+  {
+   "id": "fr-u3-v2-06",
+   "fx": "le joueur préféré/la joueuse préférée",
+   "de": "der Lieblingsspieler/die Lieblingsspielerin",
+   "s": "Mbappé, c'est mon {joueur préféré}."
+  },
+  {
+   "id": "fr-u3-v2-07",
+   "fx": "le chanteur/la chanteuse",
+   "de": "der Sänger/die Sängerin",
+   "s": "Ma tante est {chanteuse}."
+  },
+  {
+   "id": "fr-u3-v2-08",
+   "fx": "le chanteur préféré/la chanteuse préférée",
+   "de": "der Lieblingssänger/die Lieblingssängerin",
+   "s": "Qui est ta {chanteuse préférée} ?"
+  },
+  {
+   "id": "fr-u3-v2-09",
+   "fx": "le groupe",
+   "de": "die Gruppe; die Band",
+   "s": "Mon frère joue dans un {groupe}."
+  },
+  {
+   "id": "fr-u3-v2-10",
+   "fx": "le groupe préféré",
+   "de": "die Lieblingsband",
+   "s": "C'est quoi, ton {groupe préféré} ?"
+  },
+  {
+   "id": "fr-u3-v2-11",
+   "fx": "faire qc",
+   "de": "etw. machen; etw. tun",
+   "s": "Qu'est-ce que tu {fais} ce soir ?"
+  },
+  {
+   "id": "fr-u3-v2-12",
+   "fx": "faire du/de la/de l'/des",
+   "de": "etw. als Hobby ausüben",
+   "s": "Ma sœur {fait de la} danse."
+  },
+  {
+   "id": "fr-u3-v2-13",
+   "fx": "le piano",
+   "de": "das Klavier",
+   "s": "Mon frère joue du {piano}."
+  },
+  {
+   "id": "fr-u3-v2-14",
+   "fx": "la BD/la bédé",
+   "de": "der Comic",
+   "s": "Je lis une {BD} d'Astérix."
+  },
+  {
+   "id": "fr-u3-v2-15",
+   "fx": "les arts martiaux",
+   "de": "der Kampfsport",
+   "s": "Je fais des {arts martiaux} le mercredi."
+  },
+  {
+   "id": "fr-u3-v2-16",
+   "fx": "moi non",
+   "de": "ich nicht",
+   "s": "– J'ai un chat. – {Moi non}."
+  },
+  {
+   "id": "fr-u3-v2-17",
+   "fx": "moi non plus",
+   "de": "ich auch nicht",
+   "s": "– Je n'aime pas les maths. – {Moi non plus} !"
+  },
+  {
+   "id": "fr-u3-v2-18",
+   "fx": "moi si",
+   "de": "doch, ich schon",
+   "s": "– Je n'aime pas le rap. – {Moi si} !"
+  },
+  {
+   "id": "fr-u3-v2-19",
+   "fx": "l'escalade",
+   "de": "das Klettern",
+   "s": "Je fais de l'{escalade} avec mon père."
+  },
+  {
+   "id": "fr-u3-v2-20",
+   "fx": "parce que",
+   "de": "weil",
+   "s": "Je reste à la maison {parce que} je suis malade."
+  },
+  {
+   "id": "fr-u3-v2-21",
+   "fx": "une activité",
+   "de": "eine Freizeitaktivität",
+   "s": "Le foot, c'est mon {activité} préférée."
+  },
+  {
+   "id": "fr-u3-v2-22",
+   "fx": "le rap",
+   "de": "der Rap",
+   "s": "Mon frère écoute du {rap}."
+  },
+  {
+   "id": "fr-u3-v2-23",
+   "fx": "le look",
+   "de": "der Look; das Outfit",
+   "s": "J'aime bien ton {look} !"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "fr-nb-101-1000",
+ "lang": "fr",
+ "title": "Zahlen · 101 bis 1000",
+ "desc": "Unité 5 · Volet 3 (Rezept)",
+ "words": [
+  {
+   "id": "fr-nb-101-1000-01",
+   "fx": "cent-un; cent un",
+   "de": "101"
+  },
+  {
+   "id": "fr-nb-101-1000-02",
+   "fx": "cent-deux; cent deux",
+   "de": "102"
+  },
+  {
+   "id": "fr-nb-101-1000-03",
+   "fx": "cent-dix; cent dix",
+   "de": "110"
+  },
+  {
+   "id": "fr-nb-101-1000-04",
+   "fx": "cent-cinquante; cent cinquante",
+   "de": "150"
+  },
+  {
+   "id": "fr-nb-101-1000-05",
+   "fx": "deux-cents; deux cents",
+   "de": "200"
+  },
+  {
+   "id": "fr-nb-101-1000-06",
+   "fx": "deux-cent-un; deux cent un",
+   "de": "201"
+  },
+  {
+   "id": "fr-nb-101-1000-07",
+   "fx": "deux-cent-cinquante; deux cent cinquante",
+   "de": "250"
+  },
+  {
+   "id": "fr-nb-101-1000-08",
+   "fx": "trois-cents; trois cents",
+   "de": "300"
+  },
+  {
+   "id": "fr-nb-101-1000-09",
+   "fx": "cinq-cents; cinq cents",
+   "de": "500"
+  },
+  {
+   "id": "fr-nb-101-1000-10",
+   "fx": "mille",
+   "de": "1000"
+  }
+ ]
+}

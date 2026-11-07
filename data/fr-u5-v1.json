@@ -1,0 +1,170 @@
+{
+ "id": "fr-u5-v1",
+ "lang": "fr",
+ "title": "Unité 5 · Volet 1",
+ "desc": "On se retrouve à La Villette! – vouloir, pouvoir, sich verabreden",
+ "words": [
+  {
+   "id": "fr-u5-v1-01",
+   "fx": "on se retrouve à",
+   "de": "wir treffen uns + Ort/Zeit",
+   "s": "{On se retrouve à} la gare ?"
+  },
+  {
+   "id": "fr-u5-v1-02",
+   "fx": "je voudrais + inf.",
+   "de": "ich möchte gerne etw. tun",
+   "s": "{Je voudrais} aller au cinéma."
+  },
+  {
+   "id": "fr-u5-v1-03",
+   "fx": "Ça te dit?/Ça vous dit?",
+   "de": "Sagt dir das zu?; Sagt euch das zu?; Hast du Lust?",
+   "s": "Un pique-nique dimanche, {ça te dit} ?"
+  },
+  {
+   "id": "fr-u5-v1-04",
+   "fx": "passer",
+   "de": "verbringen",
+   "s": "Je {passe} les vacances chez mes grands-parents."
+  },
+  {
+   "id": "fr-u5-v1-05",
+   "fx": "apporter qc",
+   "de": "etw. mitbringen",
+   "s": "J'{apporte} des chips pour la fête."
+  },
+  {
+   "id": "fr-u5-v1-06",
+   "fx": "une idée",
+   "de": "eine Idee",
+   "s": "J'ai une {idée} !"
+  },
+  {
+   "id": "fr-u5-v1-07",
+   "fx": "Bonne idée!",
+   "de": "Gute Idee!",
+   "s": "On va à la piscine ? {Bonne idée} !"
+  },
+  {
+   "id": "fr-u5-v1-08",
+   "fx": "ce week-end",
+   "de": "an diesem Wochenende",
+   "s": "{Ce week-end}, je vais chez mon père."
+  },
+  {
+   "id": "fr-u5-v1-09",
+   "fx": "vouloir qc",
+   "de": "etw. wollen",
+   "s": "Tu {veux} un biscuit ?"
+  },
+  {
+   "id": "fr-u5-v1-10",
+   "fx": "pouvoir + inf.",
+   "de": "etw. tun können",
+   "s": "Est-ce que je {peux} venir avec toi ?"
+  },
+  {
+   "id": "fr-u5-v1-11",
+   "fx": "préférer qc",
+   "de": "etw. bevorzugen; etw. lieber mögen",
+   "s": "Je {préfère} le chocolat."
+  },
+  {
+   "id": "fr-u5-v1-12",
+   "fx": "le film",
+   "de": "der Film",
+   "s": "On regarde un {film} ce soir ?"
+  },
+  {
+   "id": "fr-u5-v1-13",
+   "fx": "un atelier",
+   "de": "ein Workshop; ein Atelier",
+   "s": "Je vais à l'{atelier} de peinture le mercredi."
+  },
+  {
+   "id": "fr-u5-v1-14",
+   "fx": "le jardin",
+   "de": "der Garten",
+   "s": "Mon chien joue dans le {jardin}."
+  },
+  {
+   "id": "fr-u5-v1-15",
+   "fx": "cher/chère",
+   "de": "teuer",
+   "s": "Ce jeu vidéo est trop {cher}."
+  },
+  {
+   "id": "fr-u5-v1-16",
+   "fx": "gratuit/gratuite",
+   "de": "kostenlos; gratis",
+   "s": "Le musée est {gratuit} pour les enfants."
+  },
+  {
+   "id": "fr-u5-v1-17",
+   "fx": "le spectacle",
+   "de": "die Vorstellung; die Show",
+   "s": "Le {spectacle} commence à huit heures."
+  },
+  {
+   "id": "fr-u5-v1-18",
+   "fx": "ne … pas trop",
+   "de": "nicht so sehr; nicht so gern",
+   "s": "Je n'aime {pas trop} le rap."
+  },
+  {
+   "id": "fr-u5-v1-19",
+   "fx": "quelque chose",
+   "de": "etwas",
+   "s": "Tu veux {quelque chose} à boire ?"
+  },
+  {
+   "id": "fr-u5-v1-20",
+   "fx": "quelqu'un",
+   "de": "jemand",
+   "s": "Il y a {quelqu'un} à la porte."
+  },
+  {
+   "id": "fr-u5-v1-21",
+   "fx": "appeler qn",
+   "de": "jdn anrufen",
+   "s": "J'{appelle} ma grand-mère le dimanche."
+  },
+  {
+   "id": "fr-u5-v1-22",
+   "fx": "tout le monde",
+   "de": "alle",
+   "s": "{Tout le monde} est là ? On commence !"
+  },
+  {
+   "id": "fr-u5-v1-23",
+   "fx": "le hip-hop",
+   "de": "der Hip-Hop",
+   "s": "Mon frère danse le {hip-hop}."
+  },
+  {
+   "id": "fr-u5-v1-24",
+   "fx": "l'électro",
+   "de": "die Elektromusik",
+   "s": "Ma sœur écoute de l'{électro}."
+  },
+  {
+   "id": "fr-u5-v1-25",
+   "fx": "Attends!",
+   "de": "Warte!",
+   "s": "{Attends} ! Je viens avec toi !"
+  },
+  {
+   "id": "fr-u5-v1-26",
+   "fx": "maman",
+   "de": "Mama",
+   "s": "{Maman}, j'ai faim !"
+  },
+  {
+   "id": "fr-u5-v1-27",
+   "fx": "papa",
+   "de": "Papa",
+   "s": "{Papa}, tu viens jouer ?"
+  }
+ ]
+}

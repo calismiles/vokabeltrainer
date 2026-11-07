@@ -1,0 +1,80 @@
+{
+ "id": "fr-wb-ville",
+ "lang": "fr",
+ "title": "Wortspeicher · Dans ma ville, il y a …",
+ "desc": "Freiwillige Zusatzwörter zu Unité 1",
+ "words": [
+  {
+   "id": "fr-wb-ville-01",
+   "fx": "un hôpital",
+   "de": "ein Krankenhaus",
+   "s": "Ma mère travaille à l'{hôpital}."
+  },
+  {
+   "id": "fr-wb-ville-02",
+   "fx": "un pont",
+   "de": "eine Brücke",
+   "s": "Le {pont} est au-dessus de la rivière."
+  },
+  {
+   "id": "fr-wb-ville-03",
+   "fx": "une rivière",
+   "de": "ein Fluss",
+   "s": "Il y a des poissons dans la {rivière}."
+  },
+  {
+   "id": "fr-wb-ville-04",
+   "fx": "une bibliothèque",
+   "de": "eine Bibliothek",
+   "s": "J'emprunte des livres à la {bibliothèque}."
+  },
+  {
+   "id": "fr-wb-ville-05",
+   "fx": "un centre culturel",
+   "de": "ein Kulturzentrum",
+   "s": "Il y a un concert au {centre culturel}."
+  },
+  {
+   "id": "fr-wb-ville-06",
+   "fx": "un immeuble",
+   "de": "ein mehrstöckiges Wohnhaus",
+   "s": "J'habite dans un grand {immeuble}."
+  },
+  {
+   "id": "fr-wb-ville-07",
+   "fx": "un lac",
+   "de": "ein See",
+   "s": "En été, on nage dans le {lac}."
+  },
+  {
+   "id": "fr-wb-ville-08",
+   "fx": "un port",
+   "de": "ein Hafen",
+   "s": "À Hambourg, il y a un grand {port}."
+  },
+  {
+   "id": "fr-wb-ville-09",
+   "fx": "une maison",
+   "de": "ein Haus",
+   "s": "Mes grands-parents ont une {maison} avec un jardin."
+  },
+  {
+   "id": "fr-wb-ville-10",
+   "fx": "une église",
+   "de": "eine Kirche",
+   "s": "L'{église} est au centre du village."
+  },
+  {
+   "id": "fr-wb-ville-11",
+   "fx": "une mosquée",
+   "de": "eine Moschee",
+   "s": "La {mosquée} est près de la gare."
+  },
+  {
+   "id": "fr-wb-ville-12",
+   "fx": "une synagogue",
+   "de": "eine Synagoge",
+   "s": "La {synagogue} est dans ma rue."
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "id": "fr-u1-v2",
+ "lang": "fr",
+ "title": "Unité 1 · Volet 2",
+ "desc": "Coucou, c'est nous! – être, sagen, woher man kommt",
+ "words": [
+  {
+   "id": "fr-u1-v2-01",
+   "fx": "coucou",
+   "de": "hi",
+   "s": "{Coucou}, Mamie !"
+  },
+  {
+   "id": "fr-u1-v2-02",
+   "fx": "c'est nous",
+   "de": "das sind wir; wir sind's",
+   "s": "Ouvre, {c'est nous} !"
+  },
+  {
+   "id": "fr-u1-v2-03",
+   "fx": "c'est moi",
+   "de": "das bin ich; ich bin's",
+   "s": "Allô ? {C'est moi}, Léa !"
+  },
+  {
+   "id": "fr-u1-v2-04",
+   "fx": "être",
+   "de": "sein",
+   "s": "Je veux {être} prof de sport."
+  },
+  {
+   "id": "fr-u1-v2-05",
+   "fx": "de",
+   "de": "aus (Herkunft)",
+   "s": "Je suis {de} Hambourg."
+  },
+  {
+   "id": "fr-u1-v2-06",
+   "fx": "la rue",
+   "de": "die Straße",
+   "s": "J'habite dans la {rue} Victor Hugo."
+  },
+  {
+   "id": "fr-u1-v2-07",
+   "fx": "la Tunisie",
+   "de": "Tunesien",
+   "s": "Mon père vient de {Tunisie}."
+  },
+  {
+   "id": "fr-u1-v2-08",
+   "fx": "sympa/sympathique",
+   "de": "nett; sympathisch",
+   "s": "Ma prof de français est très {sympa}."
+  },
+  {
+   "id": "fr-u1-v2-09",
+   "fx": "dans la même classe",
+   "de": "in derselben Klasse",
+   "s": "Clara et moi, nous sommes {dans la même classe}."
+  },
+  {
+   "id": "fr-u1-v2-10",
+   "fx": "aussi",
+   "de": "auch",
+   "s": "Tu aimes le foot ? Moi {aussi} !"
+  },
+  {
+   "id": "fr-u1-v2-11",
+   "fx": "ensemble",
+   "de": "zusammen",
+   "s": "On fait les devoirs {ensemble} ?"
+  },
+  {
+   "id": "fr-u1-v2-12",
+   "fx": "le club",
+   "de": "die AG; der Verein; der Klub",
+   "s": "Je suis dans le {club} de théâtre."
+  },
+  {
+   "id": "fr-u1-v2-13",
+   "fx": "le drone",
+   "de": "die Drohne",
+   "s": "Le {drone} vole au-dessus du parc."
+  },
+  {
+   "id": "fr-u1-v2-14",
+   "fx": "le club de drones",
+   "de": "die Drohnen-AG",
+   "s": "Au {club de drones}, on construit des drones."
+  },
+  {
+   "id": "fr-u1-v2-15",
+   "fx": "la sixième",
+   "de": "die sechste Klasse",
+   "s": "Ma sœur est en {sixième}."
+  },
+  {
+   "id": "fr-u1-v2-16",
+   "fx": "la cinquième",
+   "de": "die siebte Klasse",
+   "s": "L'année prochaine, je suis en {cinquième}."
+  },
+  {
+   "id": "fr-u1-v2-17",
+   "fx": "le basket",
+   "de": "Basketball; das Basketballspielen",
+   "s": "Mon frère joue au {basket}."
+  },
+  {
+   "id": "fr-u1-v2-18",
+   "fx": "la série",
+   "de": "die Serie",
+   "s": "Cette {série} est super !"
+  },
+  {
+   "id": "fr-u1-v2-19",
+   "fx": "la danse",
+   "de": "der Tanz; das Tanzen",
+   "s": "La {danse}, c'est ma passion."
+  },
+  {
+   "id": "fr-u1-v2-20",
+   "fx": "souvent",
+   "de": "oft",
+   "s": "Je vais {souvent} au parc."
+  },
+  {
+   "id": "fr-u1-v2-21",
+   "fx": "en retard",
+   "de": "zu spät; mit Verspätung",
+   "s": "Vite ! On est {en retard} !"
+  },
+  {
+   "id": "fr-u1-v2-22",
+   "fx": "c'est un peu compliqué",
+   "de": "es ist etwas kompliziert; das ist etwas kompliziert",
+   "s": "Les maths, {c'est un peu compliqué}."
+  },
+  {
+   "id": "fr-u1-v2-23",
+   "fx": "Tu es d'où?",
+   "de": "Woher kommst du?",
+   "s": "Salut ! {Tu es d'où} ?"
+  }
+ ]
+}

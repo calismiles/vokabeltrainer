@@ -1,0 +1,69 @@
+{
+ "id": "fr-gr-futur",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Module 6 · das futur composé",
+ "rule": "So sagst du, was du gleich oder bald machen wirst:\n**aller** (im Präsens) + **Infinitiv**: Je **vais jouer**. = Ich werde spielen.\nje vais · tu vas · il va · nous allons · vous allez · ils vont + Infinitiv\nVerneinung: Je **ne vais pas** jouer.",
+ "words": [
+  {
+   "id": "fr-gr-futur-01",
+   "s": "Demain, je {vais} jouer au foot.",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-02",
+   "s": "Tu {vas} venir à ma fête ?",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-03",
+   "s": "Ce soir, on {va} regarder un film.",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-04",
+   "s": "Nous {allons} visiter Paris.",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-05",
+   "s": "Vous {allez} manger chez nous ?",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-06",
+   "s": "Mes parents {vont} faire les courses.",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-07",
+   "s": "Pendant les vacances, je vais {faire} du camping.",
+   "de": "faire (Infinitiv)"
+  },
+  {
+   "id": "fr-gr-futur-08",
+   "s": "Samedi, nous allons {aller} à la plage.",
+   "de": "aller (Infinitiv)"
+  },
+  {
+   "id": "fr-gr-futur-09",
+   "s": "Il {va} pleuvoir demain.",
+   "de": "aller + Infinitiv"
+  },
+  {
+   "id": "fr-gr-futur-10",
+   "s": "Je ne vais {pas} rester à la maison.",
+   "de": "Verneinung"
+  },
+  {
+   "id": "fr-gr-futur-11",
+   "s": "Léa va {inviter} toute la classe.",
+   "de": "inviter (Infinitiv)"
+  },
+  {
+   "id": "fr-gr-futur-12",
+   "s": "Cet été, ils vont {rester} en Bretagne.",
+   "de": "rester (Infinitiv)"
+  }
+ ]
+}

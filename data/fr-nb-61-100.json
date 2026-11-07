@@ -1,0 +1,73 @@
+{
+ "id": "fr-nb-61-100",
+ "lang": "fr",
+ "title": "Zahlen · 61 bis 100",
+ "desc": "Unité 5 · Volet 2 (einkaufen)",
+ "words": [
+  {
+   "id": "fr-nb-61-100-01",
+   "fx": "soixante-dix",
+   "de": "70"
+  },
+  {
+   "id": "fr-nb-61-100-02",
+   "fx": "soixante-et-onze; soixante et onze",
+   "de": "71"
+  },
+  {
+   "id": "fr-nb-61-100-03",
+   "fx": "soixante-douze",
+   "de": "72"
+  },
+  {
+   "id": "fr-nb-61-100-04",
+   "fx": "soixante-quinze",
+   "de": "75"
+  },
+  {
+   "id": "fr-nb-61-100-05",
+   "fx": "soixante-dix-sept",
+   "de": "77"
+  },
+  {
+   "id": "fr-nb-61-100-06",
+   "fx": "quatre-vingts",
+   "de": "80"
+  },
+  {
+   "id": "fr-nb-61-100-07",
+   "fx": "quatre-vingt-un",
+   "de": "81"
+  },
+  {
+   "id": "fr-nb-61-100-08",
+   "fx": "quatre-vingt-deux",
+   "de": "82"
+  },
+  {
+   "id": "fr-nb-61-100-09",
+   "fx": "quatre-vingt-dix",
+   "de": "90"
+  },
+  {
+   "id": "fr-nb-61-100-10",
+   "fx": "quatre-vingt-onze",
+   "de": "91"
+  },
+  {
+   "id": "fr-nb-61-100-11",
+   "fx": "quatre-vingt-quinze",
+   "de": "95"
+  },
+  {
+   "id": "fr-nb-61-100-12",
+   "fx": "quatre-vingt-dix-neuf",
+   "de": "99"
+  },
+  {
+   "id": "fr-nb-61-100-13",
+   "fx": "cent",
+   "de": "100"
+  }
+ ]
+}

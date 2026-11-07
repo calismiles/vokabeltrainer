@@ -1,0 +1,176 @@
+{
+ "id": "fr-cp-3",
+ "lang": "fr",
+ "title": "C'est parti! · J'aime …",
+ "desc": "Sagen, was man (nicht) mag",
+ "words": [
+  {
+   "id": "fr-cp-3-01",
+   "fx": "moi",
+   "de": "ich (betont)",
+   "s": "{Moi}, j'aime le sport."
+  },
+  {
+   "id": "fr-cp-3-02",
+   "fx": "j'aime",
+   "de": "ich mag",
+   "s": "{J'aime} la musique."
+  },
+  {
+   "id": "fr-cp-3-03",
+   "fx": "je n'aime pas",
+   "de": "ich mag … nicht; ich mag keinen; ich mag keine",
+   "s": "{Je n'aime pas} les tomates."
+  },
+  {
+   "id": "fr-cp-3-04",
+   "fx": "mais",
+   "de": "aber",
+   "s": "J'aime le rouge, {mais} je n'aime pas le vert."
+  },
+  {
+   "id": "fr-cp-3-05",
+   "fx": "les jeux vidéo",
+   "de": "die Videospiele",
+   "s": "Mon frère aime les {jeux vidéo}."
+  },
+  {
+   "id": "fr-cp-3-06",
+   "fx": "le shopping",
+   "de": "das Einkaufen; das Shoppen",
+   "s": "Ma mère aime le {shopping}."
+  },
+  {
+   "id": "fr-cp-3-07",
+   "fx": "le sport",
+   "de": "der Sport",
+   "s": "J'aime le {sport} et la musique."
+  },
+  {
+   "id": "fr-cp-3-08",
+   "fx": "la musique",
+   "de": "die Musik",
+   "s": "Tu aimes la {musique} ?"
+  },
+  {
+   "id": "fr-cp-3-09",
+   "fx": "la nature",
+   "de": "die Natur",
+   "s": "Moi, j'aime la {nature} et les animaux."
+  },
+  {
+   "id": "fr-cp-3-10",
+   "fx": "le chocolat",
+   "de": "die Schokolade",
+   "s": "Miam, j'aime le {chocolat} !"
+  },
+  {
+   "id": "fr-cp-3-11",
+   "fx": "les spaghettis",
+   "de": "die Spaghetti",
+   "s": "Les {spaghettis}, c'est super !"
+  },
+  {
+   "id": "fr-cp-3-12",
+   "fx": "la pizza",
+   "de": "die Pizza",
+   "s": "Tu aimes la {pizza} ?"
+  },
+  {
+   "id": "fr-cp-3-13",
+   "fx": "les tomates",
+   "de": "die Tomaten",
+   "s": "Je n'aime pas les {tomates}."
+  },
+  {
+   "id": "fr-cp-3-14",
+   "fx": "la salade",
+   "de": "der Salat",
+   "s": "J'aime la {salade} avec des tomates."
+  },
+  {
+   "id": "fr-cp-3-15",
+   "fx": "le jaune",
+   "de": "Gelb; das Gelb",
+   "s": "Le soleil est {jaune}."
+  },
+  {
+   "id": "fr-cp-3-16",
+   "fx": "le rouge",
+   "de": "Rot; das Rot",
+   "s": "Ma couleur préférée, c'est le {rouge}."
+  },
+  {
+   "id": "fr-cp-3-17",
+   "fx": "le bleu",
+   "de": "Blau; das Blau",
+   "s": "Le ciel est {bleu}."
+  },
+  {
+   "id": "fr-cp-3-18",
+   "fx": "le vert",
+   "de": "Grün; das Grün",
+   "s": "J'aime le {vert}, c'est la couleur de la nature."
+  },
+  {
+   "id": "fr-cp-3-19",
+   "fx": "le noir",
+   "de": "Schwarz; das Schwarz",
+   "s": "Le chat est {noir}."
+  },
+  {
+   "id": "fr-cp-3-20",
+   "fx": "les chats",
+   "de": "die Katzen",
+   "s": "J'aime les {chats}."
+  },
+  {
+   "id": "fr-cp-3-21",
+   "fx": "les chiens",
+   "de": "die Hunde",
+   "s": "Tu aimes les {chiens} ?"
+  },
+  {
+   "id": "fr-cp-3-22",
+   "fx": "les rats",
+   "de": "die Ratten",
+   "s": "Je n'aime pas les {rats} !"
+  },
+  {
+   "id": "fr-cp-3-23",
+   "fx": "les poissons",
+   "de": "die Fische",
+   "s": "Les {poissons} sont dans l'eau."
+  },
+  {
+   "id": "fr-cp-3-24",
+   "fx": "les tortues",
+   "de": "die Schildkröten",
+   "s": "Les {tortues} sont très lentes."
+  },
+  {
+   "id": "fr-cp-3-25",
+   "fx": "Tu aimes …?",
+   "de": "Magst du …?",
+   "s": "{Tu aimes} les spaghettis ?"
+  },
+  {
+   "id": "fr-cp-3-26",
+   "fx": "oui",
+   "de": "ja",
+   "s": "– Tu aimes le sport ? – {Oui} !"
+  },
+  {
+   "id": "fr-cp-3-27",
+   "fx": "non",
+   "de": "nein",
+   "s": "– Tu aimes les rats ? – {Non} !"
+  },
+  {
+   "id": "fr-cp-3-28",
+   "fx": "ou",
+   "de": "oder",
+   "s": "Tu aimes le chocolat {ou} la pizza ?"
+  }
+ ]
+}

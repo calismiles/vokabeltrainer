@@ -1,0 +1,200 @@
+{
+ "id": "fr-m6",
+ "lang": "fr",
+ "title": "Module 6 · Une carte postale",
+ "desc": "Ferien, Wetter, Postkarte schreiben",
+ "words": [
+  {
+   "id": "fr-m6-01",
+   "fx": "la carte postale",
+   "de": "die Postkarte",
+   "s": "J'écris une {carte postale} à ma grand-mère."
+  },
+  {
+   "id": "fr-m6-02",
+   "fx": "la balade",
+   "de": "der Spaziergang; die Spazierfahrt",
+   "s": "On fait une {balade} dans la forêt ?"
+  },
+  {
+   "id": "fr-m6-03",
+   "fx": "le VTT",
+   "de": "das Mountainbike",
+   "s": "Mon père fait du {VTT} à la montagne."
+  },
+  {
+   "id": "fr-m6-04",
+   "fx": "la montagne",
+   "de": "der Berg; das Gebirge",
+   "s": "En hiver, on va à la {montagne}."
+  },
+  {
+   "id": "fr-m6-05",
+   "fx": "il pleut",
+   "de": "es regnet",
+   "s": "Prends ton parapluie, {il pleut} !"
+  },
+  {
+   "id": "fr-m6-06",
+   "fx": "il fait beau",
+   "de": "es ist schön (Wetter)",
+   "s": "Aujourd'hui, {il fait beau}."
+  },
+  {
+   "id": "fr-m6-07",
+   "fx": "il fait froid",
+   "de": "es ist kalt",
+   "s": "En hiver, {il fait froid}."
+  },
+  {
+   "id": "fr-m6-08",
+   "fx": "il fait chaud",
+   "de": "es ist warm; es ist heiß",
+   "s": "En été, {il fait chaud}."
+  },
+  {
+   "id": "fr-m6-09",
+   "fx": "il y a du soleil",
+   "de": "die Sonne scheint",
+   "s": "Aujourd'hui, {il y a du soleil}."
+  },
+  {
+   "id": "fr-m6-10",
+   "fx": "le soleil",
+   "de": "die Sonne",
+   "s": "Le {soleil} brille."
+  },
+  {
+   "id": "fr-m6-11",
+   "fx": "rester",
+   "de": "bleiben",
+   "s": "Je {reste} à la maison aujourd'hui."
+  },
+  {
+   "id": "fr-m6-12",
+   "fx": "j'espère que",
+   "de": "ich hoffe, dass",
+   "s": "{J'espère que} tu vas bien."
+  },
+  {
+   "id": "fr-m6-13",
+   "fx": "arriver",
+   "de": "ankommen",
+   "s": "Le train {arrive} à huit heures."
+  },
+  {
+   "id": "fr-m6-14",
+   "fx": "bientôt",
+   "de": "bald",
+   "s": "C'est {bientôt} Noël !"
+  },
+  {
+   "id": "fr-m6-15",
+   "fx": "À bientôt!",
+   "de": "Bis bald!",
+   "s": "Salut, Léa ! {À bientôt} !"
+  },
+  {
+   "id": "fr-m6-16",
+   "fx": "cher/chère + Anrede",
+   "de": "lieber/liebe + Anrede",
+   "s": "{Chère} Mamie, je suis en Bretagne."
+  },
+  {
+   "id": "fr-m6-17",
+   "fx": "le rêve",
+   "de": "der Traum",
+   "s": "Mon {rêve}, c'est d'aller au Canada."
+  },
+  {
+   "id": "fr-m6-18",
+   "fx": "d'abord",
+   "de": "zuerst",
+   "s": "{D'abord} je fais mes devoirs, ensuite je joue."
+  },
+  {
+   "id": "fr-m6-19",
+   "fx": "la plage",
+   "de": "der Strand",
+   "s": "On va à la {plage} cet après-midi."
+  },
+  {
+   "id": "fr-m6-20",
+   "fx": "rentrer",
+   "de": "nach Hause fahren/gehen",
+   "s": "Je {rentre} à six heures."
+  },
+  {
+   "id": "fr-m6-21",
+   "fx": "après",
+   "de": "danach",
+   "s": "On mange, et {après}, on regarde un film."
+  },
+  {
+   "id": "fr-m6-22",
+   "fx": "c'est l'heure de qc",
+   "de": "es ist Zeit für etw.",
+   "s": "{C'est l'heure du} dîner !"
+  },
+  {
+   "id": "fr-m6-23",
+   "fx": "la sieste",
+   "de": "der Mittagsschlaf; die Siesta",
+   "s": "Mon grand-père fait la {sieste}."
+  },
+  {
+   "id": "fr-m6-24",
+   "fx": "le portable",
+   "de": "das Handy",
+   "s": "Mon {portable} est dans mon sac."
+  },
+  {
+   "id": "fr-m6-25",
+   "fx": "le soir",
+   "de": "der Abend; abends; am Abend",
+   "s": "Le {soir}, je lis un livre."
+  },
+  {
+   "id": "fr-m6-26",
+   "fx": "le jour",
+   "de": "der Tag; tagsüber; am Tag",
+   "s": "On reste trois {jours} à Paris."
+  },
+  {
+   "id": "fr-m6-27",
+   "fx": "la mer",
+   "de": "das Meer; die See",
+   "s": "En été, on va à la {mer}."
+  },
+  {
+   "id": "fr-m6-28",
+   "fx": "dehors",
+   "de": "draußen",
+   "s": "Il fait beau, on joue {dehors} !"
+  },
+  {
+   "id": "fr-m6-29",
+   "fx": "longtemps",
+   "de": "lange",
+   "s": "Tu restes {longtemps} à Paris ?"
+  },
+  {
+   "id": "fr-m6-30",
+   "fx": "le volcan",
+   "de": "der Vulkan",
+   "s": "En Auvergne, il y a des {volcans}."
+  },
+  {
+   "id": "fr-m6-31",
+   "fx": "facile",
+   "de": "leicht; einfach",
+   "s": "L'exercice est {facile}."
+  },
+  {
+   "id": "fr-m6-32",
+   "fx": "le bisou",
+   "de": "das Küsschen",
+   "s": "Gros {bisous}, Léa"
+  }
+ ]
+}

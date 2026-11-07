@@ -1,0 +1,107 @@
+{
+ "id": "fr-verbs-irr",
+ "lang": "fr",
+ "type": "verbs",
+ "title": "Unregelmäßige Verben",
+ "forms": [
+  "je",
+  "tu",
+  "il/elle/on",
+  "nous",
+  "vous",
+  "ils/elles"
+ ],
+ "words": [
+  {
+   "id": "fr-verbs-irr-être",
+   "v": [
+    "être",
+    "suis",
+    "es",
+    "est",
+    "sommes",
+    "êtes",
+    "sont"
+   ],
+   "de": "sein"
+  },
+  {
+   "id": "fr-verbs-irr-avoir",
+   "v": [
+    "avoir",
+    "ai",
+    "as",
+    "a",
+    "avons",
+    "avez",
+    "ont"
+   ],
+   "de": "haben"
+  },
+  {
+   "id": "fr-verbs-irr-aller",
+   "v": [
+    "aller",
+    "vais",
+    "vas",
+    "va",
+    "allons",
+    "allez",
+    "vont"
+   ],
+   "de": "gehen; fahren"
+  },
+  {
+   "id": "fr-verbs-irr-faire",
+   "v": [
+    "faire",
+    "fais",
+    "fais",
+    "fait",
+    "faisons",
+    "faites",
+    "font"
+   ],
+   "de": "machen; tun"
+  },
+  {
+   "id": "fr-verbs-irr-prendre",
+   "v": [
+    "prendre",
+    "prends",
+    "prends",
+    "prend",
+    "prenons",
+    "prenez",
+    "prennent"
+   ],
+   "de": "nehmen"
+  },
+  {
+   "id": "fr-verbs-irr-pouvoir",
+   "v": [
+    "pouvoir",
+    "peux",
+    "peux",
+    "peut",
+    "pouvons",
+    "pouvez",
+    "peuvent"
+   ],
+   "de": "können"
+  },
+  {
+   "id": "fr-verbs-irr-vouloir",
+   "v": [
+    "vouloir",
+    "veux",
+    "veux",
+    "veut",
+    "voulons",
+    "voulez",
+    "veulent"
+   ],
+   "de": "wollen"
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "id": "fr-u3-v1",
+ "lang": "fr",
+ "title": "Unité 3 · Volet 1",
+ "desc": "Chez Noé: Räume der Wohnung, Artikel mit de, pour + Infinitiv",
+ "words": [
+  {
+   "id": "fr-u3-v1-01",
+   "fx": "aujourd'hui",
+   "de": "heute",
+   "s": "{Aujourd'hui}, il fait beau."
+  },
+  {
+   "id": "fr-u3-v1-02",
+   "fx": "visiter qc",
+   "de": "etw. besichtigen",
+   "s": "Demain, on {visite} le musée."
+  },
+  {
+   "id": "fr-u3-v1-03",
+   "fx": "un appartement",
+   "de": "eine Wohnung",
+   "s": "Notre {appartement} est au troisième étage."
+  },
+  {
+   "id": "fr-u3-v1-04",
+   "fx": "une entrée",
+   "de": "ein Eingang; eine Diele",
+   "s": "Les chaussures sont dans l'{entrée}."
+  },
+  {
+   "id": "fr-u3-v1-05",
+   "fx": "le couloir",
+   "de": "der Flur",
+   "s": "La salle de bains est au bout du {couloir}."
+  },
+  {
+   "id": "fr-u3-v1-06",
+   "fx": "la salle de bains",
+   "de": "das Badezimmer",
+   "s": "Mon frère est encore dans la {salle de bains} !"
+  },
+  {
+   "id": "fr-u3-v1-07",
+   "fx": "les toilettes",
+   "de": "die Toilette",
+   "s": "Pardon, où sont les {toilettes} ?"
+  },
+  {
+   "id": "fr-u3-v1-08",
+   "fx": "la cuisine",
+   "de": "die Küche",
+   "s": "Ma mère fait un gâteau dans la {cuisine}."
+  },
+  {
+   "id": "fr-u3-v1-09",
+   "fx": "le salon",
+   "de": "das Wohnzimmer",
+   "s": "Le soir, on regarde la télé dans le {salon}."
+  },
+  {
+   "id": "fr-u3-v1-10",
+   "fx": "chez moi",
+   "de": "bei mir (zu Hause)",
+   "s": "{Chez moi}, il y a un grand salon."
+  },
+  {
+   "id": "fr-u3-v1-11",
+   "fx": "bien sûr",
+   "de": "natürlich; selbstverständlich",
+   "s": "– Tu viens ? – {Bien sûr} !"
+  },
+  {
+   "id": "fr-u3-v1-12",
+   "fx": "le bazar",
+   "de": "das Durcheinander",
+   "s": "Range ta chambre, c'est le {bazar} !"
+  },
+  {
+   "id": "fr-u3-v1-13",
+   "fx": "un endroit",
+   "de": "ein Ort; eine Stelle",
+   "s": "C'est un {endroit} calme."
+  },
+  {
+   "id": "fr-u3-v1-14",
+   "fx": "un endroit préféré",
+   "de": "ein Lieblingsort",
+   "s": "Le parc, c'est mon {endroit préféré}."
+  },
+  {
+   "id": "fr-u3-v1-15",
+   "fx": "pour + inf.",
+   "de": "um etw. zu tun; zum …",
+   "s": "Je vais au parc {pour} jouer au foot."
+  },
+  {
+   "id": "fr-u3-v1-16",
+   "fx": "rêver",
+   "de": "träumen",
+   "s": "Je {rêve} de voyager en Afrique."
+  },
+  {
+   "id": "fr-u3-v1-17",
+   "fx": "la vue",
+   "de": "die Aussicht",
+   "s": "De ma chambre, la {vue} est super !"
+  },
+  {
+   "id": "fr-u3-v1-18",
+   "fx": "la télé/la télévision",
+   "de": "der Fernseher",
+   "s": "Il y a une {télé} dans le salon."
+  },
+  {
+   "id": "fr-u3-v1-19",
+   "fx": "Chut!",
+   "de": "Pst!",
+   "s": "{Chut} ! Le bébé dort."
+  },
+  {
+   "id": "fr-u3-v1-20",
+   "fx": "ce n'est pas mon truc",
+   "de": "das ist nicht mein Ding",
+   "s": "Le shopping, {ce n'est pas mon truc}."
+  },
+  {
+   "id": "fr-u3-v1-21",
+   "fx": "adorer qn/qc",
+   "de": "jdn/etw. sehr lieben",
+   "s": "J'{adore} les crêpes !"
+  },
+  {
+   "id": "fr-u3-v1-22",
+   "fx": "ça/cela",
+   "de": "das",
+   "s": "{Ça}, c'est mon vélo."
+  },
+  {
+   "id": "fr-u3-v1-23",
+   "fx": "en face de qn/qc",
+   "de": "gegenüber von jdm/etw.",
+   "s": "La boulangerie est {en face de} l'école."
+  },
+  {
+   "id": "fr-u3-v1-24",
+   "fx": "à côté de",
+   "de": "neben",
+   "s": "Le chat dort {à côté de} moi."
+  },
+  {
+   "id": "fr-u3-v1-25",
+   "fx": "la douche",
+   "de": "die Dusche",
+   "s": "Je prends une {douche}."
+  },
+  {
+   "id": "fr-u3-v1-26",
+   "fx": "très",
+   "de": "sehr",
+   "s": "Ton chien est {très} mignon."
+  },
+  {
+   "id": "fr-u3-v1-27",
+   "fx": "design",
+   "de": "stylish",
+   "s": "Ta lampe est très {design} !"
+  }
+ ]
+}

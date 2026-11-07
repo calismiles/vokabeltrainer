@@ -1,0 +1,104 @@
+{
+ "id": "fr-m3",
+ "lang": "fr",
+ "title": "Module 3 · Il est quelle heure?",
+ "desc": "Uhrzeit angeben, sich verabreden",
+ "words": [
+  {
+   "id": "fr-m3-01",
+   "fx": "une heure",
+   "de": "eine Stunde; eine Uhr; eine Uhrzeit",
+   "s": "Le film dure une {heure}."
+  },
+  {
+   "id": "fr-m3-02",
+   "fx": "Il est quelle heure?",
+   "de": "Wie viel Uhr ist es?; Wie spät ist es?",
+   "s": "Pardon, {il est quelle heure} ?"
+  },
+  {
+   "id": "fr-m3-03",
+   "fx": "et quart",
+   "de": "Viertel nach",
+   "s": "Il est trois heures {et quart}."
+  },
+  {
+   "id": "fr-m3-04",
+   "fx": "le quart",
+   "de": "die Viertelstunde",
+   "s": "Il est deux heures et {quart}."
+  },
+  {
+   "id": "fr-m3-05",
+   "fx": "et demi/et demie",
+   "de": "halb",
+   "s": "Il est cinq heures {et demie}."
+  },
+  {
+   "id": "fr-m3-06",
+   "fx": "moins le quart",
+   "de": "Viertel vor",
+   "s": "Il est huit heures {moins le quart}."
+  },
+  {
+   "id": "fr-m3-07",
+   "fx": "moins",
+   "de": "weniger; minus",
+   "s": "Il est neuf heures {moins} dix."
+  },
+  {
+   "id": "fr-m3-08",
+   "fx": "midi",
+   "de": "12 Uhr mittags",
+   "s": "On mange à {midi}."
+  },
+  {
+   "id": "fr-m3-09",
+   "fx": "minuit",
+   "de": "Mitternacht",
+   "s": "Il est {minuit}, va au lit !"
+  },
+  {
+   "id": "fr-m3-10",
+   "fx": "Allô?",
+   "de": "Hallo? (am Telefon)",
+   "s": "{Allô} ? C'est Léa !"
+  },
+  {
+   "id": "fr-m3-11",
+   "fx": "passer (chez qn)",
+   "de": "(bei jdm) vorbeikommen; (bei jdm) vorbeigehen",
+   "s": "Je {passe} chez toi après l'école ?"
+  },
+  {
+   "id": "fr-m3-12",
+   "fx": "demain",
+   "de": "morgen",
+   "s": "{Demain}, on va au cinéma."
+  },
+  {
+   "id": "fr-m3-13",
+   "fx": "À quelle heure?",
+   "de": "Um wie viel Uhr?",
+   "s": "{À quelle heure} commence le film ?"
+  },
+  {
+   "id": "fr-m3-14",
+   "fx": "à … heure(s)",
+   "de": "um … Uhr",
+   "s": "Le cours commence {à} huit heures."
+  },
+  {
+   "id": "fr-m3-15",
+   "fx": "on pourrait + inf.",
+   "de": "wir könnten; man könnte",
+   "s": "{On pourrait} aller au parc ?"
+  },
+  {
+   "id": "fr-m3-16",
+   "fx": "Ça marche!",
+   "de": "Geht klar!; Das klappt!; O.k.!",
+   "s": "– On se voit à trois heures ? – {Ça marche} !"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "fr-wb-chambre",
+ "lang": "fr",
+ "title": "Wortspeicher · Mein Traumzimmer",
+ "desc": "Freiwillige Zusatzwörter zu Unité 3",
+ "words": [
+  {
+   "id": "fr-wb-chambre-01",
+   "fx": "un lit superposé",
+   "de": "ein Etagenbett",
+   "s": "Mon frère et moi, nous avons un {lit superposé}."
+  },
+  {
+   "id": "fr-wb-chambre-02",
+   "fx": "une collection de médailles",
+   "de": "eine Medaillensammlung",
+   "s": "J'ai une {collection de médailles} de natation."
+  },
+  {
+   "id": "fr-wb-chambre-03",
+   "fx": "un baby-foot",
+   "de": "ein Tischkicker",
+   "s": "On joue au {baby-foot} ?"
+  },
+  {
+   "id": "fr-wb-chambre-04",
+   "fx": "un canapé",
+   "de": "ein Sofa",
+   "s": "Le chat dort sur le {canapé}."
+  },
+  {
+   "id": "fr-wb-chambre-05",
+   "fx": "un hamac",
+   "de": "eine Hängematte",
+   "s": "Je lis dans mon {hamac}."
+  },
+  {
+   "id": "fr-wb-chambre-06",
+   "fx": "un miroir",
+   "de": "ein Spiegel",
+   "s": "Il y a un {miroir} sur la porte."
+  },
+  {
+   "id": "fr-wb-chambre-07",
+   "fx": "une guirlande lumineuse",
+   "de": "eine Lichterkette",
+   "s": "J'ai une {guirlande lumineuse} au-dessus de mon lit."
+  },
+  {
+   "id": "fr-wb-chambre-08",
+   "fx": "un jeu de fléchettes",
+   "de": "ein Dartspiel",
+   "s": "Il y a un {jeu de fléchettes} sur le mur."
+  },
+  {
+   "id": "fr-wb-chambre-09",
+   "fx": "une peluche",
+   "de": "ein Kuscheltier",
+   "s": "Je dors avec ma {peluche}."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "fr-gr-negation",
+ "lang": "fr",
+ "type": "grammar",
+ "title": "Unité 3 · die Verneinung mit ne … pas und ne … plus",
+ "rule": "Die Verneinung umschließt das Verb: Je **ne** suis **pas** là.\nVor Vokal wird ne zu **n'**: Je **n'**aime **pas** le sport.\nne … **plus** = nicht mehr: Je **n'**ai **plus** faim.\n**parce que** = weil: J'aime ma chambre **parce qu'**elle est grande.",
+ "words": [
+  {
+   "id": "fr-gr-negation-01",
+   "s": "Je {ne} suis pas fatigué.",
+   "de": "Verneinung"
+  },
+  {
+   "id": "fr-gr-negation-02",
+   "s": "Il {n'}aime pas les tomates.",
+   "de": "Verneinung vor Vokal"
+  },
+  {
+   "id": "fr-gr-negation-03",
+   "s": "Nous ne sommes {pas} en retard.",
+   "de": "nicht"
+  },
+  {
+   "id": "fr-gr-negation-04",
+   "s": "Je n'ai {plus} faim.",
+   "de": "nicht mehr"
+  },
+  {
+   "id": "fr-gr-negation-05",
+   "s": "Elle {n'}habite plus à Paris.",
+   "de": "Verneinung vor Vokal"
+  },
+  {
+   "id": "fr-gr-negation-06",
+   "s": "Tu ne joues {plus} au foot ?",
+   "de": "nicht mehr"
+  },
+  {
+   "id": "fr-gr-negation-07",
+   "s": "Ce n'est {pas} mon truc.",
+   "de": "nicht"
+  },
+  {
+   "id": "fr-gr-negation-08",
+   "s": "Je ne regarde {pas} la télé.",
+   "de": "nicht"
+  },
+  {
+   "id": "fr-gr-negation-09",
+   "s": "Mon frère {ne} dessine plus.",
+   "de": "Verneinung"
+  },
+  {
+   "id": "fr-gr-negation-10",
+   "s": "J'aime mon quartier {parce qu'}il est calme.",
+   "de": "weil (vor Vokal)"
+  },
+  {
+   "id": "fr-gr-negation-11",
+   "s": "Je reste à la maison {parce que} je suis malade.",
+   "de": "weil"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "id": "fr-u5-v3",
+ "lang": "fr",
+ "title": "Unité 5 · Volet 3",
+ "desc": "Le secret des madeleines: Rezept verstehen",
+ "words": [
+  {
+   "id": "fr-u5-v3-01",
+   "fx": "le secret",
+   "de": "das Geheimnis",
+   "s": "C'est un {secret} !"
+  },
+  {
+   "id": "fr-u5-v3-02",
+   "fx": "le site (web)",
+   "de": "die (Web-)Seite",
+   "s": "Je regarde le {site} du musée."
+  },
+  {
+   "id": "fr-u5-v3-03",
+   "fx": "la cuisine",
+   "de": "das Kochen",
+   "s": "Mon père adore la {cuisine} italienne."
+  },
+  {
+   "id": "fr-u5-v3-04",
+   "fx": "la chimie",
+   "de": "die Chemie",
+   "s": "La {chimie}, c'est un peu compliqué."
+  },
+  {
+   "id": "fr-u5-v3-05",
+   "fx": "un exemple",
+   "de": "ein Beispiel",
+   "s": "Tu as un {exemple} ?"
+  },
+  {
+   "id": "fr-u5-v3-06",
+   "fx": "la forme",
+   "de": "die Form",
+   "s": "Le gâteau a la {forme} d'un cœur."
+  },
+  {
+   "id": "fr-u5-v3-07",
+   "fx": "la bosse",
+   "de": "die Beule",
+   "s": "Aïe ! J'ai une {bosse} sur la tête."
+  },
+  {
+   "id": "fr-u5-v3-08",
+   "fx": "la température",
+   "de": "die Temperatur",
+   "s": "La {température} de l'eau est bonne."
+  },
+  {
+   "id": "fr-u5-v3-09",
+   "fx": "le four",
+   "de": "der Backofen",
+   "s": "Le gâteau est dans le {four}."
+  },
+  {
+   "id": "fr-u5-v3-10",
+   "fx": "chaud/chaude",
+   "de": "warm; heiß",
+   "s": "Le café est très {chaud}."
+  },
+  {
+   "id": "fr-u5-v3-11",
+   "fx": "froid/froide",
+   "de": "kalt",
+   "s": "L'eau est {froide} !"
+  },
+  {
+   "id": "fr-u5-v3-12",
+   "fx": "la pâte",
+   "de": "der Teig",
+   "s": "La {pâte} des crêpes est prête."
+  },
+  {
+   "id": "fr-u5-v3-13",
+   "fx": "le choc",
+   "de": "der Schock",
+   "s": "Quel {choc} !"
+  },
+  {
+   "id": "fr-u5-v3-14",
+   "fx": "intéressant/intéressante",
+   "de": "interessant",
+   "s": "Ce livre est très {intéressant}."
+  },
+  {
+   "id": "fr-u5-v3-15",
+   "fx": "la recette",
+   "de": "das (Koch-)Rezept",
+   "s": "Tu as la {recette} du gâteau ?"
+  },
+  {
+   "id": "fr-u5-v3-16",
+   "fx": "le gramme",
+   "de": "das Gramm",
+   "s": "Il faut deux cents {grammes} de farine."
+  },
+  {
+   "id": "fr-u5-v3-17",
+   "fx": "la levure",
+   "de": "das Backpulver; die Hefe",
+   "s": "Pour le gâteau, il faut de la {levure}."
+  }
+ ]
+}

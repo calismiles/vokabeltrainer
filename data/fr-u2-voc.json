@@ -1,0 +1,140 @@
+{
+ "id": "fr-u2-voc",
+ "lang": "fr",
+ "title": "Unité 2 · Vocabulaire thématique",
+ "desc": "La famille: Familienmitglieder benennen",
+ "words": [
+  {
+   "id": "fr-u2-voc-01",
+   "fx": "mon/ma/mes",
+   "de": "mein/meine",
+   "s": "Voici {mon} frère, Lucas."
+  },
+  {
+   "id": "fr-u2-voc-02",
+   "fx": "la famille",
+   "de": "die Familie",
+   "s": "Ma {famille} habite à Hambourg."
+  },
+  {
+   "id": "fr-u2-voc-03",
+   "fx": "les parents",
+   "de": "die Eltern",
+   "s": "Mes {parents} travaillent beaucoup."
+  },
+  {
+   "id": "fr-u2-voc-04",
+   "fx": "le père",
+   "de": "der Vater",
+   "s": "Mon {père} aime le foot."
+  },
+  {
+   "id": "fr-u2-voc-05",
+   "fx": "la mère",
+   "de": "die Mutter",
+   "s": "Ma {mère} est prof de maths."
+  },
+  {
+   "id": "fr-u2-voc-06",
+   "fx": "les grands-parents",
+   "de": "die Großeltern",
+   "s": "Le dimanche, on mange chez mes {grands-parents}."
+  },
+  {
+   "id": "fr-u2-voc-07",
+   "fx": "le grand-père",
+   "de": "der Großvater",
+   "s": "Mon {grand-père} a soixante-dix ans."
+  },
+  {
+   "id": "fr-u2-voc-08",
+   "fx": "la grand-mère",
+   "de": "die Großmutter",
+   "s": "Ma {grand-mère} fait des gâteaux super."
+  },
+  {
+   "id": "fr-u2-voc-09",
+   "fx": "les frères et sœurs",
+   "de": "die Geschwister",
+   "s": "Tu as des {frères et sœurs} ?"
+  },
+  {
+   "id": "fr-u2-voc-10",
+   "fx": "le frère",
+   "de": "der Bruder",
+   "s": "Mon {frère} a quinze ans."
+  },
+  {
+   "id": "fr-u2-voc-11",
+   "fx": "la sœur",
+   "de": "die Schwester",
+   "s": "Ma petite {sœur} s'appelle Mia."
+  },
+  {
+   "id": "fr-u2-voc-12",
+   "fx": "le demi-frère",
+   "de": "der Halbbruder",
+   "s": "Mon {demi-frère} habite chez son père."
+  },
+  {
+   "id": "fr-u2-voc-13",
+   "fx": "la demi-sœur",
+   "de": "die Halbschwester",
+   "s": "J'ai une {demi-sœur}, elle a trois ans."
+  },
+  {
+   "id": "fr-u2-voc-14",
+   "fx": "un oncle",
+   "de": "ein Onkel",
+   "s": "Mon {oncle} habite en Bretagne."
+  },
+  {
+   "id": "fr-u2-voc-15",
+   "fx": "la tante",
+   "de": "die Tante",
+   "s": "Ma {tante} a un chien."
+  },
+  {
+   "id": "fr-u2-voc-16",
+   "fx": "le cousin/la cousine",
+   "de": "der Cousin/die Cousine",
+   "s": "Ma {cousine} est en sixième, comme moi."
+  },
+  {
+   "id": "fr-u2-voc-17",
+   "fx": "un/une enfant",
+   "de": "ein Kind",
+   "s": "Dans ma famille, il y a trois {enfants}."
+  },
+  {
+   "id": "fr-u2-voc-18",
+   "fx": "le fils",
+   "de": "der Sohn",
+   "s": "Lucas est le {fils} de ma tante."
+  },
+  {
+   "id": "fr-u2-voc-19",
+   "fx": "la fille",
+   "de": "die Tochter",
+   "s": "Léa est la {fille} de mon oncle."
+  },
+  {
+   "id": "fr-u2-voc-20",
+   "fx": "le copain/la copine",
+   "de": "der Freund/die Freundin; der Kumpel",
+   "s": "Samedi, je vais au cinéma avec ma {copine}."
+  },
+  {
+   "id": "fr-u2-voc-21",
+   "fx": "un animal/les animaux",
+   "de": "ein (Haus-)Tier/die Tiere",
+   "s": "Tu as un {animal} ?"
+  },
+  {
+   "id": "fr-u2-voc-22",
+   "fx": "le lapin",
+   "de": "das Kaninchen",
+   "s": "Mon {lapin} s'appelle Caramel."
+  }
+ ]
+}

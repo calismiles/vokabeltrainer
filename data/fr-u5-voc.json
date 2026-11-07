@@ -1,0 +1,170 @@
+{
+ "id": "fr-u5-voc",
+ "lang": "fr",
+ "title": "Unité 5 · Vocabulaire thématique",
+ "desc": "La liste des courses: Lebensmittel, il faut",
+ "words": [
+  {
+   "id": "fr-u5-voc-01",
+   "fx": "le pique-nique",
+   "de": "das Picknick",
+   "s": "Dimanche, on fait un {pique-nique} au parc."
+  },
+  {
+   "id": "fr-u5-voc-02",
+   "fx": "au bord de qc",
+   "de": "am Ufer von etw.",
+   "s": "On mange {au bord de} la rivière."
+  },
+  {
+   "id": "fr-u5-voc-03",
+   "fx": "le festival",
+   "de": "das Festival",
+   "s": "En été, il y a un {festival} de musique."
+  },
+  {
+   "id": "fr-u5-voc-04",
+   "fx": "le marché",
+   "de": "der Markt",
+   "s": "Le samedi, ma mère va au {marché}."
+  },
+  {
+   "id": "fr-u5-voc-05",
+   "fx": "la liste",
+   "de": "die Liste",
+   "s": "Tu as la {liste} des courses ?"
+  },
+  {
+   "id": "fr-u5-voc-06",
+   "fx": "les courses",
+   "de": "die Einkäufe",
+   "s": "Les {courses} sont dans la cuisine."
+  },
+  {
+   "id": "fr-u5-voc-07",
+   "fx": "il faut qc",
+   "de": "man braucht/wir brauchen etw.",
+   "s": "Pour la crêpe, {il faut} du lait."
+  },
+  {
+   "id": "fr-u5-voc-08",
+   "fx": "la farine",
+   "de": "das Mehl",
+   "s": "Pour le gâteau, il faut de la {farine}."
+  },
+  {
+   "id": "fr-u5-voc-09",
+   "fx": "le lait",
+   "de": "die Milch",
+   "s": "Le matin, je bois du {lait}."
+  },
+  {
+   "id": "fr-u5-voc-10",
+   "fx": "les chips",
+   "de": "die Kartoffelchips",
+   "s": "Pour la fête, on achète des {chips}."
+  },
+  {
+   "id": "fr-u5-voc-11",
+   "fx": "un œuf/les œufs",
+   "de": "ein Ei/die Eier",
+   "s": "Je mange un {œuf} le matin."
+  },
+  {
+   "id": "fr-u5-voc-12",
+   "fx": "la pomme de terre",
+   "de": "die Kartoffel",
+   "s": "J'aime les {pommes de terre}."
+  },
+  {
+   "id": "fr-u5-voc-13",
+   "fx": "la fraise",
+   "de": "die Erdbeere",
+   "s": "En juin, on mange des {fraises}."
+  },
+  {
+   "id": "fr-u5-voc-14",
+   "fx": "le beurre",
+   "de": "die Butter",
+   "s": "Je mange du pain avec du {beurre}."
+  },
+  {
+   "id": "fr-u5-voc-15",
+   "fx": "la banane",
+   "de": "die Banane",
+   "s": "Mon petit frère adore les {bananes}."
+  },
+  {
+   "id": "fr-u5-voc-16",
+   "fx": "le fromage",
+   "de": "der Käse",
+   "s": "En France, il y a beaucoup de {fromages}."
+  },
+  {
+   "id": "fr-u5-voc-17",
+   "fx": "le jambon",
+   "de": "der Schinken",
+   "s": "Je voudrais un sandwich au {jambon}."
+  },
+  {
+   "id": "fr-u5-voc-18",
+   "fx": "le miel",
+   "de": "der Honig",
+   "s": "Je mange du pain avec du {miel}."
+  },
+  {
+   "id": "fr-u5-voc-19",
+   "fx": "le coca",
+   "de": "die Cola",
+   "s": "Un {coca}, s'il vous plaît !"
+  },
+  {
+   "id": "fr-u5-voc-20",
+   "fx": "le biscuit",
+   "de": "der Keks",
+   "s": "Tu veux un {biscuit} ?"
+  },
+  {
+   "id": "fr-u5-voc-21",
+   "fx": "le poivre",
+   "de": "der Pfeffer",
+   "s": "Il y a trop de {poivre} dans la soupe !"
+  },
+  {
+   "id": "fr-u5-voc-22",
+   "fx": "la crème",
+   "de": "die Crème fraîche; die Sahne",
+   "s": "J'aime les fraises avec de la {crème}."
+  },
+  {
+   "id": "fr-u5-voc-23",
+   "fx": "le jus",
+   "de": "der Saft",
+   "s": "Je bois un {jus} d'orange."
+  },
+  {
+   "id": "fr-u5-voc-24",
+   "fx": "le sucre",
+   "de": "der Zucker",
+   "s": "Tu prends du {sucre} dans ton thé ?"
+  },
+  {
+   "id": "fr-u5-voc-25",
+   "fx": "une orange",
+   "de": "eine Orange; eine Apfelsine",
+   "s": "Je mange une {orange}."
+  },
+  {
+   "id": "fr-u5-voc-26",
+   "fx": "la boisson",
+   "de": "das Getränk",
+   "s": "Le coca, c'est ma {boisson} préférée."
+  },
+  {
+   "id": "fr-u5-voc-27",
+   "fx": "miam",
+   "de": "mmh (lecker)",
+   "s": "{Miam}, ce gâteau est délicieux !"
+  }
+ ]
+}

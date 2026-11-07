@@ -1,0 +1,62 @@
+{
+ "id": "fr-wb-vacances",
+ "lang": "fr",
+ "title": "Wortspeicher · Pendant les vacances, je vais …",
+ "desc": "Freiwillige Zusatzwörter zu Module 6",
+ "words": [
+  {
+   "id": "fr-wb-vacances-01",
+   "fx": "faire un tour à vélo",
+   "de": "eine Radtour machen",
+   "s": "Demain, on va {faire un tour à vélo}."
+  },
+  {
+   "id": "fr-wb-vacances-02",
+   "fx": "faire du cheval",
+   "de": "reiten",
+   "s": "Ma sœur aime {faire du cheval}."
+  },
+  {
+   "id": "fr-wb-vacances-03",
+   "fx": "faire une randonnée",
+   "de": "eine Wanderung machen; wandern",
+   "s": "À la montagne, on va {faire une randonnée}."
+  },
+  {
+   "id": "fr-wb-vacances-04",
+   "fx": "faire de la plongée avec un tuba",
+   "de": "schnorcheln",
+   "s": "À la mer, je vais {faire de la plongée avec un tuba}."
+  },
+  {
+   "id": "fr-wb-vacances-05",
+   "fx": "faire du surf",
+   "de": "surfen",
+   "s": "En Bretagne, mon frère va {faire du surf}."
+  },
+  {
+   "id": "fr-wb-vacances-06",
+   "fx": "faire du beachvolley",
+   "de": "Beachvolleyball spielen",
+   "s": "Sur la plage, on va {faire du beachvolley}."
+  },
+  {
+   "id": "fr-wb-vacances-07",
+   "fx": "faire de la planche à voile",
+   "de": "windsurfen",
+   "s": "Sur le lac, je vais {faire de la planche à voile}."
+  },
+  {
+   "id": "fr-wb-vacances-08",
+   "fx": "faire un tour en bateau",
+   "de": "eine Bootsfahrt machen",
+   "s": "À Paris, on va {faire un tour en bateau} sur la Seine."
+  },
+  {
+   "id": "fr-wb-vacances-09",
+   "fx": "chiller au soleil",
+   "de": "in der Sonne chillen",
+   "s": "Pendant les vacances, je vais {chiller au soleil}."
+  }
+ ]
+}

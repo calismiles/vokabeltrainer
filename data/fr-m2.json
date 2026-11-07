@@ -1,0 +1,200 @@
+{
+ "id": "fr-m2",
+ "lang": "fr",
+ "title": "Module 2 · En cours de français (2)",
+ "desc": "Aufforderungen im Unterricht, nachfragen",
+ "words": [
+  {
+   "id": "fr-m2-01",
+   "fx": "le/la prof",
+   "de": "der Lehrer/die Lehrerin",
+   "s": "Ma {prof} de français est très sympa."
+  },
+  {
+   "id": "fr-m2-02",
+   "fx": "le professeur/la professeure",
+   "de": "der Lehrer/die Lehrerin",
+   "s": "Le {professeur} de maths arrive."
+  },
+  {
+   "id": "fr-m2-03",
+   "fx": "un/une élève",
+   "de": "ein Schüler/eine Schülerin",
+   "s": "Dans ma classe, il y a vingt-six {élèves}."
+  },
+  {
+   "id": "fr-m2-04",
+   "fx": "bien",
+   "de": "gut",
+   "s": "Tu parles {bien} français !"
+  },
+  {
+   "id": "fr-m2-05",
+   "fx": "Répète!/Répétez!",
+   "de": "Wiederhole!/Wiederholt!; Wiederholen Sie!",
+   "s": "{Répète} le mot, s'il te plaît !"
+  },
+  {
+   "id": "fr-m2-06",
+   "fx": "Vous comprenez?",
+   "de": "Versteht ihr?; Verstehen Sie?",
+   "s": "C'est clair ? {Vous comprenez} ?"
+  },
+  {
+   "id": "fr-m2-07",
+   "fx": "la phrase",
+   "de": "der Satz",
+   "s": "Écris une {phrase} avec le mot « chat »."
+  },
+  {
+   "id": "fr-m2-08",
+   "fx": "plus fort",
+   "de": "lauter",
+   "s": "Parle {plus fort}, s'il te plaît !"
+  },
+  {
+   "id": "fr-m2-09",
+   "fx": "s'il te plaît",
+   "de": "bitte (wenn man jemanden duzt)",
+   "s": "Un stylo, {s'il te plaît} !"
+  },
+  {
+   "id": "fr-m2-10",
+   "fx": "s'il vous plaît",
+   "de": "bitte (wenn man jemanden siezt)",
+   "s": "Un café, {s'il vous plaît} !"
+  },
+  {
+   "id": "fr-m2-11",
+   "fx": "encore une fois",
+   "de": "noch einmal",
+   "s": "Écoutez {encore une fois} !"
+  },
+  {
+   "id": "fr-m2-12",
+   "fx": "bravo",
+   "de": "bravo",
+   "s": "{Bravo}, c'est la bonne réponse !"
+  },
+  {
+   "id": "fr-m2-13",
+   "fx": "continuer (qc)",
+   "de": "(etw.) weitermachen; (etw.) fortführen",
+   "s": "On {continue} demain !"
+  },
+  {
+   "id": "fr-m2-14",
+   "fx": "Je ne comprends pas.",
+   "de": "Ich verstehe nicht.",
+   "s": "Pardon, Madame, {je ne comprends pas}."
+  },
+  {
+   "id": "fr-m2-15",
+   "fx": "Vous pouvez répéter?",
+   "de": "Können Sie wiederholen?; Könnt ihr wiederholen?",
+   "s": "Pardon, Madame, {vous pouvez répéter} ?"
+  },
+  {
+   "id": "fr-m2-16",
+   "fx": "Prends!/Prenez!",
+   "de": "Nimm!/Nehmt!; Nehmen Sie!",
+   "s": "{Prends} ton cahier !"
+  },
+  {
+   "id": "fr-m2-17",
+   "fx": "Lis!/Lisez!",
+   "de": "Lies!/Lest!; Lesen Sie!",
+   "s": "{Lis} la phrase, s'il te plaît."
+  },
+  {
+   "id": "fr-m2-18",
+   "fx": "le texte",
+   "de": "der Text",
+   "s": "Le {texte} est un peu compliqué."
+  },
+  {
+   "id": "fr-m2-19",
+   "fx": "Réponds!/Répondez!",
+   "de": "Antworte!/Antwortet!; Antworten Sie!",
+   "s": "{Réponds} à la question !"
+  },
+  {
+   "id": "fr-m2-20",
+   "fx": "chercher qn/qc",
+   "de": "jdn/etw. suchen",
+   "s": "Je {cherche} mon stylo."
+  },
+  {
+   "id": "fr-m2-21",
+   "fx": "le mot",
+   "de": "das Wort",
+   "s": "Je ne comprends pas ce {mot}."
+  },
+  {
+   "id": "fr-m2-22",
+   "fx": "trouver qn/qc",
+   "de": "jdn/etw. finden",
+   "s": "Je ne {trouve} pas mon cahier !"
+  },
+  {
+   "id": "fr-m2-23",
+   "fx": "Écris!/Écrivez!",
+   "de": "Schreibe!/Schreibt!; Schreiben Sie!",
+   "s": "{Écris} ton nom sur la feuille !"
+  },
+  {
+   "id": "fr-m2-24",
+   "fx": "fermer qc",
+   "de": "etw. schließen; etw. zumachen",
+   "s": "{Ferme} la fenêtre, s'il te plaît."
+  },
+  {
+   "id": "fr-m2-25",
+   "fx": "le livre",
+   "de": "das Buch",
+   "s": "Ouvrez votre {livre} à la page dix."
+  },
+  {
+   "id": "fr-m2-26",
+   "fx": "maintenant",
+   "de": "jetzt",
+   "s": "On commence {maintenant} !"
+  },
+  {
+   "id": "fr-m2-27",
+   "fx": "les devoirs",
+   "de": "die Hausaufgaben",
+   "s": "Tu as des {devoirs} pour demain ?"
+  },
+  {
+   "id": "fr-m2-28",
+   "fx": "la fenêtre",
+   "de": "das Fenster",
+   "s": "Il fait chaud, ouvre la {fenêtre} !"
+  },
+  {
+   "id": "fr-m2-29",
+   "fx": "la porte",
+   "de": "die Tür",
+   "s": "Ferme la {porte}, s'il te plaît."
+  },
+  {
+   "id": "fr-m2-30",
+   "fx": "la table",
+   "de": "der Tisch",
+   "s": "Le livre est sur la {table}."
+  },
+  {
+   "id": "fr-m2-31",
+   "fx": "la chaise",
+   "de": "der Stuhl",
+   "s": "Le chat dort sur la {chaise}."
+  },
+  {
+   "id": "fr-m2-32",
+   "fx": "le tableau/les tableaux",
+   "de": "die Tafel/die Tafeln",
+   "s": "Regardez le {tableau}, s'il vous plaît."
+  }
+ ]
+}
