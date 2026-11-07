@@ -106,6 +106,7 @@ label.check { display: flex; gap: 8px; align-items: center; }
 .feedback { margin-top: 14px; padding: 12px; border-radius: 10px; text-align: left; }
 .feedback.ok { background: color-mix(in srgb, var(--ok) 15%, transparent); }
 .feedback.bad { background: color-mix(in srgb, var(--bad) 13%, transparent); }
+.feedback.near { background: color-mix(in srgb, var(--warn) 16%, transparent); }
 .feedback .solution { font-size: 1.3rem; font-weight: 600; }
 .diff .wrong { background: var(--bad); color: #fff; border-radius: 3px; }
 .diff .missing { background: var(--warn); color: #fff; border-radius: 3px; padding: 0 2px; }

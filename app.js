@@ -138,22 +138,37 @@ function align(a, b) {
   return { dist: D[n][m], ops };
 }
 
-// strict = Fremdsprache: Groß-/Kleinschreibung und Akzente zählen
-function check(input, target, strict) {
+// Artikel am Wortanfang müssen stimmen (Genus/Numerus ist Lernstoff)
+const ARTICLE = /^(le|la|les|l'|un|une|des|du|de la|de l'|the|a|an) ?/i;
+const articleOf = s => ((stripAccents(s).match(ARTICLE) || [''])[0]).trim().toLowerCase();
+// Ein Tippfehler ist verzeihlich, wenn das Wort lang genug ist, der Artikel stimmt
+// und nicht der letzte Buchstabe betroffen ist (dort stecken Plural, Genus, Verbendung).
+function oneTypo(typed, v, norm) {
+  const a = stripAccents(norm(typed)).toLowerCase(), b = stripAccents(norm(v)).toLowerCase();
+  if (b.replace(/[^a-zäöüßœ]/g, '').length < 5 || articleOf(a) !== articleOf(b)) return false;
+  if (a.startsWith(b) || b.startsWith(a)) return false;                 // fehlende/zusätzliche Endung
+  const al = align(a, b);
+  return al.dist === 1 && al.ops[al.ops.length - 1].t === 'eq';
+}
+// strict = Fremdsprache. Nachsichtig, aber mit Hinweis („fast richtig", zählt als richtig):
+// Groß-/Kleinschreibung, fehlende/falsche Akzente, sonst bei typo=true ein Tippfehler.
+function check(input, target, strict, typo = true) {
   const typed = clean(input);
   const vs = variants(target);
   const norm = strict ? (x => x) : normDe;
-  const ok = typed !== '' && vs.some(v => norm(v) === norm(typed));
+  const exact = typed !== '' && vs.some(v => norm(v) === norm(typed));
   let best = vs[0] || '', bestAl = null;
   for (const v of vs) { const al = align(typed, v); if (!bestAl || al.dist < bestAl.dist) { best = v; bestAl = al; } }
-  let tip = '';
-  if (!ok && typed) {
-    if (vs.some(v => v.toLowerCase() === typed.toLowerCase())) tip = 'Achte auf Groß- und Kleinschreibung!';
-    else if (vs.some(v => stripAccents(v) === stripAccents(typed))) tip = 'Achte auf die Akzente!';
+  let tip = '', near = false;
+  if (!exact && typed) {
+    const lc = s => s.toLowerCase(), base = s => stripAccents(s).toLowerCase().replace(/œ/g, 'oe');
+    if (vs.some(v => lc(v) === lc(typed))) { tip = 'Achte auf Groß- und Kleinschreibung.'; near = true; }
+    else if (vs.some(v => base(v) === base(typed))) { tip = 'Achte auf die Akzente.'; near = true; }
+    else if (typo && vs.some(v => oneTypo(typed, v, norm))) { tip = 'Ein Buchstabe war falsch.'; near = true; }
     else if (bestAl && bestAl.dist === 1) tip = 'Ganz knapp – nur ein Buchstabe!';
     else if (bestAl && bestAl.dist === 2) tip = 'Fast – zwei Buchstaben stimmen nicht.';
   }
-  return { ok, typed, best, ops: bestAl ? bestAl.ops : [], dist: bestAl ? bestAl.dist : 99, tip };
+  return { ok: exact || near, near, typed, best, ops: bestAl ? bestAl.ops : [], dist: bestAl ? bestAl.dist : 99, tip };
 }
 function diffHtml(ops) {
   return ops.map(o => o.t === 'eq' ? esc(o.c)
@@ -624,10 +639,10 @@ function answer(c, input, ...more) {
   document.querySelectorAll('.answer-input').forEach(el => el.readOnly = true);
   if (c.dir === 'v') {
     const labels = verbForms(c.deck), typed = [input, ...more];
-    const rs = labels.map((l, i) => check(c.deck.forms ? stripPron(typed[i] || '', l) : typed[i] || '', c.w.v[i + 1], true));
+    const rs = labels.map((l, i) => check(c.deck.forms ? stripPron(typed[i] || '', l) : typed[i] || '', c.w.v[i + 1], true, false));
     const ok = rs.every(r => r.ok);
     grade(c, ok);
-    const line = (label, r, target) => r.ok ? `<div>✔ ${esc(label)}: <b>${disp(target)}</b></div>`
+    const line = (label, r, target) => r.ok ? `<div>✔ ${esc(label)}: <b>${disp(target)}</b>${r.near ? ` <span class="muted">(du: <span class="diff">${typedHtml(r)}</span> – ${esc(r.tip)})</span>` : ''}</div>`
       : `<div>✘ ${esc(label)}: ${r.typed ? `<span class="diff">${typedHtml(r)}</span> → ` : ''}<b>${disp(target)}</b>${r.tip ? ` <span class="muted">(${esc(r.tip)})</span>` : ''}</div>`;
     fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'bad'}"><b>${ok ? 'Richtig!' : 'Noch nicht ganz.'}</b>
       ${labels.map((l, i) => line(l, rs[i], c.w.v[i + 1])).join('')}
@@ -639,11 +654,16 @@ function answer(c, input, ...more) {
     speak(forms, lang);
   } else {
     const target = c.dir === 'r' ? c.w.de : c.dir === 's' ? gapAnswer(c.w.s) : c.w.fx;
-    const res = check(input, target, c.dir !== 'r');
+    const res = check(input, target, c.dir !== 'r', dtype(c.deck) === 'vocab');
     grade(c, res.ok);
     const full = c.dir === 'r' ? `${c.w.fx} = ${c.w.de}` : c.dir === 's' ? fillGap(c.w.s) : `${c.w.de} = ${c.w.fx}`;
     const many = variants(target).length > 1;
-    if (res.ok) {
+    if (res.near) {
+      fb.innerHTML = `<div class="feedback near"><b>Fast richtig – zählt!</b> ${esc(res.tip)}<br>
+        Deine Antwort: <span class="diff">${typedHtml(res)}</span><br>
+        Richtig: <span class="solution">${esc(res.best)}</span>
+        <div class="muted">${c.dir === 's' ? esc(full) : disp(full)}</div></div>`;
+    } else if (res.ok) {
       fb.innerHTML = `<div class="feedback ok"><b>Richtig!</b> ${many ? `<div class="muted">Auch möglich: ${disp(target)}</div>` : ''}
         <div class="muted">${c.dir === 's' ? esc(full) : disp(full)}</div></div>`;
     } else {
